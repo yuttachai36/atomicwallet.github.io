@@ -1,0 +1,20 @@
+<svg width="39" height="24" viewBox="0 0 39 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>menu</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-6802 91)">
+<g id="menu">
+<g id="Line">
+<use xlink:href="#path0_stroke" transform="translate(6803.5 -90.5)" fill="#FFFFFF"/>
+</g>
+<g id="Line Copy">
+<use xlink:href="#path0_stroke" transform="translate(6803.5 -80.5)" fill="#FFFFFF"/>
+</g>
+<g id="Line Copy 2">
+<use xlink:href="#path0_stroke" transform="translate(6803.5 -69.5)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 -0.5C -0.828427 -0.5 -1.5 0.171573 -1.5 1C -1.5 1.82843 -0.828427 2.5 0 2.5L 0 -0.5ZM 36 2.5C 36.8284 2.5 37.5 1.82843 37.5 1C 37.5 0.171573 36.8284 -0.5 36 -0.5L 36 2.5ZM 0 2.5L 36 2.5L 36 -0.5L 0 -0.5L 0 2.5Z"/>
+</defs>
+</svg>
