@@ -48,9 +48,6 @@ body {
 	font-family: "Roboto", sans-serif;
 	margin: 0 auto;
 	overflow-x: hidden;
-	
-	-webkit-transform: translate3d (0px, 0px, 0px);
-	transform: translate3d (0px, 0px, 0px);
 }
 body {
 	min-width: 1200px;
@@ -94,11 +91,7 @@ img {
 	background-color: transparent;
 	cursor: pointer;
 }
-.button.disabled {
-	color: #969696;
-	border: 1px solid #969696;
-	cursor: default;
-}
+
 
 
 
@@ -213,20 +206,19 @@ img {
  * main
  */
 .main {
-	padding-bottom: 95px;
+	padding-bottom: 125px;
 }
 .main-title {
-	line-height: 47px;
-	font-size: 42px;
+	line-height: 67px;
+	font-size: 48px;
 	color: #FFFFFF;
-	width: 455px;
-	margin-top: 60px;
+	width: 520px;
+	margin-top: 90px;
 }
 .main-notebook {
 	position: absolute;
-	top: -60px;
-	width: 480px;
-	right: 150px;
+	top: -80px;
+	right: -20px;
 }
 
 
@@ -289,85 +281,17 @@ img {
 	font-family: "Roboto";
 	font-weight: normal;
 }
-.download-button-selected {
-	display: none !important;
-}
 .download-version {
 	font-size: 12px;
 	color: #182848;
 	padding-top: 3px;
 }
-.download-item-img-color {
-	display: none;
-}
-/*[data-download-type="windows"] .download-item-windows .download-button-label,*/
-/*[data-download-type="apple"] .download-item-apple .download-button-label,*/
-/*[data-download-type="ubuntu"] .download-item-ubuntu .download-button-label,*/
-/*[data-download-type="debian"] .download-item-debian .download-button-label,*/
-/*[data-download-type="fedora"] .download-item-fedora .download-button-label,*/
-.download-item:not(.download-not-hover):hover .download-button-label {
+.download-item:hover .download-button-label {
 	display: block !important;
 }
-/*[data-download-type="windows"] .download-item-windows .download-name,*/
-/*[data-download-type="apple"] .download-item-apple .download-name,*/
-/*[data-download-type="ubuntu"] .download-item-ubuntu .download-name,*/
-/*[data-download-type="debian"] .download-item-debian .download-name,*/
-/*[data-download-type="fedora"] .download-item-fedora .download-name,*/
-.download-item:not(.download-not-hover):hover .download-name {
+.download-item:hover .download-name {
 	display: none !important;
 }
-
-.download-item:not(.download-not-hover) {
-	cursor: pointer;
-}
-
-.download-item-windows:not(.download-not-hover):hover .download-item-img
-/*[data-download-type="windows"] .download-item-windows a,*/
-/*[data-download-type="windows"] .download-item-windows .download-item-img*/
-{ display: none !important; }
-.download-item-windows:not(.download-not-hover):hover .download-item-img-color
-/*[data-download-type="windows"] .download-item-windows .download-button-selected,*/
-/*[data-download-type="windows"] .download-item-windows .download-item-img-color*/
-{ display: inline-block !important; }
-
-.download-item-apple:not(.download-not-hover):hover .download-item-img
-/*[data-download-type="apple"] .download-item-apple a,*/
-/*[data-download-type="apple"] .download-item-apple .download-item-img*/
-{ display: none !important; }
-.download-item-apple:not(.download-not-hover):hover .download-item-img-color
-/*[data-download-type="apple"] .download-item-apple .download-button-selected,*/
-/*[data-download-type="apple"] .download-item-apple .download-item-img-color*/
-{ display: inline-block !important; }
-
-.download-item-ubuntu:not(.download-not-hover):hover .download-item-img
-/*[data-download-type="ubuntu"] .download-item-ubuntu a,*/
-/*[data-download-type="ubuntu"] .download-item-ubuntu .download-item-img*/
-{ display: none !important; }
-.download-item-ubuntu:not(.download-not-hover):hover .download-item-img-color
-/*[data-download-type="ubuntu"] .download-item-ubuntu .download-button-selected,*/
-/*[data-download-type="ubuntu"] .download-item-ubuntu .download-item-img-color*/
-{ display: inline-block !important; }
-
-.download-item-debian:not(.download-not-hover):hover .download-item-img
-/*[data-download-type="debian"] .download-item-debian a,*/
-/*[data-download-type="debian"] .download-item-debian .download-item-img*/
-{ display: none !important; }
-.download-item-debian:not(.download-not-hover):hover .download-item-img-color
-/*[data-download-type="debian"] .download-item-debian .download-button-selected,*/
-/*[data-download-type="debian"] .download-item-debian .download-item-img-color*/
-{ display: inline-block !important; }
-
-.download-item-fedora:not(.download-not-hover):hover .download-item-img
-/*[data-download-type="fedora"] .download-item-fedora a,*/
-/*[data-download-type="fedora"] .download-item-fedora .download-item-img*/
-{ display: none !important; }
-.download-item-fedora:not(.download-not-hover):hover .download-item-img-color
-/*[data-download-type="fedora"] .download-item-fedora .download-button-selected,*/
-/*[data-download-type="fedora"] .download-item-fedora .download-item-img-color*/
-{ display: inline-block !important; }
-
-.download-item.download-not-hover .download-item-img { display: none !important; }
-.download-item.download-not-hover .download-item-img-color { display: inline-block !important; }
 
 
 
@@ -375,35 +299,30 @@ img {
  * list
  */
 .list {
-	margin-top: 205px;
-	padding-bottom: 0;
-}
-.list-title-container .icon {
-	float: left;
-	margin-right: 25px;
+	margin-top: 85px;
+	padding-bottom: 70px;
 }
 .list-title {
 	font-family: "Roboto Medium";
-	padding-top: 10px;
+	margin-top: 40px;
 	font-weight: 500;
 	line-height: 45px;
 	font-size: 24px;
 	color: #182848;
 }
 .list-items {
+	margin-top: 55px;
 	margin-left: -44px;
 }
 .list-item {
 	display: inline-block;
-	vertical-align: top;
 	width: 14%;
 	padding-top: 25px;
-	margin-top: 60px;
 	text-align: center;
 	position: relative;
 }
-.list-items-all {
-	display: inline;
+.list-items-all .list-item {
+	margin-top: 60px;
 }
 .list-items-hide {
 	display: none;
@@ -506,7 +425,7 @@ img {
 	top: 0;
 	height: 36px;
 	width: 36px;
-	background: transparent url(images/icons/arrow-right.svg) no-repeat center;
+	background: transparent url(images/icons/arrow-right.png) no-repeat center;
 	border: 0;
 	cursor: pointer;
 }
@@ -514,22 +433,22 @@ img {
 	right: 0;
 }
 .comments-arrow-right:disabled {
-	background-image: url(images/icons/arrow-right-disabled.svg);
+	background-image: url(images/icons/arrow-right-disabled.png);
 	cursor: auto;
 }
 .comments-arrow-left {
 	right: 80px;
-	background-image: url(images/icons/arrow-left.svg);
+	background-image: url(images/icons/arrow-left.png);
 }
 .comments-arrow-left:disabled {
-	background-image: url(images/icons/arrow-left-disabled.svg);
+	background-image: url(images/icons/arrow-left-disabled.png);
 	cursor: auto;
 }
 .comments-slider-label {
 	overflow: hidden;
 }
 .comments-slider {
-	height: 285px;
+	height: 334px;
 }
 .comments-slider-list {
 	display: inline-block;
@@ -544,9 +463,8 @@ img {
 }
 .comments-item {
 	display: inline-block;
-	vertical-align: top;
 	width: 426px;
-	height: 217px;
+	height: 264px;
 	background: #FFFFFF;
 	box-shadow: 0 8px 40px rgba(24, 40, 72, 0.1);
 	border-radius: 8px;
@@ -560,10 +478,10 @@ img {
 .comments-text {
 	display: block;
 	color: #000000;
+	text-align: left;
 	margin-top: 25px;
 	line-height: 33px;
 	font-size: 18px;
-	text-align: center;
 }
 .comments-text:hover {
 	text-decoration: underline;
@@ -593,7 +511,7 @@ img {
 /* form */
 .subscribe-form {
 	width: 600px;
-	height: 140px;
+	height: 180px;
 	margin-top: 25px;
 }
 .mc-field-group label {
@@ -611,8 +529,7 @@ img {
 	font-family: "Roboto Ligth";
 	font-width: 300;
 }
-.mc-field-group button,
-.mc-field-group input[type="submit"] {
+.mc-field-group button {
 	font-family: "Roboto Medium";
 	font-size: 20px;
 	text-align: center;
@@ -626,8 +543,12 @@ img {
 	cursor: pointer;
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 20%;
 }
+
+
+
+
 #mc_embed_signup div.mce_inline_error {
 	width: 341px !important;
 	margin-top: -17px !important;
@@ -651,6 +572,7 @@ hr {
  */
 .footer {
 	text-align: center;
+	overflow: hidden;
 	padding-bottom: 40px;
 }
 .footer-logo {
@@ -681,195 +603,24 @@ hr {
 
 
 
-/*
- * page
- */
-.bg-page-main {
-	right: 70px;
-}
-.bg-page-1 {
-	top: 280px;
-	right: -380px;
-}
-.bg-page-2 {
-	top: 760px;
-	left: -350px;
-}
-.bg-page-3 {
-	top: 1880px;
-	right: -380px;
-}
-.page {
-	margin-top: 170px;
-	overflow: hidden;
-	margin-bottom: 80px;
-}
-.page-title {
-	line-height: 67px;
-	font-size: 48px;
-	color: #ffffff;
-	margin-bottom: 130px;
-}
-.page-text {
-	color: #182848;
-	line-height: 33px;
-	font-size: 18px;
-}
-.page-text p {
-	padding: 20px 0;
-	margin: 0;
-}
-.page-text a {
-	text-decoration: underline;
-	color: inherit;
-}
-.page-text a:hover {
-	text-decoration: none;
-}
-.page-text-item {
-	font-family: "Roboto Bold";
-	font-weight: 600;
-	font-size: 25px;
-}
-.page + .footer .container:before {
-	position: absolute;
-	right: 0;
-	top: 0;
-	content: '';
-	width: 921px;
-	height: 1px;
-	background-color: #BCBABA;
-}
 
 
 
-/*
- * modal
- */
-.modal {
-	z-index: 100000;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: rgba(24,40,71,.25);
-	display: none;
-	overflow-x: auto;
-	-webkit-transform: translate3d (0px, 0px, 0px);
-	transform: translate3d (0px, 0px, 0px);
-}
-.modal-open {
-	display: block;
-}
-.modal .container {
-	height: 100vh;
-}
-.modal-container {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-o-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
 
-	background-color: #F7F8F9;
-	border-radius: 16px;
-	min-height: 630px;
-	width: inherit;
-}
-.modal-close {
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 45px;
-	height: 45px;
-	cursor: pointer;
-	background: transparent url(images/icons/close-dark.svg) no-repeat left bottom;
-	background-size: 19px;
-	border: none;
-	outline: none;
-}
-.modal-form-container {
-	max-width: 745px;
-	width: 100%;
-	margin: 0 auto;
-	padding-top: 165px;
-	padding-left: 140px;
-}
-.modal .icon {
-	position: absolute;
-	top: 165px;
-	left: 0;
-}
-.modal .subscribe-title {
-	padding-top: 10px;
-}
-.modal-sended .subscribe-title {
-	padding-top: 32px;
-}
-.modal .mc-field-group button,
-.modal .mc-field-group input[type="submit"] {
-	width: 230px;
-}
-.modal .mc-field-group button:disabled,
-.modal .mc-field-group input[type="submit"]:disabled {
-	background-color: #cdcdcd;
-	cursor: default;
-}
-.modal .mc-field-group .input {
-	-webkit-transform: translate3d (0px, 0px, 0px);
-	transform: translate3d (0px, 0px, 0px);
-}
-.modal .subscribe-form {
-	height: 60px;
-}
-.modal-form-link {
-	text-align: center;
-	margin-top: 35px;
-}
-.modal-form-link a {
-	font-style: normal;
-	font-weight: 300;
-	line-height: normal;
-	font-size: 12px;
-	color: #182848;
-}
-.modal .download {
-	background-color: transparent;
-	box-shadow: none;
-	width: 100%;
-}
 
-.modal-sended .modal-form-container {
-	max-width: 615px;
-}
-.modal-soc {
-	margin-top: 50px;
-	text-align: center;
-}
-.modal-soc-title {
-	font-size: 24px;
-	color: #182848;
-}
 
-.modal-form,
-.modal-sended {
-	display: none;
-}
-.modal-step-1 .modal-form {
-	display: block;
-}
-.modal-step-2 .modal-sended {
-	display: block;
-}
-.download-desc {
-	text-align: center;
-	padding-top: 80px;
-	font-size: 12px;
-	color: #182848;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
