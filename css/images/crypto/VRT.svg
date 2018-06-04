@@ -1,0 +1,18 @@
+<svg width="65" height="65" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>VRT</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1339 927)">
+<g id="VRT">
+<g id="Combined Shape">
+<use xlink:href="#path0_fill" transform="translate(1339 -927)" fill="url(#paint0_linear)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 67.5488 -67.5488 0 32.5 -2.54883)">
+<stop offset="0" stop-color="#70D463"/>
+<stop offset="1" stop-color="#1F5B30"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 32.5C 0 14.5508 14.5505 0 32.5 0C 40.467 0 47.7644 2.86676 53.4171 7.62494L 27.7657 44.3201L 32.1971 50.1971C 32.1971 50.1971 32.8545 51 33.8623 51C 34.8698 51 35.3661 50.2408 35.3661 50.2408L 60.0754 15.3241C 60.0754 15.3241 60.0568 15.2819 60.02 15.2033C 63.1749 20.2123 65 26.143 65 32.5C 65 50.4495 50.4492 65 32.5 65C 14.5505 65 0 50.4495 0 32.5ZM 26.9891 43.2905L 33.1349 34.4967L 26.254 25.5318L 13.6802 25.5318L 13.6151 25.6046L 26.9891 43.2905ZM 10 29.65L 12.7823 26.5372L 15.1292 29.65L 10 29.65Z"/>
+</defs>
+</svg>
