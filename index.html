@@ -83,7 +83,7 @@
                         <span class="download-button-label">
                             <a href="#" data-download="windows" class="button download-button">Select</a>
                             <span class="button download-button disabled download-button-selected">Selected</span>
-                            <span class="download-version">alpha</span>
+                            <span class="download-version">alfa</span>
                         </span>
                     </div>
                     <div class="download-item download-not-hover download-item-apple">
@@ -93,7 +93,7 @@
                         <span class="download-button-label">
                             <a href="#" data-download="apple" class="button download-button">Select</a>
                             <span class="button download-button disabled download-button-selected">Selected</span>
-                            <span class="download-version">alpha</span>
+                            <span class="download-version">alfa</span>
                         </span>
                     </div>
                     <div class="download-item download-not-hover download-item-ubuntu">
@@ -103,7 +103,7 @@
                         <span class="download-button-label">
                             <a href="#" data-download="ubuntu" class="button download-button">Select</a>
                             <span class="button download-button disabled download-button-selected">Selected</span>
-                            <span class="download-version">alpha</span>
+                            <span class="download-version">alfa</span>
                         </span>
                     </div>
                     <div class="download-item download-not-hover download-item-debian">
@@ -113,7 +113,7 @@
                         <span class="download-button-label">
                             <a href="#" data-download="debian" class="button download-button">Select</a>
                             <span class="button download-button disabled download-button-selected">Selected</span>
-                            <span class="download-version">alpha</span>
+                            <span class="download-version">alfa</span>
                         </span>
                     </div>
                     <div class="download-item download-not-hover download-item-fedora">
@@ -123,7 +123,7 @@
                         <span class="download-button-label">
                             <a href="#" data-download="fedora" class="button download-button">Select</a>
                             <span class="button download-button disabled download-button-selected">Selected</span>
-                            <span class="download-version">alpha</span>
+                            <span class="download-version">alfa</span>
                         </span>
                     </div>
                 </div>
@@ -177,12 +177,13 @@
         <a href="#contacts">Contacts</a>
         <a href="token.html">Token</a>
         <a href="https://atomicwallet.freshdesk.com/support/home">Support</a>
+        <a href="#">Blog</a>
         <button class="header-menu-mobile-close" id="menu-button-close"></button>
     </div>
 </div>
 
 <div class="container relative">
-    <img src="css/images/bg-main.png" alt class="bg bg-main">
+    <img src="css/images/bg-first-screen.svg" alt class="bg bg-main">
     <header class="header">
         <a href="#" class="header-logo">
             <img src="css/images/logo.svg" alt="Atomic">
@@ -193,6 +194,7 @@
             <a href="#contacts">Contacts</a>
             <a href="token">Token</a>
             <a href="https://atomicwallet.freshdesk.com/support/home">Support</a>
+            <a href="#">Blog</a>
         </nav>
         <button class="header-button only-mobile" id="menu-button-open"></button>
     </header>
@@ -200,13 +202,17 @@
 
 <main class="main">
     <div class="container relative">
-        <h1 class="main-title f-light">Light multi-assets wallet with built-in atomic swap exchange</h1>
+        <div class="only-mobile main-mobile-title f-bold">Try Atomic Wallet Beta!</div>
+        <h1 class="main-title f-light">First light multi-assets wallet with<br class="mobile-hide">
+            <span class="nowrap">built-in</span> <strong>atomic swap exchange</strong><br class="mobile-hide">
+            and completely<br class="mobile-hide">
+            <strong>decentralized orderbook</strong></h1>
         <img src="css/images/main-notebook.png" alt class="main-notebook">
     </div>
 </main>
 
-<div class="container download-container relative">
-    <div class="only-mobile download-title">Atomicwallet available for</div>
+<section class="container download-container relative">
+    <h2 class="download-title f-bold mobile-hide">Try Atomic Wallet Beta!</h2>
     <div class="download">
         <div class="download-item download-item-windows" data-download="windows">
             <img src="css/images/logo-windows.svg" alt class="download-item-img">
@@ -214,7 +220,7 @@
             <span class="download-name">Windows</span>
             <span class="download-button-label">
                 <a href="#" class="button download-button">Download</a>
-                <span class="download-version">alpha</span>
+                <span class="download-version">alfa</span>
             </span>
         </div>
         <div class="download-item download-item-apple" data-download="apple">
@@ -223,7 +229,7 @@
             <span class="download-name">macOS</span>
             <span class="download-button-label">
                 <a href="#" class="button download-button">Download</a>
-                <span class="download-version">alpha</span>
+                <span class="download-version">alfa</span>
             </span>
         </div>
         <div class="download-item download-item-ubuntu" data-download="ubuntu">
@@ -232,7 +238,7 @@
             <span class="download-name">Ubuntu</span>
             <span class="download-button-label">
                 <a href="#" class="button download-button">Download</a>
-                <span class="download-version">alpha</span>
+                <span class="download-version">alfa</span>
             </span>
         </div>
         <div class="download-item download-item-debian" data-download="debian">
@@ -241,7 +247,7 @@
             <span class="download-name">Debian</span>
             <span class="download-button-label">
                 <a href="#" class="button download-button">Download</a>
-                <span class="download-version">alpha</span>
+                <span class="download-version">alfa</span>
             </span>
         </div>
         <div class="download-item download-item-fedora" data-download="fedora">
@@ -250,23 +256,62 @@
             <span class="download-name">Fedora</span>
             <span class="download-button-label">
                 <a href="#" class="button download-button">Download</a>
-                <span class="download-version">alpha</span>
+                <span class="download-version">alfa</span>
             </span>
         </div>
     </div>
+    <div class="download-button-bottom">
+        <a href="#" class="button">Hash Sum</a>
+    </div>
+</section>
+
+<div class="video">
+    <div class="container relative">
+        <img src="css/images/bg-video.svg" alt="" class="bg bg-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/y7Lpnp2wcFU?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 </div>
+
+<section class="features" id="features">
+    <div class="container relative">
+        <img src="css/images/bg-features-1.svg" alt class="bg bg-features-1">
+        <img src="css/images/bg-features-2.svg" alt class="bg bg-features-2">
+        <img src="css/images/bg-features-3.svg" alt class="bg bg-features-3">
+        <img src="css/images/features-1.png" alt class="bg bg-features-1-1 mobile-hide">
+        <img src="css/images/features-2.png" alt class="bg bg-features-2-1 mobile-hide">
+        <img src="css/images/features-3.png" alt class="bg bg-features-3-1 mobile-hide">
+        <h2 class="features-title f-bold">Features</h2>
+        <p class="features-subtitle f-light"><strong>Atomic Wallet</strong> provides a powerful, in-demand service that allows users to reduce effort spent on managing crypto assets​ and makes it transparent and reliable</p>
+        <div>
+            <div class="features-item">
+                <div class="icon icon-light icon-exchange"></div>
+                <div class="features-item-title f-medium">Exchange</div>
+                <div class="features-text f-light">Atomic Swap Exchange -<br>
+                    you can proceed cross-chain swaps<br>
+                    avoiding third party risks.<br>
+                    Instantly exchange via Changelly or ShapeShift<br>
+                    Fixed rate exchange assets via ShapeShift
+                </div>
+            </div>
+            <div class="features-item features-item-right">
+                <div class="icon icon-light icon-secure"></div>
+                <div class="features-item-title f-medium">Secure</div>
+                <div class="features-text f-light">Private key storage on user device<br>
+                    Password protected<br>
+                    Strongly encrypted
+                </div>
+            </div>
+            <div class="features-item">
+                <div class="icon icon-light icon-migration"></div>
+                <div class="features-item-title f-medium">Light Wallet</div>
+                <div class="features-text f-light">Atomic Wallet currently supports 300+<br> coins and tokens</div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="list" id="list">
     <div class="container relative">
-        <img src="css/images/bg-list-1.png" alt class="bg bg-list-1">
-        <img src="css/images/bg-list-2.png" alt class="bg bg-list-2">
-        <div class="cfx list-title-container">
-            <div class="icon icon-star"></div>
-            <h2 class="list-title f-medium">Atomic wallet ready to work immediately after installation.<br>Atomic
-                currently
-                supports:</h2>
-        </div>
-        
         <div class="list-items f-medium">
             <div class="list-item">
                 <img src="css/images/crypto/BTC.svg" alt>
@@ -284,11 +329,11 @@
                 <img src="css/images/crypto/TRX.svg" alt>
                 <span class="list-item-name">Tron</span>
             </div>
- <div class="list-item">
+            <div class="list-item">
                 <img src="css/images/crypto/VEN.svg" alt>
                 <span class="list-item-name">Vechain</span>
             </div>
- <div class="list-item">
+            <div class="list-item">
                 <img src="css/images/crypto/ZRX.svg" alt>
                 <span class="list-item-name">0x</span>
             </div>
@@ -296,36 +341,36 @@
                 <img src="css/images/crypto/ERC20.svg" alt>
                 <span class="list-item-name">+250 ERC20 tokens</span>
             </div>
-            <div class="list-item list-item-coming-soon">
-                <img src="css/images/crypto/BCH.svg" alt>
-                <span class="list-item-name">Bitcoin Cash</span>
-            </div>
-            <div class="list-item list-item-coming-soon">
-                <img src="css/images/crypto/DCR.svg" alt>
-                <span class="list-item-name">Decred</span>
-            </div>
-            <div class="list-item list-item-coming-soon">
-                <img src="css/images/crypto/LTC.svg" alt>
-                <span class="list-item-name">Lite Coin</span>
-            </div>
-            <div class="list-item list-item-coming-soon">
-                <img src="css/images/crypto/ZEC.svg" alt>
-                <span class="list-item-name">Zcash</span>
-            </div>
-            <div class="list-item list-item-coming-soon">
-                <img src="css/images/crypto/DASH.svg" alt>
-                <span class="list-item-name">Dash coin</span>
-            </div>
-            <div class="list-item list-item-coming-soon">
-                <img src="css/images/crypto/XRP.svg" alt>
-                <span class="list-item-name">Ripple</span>
-            </div>
-            <div class="list-item list-item-coming-soon">
-                <img src="css/images/crypto/XMR.svg" alt>
-                <span class="list-item-name">Monero</span>
-            </div>
 
             <div class="list-items-all list-items-hide" id="list-all">
+                <div class="list-item list-item-coming-soon">
+                    <img src="css/images/crypto/BCH.svg" alt>
+                    <span class="list-item-name">Bitcoin Cash</span>
+                </div>
+                <div class="list-item list-item-coming-soon">
+                    <img src="css/images/crypto/DCR.svg" alt>
+                    <span class="list-item-name">Decred</span>
+                </div>
+                <div class="list-item list-item-coming-soon">
+                    <img src="css/images/crypto/LTC.svg" alt>
+                    <span class="list-item-name">Lite Coin</span>
+                </div>
+                <div class="list-item list-item-coming-soon">
+                    <img src="css/images/crypto/ZEC.svg" alt>
+                    <span class="list-item-name">Zcash</span>
+                </div>
+                <div class="list-item list-item-coming-soon">
+                    <img src="css/images/crypto/DASH.svg" alt>
+                    <span class="list-item-name">Dash coin</span>
+                </div>
+                <div class="list-item list-item-coming-soon">
+                    <img src="css/images/crypto/XRP.svg" alt>
+                    <span class="list-item-name">Ripple</span>
+                </div>
+                <div class="list-item list-item-coming-soon">
+                    <img src="css/images/crypto/XMR.svg" alt>
+                    <span class="list-item-name">Monero</span>
+                </div>
                 <div class="list-item list-item-coming-soon">
                     <img src="css/images/crypto/BTG.svg" alt>
                     <span class="list-item-name">Bitcoin Gold</span>
@@ -351,144 +396,41 @@
     </div>
 </section>
 
-<div class="features" id="features">
+<section class="comments" id="news" data-slider>
     <div class="container relative">
-        <img src="css/images/bg-features-1.png" alt class="bg bg-features-1">
-        <img src="css/images/bg-features-2.png" alt class="bg bg-features-2">
-        <div class="features-item">
-            <div class="icon icon-light icon-exchange"></div>
-            <div class="features-title f-medium">Exchange</div>
-            <div class="features-text f-light">There are 3 options for the assets swap:<br> 1. Atomic Swap Exchange
-                -
-                with Atomic you can proceed cross-chain swaps<br>avoiding third party risks.<br>2. Instantly
-                exchange
-                via <a href="https://changelly.com/?ref_id=c2062aad8a83">Changelly</a> or <a
-                        href="https://shapeshift.io">ShapeShift</a> <br>3. Fixed rate exchange assets via ShapeShift
-            </div>
-        </div>
-        <div class="features-item">
-            <div class="icon icon-light icon-migration"></div>
-            <div class="features-title f-medium">Migration</div>
-            <div class="features-text f-light">Export funds from external wallets<br>Import private keys in
-                different
-                formats<br>Backup from 12 word phrase
-            </div>
-        </div>
-        <div class="features-item">
-            <div class="icon icon-light icon-secure"></div>
-            <div class="features-title f-medium">Secure</div>
-            <div class="features-text f-light">Private key storage on user device <br>Password protected<br>Strongly
-                encrypted
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="partners">
-    <div class="container relative">
-        <div class="cfx">
-            <div class="icon icon-partners"></div>
-        </div>
-        <div class="partners-list">
-            <a href="https://changelly.com/?ref_id=c2062aad8a83"><img src="css/images/partner-changelly.svg" alt=""></a>
-            <a href="https://shapeshift.io"><img src="css/images/partner-ShapeShift.svg" alt=""></a>
-        </div>
-    </div>
-</div>
-
-<div class="comments" id="news">
-    <div class="container relative">
-        <img src="css/images/bg-comments.png" alt class="bg bg-comments">
-        <div class="icon icon-comments"></div>
+        <h2 class="comments-title f-bold">News</h2>
+        <img src="css/images/bg-comments.svg" alt class="bg bg-comments">
         <div class="comments-arrows relative">
-            <button class="comments-arrow comments-arrow-left" disabled id="slider-left"></button>
-            <button class="comments-arrow comments-arrow-right" id="slider-right"></button>
+            <button class="comments-arrow comments-arrow-left" disabled data-slider-left></button>
+            <button class="comments-arrow comments-arrow-right" data-slider-right></button>
         </div>
     </div>
     <div class="comments-slider-label">
         <div class="container relative">
-            <div class="comments-slider relative" id="slider">
-                <div class="comments-slider-list" id="slider-list">
+            <div class="comments-slider relative" data-slider-container>
+                <div class="comments-slider-list" data-slider-list>
                     <div class="comments-item">
-                        <img src="css/images/monogram.svg" alt>
-                        <a href="https://medium.com/@atomicwallet/successful-mainnet-dcr-ltc-atomic-swap-db300c677726"
-                           class="comments-text">Atomic swap DCR-LTC in Mainnet</a>
+                        <img src="css/images/monogram.svg" alt class="comments-image">
+                        <a href="#" target="_blank" class="comments-text">We are developing multi-assets lite desktop wallet with integrated Atomic swap exchange...</a>
                     </div>
                     <div class="comments-item">
-                        <img src="css/images/monogram.svg" alt>
-                        <a href="https://medium.com/@atomicwallet/atomic-wallet-built-in-atomic-swap-exchange-faq-1e3c8e532b87"
-                           class="comments-text">
-                            Atomic wallet FAQ</a>
+                        <img src="css/images/twitter.svg" alt class="comments-image">
+                        <a href="#" target="_blank" class="comments-text">We are proud to announce that the alpha release for the @AtomicWallet has been launched...</a>
                     </div>
                     <div class="comments-item">
-                        <img src="css/images/monogram.svg" alt>
-                        <a href="https://medium.com/@atomicwallet/atomic-wallet-pre-alpha-release-d17b5aed56a4"
-                           class="comments-text">Atomic Wallet Pre-Alpha Release</a>
-
-
+                        <img src="css/images/github.svg" alt class="comments-image">
+                        <a href="#" target="_blank" class="comments-text">Atomicwallet - <span class="nowrap">Multi-assets</span> wallet with built-in atomic swap exchange... </a>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-<div class="container download-container mobile-hide relative">
-    <div class="download">
-        <div class="download-item download-item-windows" data-download="windows">
-            <img src="css/images/logo-windows.svg" alt class="download-item-img">
-            <img src="css/images/logo-windows-color.svg" alt class="download-item-img-color">
-            <span class="download-name">Windows</span>
-            <span class="download-button-label">
-                <a href="#" class="button download-button">Download</a>
-                <span class="download-version">alpha</span>
-            </span>
-        </div>
-        <div class="download-item download-item-apple" data-download="apple">
-            <img src="css/images/logo-apple.svg" alt class="download-item-img">
-            <img src="css/images/logo-apple-color.svg" alt class="download-item-img-color">
-            <span class="download-name">macOS</span>
-            <span class="download-button-label">
-                <a href="#" class="button download-button">Download</a>
-                <span class="download-version">alpha</span>
-            </span>
-        </div>
-        <div class="download-item download-item-ubuntu" data-download="ubuntu">
-            <img src="css/images/logo-ubuntu.svg" alt class="download-item-img">
-            <img src="css/images/logo-ubuntu-color.svg" alt class="download-item-img-color">
-            <span class="download-name">Ubuntu</span>
-            <span class="download-button-label">
-                <a href="#" class="button download-button">Download</a>
-                <span class="download-version">alpha</span>
-            </span>
-        </div>
-        <div class="download-item download-item-debian" data-download="debian">
-            <img src="css/images/logo-debian.svg" alt class="download-item-img">
-            <img src="css/images/logo-debian-color.svg" alt class="download-item-img-color">
-            <span class="download-name">Debian</span>
-            <span class="download-button-label">
-                <a href="#" class="button download-button">Download</a>
-                <span class="download-version">alpha</span>
-            </span>
-        </div>
-        <div class="download-item download-item-fedora" data-download="fedora">
-            <img src="css/images/logo-fedora.svg" alt class="download-item-img">
-            <img src="css/images/logo-fedora-color.svg" alt class="download-item-img-color">
-            <span class="download-name">Fedora</span>
-            <span class="download-button-label">
-                <a href="#" class="button download-button">Download</a>
-                <span class="download-version">alpha</span>
-            </span>
-        </div>
-    </div>
-</div>
+</section>
 
 <section class="subscribe" id="contacts">
     <div class="container relative">
-        <div class="icon icon-mail"></div>
-        <h2 class="subscribe-title f-medium">New alpha release is here! Be the first user of Atomic wallet!
-            <br>Sign up to updates</h2>
+        <h2 class="subscribe-title f-medium">We are planning to add more cool features in a future.<br>
+            We will inform you about it, if you subscribe on updates</h2>
         <div class="subscribe-form relative">
             <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
@@ -517,7 +459,7 @@
                                         value="">
                                 </div>
                                 <div class="clear">
-                                    <button data-v-74687b68="">Sign-up for alpha</button>
+                                    <button data-v-74687b68="">Subscribe on updates</button>
                                 </div>
                             </div>
                         </div>
@@ -525,21 +467,83 @@
                 </form>
             </div>
             <script type="text/javascript"
-                    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script type="text/javascript"
-                    src="http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+            src="http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
             <script type="text/javascript">(function ($) {
-                window.fnames = new Array();
-                window.ftypes = new Array();
-                fnames[0] = 'EMAIL';
-                ftypes[0] = 'email';
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
             }(jQuery));
             var $mcj = jQuery.noConflict(true);</script>
             <!--End mc_embed_signup-->
         </div>
-        <hr class="mobile-hide">
     </div>
 </section>
+
+<section class="comments team" id="team" data-slider>
+    <div class="container relative">
+        <h2 class="comments-title f-bold">Team</h2>
+        <div class="comments-arrows relative">
+            <button class="comments-arrow comments-arrow-left" disabled data-slider-left></button>
+            <button class="comments-arrow comments-arrow-right" data-slider-right></button>
+        </div>
+    </div>
+    <div class="comments-slider-label">
+        <div class="container relative">
+            <div class="comments-slider relative" data-slider-container>
+                <div class="comments-slider-list" data-slider-list>
+                    <div class="comments-item">
+                        <div class="team-author">
+                            <img src="css/images/team-1.jpg" class="team-author-avatar" alt>
+                            <div class="team-author-name f-medium">Paul Sokolov</div>
+                        </div>
+                        <div class="team-text f-light">Paul Sokolov​, CEO, has three years experience in blockchain, 10 years in fintech, 2 years of which in CEO position at top-20 cryptocurrency exchange. Certified banking cards security and business expert. Launched over 6 successful projects within last five years. Paul’s interests are: cryptocurrency exchanges, wallets, smart contracts, financial inclusion.</div>
+                        <div class="team-social">
+                            <a href="#" target="_blank"><img src="css/images/icons/team-soc-twitter.svg" alt></a>
+                            <a href="#" target="_blank"><img src="css/images/icons/team-soc-in.svg" alt></a>
+                            <a href="#" target="_blank"><img src="css/images/icons/team-soc-tg.svg" alt></a>
+                        </div>
+                    </div>
+                    <div class="comments-item">
+                        <div class="team-author">
+                            <img src="css/images/team-2.jpg" class="team-author-avatar" alt>
+                            <div class="team-author-name f-medium">Konstantin Gladych</div>
+                        </div>
+                        <div class="team-text f-light">Konstantin Gladych​, CBDO, PhD in data science with 3 years solid experience in blockchain and cryptocurrencies, 10 years in IT. Konstantin is well-known as the co-founder and CEO of Changelly.com, biggest cryptocurrency instant exchange with over 2 millions active customers monthly and $0.5bln in monthly turnover. Konstantins interests are: decentralization, custody-free solutions, p2p exchangers.</div>
+                        <div class="team-social">
+                            <a href="#" target="_blank"><img src="css/images/icons/team-soc-twitter.svg" alt></a>
+                            <a href="#" target="_blank"><img src="css/images/icons/team-soc-in.svg" alt></a>
+                            <a href="#" target="_blank"><img src="css/images/icons/team-soc-tg.svg" alt></a>
+                        </div>
+                    </div>
+                    <div class="comments-item">
+                        <div class="team-author">
+                            <img src="css/images/team-3.jpg" class="team-author-avatar" alt>
+                            <div class="team-author-name f-medium">Charlie Shrem</div>
+                        </div>
+                        <div class="team-text f-light">Charlie Shrem​, Strategic Advisor and Visionary, is an American entrepreneur and bitcoin advocate. In 2011 he co-founded the now-defunct startup company BitInstant, and is a founding member of the Bitcoin Foundation, formerly serving as vice chairman.</div>
+                        <div class="team-social">
+                            <a href="#" target="_blank"><img src="css/images/icons/team-soc-twitter.svg" alt></a>
+                            <a href="#" target="_blank"><img src="css/images/icons/team-soc-in.svg" alt></a>
+                            <a href="#" target="_blank"><img src="css/images/icons/team-soc-tg.svg" alt></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="partners">
+    <div class="container relative cfx">
+        <div class="partners-list">
+            <a href="https://changelly.com/?ref_id=c2062aad8a83"><img src="css/images/partner-changelly.png" alt=""></a>
+            <a href="https://shapeshift.io"><img src="css/images/partner-ShapeShift.svg" alt=""></a>
+        </div>
+    </div>
+</div>
 
 <footer class="footer">
     <div class="container relative">

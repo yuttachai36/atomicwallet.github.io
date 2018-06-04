@@ -47,13 +47,13 @@ class Download {
         this.modalObj.dataset.downloadType = type.toLowerCase();
 
         this.html.style.overflow = 'hidden';
-        this.html.style.position = 'fixed';
+        // this.html.style.position = 'fixed';
         this.modalObj.classList.add('modal-open');
     }
 
     modalClose() {
         this.html.style.overflow = 'auto';
-        this.html.style.position = 'relative';
+        // this.html.style.position = 'relative';
         this.modalObj.classList.remove('modal-open')
     }
 
@@ -115,57 +115,65 @@ document.addEventListener('DOMContentLoaded', _ => {
     /* /list */
 
     /* slider */
-    let $slider = qs('#slider'),
-        $sliderList = qs('#slider-list');
+    class Slider {
+        constructor(el) {
+            this.container = el.querySelector('[data-slider-container]');
+            this.list = this.container.querySelector('[data-slider-list]');
+            this.width = this.container.clientWidth,
+            this.allWidth = this.list.clientWidth;
+            this.step = 0;
+            this.arrows = {
+                left: el.querySelector('[data-slider-left]'),
+                right: el.querySelector('[data-slider-right]')
+            };
+
+            this.arrows.left.onclick = _ => this.go('left');
+            this.arrows.right.onclick = _ => this.go('right');
+
+            window.onresize = this.reset;
+            this.reset();
+        }
+
+        go(direction) {
+            let margin = (this.list.currentStyle || window.getComputedStyle(this.list)).marginLeft.replace('px', '') * 1;
+
+            if (direction === 'left') {
+                margin += this.step;
+            } else {
+                margin -= this.step;
+            }
+
+            this.arrows.right.disabled = false;
+            this.arrows.left.disabled = false;
+
+            if (margin >= 0) {
+                margin = 0;
+                this.arrows.left.disabled = true;
+            }
+
+            if (margin <= -(this.allWidth - this.width)) {
+                margin = -(this.allWidth - this.width);
+                this.arrows.right.disabled = true;
+            }
+
+            this.list.style.marginLeft = margin + 'px';
+        }
+
+        reset() {
+            let item = this.container.querySelector('.comments-item:nth-child(2)');
+            this.step = item.clientWidth + (item.currentStyle || window.getComputedStyle(item)).marginLeft.replace('px', '') * 1;
+            this.list.style.marginLeft = 0;
+
+            if(this.width >= this.allWidth) {
+                this.arrows.right.disabled = true;
+                this.arrows.left.disabled = true;
+            }
+        }
+    }
+    let $slider = qsa('[data-slider]');
 
     if($slider) {
-        let sliderWidth = $slider.clientWidth,
-            sliderAllWidth = $sliderList.clientWidth,
-            sliderStep = 0,
-            $sliderArrows = {
-                left: qs('#slider-left'),
-                right: qs('#slider-right')
-            };
-
-        let Slider = direction => {
-                let margin = ($sliderList.currentStyle || window.getComputedStyle($sliderList)).marginLeft.replace('px', '') * 1;
-
-                if (direction === 'left') {
-                    margin += sliderStep;
-                } else {
-                    margin -= sliderStep;
-                }
-
-                $sliderArrows.right.disabled = false;
-                $sliderArrows.left.disabled = false;
-
-                if (margin >= 0) {
-                    margin = 0;
-                    $sliderArrows.left.disabled = true;
-                }
-
-                if (margin <= -(sliderAllWidth - sliderWidth)) {
-                    margin = -(sliderAllWidth - sliderWidth);
-                    $sliderArrows.right.disabled = true;
-                }
-
-                $sliderList.style.marginLeft = margin + 'px';
-            },
-            SliderReset = _ => {
-                let $sliderItem = qs('#slider-list .comments-item:nth-child(2)');
-                sliderStep = $sliderItem.clientWidth + ($sliderItem.currentStyle || window.getComputedStyle($sliderItem)).marginLeft.replace('px', '') * 1;
-                $sliderList.style.marginLeft = 0;
-            };
-
-        $sliderArrows.left.onclick = _ => {
-            Slider('left');
-        };
-        $sliderArrows.right.onclick = _ => {
-            Slider('right');
-        };
-        window.onresize = SliderReset;
-
-        SliderReset();
+        $slider.forEach(el => new Slider(el));
     }
     /* /slider */
 
