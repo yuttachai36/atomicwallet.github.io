@@ -9,24 +9,59 @@
  */
 .main {
 	padding-top: 125px;
+	padding-bottom: 0;
 }
 .main-title-token {
 	height: 500px;
 }
 .main-notebook {
-	top: 0;
+	top: -10;
 	right: -370px;
 }
 .main-subtitle {
 	width: 100%;
-	line-height: 67px;
-	font-size: 36px;
+	line-height: 23px;
+	font-size: 16px;
 	color: #000000;
-	margin-top: 50px;
+	margin-top: 10px;
+	width: 500px;
+}
+
+.main_icon_image {
+	float: left;
+	height: 200px;
+	width: 70px;
+}
+
+.main_icons {
+	margin-top: 30px;
+	margin-left: 0px;
+	width: 800px;
+	margin-left: 0px;
+
+}
+
+.main_icon_text {
+	float: left;
+	margin-right: 18px;
+	text-align: left;
+	font-size: 18px;
+	opacity: 1;
+	height: 200px;
+	width: 240px;
+}
+
+.main_icon_text_small {
+	font-size: 14px;
+	line-height: 16px;
+	opacity: 0.6;
+
 }
 
 
-
+.download-container {
+	padding-top: 0;
+}
 /*
  * list
  */
@@ -294,13 +329,13 @@
 }
 .token-progress {
 	list-style: none;
-	line-height: 32px;
+	line-height: 28px;
 	font-size: 18px;
 	color: #000000;
 	margin-top: 30px;
 }
 .token-progress li {
-	margin-bottom: 5px;
+	margin-bottom: 35px;
 }
 .token-progress span {
 	display: block;
@@ -524,6 +559,14 @@
 	margin-top: 22px;
 }
 
+.section-subtitle-text {
+	font-size: 14px;
+	color: #828282;
+	text-align: center;
+	margin-top: -50px;	
+	padding-bottom: 50px;
+}
+
 
 
 /*
@@ -545,7 +588,7 @@
 	color: #182848;
 	margin: 0 auto;
 	max-width: 660px;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 }
 .bounty-col {
 	width: 50%;
@@ -599,6 +642,11 @@
 	line-height: 66px;
 	font-size: 36px;
 	border: 2px solid #182848;
+}
+
+.left-button {
+	margin-left: 0;
+	float: left;
 }
 
 
