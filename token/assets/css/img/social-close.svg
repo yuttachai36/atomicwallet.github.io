@@ -1,0 +1,5 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50Z" fill="#1F8EFA"/>
+<line y1="-1" x2="19.799" y2="-1" transform="translate(19 32) rotate(-45)" stroke="white" stroke-width="2"/>
+<path d="M0 0L20.5061 0.707107" transform="translate(32.707 31.2929) scale(-1 1) rotate(-45)" stroke="white" stroke-width="2"/>
+</svg>

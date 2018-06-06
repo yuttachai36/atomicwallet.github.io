@@ -1,0 +1,23 @@
+<svg width="150" height="146" viewBox="0 0 150 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Atomic_logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-4782 -7099)">
+<g id="Atomic_logo">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(4782 7099)" fill="url(#paint0_linear)"/>
+</g>
+<mask id="mask0_outline" mask-type="alpha">
+<g id="Mask">
+<use xlink:href="#path0_fill" transform="translate(4782 7099)" fill="#FFFFFF"/>
+</g>
+</mask>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 145.556 -150 0 75 0)">
+<stop offset="0" stop-color="#42C1FD"/>
+<stop offset="1" stop-color="#1F8EFA"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 145.556L 44.5107 22.7026C 50.1587 8.35889 60.6885 0.239746 74.687 0.00537109L 74.687 0L 75 0.00146484L 75.313 0L 75.313 0.00537109C 89.3115 0.239746 99.8413 8.35889 105.489 22.7026L 150 145.556L 122.438 135.898L 84.4146 30.9526C 82.1006 25.1479 79.4287 23.0586 75 22.9663C 70.5713 23.0586 67.8994 25.1479 65.5854 30.9526L 27.5625 135.898L 0 145.556ZM 94.3672 98.7759C 94.3672 109.507 85.8135 118.206 75.2612 118.206C 64.7095 118.206 56.1553 109.507 56.1553 98.7759C 56.1553 88.0449 64.7095 79.3457 75.2612 79.3457C 85.8135 79.3457 94.3672 88.0449 94.3672 98.7759Z"/>
+</defs>
+</svg>
