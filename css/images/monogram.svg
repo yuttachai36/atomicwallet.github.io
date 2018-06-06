@@ -1,0 +1,18 @@
+<svg width="65" height="65" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Monogram Copy 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1567 -3264)">
+<g id="Monogram Copy 2">
+<g id="Rectangle-path">
+<use xlink:href="#path0_fill" transform="translate(1567 3264)" fill="#12100E"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_fill" transform="translate(1578 3278)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 65 0L 65 65L 0 65L 0 0Z"/>
+<path id="path1_fill" d="M 5.09897 7.13992C 5.1524 6.59873 4.95111 6.06383 4.55696 5.69959L 0.542017 0.740741L 0.542017 0L 13.0084 0L 22.6443 21.6667L 31.1158 0L 43 0L 43 0.740741L 39.5672 4.11523C 39.2713 4.34651 39.1245 4.72664 39.1858 5.10288L 39.1858 29.8971C 39.1245 30.2734 39.2713 30.6535 39.5672 30.8848L 42.9197 34.2593L 42.9197 35L 26.057 35L 26.057 34.2593L 29.5299 30.8025C 29.8711 30.4527 29.8711 30.3498 29.8711 29.8148L 29.8711 9.77366L 20.2152 34.9177L 18.9104 34.9177L 7.66853 9.77366L 7.66853 26.6255C 7.5748 27.334 7.80431 28.0473 8.29085 28.5597L 12.8077 34.177L 12.8077 34.9177L 0 34.9177L 0 34.177L 4.51681 28.5597C 4.9998 28.0465 5.21593 27.3284 5.09897 26.6255L 5.09897 7.13992Z"/>
+</defs>
+</svg>
