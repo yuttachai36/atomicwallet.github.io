@@ -1,25 +1,25 @@
 <svg width="50" height="50" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>Fedora_logo</title>
+<title>Fedora_on_hower</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-1385 -551)">
-<g id="Fedora_logo">
+<g id="Canvas" transform="translate(-4066 -283)">
+<g id="Fedora_on_hower">
 <g id="voice">
-<use xlink:href="#path0_fill" transform="translate(1385.07 551.07)" fill="#CCCCCC"/>
+<use xlink:href="#path0_fill" transform="translate(4066.07 283.07)" fill="#293C77"/>
 </g>
 <g id="in" opacity="0.4">
-<use xlink:href="#path1_fill" transform="translate(1387.75 574.875)" fill="#FFFFFF"/>
+<use xlink:href="#path1_fill" transform="translate(4068.75 306.875)" fill="#FFFFFF"/>
 </g>
 <g id="finity">
 <g id="in" opacity="0.4">
-<use xlink:href="#path2_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 1429.01 580.362)" fill="#FFFFFF"/>
+<use xlink:href="#path2_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 4110.01 312.362)" fill="#FFFFFF"/>
 </g>
 </g>
 <g id="free">
-<use xlink:href="#path3_fill" transform="translate(1394.45 574.882)" fill="#FFFFFF"/>
+<use xlink:href="#path3_fill" transform="translate(4075.45 306.882)" fill="#FFFFFF"/>
 </g>
 <g id="dom">
 <g id="free">
-<use xlink:href="#path3_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 1422.31 580.356)" fill="#FFFFFF"/>
+<use xlink:href="#path3_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 4103.31 312.356)" fill="#FFFFFF"/>
 </g>
 </g>
 </g>

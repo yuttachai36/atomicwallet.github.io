@@ -1,43 +1,43 @@
 <svg width="49" height="60" viewBox="0 0 49 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>logo-debian</title>
+<title>logo-debian_on_hower</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-1167 -551)">
-<g id="logo-debian">
+<g id="Canvas" transform="translate(-3848 -283)">
+<g id="logo-debian_on_hower">
 <g id="Shape">
-<use xlink:href="#path0_fill" transform="translate(1195.62 582.288)" fill="#CCCCCC"/>
+<use xlink:href="#path0_fill" transform="translate(3876.62 314.288)" fill="#E90047"/>
 </g>
 <g id="Shape">
-<use xlink:href="#path1_fill" transform="translate(1200.66 578.483)" fill="#CCCCCC"/>
+<use xlink:href="#path1_fill" transform="translate(3881.66 310.483)" fill="#E90047"/>
 </g>
 <g id="Shape">
-<use xlink:href="#path2_fill" transform="translate(1202.72 574.83)" fill="#CCCCCC"/>
+<use xlink:href="#path2_fill" transform="translate(3883.72 306.83)" fill="#E90047"/>
 </g>
 <g id="Shape">
-<use xlink:href="#path3_fill" transform="translate(1192.25 551.767)" fill="#CCCCCC"/>
+<use xlink:href="#path3_fill" transform="translate(3873.25 283.767)" fill="#E90047"/>
 </g>
 <g id="Shape">
-<use xlink:href="#path4_fill" transform="translate(1192.93 552.059)" fill="#CCCCCC"/>
+<use xlink:href="#path4_fill" transform="translate(3873.93 284.059)" fill="#E90047"/>
 </g>
 <g id="Shape">
-<use xlink:href="#path5_fill" transform="translate(1167.78 551.422)" fill="#CCCCCC"/>
+<use xlink:href="#path5_fill" transform="translate(3848.78 283.422)" fill="#E90047"/>
 </g>
 <g id="Shape">
-<use xlink:href="#path6_fill" transform="translate(1185.1 583.766)" fill="#CCCCCC"/>
+<use xlink:href="#path6_fill" transform="translate(3866.1 315.766)" fill="#E90047"/>
 </g>
 <g id="Shape">
-<use xlink:href="#path7_fill" transform="translate(1185.99 582.417)" fill="#CCCCCC"/>
+<use xlink:href="#path7_fill" transform="translate(3866.99 314.417)" fill="#E90047"/>
 </g>
 <g id="Shape">
-<use xlink:href="#path8_fill" transform="translate(1211.99 577.819)" fill="#CCCCCC"/>
+<use xlink:href="#path8_fill" transform="translate(3892.99 309.819)" fill="#E90047"/>
 </g>
 <g id="Shape">
-<use xlink:href="#path9_fill" transform="translate(1192.05 551)" fill="#CCCCCC"/>
+<use xlink:href="#path9_fill" transform="translate(3873.05 283)" fill="#E90047"/>
 </g>
 <g id="Shape">
-<use xlink:href="#path10_fill" transform="translate(1168.7 563.731)" fill="#CCCCCC"/>
+<use xlink:href="#path10_fill" transform="translate(3849.7 295.731)" fill="#E90047"/>
 </g>
 <g id="Shape">
-<use xlink:href="#path11_fill" transform="translate(1167.44 568.242)" fill="#CCCCCC"/>
+<use xlink:href="#path11_fill" transform="translate(3848.44 300.242)" fill="#E90047"/>
 </g>
 </g>
 </g>

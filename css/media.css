@@ -46,7 +46,7 @@
     /* bg */
     .bg-main {
         width: 1591px;
-        right: -50px;
+        right: -110px;
     }
     .bg-video {
         top: 70px;
@@ -157,7 +157,7 @@
         width: 260px;
         margin: 0 auto;
         margin-top: 10px;
-        line-height: 36px;
+        line-height: 26px;
         font-size: 18px;
         text-align: center;
         color: #182848;
@@ -178,6 +178,15 @@
         height: auto;
         justify-content: baseline;
     }
+
+    .download-text {
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    color: #121010;
+    padding-bottom: 60px;
+
+}
     .download-item {
         width: 50%;
         height: 137px;
@@ -239,16 +248,19 @@
     }
     .features-item {
         padding-top: 20px;
+        margin-left: 0;
+        width: 250px;
+
     }
     .features-title {
-        font-size: 14px;
+        font-size: 20px;
         margin-bottom: 20px;
         margin-top: 0;
         line-height: 1.3;
     }
     .features-text {
-        line-height: 32px;
-        font-size: 12px;
+        line-height: 22px;
+        font-size: 16px;
     }
     .features-item:nth-child(2) {
         margin-top: 190px;
