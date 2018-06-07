@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="UTF-8">
+    <title>Atomic Wallet</title>
+    <meta name="description" content="Light multi-assets wallet with built-in atomic swap exchange">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/token.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/token-media.css">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114023091-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114023091-1');
+    </script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Start of Async Prefinery Code -->
+    <script type="text/javascript">var _pfy = _pfy || [];(function(){function pfy_load(){var pfys=document.createElement('script');pfys.type='text/javascript';pfys.async=true;pfys.src='https://widget.prefinery.com/widget/v2/1w40x3e4.js';var pfy=document.getElementsByTagName('script')[0];pfy.parentNode.insertBefore(pfys,pfy);}if (window.attachEvent){window.attachEvent('onload',pfy_load);}else{window.addEventListener('load',pfy_load,false);}})();</script>
+    <!-- End of Async Prefinery Code -->
+
+</head>
+<body>
+
+<div class="modal  modal-step-1" id="downloadModal" data-download-type="apple">
+    <div class="container relative">
+        <div class="modal-container relative">
+            <button class="modal-close" data-download-close></button>
+
+            <div class="modal-form">
+                <div class="modal-form-container relative">
+                    <div class="icon icon-mail"></div>
+                    <div class="subscribe-title f-medium">Atomic Wallet private alpha is now here!<br>Sign-up to receive an early access!
+                    </div>
+                    <div class="subscribe-form relative">
+                        
+                        <script>window.jQuery || document.write('<scr' + 'ipt src="https://code.jquery.com/jquery-1.11.0.min.js"><\/sc' + 'ript>')</script>
+                        <script>window.$kol_jquery = window.jQuery</script>
+                        <script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_any_form.js"></script>
+                        <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/210308.js'></script>
+                        
+                        <form id="downloadForm" action="#" class="mc-field-group">
+                        
+                            <label for="downloadEmail">Email Address</label>
+                            <div class="form-field">
+                                <div class="input">
+                                    <input type="email" value="" id="downloadEmail" name="email" class="input" placeholder="Email" required>
+                                    <input type="hidden" value="windows" id="downloadType" name="type">
+                                </div>
+                                <div class="clear">
+                                    <button id="downloadButton">Sign-up</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-form-link">
+                    <a href="https://atomicwallet.io/privacy">Privacy,</a> <a
+                href="https://atomicwallet.io/terms-of-service">Terms of service</a>
+                </div>
+
+                <div class="download-desc">Atomic wallet available for:</div>
+                <div class="download relative">
+                    <div class="download-item download-not-hover download-item-windows">
+                        <img src="css/images/logo-windows.svg" alt class="download-item-img">
+                        <img src="css/images/logo-windows-color.svg" alt class="download-item-img-color">
+                        <span class="download-name">Windows</span>
+                        <span class="download-button-label">
+                            <a href="#" data-download="windows" class="button download-button">Select</a>
+                            <span class="button download-button disabled download-button-selected">Selected</span>
+                            <span class="download-version">alfa</span>
+                        </span>
+                    </div>
+                    <div class="download-item download-not-hover download-item-apple">
+                        <img src="css/images/logo-apple.svg" alt class="download-item-img">
+                        <img src="css/images/logo-apple-color.svg" alt class="download-item-img-color">
+                        <span class="download-name">macOS</span>
+                        <span class="download-button-label">
+                            <a href="#" data-download="apple" class="button download-button">Select</a>
+                            <span class="button download-button disabled download-button-selected">Selected</span>
+                            <span class="download-version">alfa</span>
+                        </span>
+                    </div>
+                    <div class="download-item download-not-hover download-item-ubuntu">
+                        <img src="css/images/logo-ubuntu.svg" alt class="download-item-img">
+                        <img src="css/images/logo-ubuntu-color.svg" alt class="download-item-img-color">
+                        <span class="download-name">Ubuntu</span>
+                        <span class="download-button-label">
+                            <a href="#" data-download="ubuntu" class="button download-button">Select</a>
+                            <span class="button download-button disabled download-button-selected">Selected</span>
+                            <span class="download-version">alfa</span>
+                        </span>
+                    </div>
+                    <div class="download-item download-not-hover download-item-debian">
+                        <img src="css/images/logo-debian.svg" alt class="download-item-img">
+                        <img src="css/images/logo-debian-color.svg" alt class="download-item-img-color">
+                        <span class="download-name">Debian</span>
+                        <span class="download-button-label">
+                            <a href="#" data-download="debian" class="button download-button">Select</a>
+                            <span class="button download-button disabled download-button-selected">Selected</span>
+                            <span class="download-version">alfa</span>
+                        </span>
+                    </div>
+                    <div class="download-item download-not-hover download-item-fedora">
+                        <img src="css/images/logo-fedora.svg" alt class="download-item-img">
+                        <img src="css/images/logo-fedora-color.svg" alt class="download-item-img-color">
+                        <span class="download-name">Fedora</span>
+                        <span class="download-button-label">
+                            <a href="#" data-download="fedora" class="button download-button">Select</a>
+                            <span class="button download-button disabled download-button-selected">Selected</span>
+                            <span class="download-version">alfa</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-sended">
+                <div class="modal-form-container relative">
+                    <div class="icon icon-mail"></div>
+                    <div class="subscribe-title f-medium">Check your inbox to start using Atomic!</div>
+                </div>
+                <div class="modal-soc">
+                    <div class="modal-soc-title">Subscribe to updates:</div>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/Atomicwallet-2170290639861607" target="_blank"
+                           class="footer-social-icon">
+                            <img src="css/images/icons/soc-facebook.svg" alt>
+                        </a>
+                        <a href="https://twitter.com/atomicwallet" target="_blank" class="footer-social-icon">
+                            <img src="css/images/icons/soc-twitter.svg" alt>
+                        </a>
+                        <a href="https://steemit.com/@atomicwallet" target="_blank" class="footer-social-icon">
+                            <img src="css/images/icons/soc-4.svg" alt>
+                        </a>
+                        <a href="https://t.me/atomicwallet" target="_blank" class="footer-social-icon">
+                            <img src="css/images/icons/soc-telegram.svg" alt>
+                        </a>
+                        <a href="https://github.com/Atomicwallet" target="_blank" class="footer-social-icon">
+                            <img src="css/images/icons/soc-6.svg" alt>
+                        </a>
+                        <a href="https://medium.com/@atomicwallet" target="_blank" class="footer-social-icon">
+                            <img src="css/images/icons/soc-7.svg" alt>
+                        </a>
+                        <a href="https://www.reddit.com/user/atomicwallet/" target="_blank" class="footer-social-icon">
+                            <img src="css/images/icons/soc-8.svg" alt>
+                        </a>
+                        <a href="http://atomicwallet.slack.com" target="_blank" class="footer-social-icon">
+                            <img src="css/images/icons/soc-9.svg" alt>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="header-menu-mobile header-menu-close f-light only-mobile" id="menu-mobile">
+    <div class="container relative">
+        <a href="index.html" >Product</a>
+        <a href="token.html" class="header-menu-here">Token</a>
+        <a href="https://atomicwallet.freshdesk.com/support/home">Support</a>
+        <a href="https://medium.com/@atomicwallet">Blog</a>
+        <button class="header-menu-mobile-close" id="menu-button-close"></button>
+    </div>
+</div>
+
+<div class="container relative">
+    <img src="css/images/bg-first-screen.svg" alt class="bg bg-main">
+    <header class="header">
+        <a href="index.html" class="header-logo">
+            <img src="css/images/logo.svg" alt="Atomic">
+        </a>
+        <nav class="header-menu f-light">
+            <a href="index.html" >Product</a>
+            <a href="token.html" class="header-menu-here">Token</a>
+            <a href="https://atomicwallet.freshdesk.com/support/home">Support</a>
+            <a href="https://medium.com/@atomicwallet">Blog</a>
+        </nav>
+        <button class="header-button only-mobile" id="menu-button-open"></button>
+        <nav class="header-menu-icons  f-light">
+            <a href="https://www.facebook.com/atomicwallet" target="_blank">
+                <img src="css/images/top_facebook.svg">
+            </a>
+            <a href="https://twitter.com/atomicwallet" target="_blank">
+                <img src="css/images/top_twitter.svg">
+            </a>
+            <a href="https://t.me/atomicwalletchat" target="_blank">
+                <img src="css/images/top_telegram.svg">
+            </a>
+            <a href="https://github.com/Atomicwallet" target="_blank">
+                <img src="css/images/top_github.svg">
+            </a>
+            <a href="https://medium.com/@atomicwallet" target="_blank">
+                <img src="css/images/top_medium.svg">
+            </a>
+            <a href="https://www.reddit.com/user/atomicwallet/" target="_blank">
+                <img src="css/images/top_reddit.svg">
+            </a>
+        </nav>
+        <button class="header-button only-mobile" id="menu-button-open"></button>
+    </header>
+</div>
+
+<main class="main">
+    <div class="container relative">
+        <div class="only-mobile main-mobile-title f-bold">Atomic Wallet Coin<br>AWC</div>
+       <h1 class="main-title main-title-token f-light"><br><strong>AWC TOKEN</strong><br class="mobile-hide">
+            <span class="nowrap">Enabling</span> Distributed Ecosystem
+                <div class="main-subtitle mobile-hide">
+                    AWC is issued to regulate Atomic Wallet service prices in a decentralized and egalitarian manner. Atomic Wallet Coin is a universal method of payment for cryptocurrency listing in Atomic Wallet, Currency promotion or Swap Order interface placement.
+                </div>
+                <div class="main_icons mobile-hide">
+                        <div class="main_icon_image"><img src="css/images/token-private-sale.svg"></div>
+                        <div class="main_icon_text  f-light">
+                            <Strong>Private Sale</Strong><br>
+                            <p class="main_icon_text_small">Atomic Wallet Coins are available for purchase on a private sale. Minimal investment amount is $100 000 equivalent in Ether.<br><br>
+                            <a href="###"  class="sign-up-download-link">Sign Up</a> as Investor</p>
+                        </div>
+                        <div class="main_icon_image">
+                            <img src="css/images/token-airdrop.svg"><br>
+
+                        </div>
+                        <div class="main_icon_text  f-light">
+                            <Strong>Airdrop Campaign</Strong><br>
+                            <p class="main_icon_text_small">Early Atomic Wallet adopters will receive tokens just for the joy of using the product. Leave your e-mail in the Airdrop section of your Wallet.<br><br>
+                                <a href="###"  class="sign-up-download-link">Know more</a> about Airdrop</p>
+                        </div>
+                </div>
+            </h1>
+        <img src="css/images/token-main.svg" alt class="main-notebook">
+    </div>
+</main>
+
+<section class="container download-container relative">
+        <h2 class="download-title f-bold mobile-hide" id="download"><br><br>Download Atomic Wallet</h2>
+        <br><h3 class="download-text f-light"> Atomic Wallet is available for all major Operating Systems.<br> <a href="#contacts" class="sign-up-download-link">Sign up</a> for our updates to know first about updates and new releases.</h3>  
+    <div class="download">
+        <div class="download-item download-item-windows" data-download="windows">
+            <img src="css/images/logo-windows.svg" alt class="download-item-img">
+            <img src="css/images/logo-windows-color.svg" alt class="download-item-img-color">
+            <span class="download-name">Windows</span>
+            <span class="download-button-label">
+                <a href="#" class="button download-button">Download</a>
+                <span class="download-version">alfa</span>
+            </span>
+        </div>
+        <div class="download-item download-item-apple" data-download="apple">
+            <img src="css/images/logo-apple.svg" alt class="download-item-img">
+            <img src="css/images/logo-apple-color.svg" alt class="download-item-img-color">
+            <span class="download-name">macOS</span>
+            <span class="download-button-label">
+                <a href="#" class="button download-button">Download</a>
+                <span class="download-version">alfa</span>
+            </span>
+        </div>
+        <div class="download-item download-item-ubuntu" data-download="ubuntu">
+            <img src="css/images/logo-ubuntu.svg" alt class="download-item-img">
+            <img src="css/images/logo-ubuntu-color.svg" alt class="download-item-img-color">
+            <span class="download-name">Ubuntu</span>
+            <span class="download-button-label">
+                <a href="#" class="button download-button">Download</a>
+                <span class="download-version">alfa</span>
+            </span>
+        </div>
+        <div class="download-item download-item-debian" data-download="debian">
+            <img src="css/images/logo-debian.svg" alt class="download-item-img">
+            <img src="css/images/logo-debian-color.svg" alt class="download-item-img-color">
+            <span class="download-name">Debian</span>
+            <span class="download-button-label">
+                <a href="#" class="button download-button">Download</a>
+                <span class="download-version">alfa</span>
+            </span>
+        </div>
+        <div class="download-item download-item-fedora" data-download="fedora">
+            <img src="css/images/logo-fedora.svg" alt class="download-item-img">
+            <img src="css/images/logo-fedora-color.svg" alt class="download-item-img-color">
+            <span class="download-name">Fedora</span>
+            <span class="download-button-label">
+                <a href="#" class="button download-button">Download</a>
+                <span class="download-version">alfa</span>
+            </span>
+        </div>
+    </div>
+    <div class="download-button-bottom">
+        <a href="#" class="button">Check Hash Sum</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a href="#" class="button">Torrent Download</a>
+    </div>
+</section>
+
+<section class="token">
+    <div class="container">
+        <h2 class="token-title f-bold">Token</h2>
+        <div class="cfx f-light">
+            <div class="token-col">
+                <div class="token-item">
+                    <div class="token-item-title">Budget Allocation</div>
+                    <ul class="token-progress">
+                        <li>
+                            <span class="float-left">40%</span>
+                            <span class="float-right">Initial liquidity for market making</span>
+                            <span class="token-progress-bar">
+                                <span style="width: 40%;"></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="float-left">30%</span>
+                            <span class="float-right">Software development</span>
+                            <span class="token-progress-bar">
+                                <span style="width: 30%;"></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="float-left">20%</span>
+                            <span class="float-right">Legal and operational</span>
+                            <span class="token-progress-bar">
+                                <span style="width: 20%;"></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="float-left">5%</span>
+                            <span class="float-right">Marketing</span>
+                            <span class="token-progress-bar">
+                                <span style="width: 5%;"></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="float-left">5%</span>
+                            <span class="float-right">Unexpected costs</span>
+                            <span class="token-progress-bar">
+                                <span style="width: 5%;"></span>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="token-item">
+                    <div class="token-item-title">Token Distribution</div>
+                    <ul class="token-progress">
+                        <li>
+                            <span class="float-left">50%</span>
+                            <span class="float-right">Private presale</span>
+                            <span class="token-progress-bar">
+                                <span style="width: 50%;"></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="float-left">30%</span>
+                            <span class="float-right">Founders</span>
+                            <span class="token-progress-bar">
+                                <span style="width: 30%;"></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="float-left">15%</span>
+                            <span class="float-right">Public sale</span>
+                            <span class="token-progress-bar">
+                                <span style="width: 15%;"></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="float-left">5%</span>
+                            <span class="float-right">Bounty/Airdrops</span>
+                            <span class="token-progress-bar">
+                                <span style="width: 5%;"></span>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="token-col">
+                <div class="token-item token-item-parametrs">
+                    <div class="token-item-title">Token Parameters</div>
+                    <ul class="token-list">
+                        <li class="cfx">
+                            <span class="float-left">Ticker:</span>
+                            <span class="float-right">AWC</span>
+                        </li>
+                        <li class="cfx">
+                            <span class="float-left">Full name:</span>
+                            <span class="float-right">Atomic Wallet Coin</span>
+                        </li>
+                        <li class="cfx">
+                            <span class="float-left">Decimals:</span>
+                            <span class="float-right">8</span>
+                        </li>
+                        <li class="cfx">
+                            <span class="float-left">Total supply:</span>
+                            <span class="float-right">100,000,000 AWC</span>
+                        </li>
+                        <li class="cfx">
+                            <span class="float-left">Team vesting plan:</span>
+                            <span class="float-right">25% per year</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="token-item">
+                    <div class="token-item-title">Documents</div>
+                    <div class="token-buttons">
+                        <a href="https://download.atomicwallet.io/atomicwallet-AWC-token.pdf" class="button">Token One Pager</a>
+                        <a href="https://download.atomicwallet.io/atomicwallet-features.pdf" class="button">Marketing One Pager</a>
+                        <a href="https://download.atomicwallet.io/atomicwallet-technical-details.pdf" class="button">Technical One Pager</a>
+                        <a href="https://download.atomicwallet.io/atomicwallet-whitepaper.pdf" class="button">White Paper</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="map" id="roadmap">
+    <div class="container">
+        <h1 class="map-title f-bold">Road map</h1>
+        <div class="map-list">
+            <div class="map-item map-item-active">
+                <div class="map-date f-bold">April 2018<br>MVP release</div>
+                <div class="map-description f-light">Ethereum and Bitcoin asset management<br>ERC20 tokens support<br>Integrated instant exchange service</div>
+            </div>
+            <div class="map-item map-item-active">
+                <div class="map-date f-bold">May 2018<br>Beta release</div>
+                <div class="map-description f-light">First pair for Atomic swaps<<br>Liteccoin asset management</div>
+            </div>
+            <div class="map-item">
+                <div class="map-date f-bold">June 2018</div>
+                <div class="map-description f-light">ERC20 token swaps<br>Lightning network implementation<br>Multi-language UI<br>26 new assets in the wallet<br>4 new assets in the atomic exchange</div>
+            </div>
+            <div class="map-item">
+                <div class="map-date f-bold">July 2018</div>
+                <div class="map-description f-light">8 new assets in the wallet<br>4 new assets in the atomic exchange<br>Finish of the token sale<br>Atomic rating for atomic exchange users</div>
+            </div>
+            <div class="map-item">
+                <div class="map-date f-bold">August 2018</div>
+                <div class="map-description f-light">Web wallet<br>Mobile wallet for Android<br>Mobile wallet for iOS<br>8 new assets in the wallet<br>4 new assets in the atomic exchange</div>
+            </div>
+            <div class="map-item">
+                <div class="map-date f-bold">September 2018</div>
+                <div class="map-description f-light">User chat in the wallet (trollbox)<br>Hardware wallet integration (Trezor, Ledger)<br>8 new assets in the wallet<br>4 new assets in  the atomic exchange</div>
+            </div>
+            <div class="map-item">
+                <div class="map-date f-bold">October 2018</div>
+                <div class="map-description f-light">dApps browser<br>8 new assets in the wallet<br>4 new assets in  the atomic exchange</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="list">
+    <h2 class="list-title">Atomic wallet assets list</h2>
+    <div class="list-container">
+        <div class="list-items">
+            <div class="container cfx" id="list">
+                <img src="css/images/crypto-icon/1ST.svg">
+                <img src="css/images/crypto-icon/300.svg">
+                <img src="css/images/crypto-icon/ADST.svg">
+                <img src="css/images/crypto-icon/ADT.svg">
+                <img src="css/images/crypto-icon/ADX.svg">
+                <img src="css/images/crypto-icon/AE.svg">
+                <img src="css/images/crypto-icon/AIDOC.svg">
+                <img src="css/images/crypto-icon/AION.svg">
+                <img src="css/images/crypto-icon/AIR.svg">
+                <img src="css/images/crypto-icon/ALIS.svg">
+                <img src="css/images/crypto-icon/AMB.svg">
+                <img src="css/images/crypto-icon/AMIS.svg">
+                <img src="css/images/crypto-icon/ANT.svg">
+                <img src="css/images/crypto-icon/APT.svg">
+                <img src="css/images/crypto-icon/ARC.svg">
+                <img src="css/images/crypto-icon/ARN.svg">
+                <img src="css/images/crypto-icon/ART.svg">
+                <img src="css/images/crypto-icon/AST.svg">
+                <img src="css/images/crypto-icon/ATH.svg">
+                <img src="css/images/crypto-icon/ATL.svg">
+                <img src="css/images/crypto-icon/ATM.svg">
+                <img src="css/images/crypto-icon/AVA.svg">
+                <img src="css/images/crypto-icon/AVT.svg">
+                <img src="css/images/crypto-icon/BAT.svg">
+                <img src="css/images/crypto-icon/BCAP.svg">
+                <img src="css/images/crypto-icon/BCDN.svg">
+                <img src="css/images/crypto-icon/BET.svg">
+                <img src="css/images/crypto-icon/BIX.svg">
+                <img src="css/images/crypto-icon/BLX.svg">
+                <img src="css/images/crypto-icon/BLZ.svg">
+                <img src="css/images/crypto-icon/BMC.svg">
+                <img src="css/images/crypto-icon/BMT.svg">
+                <img src="css/images/crypto-icon/BNB.svg">
+                <img src="css/images/crypto-icon/BNC.svg">
+                <img src="css/images/crypto-icon/BNT.svg">
+                <img src="css/images/crypto-icon/BOP.svg">
+                <img src="css/images/crypto-icon/BQ.svg">
+                <img src="css/images/crypto-icon/BQX.svg">
+                <img src="css/images/crypto-icon/BRAT.svg">
+                <img src="css/images/crypto-icon/BTC.svg">
+                <img src="css/images/crypto-icon/BTCNY.svg">
+                <img src="css/images/crypto-icon/BTE.svg">
+                <img src="css/images/crypto-icon/BTM.svg">
+                <img src="css/images/crypto-icon/CAG.svg">
+                <img src="css/images/crypto-icon/CAT.svg">
+                <img src="css/images/crypto-icon/CCC.svg">
+                <img src="css/images/crypto-icon/CDT.svg">
+                <img src="css/images/crypto-icon/CFI.svg">
+                <img src="css/images/crypto-icon/CMC.svg">
+                <img src="css/images/crypto-icon/CMT.svg">
+                <img src="css/images/crypto-icon/CND.svg">
+                <img src="css/images/crypto-icon/COB.svg">
+                <img src="css/images/crypto-icon/CRB.svg">
+                <img src="css/images/crypto-icon/CREDO.svg">
+                <img src="css/images/crypto-icon/CryptoCarbon.svg">
+                <img src="css/images/crypto-icon/CSNO.svg">
+                <img src="css/images/crypto-icon/CTL.svg">
+                <img src="css/images/crypto-icon/CTL-1.svg">
+                <img src="css/images/crypto-icon/CTR.svg">
+                <img src="css/images/crypto-icon/CVC.svg">
+                <img src="css/images/crypto-icon/DAB.svg">
+                <img src="css/images/crypto-icon/DALC.svg">
+                <img src="css/images/crypto-icon/DAO.svg">
+                <img src="css/images/crypto-icon/DATA.svg">
+                <img src="css/images/crypto-icon/DATA (DataBrokerDAO).svg">
+                <img src="css/images/crypto-icon/DATA (Streamr).svg">
+                <img src="css/images/crypto-icon/DCN.svg">
+                <img src="css/images/crypto-icon/DDF.svg">
+                <img src="css/images/crypto-icon/DENT.svg">
+                <img src="css/images/crypto-icon/DGD.svg">
+                <img src="css/images/crypto-icon/DGX 1.0.svg">
+                <img src="css/images/crypto-icon/DICE.svg">
+                <img src="css/images/crypto-icon/DLT.svg">
+                <img src="css/images/crypto-icon/DNA.svg">
+                <img src="css/images/crypto-icon/DNT.svg">
+                <img src="css/images/crypto-icon/DPP.svg">
+                <img src="css/images/crypto-icon/DPY.svg">
+                <img src="css/images/crypto-icon/DRGN.svg">
+                <img src="css/images/crypto-icon/DROP.svg">
+                <img src="css/images/crypto-icon/DRP.svg">
+                <img src="css/images/crypto-icon/DRT.svg">
+                <img src="css/images/crypto-icon/DTA.svg">
+                <img src="css/images/crypto-icon/DTB.svg">
+                <img src="css/images/crypto-icon/ECN.svg">
+                <img src="css/images/crypto-icon/EDG.svg">
+                <img src="css/images/crypto-icon/EDO.svg">
+                <img src="css/images/crypto-icon/EHT.svg">
+                <img src="css/images/crypto-icon/EKT.svg">
+                <img src="css/images/crypto-icon/ELF.svg">
+                <img src="css/images/crypto-icon/ELIX.svg">
+                <img src="css/images/crypto-icon/ELIX-1.svg">
+                <img src="css/images/crypto-icon/EMV.svg">
+                <img src="css/images/crypto-icon/ENG.svg">
+                <img src="css/images/crypto-icon/ENJ.svg">
+                <img src="css/images/crypto-icon/EOS.svg">
+                <img src="css/images/crypto-icon/ETBS.svg">
+                <img src="css/images/crypto-icon/ETH.svg">
+                <img src="css/images/crypto-icon/ETH-1.svg">
+                <img src="css/images/crypto-icon/ETHOS.svg">
+                <img src="css/images/crypto-icon/EURT.svg">
+                <img src="css/images/crypto-icon/EVX.svg">
+                <img src="css/images/crypto-icon/FAM.svg">
+                <img src="css/images/crypto-icon/FRD.svg">
+                <img src="css/images/crypto-icon/FTC.svg">
+                <img src="css/images/crypto-icon/FUEL.svg">
+                <img src="css/images/crypto-icon/FUN.svg">
+                <img src="css/images/crypto-icon/FYN.svg">
+                <img src="css/images/crypto-icon/GBT.svg">
+                <img src="css/images/crypto-icon/GELD.svg">
+                <img src="css/images/crypto-icon/GNO.svg">
+                <img src="css/images/crypto-icon/GNT.svg">
+                <img src="css/images/crypto-icon/GRID.svg">
+                <img src="css/images/crypto-icon/GUP.svg">
+                <img src="css/images/crypto-icon/GVT.svg">
+                <img src="css/images/crypto-icon/H2O.svg">
+                <img src="css/images/crypto-icon/HGT.svg">
+                <img src="css/images/crypto-icon/HKG.svg">
+                <img src="css/images/crypto-icon/HMQ.svg">
+                <img src="css/images/crypto-icon/HST.svg">
+                <img src="css/images/crypto-icon/HVN.svg">
+                <img src="css/images/crypto-icon/ICE.svg">
+                <img src="css/images/crypto-icon/ICN.svg">
+                <img src="css/images/crypto-icon/ICOS.svg">
+                <img src="css/images/crypto-icon/ICX.svg">
+                <img src="css/images/crypto-icon/IDEA.svg">
+                <img src="css/images/crypto-icon/IFT.svg">
+                <img src="css/images/crypto-icon/IKB.svg">
+                <img src="css/images/crypto-icon/IMT.svg">
+                <img src="css/images/crypto-icon/IND.svg">
+                <img src="css/images/crypto-icon/INS.svg">
+                <img src="css/images/crypto-icon/IOST.svg">
+                <img src="css/images/crypto-icon/ITC.svg">
+                <img src="css/images/crypto-icon/ITT.svg">
+                <img src="css/images/crypto-icon/IXT.svg">
+                <img src="css/images/crypto-icon/JET.svg">
+                <img src="css/images/crypto-icon/JetCoins.svg">
+                <img src="css/images/crypto-icon/JNT.svg">
+                <img src="css/images/crypto-icon/KICK.svg">
+                <img src="css/images/crypto-icon/KIN.svg">
+                <img src="css/images/crypto-icon/KNC.svg">
+                <img src="css/images/crypto-icon/LA.svg">
+                <img src="css/images/crypto-icon/LATX.svg">
+                <img src="css/images/crypto-icon/LEND.svg">
+                <img src="css/images/crypto-icon/LIFE.svg">
+                <img src="css/images/crypto-icon/LINK.svg">
+                <img src="css/images/crypto-icon/LINK2.svg">
+                <img src="css/images/crypto-icon/LNC.svg">
+                <img src="css/images/crypto-icon/LOK.svg">
+                <img src="css/images/crypto-icon/LPG.svg">
+                <img src="css/images/crypto-icon/LRC.svg">
+                <img src="css/images/crypto-icon/LUCK.svg">
+                <img src="css/images/crypto-icon/LUN.svg">
+                <img src="css/images/crypto-icon/MANA.svg">
+                <img src="css/images/crypto-icon/MBRS.svg">
+                <img src="css/images/crypto-icon/MCAP.svg">
+                <img src="css/images/crypto-icon/MCI.svg">
+                <img src="css/images/crypto-icon/MCO.svg">
+                <img src="css/images/crypto-icon/MDA.svg">
+                <img src="css/images/crypto-icon/MDS.svg">
+                <img src="css/images/crypto-icon/MGO.svg">
+                <img src="css/images/crypto-icon/MIT.svg">
+                <img src="css/images/crypto-icon/MKR.svg">
+                <img src="css/images/crypto-icon/MLN.svg">
+                <img src="css/images/crypto-icon/MNE.svg">
+                <img src="css/images/crypto-icon/MRV.svg">
+                <img src="css/images/crypto-icon/MSP.svg">
+                <img src="css/images/crypto-icon/MTH.svg">
+                <img src="css/images/crypto-icon/MTL.svg">
+                <img src="css/images/crypto-icon/MTN.svg">
+                <img src="css/images/crypto-icon/MTR.svg">
+                <img src="css/images/crypto-icon/MTX.svg">
+                <img src="css/images/crypto-icon/MYD.svg">
+                <img src="css/images/crypto-icon/MYST.svg">
+                <img src="css/images/crypto-icon/NAS.svg">
+                <img src="css/images/crypto-icon/NET.svg">
+                <img src="css/images/crypto-icon/NIMFA.svg">
+                <img src="css/images/crypto-icon/NMR.svg">
+                <img src="css/images/crypto-icon/NxC.svg">
+                <img src="css/images/crypto-icon/NXX.svg">
+                <img src="css/images/crypto-icon/OAX.svg">
+                <img src="css/images/crypto-icon/OCN.svg">
+                <img src="css/images/crypto-icon/OMG.svg">
+                <img src="css/images/crypto-icon/OPT.svg">
+                <img src="css/images/crypto-icon/PAY.svg">
+                <img src="css/images/crypto-icon/PIX.svg">
+                <img src="css/images/crypto-icon/PLAY.svg">
+                <img src="css/images/crypto-icon/PLBT.svg">
+                <img src="css/images/crypto-icon/PLR.svg">
+                <img src="css/images/crypto-icon/PLU.svg">
+                <img src="css/images/crypto-icon/POE.svg">
+                <img src="css/images/crypto-icon/POS.svg">
+                <img src="css/images/crypto-icon/POWR.svg">
+                <img src="css/images/crypto-icon/PPT.svg">
+                <img src="css/images/crypto-icon/PRO.svg">
+                <img src="css/images/crypto-icon/PRS.svg">
+                <img src="css/images/crypto-icon/PRSP.svg">
+                <img src="css/images/crypto-icon/PT.svg">
+                <img src="css/images/crypto-icon/PTOY.svg">
+                <img src="css/images/crypto-icon/QAU.svg">
+                <img src="css/images/crypto-icon/QRL.svg">
+                <img src="css/images/crypto-icon/QSP.svg">
+                <img src="css/images/crypto-icon/QTUM.svg">
+                <img src="css/images/crypto-icon/QUN.svg">
+                <img src="css/images/crypto-icon/RCN.svg">
+                <img src="css/images/crypto-icon/REP.svg">
+                <img src="css/images/crypto-icon/REQ.svg">
+                <img src="css/images/crypto-icon/REX.svg">
+                <img src="css/images/crypto-icon/RLC.svg">
+                <img src="css/images/crypto-icon/RLT.svg">
+                <img src="css/images/crypto-icon/RLX.svg">
+                <img src="css/images/crypto-icon/ROUND.svg">
+                <img src="css/images/crypto-icon/RUFF.svg">
+                <img src="css/images/crypto-icon/RVT.svg">
+                <img src="css/images/crypto-icon/SALT.svg">
+                <img src="css/images/crypto-icon/SAN.svg">
+                <img src="css/images/crypto-icon/SCL.svg">
+                <img src="css/images/crypto-icon/SGEL.svg">
+                <img src="css/images/crypto-icon/SGT.svg">
+                <img src="css/images/crypto-icon/SHIT.svg">
+                <img src="css/images/crypto-icon/SIFT.svg">
+                <img src="css/images/crypto-icon/SKIN.svg">
+                <img src="css/images/crypto-icon/SKO1.svg">
+                <img src="css/images/crypto-icon/SMT.svg">
+                <img src="css/images/crypto-icon/SNC.svg">
+                <img src="css/images/crypto-icon/SND.svg">
+                <img src="css/images/crypto-icon/SNGLS.svg">
+                <img src="css/images/crypto-icon/SNM.svg">
+                <img src="css/images/crypto-icon/SNT.svg">
+                <img src="css/images/crypto-icon/SPARC.svg">
+                <img src="css/images/crypto-icon/SPARTA.svg">
+                <img src="css/images/crypto-icon/STK.svg">
+                <img src="css/images/crypto-icon/STORJ.svg">
+                <img src="css/images/crypto-icon/STRC.svg">
+                <img src="css/images/crypto-icon/STX.svg">
+                <img src="css/images/crypto-icon/SUB.svg">
+                <img src="css/images/crypto-icon/SWT.svg">
+                <img src="css/images/crypto-icon/SYN.svg">
+                <img src="css/images/crypto-icon/TaaS.svg">
+                <img src="css/images/crypto-icon/TBC2.svg">
+                <img src="css/images/crypto-icon/TBT.svg">
+                <img src="css/images/crypto-icon/TFL.svg">
+                <img src="css/images/crypto-icon/THETA.svg">
+                <img src="css/images/crypto-icon/TIME.svg">
+                <img src="css/images/crypto-icon/TIX.svg">
+                <img src="css/images/crypto-icon/TKN.svg">
+                <img src="css/images/crypto-icon/TME.svg">
+                <img src="css/images/crypto-icon/TNB.svg">
+                <img src="css/images/crypto-icon/TNT.svg">
+                <img src="css/images/crypto-icon/TRST.svg">
+                <img src="css/images/crypto-icon/TRX.svg">
+                <img src="css/images/crypto-icon/Unicorn.svg">
+                <img src="css/images/crypto-icon/USDT.svg">
+                <img src="css/images/crypto-icon/VEN.svg">
+                <img src="css/images/crypto-icon/VERI.svg">
+                <img src="css/images/crypto-icon/VIB.svg">
+                <img src="css/images/crypto-icon/VIBE.svg">
+                <img src="css/images/crypto-icon/VIBEX.svg">
+                <img src="css/images/crypto-icon/VIU.svg">
+                <img src="css/images/crypto-icon/VRS.svg">
+                <img src="css/images/crypto-icon/VSL.svg">
+                <img src="css/images/crypto-icon/VSM.svg">
+                <img src="css/images/crypto-icon/WBC.svg">
+                <img src="css/images/crypto-icon/WCT.svg">
+                <img src="css/images/crypto-icon/WINGS.svg">
+                <img src="css/images/crypto-icon/XAUR.svg">
+                <img src="css/images/crypto-icon/XID.svg">
+                <img src="css/images/crypto-icon/XNN.svg">
+                <img src="css/images/crypto-icon/XRL.svg">
+                <img src="css/images/crypto-icon/YUPIE.svg">
+                <img src="css/images/crypto-icon/ZIL.svg">
+                <img src="css/images/crypto-icon/ZRX.svg">
+                <img src="css/images/crypto-icon/ZST.svg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="airdrop" id="airdrop">
+    <div class="container">
+        <h2 class="airdrop-title f-bold">Airdrop</h2>
+        <p class="section-subtitle">We’re rewarding 2 million AWC Tokens to 40,000 loyal Atomic wallet clients</p>
+        <p class="section-subtitle-text">To receive your AWC enjoy using our wallet and complete several easy steps. Rewards are been distributed once a week to all successfull clients</p>
+        <ol class="airdrop-list f-light">
+            <li>Download the application and install it on the computer</li>
+            <li>Create a Wallet and transfer funds on it</li>
+            <li>Claim tokens by leaving an e-mail in the application form</li>
+            <li>Complete weekly tasks</li>
+            <li>Wait for the token distribution</li>
+        </ol>
+        <div class="airdrop-button f-light">
+            <a href="#" class="button">Join Airdrop</a>
+            <span>Important Notice: <i>One Airdrop is granted only to one ETH address and one e-mail address</i></span>
+        </div>
+    </div>
+</section>
+
+<section class="bounty">
+    <div class="container">
+        <h2 class="bounty-title f-bold">Bounty</h2>
+        <p class="bounty-subtitle">We offer a total reward of 3 million AWC Tokens for participating in the following sections of Bounty:</p>
+        <div class="cfx f-light">
+            <div class="bounty-col">
+                <div class="bounty-item bounty-item-1"><img src="css/images/bounty-1.svg" alt>Evangelist Bounty</div>
+                <div class="bounty-item bounty-item-2"><img src="css/images/bounty-2.svg" alt>Coins integration Bounty</div>
+                <div class="bounty-item bounty-item-3"><img src="css/images/bounty-3.svg" alt>Bugs Bounty</div>
+            </div>
+            <div class="bounty-col">
+                <div class="bounty-item bounty-item-4"><img src="css/images/bounty-4.svg" alt>Content Bounty</div>
+                <div class="bounty-item bounty-item-5"><img src="css/images/bounty-5.svg" alt>Social Bounty</div>
+                <div class="bounty-item bounty-item-6"><img src="css/images/bounty-6.svg" alt>Translation</div>
+            </div>
+        </div>
+        <div class="bounty-button">
+            <a href="#" class="button">Join Bounty</a>
+        </div>
+    </div>
+</section>
+
+<section class="sale" id="sale">
+    <div class="container">
+        <h2 class="sale-title f-bold">Token sale</h2>
+        <div class="sale-table">
+            <div class="sale-col">
+                <div class="sale-col-title">Private pre-sale</div>
+                <div class="sale-text f-light">
+                    <p>Atomic Wallet is open to all investors ready to contribute at least $100,000.</p>
+                    <p>In order to prevent the possible centralization of tokens in single hands, the maximum investment threshold of $ 1 million has been determined.</p>
+                    <p>Investing in Atomic Wallet will be available only to individuals who have passed KYC.</p>
+                </div>
+                <a href="mailto:pas@atomicwallet.io" class="button left-button">Join to private pre-sale</a>
+            </div>
+            <div class="sale-col">
+                <div class="sale-col-title">Public sale</div>
+                <div class="sale-text f-light">
+                    <p>The crowdsale will start on July 1, 2018.</p>
+                    <p>The maximum number of issued tokens is 100,000,000. This amount of emission is possible only on condition that all investments are collected to the maximum allowable amounts of 1,000,000, and a hard cap is reached.</p>
+                    <p>The minimum number of tokens to be issued is set to 25,000,000. This amount of emission is possible only on condition that all investments are collected with minimum allowable amounts of 100,000, and the minimum amount necessary for the development of the project is achieved.</p>
+                </div>
+                <a class="button button-disabled left-button">Buy tokens</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--
+<section class="media">
+    <div class="container">
+        <h2 class="media-title f-bold">Expert’s Reviews</h2>
+        <div class="media-list-container container" data-swipe>
+            <div class="media-list">
+                <span>
+                    <a href="#"><img src="css/images/media-1.svg" alt=""></a>
+                    <a href="#"><img src="css/images/media-2.jpg" alt=""></a>
+                    <a href="#"><img src="css/images/media-3.svg" alt=""></a>
+                    <a href="#"><img src="css/images/media-4.jpg" alt=""></a>
+                    <a href="#"><img src="css/images/media-5.jpg" alt=""></a><br>
+                    <a href="#"><img src="css/images/media-6.jpg" alt=""></a>
+                    <a href="#"><img src="css/images/media-7.jpg" alt=""></a>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="media" id="media">
+    <div class="container">
+        <h2 class="media-title f-bold">Media</h2>
+        <div class="media-list-container container" data-swipe>
+            <div class="media-list">
+                <span>
+                    <a href="#"><img src="css/images/media-8.png" alt=""></a>
+                    <a href="#"><img src="css/images/media-9.svg" alt=""></a>
+                    <a href="#"><img src="css/images/media-10.png" alt=""></a><br>
+                    <a href="#"><img src="css/images/media-11.svg" alt=""></a>
+                    <a href="#"><img src="css/images/media-12.svg" alt=""></a>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<section class="media" id="partners">
+    <div class="container">
+        <h2 class="media-title f-bold">Partners</h2>
+        <div class="media-list-container container" data-swipe>
+            <div class="media-list">
+                <span>
+                    <a href="#"><img src="css/images/media-13.svg" alt="" class="media-specific-image-1"></a>
+                    <a href="#"><img src="css/images/media-14.svg" alt=""></a>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container" style="overflow: hidden;">
+    <section class="subscribe" id="contacts">
+        <div class="container">
+            <h2 class="subscribe-title f-bold">Subscribe</h2>
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="https://atomicwallet.us17.list-manage.com/subscribe/post?u=eda340fda6aada83e1972c018&amp;id=cb1aae9fc4"
+                      method="post"
+                      id="mc-embedded-subscribe-form"
+                      name="mc-embedded-subscribe-form"
+                      class="validate subscribe-form cfx" target="_blank" novalidate>
+                    <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email">
+                    <input type="text" value="" name="MMERGE1" id="mce-MMERGE1" style="display: none;">
+                    <input type="submit" value="Subscribe on updates" name="subscribe" id="mc-embedded-subscribe">
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_eda340fda6aada83e1972c018_cb1aae9fc4" tabindex="-1" value=""></div>
+
+                </form>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+            </div>
+            <script type="text/javascript"
+                    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script type="text/javascript"
+                    src="http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+            <script type="text/javascript">(function ($) {
+                window.fnames = new Array();
+                window.ftypes = new Array();
+                fnames[0] = 'EMAIL';
+                ftypes[0] = 'email';
+            }(jQuery));
+            var $mcj = jQuery.noConflict(true);</script>
+            <!--End mc_embed_signup-->
+        </div>
+    </section>
+</div>
+
+<footer class="footer">
+    <div class="container relative">
+        <img src="css/images/bg-footer.png" alt class="bg bg-footer mobile-hide">
+        <img src="css/images/bg-footer-mobile.png" alt class="bg bg-footer only-mobile">
+        <img src="css/images/logo.svg" alt class="footer-logo">
+        <a href="mailto:hello@atomicwallet.io" class="footer-email f-light">hello@atomicwallet.io</a>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/atomicwallet" target="_blank"
+               class="footer-social-icon">
+                <img src="css/images/icons/soc-facebook.svg" alt>
+            </a>
+            <a href="https://twitter.com/atomicwallet" target="_blank" class="footer-social-icon">
+                <img src="css/images/icons/soc-twitter.svg" alt>
+            </a>
+            <a href="https://steemit.com/@atomicwallet" target="_blank" class="footer-social-icon">
+                <img src="css/images/icons/soc-4.svg" alt>
+            </a>
+            <a href="https://t.me/atomicwalletchat" target="_blank" class="footer-social-icon">
+                <img src="css/images/icons/soc-telegram.svg" alt>
+            </a>
+            <a href="https://github.com/Atomicwallet" target="_blank" class="footer-social-icon">
+                <img src="css/images/icons/soc-6.svg" alt>
+            </a>
+            <a href="https://medium.com/@atomicwallet" target="_blank" class="footer-social-icon">
+                <img src="css/images/icons/soc-7.svg" alt>
+            </a>
+            <a href="https://www.reddit.com/user/atomicwallet/" target="_blank" class="footer-social-icon">
+                <img src="css/images/icons/soc-8.svg" alt>
+            </a>
+            <a href="http://atomicwallet.slack.com" target="_blank" class="footer-social-icon">
+                <img src="css/images/icons/soc-9.svg" alt>
+            </a>
+            <!--             <a href="#" target="_blank" class="footer-social-icon">
+                            <img src="css/images/icons/soc-google.svg" alt>
+                        </a>
+                        <a href="#" target="_blank" class="footer-social-icon">
+                            <img src="css/images/icons/soc-bitcoin.svg" alt>
+                        </a> -->
+        </div>
+        <div class="footer-copy f-light">
+            <a href="https://atomicwallet.io/privacy">Privacy</a> and <a
+                href="https://atomicwallet.io/terms-of-service">Terms of service</a>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.touchSwipe.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
