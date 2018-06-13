@@ -1,0 +1,137 @@
+@media screen and (max-width: 830px) {
+    /* main */
+    .main-notebook {
+        display: none;
+    }
+    .main_icons {
+        width: 100%;
+    }
+    .main-title-token {
+        width: 100%;
+    }
+    .main_icon_text {
+    width: 220px;
+    margin-right: 0;
+    margin-left: 20px;
+    }
+
+    .main_icon_text_small {
+    font-size: 14px;
+    line-height: 16px;
+    opacity: 0.6;
+    }
+
+    /* /main */
+
+
+
+
+    /* list */
+    .list {
+        -webkit-clip-path: ellipse(1082px 462px at 50% 50%);
+        clip-path: ellipse(1082px 462px at 50% 50%);
+    }
+    .list-container {
+        -webkit-clip-path: ellipse(1082px 418px at 50% 50%);
+        clip-path: ellipse(1082px 418px at 50% 50%);
+    }
+    .list-container:before {
+        z-index: 12;
+    }
+    .list .section-title {
+        padding: 30px 0;
+    }
+    .list-items {
+        position: relative;
+    }
+    .list-items .container {
+        width: 1340px;
+        max-width: 1340px !important;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    /* /list */
+
+    /* sale */
+    .sale {
+        padding-bottom: 20px;
+    }
+    .sale-table {
+        display: block;
+    }
+    .sale-col:last-child {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+    .sale-table .button {
+        width: 100%;
+    }
+    .sale-title {
+    font-size: 48px;
+    text-align: center;
+    color: #182848;
+    padding: 30px 0;
+    }
+    .sale-text {
+        line-height: 17px;
+        font-size: 11px;
+        margin-bottom: 25px;
+    }
+    /* /sale */
+    /* video */
+    .video-title {
+    font-size: 48px;
+    text-align: center;
+    color: #182848;
+    padding: 30px 0;
+    }
+
+    /* token */
+    .token-col {
+        width: 100%;
+    }
+    .token-item-parametrs {
+        min-height: 200px;
+    }
+
+    /* map */
+    .map .container {
+    max-width: 100%;
+    width: 400px;
+    }
+    .map-date {
+        max-width: 180px;
+        min-width: 100px;
+    }
+
+
+    /* media */
+    .media-list-container {
+        position: relative;
+        height: 135px;
+    }
+    .media-list {
+        position: absolute;
+        width: 10000px;
+        white-space: nowrap;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: inherit;
+    }
+    .media-list span {
+        display: inline-block;
+    }
+    .media-list a {
+        margin-bottom: 33px;
+    }
+    .media-list img {
+        max-height: 45px;
+    }
+    .media-specific-image-1 {
+        margin-top: 20px;
+    }
+    /* /media */
+}

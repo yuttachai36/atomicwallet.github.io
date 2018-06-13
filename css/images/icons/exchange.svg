@@ -1,0 +1,21 @@
+<svg width="44" height="53" viewBox="0 0 44 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 8</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-403 -1502)">
+<g id="Group 8">
+<g id="1A">
+<g id="1A">
+<use xlink:href="#path0_fill" transform="translate(403.958 1502.04)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="1A Copy">
+<g id="1A">
+<use xlink:href="#path0_fill" transform="matrix(-1 0 0 1 446.042 1526.04)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 32.229 12.4008L 5.13902 12.4008L 15.155 2.57081C 15.746 1.98981 15.755 1.04081 15.175 0.448813C 14.593 -0.142187 13.644 -0.150187 13.053 0.428813L 0.449019 12.7988C 0.163019 13.0798 0.00101876 13.4628 1.87586e-05 13.8628C -0.00198124 14.2628 0.156019 14.6478 0.439019 14.9308L 13.064 27.5558C 13.357 27.8488 13.741 27.9948 14.125 27.9948C 14.508 27.9948 14.892 27.8488 15.185 27.5558C 15.771 26.9698 15.771 26.0198 15.185 25.4348L 5.15102 15.4008L 32.229 15.4008C 33.057 15.4008 33.729 14.7288 33.729 13.9008C 33.729 13.0718 33.057 12.4008 32.229 12.4008Z"/>
+</defs>
+</svg>

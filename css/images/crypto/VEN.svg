@@ -1,0 +1,18 @@
+<svg width="65" height="65" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>VEN</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-976 504)">
+<g id="VEN">
+<g id="Combined Shape">
+<use xlink:href="#path0_fill" transform="translate(976 -504)" fill="url(#paint0_linear)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 63.7862 -63.7862 0 32.5 0)">
+<stop offset="0" stop-color="#41D4FC"/>
+<stop offset="1" stop-color="#15BDFF"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 32.5 0C 14.5506 0 0 14.5508 0 32.5C 0 50.4492 14.5506 65 32.5 65C 50.4492 65 65 50.4492 65 32.5C 65 14.5508 50.4492 0 32.5 0ZM 30.9036 50.3729L 15.0785 18.1224C 14.9612 17.8809 14.9761 17.5961 15.1181 17.3682C 15.26 17.1403 15.509 17.0013 15.7774 17L 21.2622 17C 21.5561 17 21.8316 17.1645 21.9611 17.4235L 33.5185 40.8199C 34.5464 42.9167 37.5292 42.9167 38.5592 40.8199L 50.0795 17.442C 50.2149 17.1812 50.4846 17.0178 50.7785 17.0185L 51.461 17.0185C 51.866 17.0185 52.123 17.442 51.94 17.7915L 35.9463 50.375C 34.9164 52.4718 31.9356 52.4718 30.9036 50.375L 30.9036 50.3729Z"/>
+</defs>
+</svg>

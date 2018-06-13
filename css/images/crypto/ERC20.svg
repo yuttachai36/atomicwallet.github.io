@@ -1,0 +1,18 @@
+<svg width="65" height="65" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>ERC20</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(744 -304)">
+<g id="ERC20">
+<g id="Fill 1">
+<use xlink:href="#path0_fill" transform="translate(-744 304)" fill="url(#paint0_linear)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 65 -65 0 32.5 0)">
+<stop offset="0" stop-color="#27AE60"/>
+<stop offset="1" stop-color="#56CCF2"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 32.5C 0 14.5508 14.5508 0 32.5 0C 50.4492 0 65 14.5508 65 32.5C 65 50.4495 50.4492 65 32.5 65C 14.5508 65 0 50.4495 0 32.5ZM 32.5 58C 46.5833 58 58 46.5833 58 32.5C 58 18.4167 46.5833 7 32.5 7C 18.4167 7 7 18.4167 7 32.5C 7 46.5833 18.4167 58 32.5 58Z"/>
+</defs>
+</svg>
