@@ -221,14 +221,14 @@ img {
 }
 .header-menu {
 	position: absolute;
-	top: 30px;
-	left: 380px;
+	top: 50px;
+	left: 450px;
 	text-align: left;
 }
 .header-menu-icons {
 	position: absolute;
-	top: 25px;
-	left: 870px;
+	top: 45px;
+	left: 800px;
 	text-align: left;
 }
 

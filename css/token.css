@@ -39,6 +39,7 @@
 	margin-left: 0px;
 	width: 800px;
 	margin-left: 0px;
+
 }
 
 .main_icon_text {
@@ -363,7 +364,7 @@
 .token-buttons .button {
 	display: block;
 	width: 170px;
-	margin: auto;
+	margin-left: 20px;
 	margin-bottom: 30px;
 }
 .bg-documents {
