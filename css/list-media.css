@@ -1,0 +1,123 @@
+@media screen and (max-width: 830px) {
+    .header-container {
+        height: 140px;
+    }
+    .main-subtitle {
+        font-size: 14px;
+    }
+    .main {
+        padding-top: 0;
+    }
+    .list-table {
+        margin-top: 30px;
+        overflow: hidden;
+    }
+    .list-table .container {
+        position: relative;
+        padding-left: 125px;
+    }
+
+    .header-menu-icons {
+        display: none;
+    }
+    .list-table-col:first-child {
+        width: 125px;
+        border-right: 1px solid rgba(24, 40, 72, 0.25);
+        position: absolute;
+        left: 0;
+        background: #f7f8f9;
+        z-index: 1111;
+    }
+    .list-table-col:first-child:before {
+        content: '';
+        right: 100%;
+        position: absolute;
+        display: block;
+        background: #f7f8f9;
+        top: 0;
+        bottom: 0;
+        width: 1000%;
+        z-index: 30;
+    }
+    .list-table-col:last-child {
+        width: 175px;
+        position: relative;
+    }
+    .list-table-col:last-child:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -3px;
+        width: 3px;
+        display: block;
+        z-index: 111;
+        -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.75);
+        -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.75);
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.75);
+
+        transition: box-shadow .3s;
+    }
+    .list-table-col.start-swiped:last-child:before {
+        -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0.75);
+        -moz-box-shadow: 0 0 0 0 rgba(0,0,0,0.75);
+        box-shadow: 0 0 0 0 rgba(0,0,0,0.75);
+    }
+    .list-table-search {
+        height: 30px;
+        z-index: 1;
+    }
+    .list-table-search input {
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .list-table-item {
+        height: 35px;
+        margin-bottom: 15px;
+        line-height: 1.2;
+        position: relative;
+    }
+    .list-table-item img {
+        width: 30px;
+    }
+    .list-table-fullname {
+        display: inline-block;
+        width: 90px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: absolute;
+        top: 20px;
+        left: 35px;
+        font-size: 10px;
+    }
+    .list-table-abbname {
+        position: absolute;
+        top: 0;
+        left: 35px;
+        font-size: 18px;
+    }
+    .list-table-abbname:before {
+        content: none;
+    }
+    .list-table-abbname:after {
+        content: none;
+    }
+    .list-table-caption {
+        height: 30px;
+        line-height: 30px;
+        width: 500px;
+    }
+    .list-table-th {
+        font-size: 12px;
+        width: 100px;
+    }
+    .list-table-items {
+        width: 500px;
+    }
+    .list-table-items-col {
+        font-size: 12px;
+        line-height: 35px;
+        margin-bottom: 15px;
+        width: 100px;
+    }
+}

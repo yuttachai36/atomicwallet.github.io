@@ -177,6 +177,16 @@
 	font-size: 16px;
 	color: #182848;
 }
+
+.sale-small {
+	font-size: 12px;
+	line-height: 15px;
+	color: #182848;
+	margin-top: 55px;
+	margin-left: 250px;
+}
+
+
 .sale-text p + p {
 	margin-top: 1em;
 }

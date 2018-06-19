@@ -87,8 +87,111 @@ class Download {
         this.modalObj.classList.add('modal-step-' + step);
     }
 }
-new Download();
 /* /download */
+
+/* table-list */
+class TableList {
+    constructor() {
+        this.obj = $('#list-table');
+
+        if(this.obj.length > 0) {
+            this.itemsCol1Obj = this.obj.find('#list-table-items-1');
+            this.itemsCol2Obj = this.obj.find('#list-table-items-2');
+            this.preloader = this.obj.find('#list-table-preloader');
+            this.searchObj = this.obj.find('#list-table-search');
+            this.searchText = '';
+
+            this.init();
+        }
+    }
+
+    init() {
+        $.getJSON( "token.json", data => {
+            this.items = data;
+
+            this.refresh();
+            this.binds();
+        });
+    }
+
+    refresh() {
+        this.itemsCol1Obj.html('');
+        this.itemsCol2Obj.html('');
+
+        for(let i in this.items) {
+            let item = this.items[i];
+
+            if(
+                item.fullName.toLowerCase().includes(this.searchText.toLowerCase().trim())
+                || item.name.toLowerCase().includes(this.searchText.toLowerCase().trim())
+                || this.searchText === ''
+            ) this.addItem(item);
+        }
+
+        this.preloader.remove();
+    }
+
+    addItem(item) {
+        this.itemsCol1Obj.append(`
+            <div class="list-table-item" title="${item.fullName} (${item.name})">
+                <img src="css/images/crypto-icon/${item.iconName}">
+                <span class="list-table-fullname">${item.fullName}</span> <span class="list-table-abbname">${item.name}</span>
+            </div>
+        `);
+
+        this.itemsCol2Obj.append(`
+            <div class="list-table-row cfx">
+                <div class="list-table-items-col"><span class="${item.status.send.class}">${item.status.send.text}</span></div>
+                <div class="list-table-items-col"><span class="${item.status.recieve.class}">${item.status.recieve.text}</span></div>
+                <div class="list-table-items-col"><span class="${item.status.changelly.class}">${item.status.changelly.text}</span></div>
+                <div class="list-table-items-col"><span class="${item.status.shapeShift.class}">${item.status.shapeShift.text}</span></div>
+                <div class="list-table-items-col"><span class="${item.status.atomicSwap.class}">${item.status.atomicSwap.text}</span></div>
+            </div>
+        `);
+    }
+
+    binds() {
+        this.searchObj.on('input', () => {
+            this.searchText = this.searchObj.val();
+            this.refresh();
+        });
+
+        let width = this.obj.find('#list-table-width').width(),
+            swipedEl = this.obj.find('#list-table-swiped'),
+            fullWidth = swipedEl.find('#list-table-items-2').width(),
+            maxMargin = fullWidth - width,
+            startMargin = 0;
+
+        this.obj.swipe({
+            swipeStatus: (event, phase, direction, distance) => {
+                if($(window).width() <= 830) {
+                    if (phase === 'start') {
+                        startMargin = ~~(swipedEl.css('margin-left').replace('px', ''));
+                    }
+
+                    distance *= direction === 'left' ? -1 : 1;
+                    distance += startMargin;
+
+                    if (distance > 0) {
+                        distance = 0;
+                    } else if (distance < -maxMargin) {
+                        distance = -maxMargin;
+                    }
+
+                    if(distance == 0) {
+                        this.obj.find('#list-table-width').addClass('start-swiped');
+                    } else {
+                        this.obj.find('#list-table-width').removeClass('start-swiped');
+                    }
+
+                    swipedEl.css('margin-left', distance + 'px');
+                }
+            },
+            allowPageScroll: 'vertical'
+        });
+    }
+}
+/* /table-list */
 
 document.addEventListener('DOMContentLoaded', _ => {
     /* list */
@@ -209,6 +312,9 @@ class Page {
         $(document).ready(_=> {
             this.scrollList();
             this.swipe();
+
+            new Download();
+            new TableList();
         });
     }
 
@@ -233,8 +339,10 @@ class Page {
             }
         };
 
-        window.onscroll = functionOnScroll;
-        functionOnScroll();
+        if($('#list').length > 0) {
+            window.onscroll = functionOnScroll;
+            functionOnScroll();
+        }
     }
 
     swipe() {

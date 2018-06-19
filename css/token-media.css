@@ -63,7 +63,7 @@
     }
     .sale-col:last-child {
         padding-left: 0;
-        margin-top: 25px;
+        margin-top: 105px;
     }
     .sale-table .button {
         width: 100%;
@@ -79,6 +79,17 @@
         font-size: 11px;
         margin-bottom: 25px;
     }
+
+.sale-small {
+    font-size: 12px;
+    line-height: 15px;
+    color: #182848;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+
+
     /* /sale */
     /* video */
     .video-title {
