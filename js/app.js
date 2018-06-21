@@ -162,7 +162,7 @@ class TableList {
             maxMargin = fullWidth - width,
             startMargin = 0;
 
-        this.obj.swipe({
+        this.obj.find('#list-table-swiped-zone').swipe({
             swipeStatus: (event, phase, direction, distance) => {
                 if($(window).width() <= 830) {
                     if (phase === 'start') {
@@ -193,7 +193,7 @@ class TableList {
 }
 /* /table-list */
 
-document.addEventListener('DOMContentLoaded', _ => {
+document.addEventListener('DOMContentLoaded', () => {
     /* list */
     let listHide = true,
         $listAll = qs('#list-all'),
