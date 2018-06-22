@@ -12,6 +12,9 @@
         margin-top: 30px;
         overflow: hidden;
     }
+    .list-table-swiped-zone {
+        top: 30px;
+    }
     .list-table .container {
         position: relative;
         padding-left: 125px;

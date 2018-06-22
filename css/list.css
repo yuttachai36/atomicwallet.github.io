@@ -38,6 +38,15 @@ html{
 }
 .list-table {
     margin-bottom: 100px;
+    position: relative;
+}
+.list-table-swiped-zone {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 1111;
 }
 .list-table .container {
     max-width: 1190px;
