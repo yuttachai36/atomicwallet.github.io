@@ -28,6 +28,18 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-114023091-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+    
     <!-- Start of Async Prefinery Code -->
     <script type="text/javascript">var _pfy = _pfy || [];(function(){function pfy_load(){var pfys=document.createElement('script');pfys.type='text/javascript';pfys.async=true;pfys.src='https://widget.prefinery.com/widget/v2/1w40x3e4.js';var pfy=document.getElementsByTagName('script')[0];pfy.parentNode.insertBefore(pfys,pfy);}if (window.attachEvent){window.attachEvent('onload',pfy_load);}else{window.addEventListener('load',pfy_load,false);}})();</script>
     <!-- End of Async Prefinery Code -->
@@ -101,57 +113,107 @@
 
 <section class="container download-container relative">
 
-    <h2 class="download-title f-bold mobile-hide" id="download"><br><br>Download Atomic Wallet</h2>
+    <h2 class="download-title f-bold mobile-hide" id="download"><br><br><a name="download">Download Atomic Wallet</a></h2>
         <br><h3 class="download-text f-light"> Atomic Wallet is available for all major Operating Systems.<br> <a href="#contacts" class="sign-up-download-link">Subscribe</a> for our updates to know first about updates and new releases.<br><br></h3>        
     <div class="download">
         <div class="download-item download-item-windows" data-download="windows">
             <a href="https://download.atomicwallet.io/atomicwallet.exe"><img src="css/images/logo-windows.svg" alt class="download-item-img-color"></a>
             <img src="css/images/logo-windows-color.svg" alt class="download-item-img">
             <span class="download-name">
-                <a href="https://download.atomicwallet.io/atomicwallet.exe" class="button download-button">Windows</a>
+                <a href="https://download.atomicwallet.io/atomicwallet.exe" class="button download-button" ga('send', {
+  hitType: 'event',
+  eventCategory: 'Download',
+  eventAction: 'Download',
+  eventLabel: 'Windows'
+});>Windows</a>
             </span>
             <span class="download-button-label">
-                <a href="https://download.atomicwallet.io/atomicwallet.exe" class="button download-button">Download</a>
+                <a href="https://download.atomicwallet.io/atomicwallet.exe" class="button download-button" ga('send', {
+  hitType: 'event',
+  eventCategory: 'Download',
+  eventAction: 'Download',
+  eventLabel: 'Windows'
+});>Download</a>
             </span>
         </div>
         <div class="download-item download-item-apple" data-download="apple">
             <a href="https://download.atomicwallet.io/atomicwallet.dmg"><img src="css/images/logo-apple.svg" alt class="download-item-img"></a>
             <img src="css/images/logo-apple-color.svg" alt class="download-item-img-color">
             <span class="download-name">
-                <a href="https://download.atomicwallet.io/atomicwallet.dmg" class="button download-button">macOS</a>
+                <a href="https://download.atomicwallet.io/atomicwallet.dmg" class="button download-button" ga('send', {
+  hitType: 'event',
+  eventCategory: 'Download',
+  eventAction: 'Download',
+  eventLabel: 'MacOs'
+});>macOS</a>
             </span>
             <span class="download-button-label">
-                <a href="https://download.atomicwallet.io/atomicwallet.dmg" class="button download-button">Download</a>
+                <a href="https://download.atomicwallet.io/atomicwallet.dmg" class="button download-button" ga('send', {
+  hitType: 'event',
+  eventCategory: 'Download',
+  eventAction: 'Download',
+  eventLabel: 'MacOs'
+});>Download</a>
             </span>
         </div>
         <div class="download-item download-item-ubuntu" data-download="ubuntu">
             <a href="https://download.atomicwallet.io/atomicwallet.AppImage" ><img src="css/images/logo-ubuntu.svg" alt class="download-item-img"></a>
             <img src="css/images/logo-ubuntu-color.svg" alt class="download-item-img-color">
             <span class="download-name">
-                <a href="https://download.atomicwallet.io/atomicwallet.AppImage" class="button download-button">Ubuntu</a>
+                <a href="https://download.atomicwallet.io/atomicwallet.AppImage" class="button download-button" ga('send', {
+  hitType: 'event',
+  eventCategory: 'Download',
+  eventAction: 'Download',
+  eventLabel: 'Ubuntu'
+});>Ubuntu</a>
             </span>
             <span class="download-button-label">
-                <a href="https://download.atomicwallet.io/atomicwallet.AppImage" class="button download-button">Download</a>
+                <a href="https://download.atomicwallet.io/atomicwallet.AppImage" class="button download-button" ga('send', {
+  hitType: 'event',
+  eventCategory: 'Download',
+  eventAction: 'Download',
+  eventLabel: 'Ubuntu'
+});>Download</a>
             </span>
         </div>
         <div class="download-item download-item-debian" data-download="debian">
              <a href="https://download.atomicwallet.io/atomicwallet.deb"><img src="css/images/logo-debian.svg" alt class="download-item-img"></a>
             <img src="css/images/logo-debian-color.svg" alt class="download-item-img-color">
             <span class="download-name">
-                 <a href="https://download.atomicwallet.io/atomicwallet.deb" class="button download-button">Debian</a>
+                 <a href="https://download.atomicwallet.io/atomicwallet.deb" class="button download-button" ga('send', {
+  hitType: 'event',
+  eventCategory: 'Download',
+  eventAction: 'Download',
+  eventLabel: 'Debian'
+});>Debian</a>
             </span>
             <span class="download-button-label">
-                <a href="https://download.atomicwallet.io/atomicwallet.deb" class="button download-button">Download</a>
+                <a href="https://download.atomicwallet.io/atomicwallet.deb" class="button download-button" ga('send', {
+  hitType: 'event',
+  eventCategory: 'Download',
+  eventAction: 'Download',
+  eventLabel: 'Debian'
+});>Download</a>
             </span>
         </div>
         <div class="download-item download-item-fedora" data-download="fedora">
             <a href="https://download.atomicwallet.io/atomicwallet.rpm"><img src="css/images/logo-fedora.svg" alt class="download-item-img"></a>
             <img src="css/images/logo-fedora-color.svg" alt class="download-item-img-color">
             <span class="download-name">
-                 <a href="https://download.atomicwallet.io/atomicwallet.rpm" class="button download-button">Fedora</a>         
+                 <a href="https://download.atomicwallet.io/atomicwallet.rpm" class="button download-button" ga('send', {
+  hitType: 'event',
+  eventCategory: 'Download',
+  eventAction: 'Download',
+  eventLabel: 'Fedora'
+});>Fedora</a>         
             </span>
             <span class="download-button-label">
-                <a href="https://download.atomicwallet.io/atomicwallet.rpm" class="button download-button">Download</a>
+                <a href="https://download.atomicwallet.io/atomicwallet.rpm" class="button download-button" ga('send', {
+  hitType: 'event',
+  eventCategory: 'Download',
+  eventAction: 'Download',
+  eventLabel: 'Fedora'
+});>Download</a>
             </span>
         </div>
     </div>
