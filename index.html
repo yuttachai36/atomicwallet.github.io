@@ -8,6 +8,7 @@
     <meta name="description" content="Light multi-assets wallet with built-in atomic swap exchange">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/aos.css">
     
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -57,6 +58,10 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBC3CH8"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+    <script src="js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 <div class="header-menu-mobile header-menu-close f-light only-mobile" id="menu-mobile">
     <div class="container relative">
@@ -77,28 +82,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img src="css/images/logo.svg" alt="Atomic">
         </a>
         <nav class="header-menu f-light">
-            <a href="index.html" class="header-menu-here">Product</a>
-            <a href="token.html">Token</a>
-            <a href="list.html">Assets</a>
-            <a href="https://download.atomicwallet.io/atomicwallet-whitepaper.pdf" target="_blank">White Paper</a>
-            <a href="https://atomicwallet.freshdesk.com/support/home" target="_blank">Support</a>
-            <a href="https://medium.com/@atomicwallet">Blog</a>
+            <a href="index.html" class="header-menu-here hvr-grow">Product</a>
+            <a href="token.html hvr-grow">Token</a>
+            <a href="list.html hvr-grow">Assets</a>
+            <a href="https://download.atomicwallet.io/atomicwallet-whitepaper.pdf" target="_blank" class="hvr-grow">White Paper</a>
+            <a href="https://atomicwallet.freshdesk.com/support/home" target="_blank" class="hvr-grow">Support</a>
+            <a href="https://medium.com/@atomicwallet" class="hvr-grow">Blog</a>
         </nav>
         <nav class="header-menu-icons  f-light">
 
-            <a href="https://twitter.com/atomicwallet" target="_blank">
+            <a href="https://twitter.com/atomicwallet" target="_blank" class="hvr-float">
                 <img src="css/images/top_twitter.svg">
             </a>
-            <a href="https://t.me/atomicwalletchat" target="_blank">
+            <a href="https://t.me/atomicwalletchat" target="_blank" class="hvr-float">
                 <img src="css/images/top_telegram.svg">
             </a>
-            <a href="https://github.com/Atomicwallet" target="_blank">
+            <a href="https://github.com/Atomicwallet" target="_blank" class="hvr-float">
                 <img src="css/images/top_github.svg">
             </a>
-            <a href="https://medium.com/@atomicwallet" target="_blank">
+            <a href="https://medium.com/@atomicwallet" target="_blank" class="hvr-float">
                 <img src="css/images/top_medium.svg">
             </a>
-            <a href="https://www.reddit.com/user/atomicwallet/" target="_blank">
+            <a href="https://www.reddit.com/user/atomicwallet/" target="_blank" class="hvr-float">
                 <img src="css/images/top_reddit.svg">
             </a>
         </nav>
@@ -123,6 +128,59 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <img src="css/images/mainnotebook.png" alt class="main-notebook">
     </div>
 </main>
+    <section class="subscribe-top" id="contacts" data-aos="fade-right">
+    <div class="container relative">
+        <h2 class="subscribe-title-top f-medium">Follow our updates:</h2>
+        <div class="subscribe-form-top relative">
+          
+            <div id="mc_embed_signup">
+                <form action="https://atomicwallet.us17.list-manage.com/subscribe/post?u=eda340fda6aada83e1972c018&amp;id=cb1aae9fc4"
+                      method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                      class="validate"
+                      target="_blank" novalidate="">
+                    <div id="mc_embed_signup_scroll">
+                        <div class="mc-field-group-top">
+                            <label for="mce-EMAIL">Email Address </label>
+                            <div data-v-540f25cc="" data-v-74687b68="" class="form-field mw250">
+                                <div data-v-540f25cc="" class="input">
+                                    <input data-v-540f25cc type="email" value="" name="EMAIL" class="input"
+                                           id="mce-EMAIL" placeholder="Email">
+
+                                </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                               
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input
+                                        type="text"
+                                        name="b_eda340fda6aada83e1972c018_cb1aae9fc4"
+                                        tabindex="-1"
+                                        value="">
+                                </div>
+                                <div class="clear">
+                                    <button data-v-74687b68="" class="hvr-grow">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script type="text/javascript"
+            src="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+            <script type="text/javascript">(function ($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            }(jQuery));
+            var $mcj = jQuery.noConflict(true);</script>
+          
+        </div>
+    </div>
+</section>
 
 <section class="container download-container relative">
     <!-- Subscribe Pop-up-->
@@ -134,7 +192,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h2 class="download-title f-bold mobile-hide" id="download"><br><br><a name="download">Download Atomic Wallet</a></h2>
         <br><h3 class="download-text f-light"> Atomic Wallet is available for all major Operating Systems.<br> <a href="#contacts" class="sign-up-download-link">Subscribe</a> for our updates to know first about updates and new releases.<br><br></h3>        
     <div class="download">
-        <div class="download-item download-item-windows" data-download="windows">
+        <div class="download-item download-item-windows hvr-grow" data-download="windows">
             <a href="https://download.atomicwallet.io/atomicwallet.exe" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-windows.svg" alt class="download-item-img-color"></a>
             <img src="css/images/logo-windows-color.svg" alt class="download-item-img">
             <span class="download-name">
@@ -154,7 +212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 });>Download</a>
             </span>
         </div>
-        <div class="download-item download-item-apple" data-download="apple">
+        <div class="download-item download-item-apple hvr-grow" data-download="apple">
             <a href="https://download.atomicwallet.io/atomicwallet.dmg" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-apple.svg" alt class="download-item-img-color"></a>
             <img src="css/images/logo-apple-color.svg" alt class="download-item-img">
             <span class="download-name">
@@ -174,7 +232,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 });>Download</a>
             </span>
         </div>
-        <div class="download-item download-item-ubuntu" data-download="ubuntu">
+        <div class="download-item download-item-ubuntu hvr-grow" data-download="ubuntu">
             <a href="https://download.atomicwallet.io/atomicwallet.AppImage" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-ubuntu.svg" alt class="download-item-img-color"></a>
             <img src="css/images/logo-ubuntu-color.svg" alt class="download-item-img">
             <span class="download-name">
@@ -194,7 +252,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 });>Download</a>
             </span>
         </div>
-        <div class="download-item download-item-debian" data-download="debian">
+        <div class="download-item download-item-debian hvr-grow" data-download="debian">
              <a href="https://download.atomicwallet.io/atomicwallet.deb" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-debian.svg" alt class="download-item-img-color"></a>
             <img src="css/images/logo-debian-color.svg" alt class="download-item-img">
             <span class="download-name">
@@ -214,7 +272,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 });>Download</a>
             </span>
         </div>
-        <div class="download-item download-item-fedora" data-download="fedora">
+        <div class="download-item download-item-fedora hvr-grow" data-download="fedora">
             <a href="https://download.atomicwallet.io/atomicwallet.rpm" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-fedora.svg" alt class="download-item-img-color"></a>
             <img src="css/images/logo-fedora-color.svg" alt class="download-item-img">
             <span class="download-name">
@@ -251,11 +309,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <img src="css/images/bg-features-1.svg" alt class="bg bg-features-1">
         <img src="css/images/bg-features-2.svg" alt class="bg bg-features-2">
         <img src="css/images/bg-features-3.svg" alt class="bg bg-features-3">
-        <img src="css/images/features-1.png" alt class="bg bg-features-1-1 mobile-hide">
-        <img src="css/images/features-2.png" alt class="bg bg-features-2-1 mobile-hide">
-        <img src="css/images/features-3.png" alt class="bg bg-features-3-1 mobile-hide">
-        <h2 class="features-title f-bold">Features</h2>
-        <p class="download-text mobile-hide f-light"><strong>Atomic Wallet</strong> provides a powerful, in-demand service<br> that allows users to reduce effort spent on managing crypto assets​ and <br>makes it transparent and reliable <br><br><br>
+        <img src="css/images/features-1.png" data-aos="zoom-in" data-aos-duration="800" alt class="bg bg-features-1-1 mobile-hide">
+        <img src="css/images/features-2.png" data-aos="zoom-in" data-aos-duration="800" alt class="bg bg-features-2-1 mobile-hide">
+        <img src="css/images/features-3.png" data-aos="zoom-in" data-aos-duration="800" alt class="bg bg-features-3-1 mobile-hide">
+        <h2 class="features-title f-bold" data-aos="fade-right" data-aos-duration="800" data-aos-duration="800">Features</h2>
+        <p class="download-text mobile-hide f-light" data-aos="fade-right" data-aos-duration="800"><strong>Atomic Wallet</strong> provides a powerful, in-demand service<br> that allows users to reduce effort spent on managing crypto assets​ and <br>makes it transparent and reliable <br><br><br>
         <img  class="mobile-hide" width="95%" style="margin-bottom: 100px" src="css/images/interfaces.png"><br>
         </p>
         <p>&nbsp;</p>
@@ -265,8 +323,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div>
             <div class="features-item">
                 <div class="icon icon-light icon-exchange"></div>
-                <div class="features-item-title f-medium">Exchange</div>
-                <div class="features-text f-light"> 
+                <div class="features-item-title f-medium" data-aos="fade-up-right" data-aos-duration="800">Exchange</div>
+                <div class="features-text f-light" data-aos="fade-right" data-aos-duration="800"> 
                     Use decentralized Atomic Swap Exchange to proceed with cross-chain swaps avoiding third party risks.<br>
                     <span class="mobile-hide">Instant limitless exchange service provided by Changelly. <br>Fixed rate exchange provided by ShapeShift.</span>
 
@@ -282,14 +340,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="features-item features-item-right">
                 <div class="icon icon-light icon-secure"></div>
-                <div class="features-item-title f-medium">Secure</div>
-                <div class="features-text f-light">Strong encryption and custody-free solution <br>guarantees our clients the highest level of security. <br>We never transmit keys from the device. <br>Your funds are controlled only by you. <br><br><a href="https://en.bitcoin.it/wiki/Private_key" target=_blank>Know more</a> about Private Keys.
+                <div class="features-item-title f-medium" data-aos="fade-up-left" data-aos-duration="800">Secure</div>
+                <div class="features-text f-light" data-aos="fade-right" data-aos-duration="800">Strong encryption and custody-free solution <br>guarantees our clients the highest level of security. <br>We never transmit keys from the device. <br>Your funds are controlled only by you. <br><br><a href="https://en.bitcoin.it/wiki/Private_key" target=_blank>Know more</a> about Private Keys.
                 </div>
             </div>
             <div class="features-item features-item-left">
                 <div class="icon icon-light icon-migration"></div>
-                <div class="features-item-title f-medium">Multi-currency</div>
-                <div class="features-text f-light">Atomic Wallet currently supports 300+<br> coins and tokens. It's the most convenient way to handle all your crypto assets. The list is updated on a daily basis and we keep hunting for more!</div>
+                <div class="features-item-title f-medium" data-aos="fade-up-right" data-aos-duration="800">Multi-currency</div>
+                <div class="features-text f-light" data-aos="fade-right" data-aos-duration="800">Atomic Wallet currently supports 300+<br> coins and tokens. It's the most convenient way to handle all your crypto assets. The list is updated on a daily basis and we keep hunting for more!</div>
             </div>
         </div>
     </div>
@@ -302,84 +360,84 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <br><br>Atomic Wallet is designed as multicurrency light wallet. <br>We will support all major currencies but if you want to speed<br> this process up the payments in AWC accepted to cut the line. 
             </p>
         <div class="list-items f-medium">
-            <div class="list-item">
+            <div class="list-item hvr-float">
                 <img src="css/images/crypto/BTC.svg" alt>
                 <span class="list-item-name">Bitcoin</span>
             </div>
-            <div class="list-item">
+            <div class="list-item hvr-float">
                 <img src="css/images/crypto/ETH.svg" alt>
                 <span class="list-item-name">Ethereum</span>
             </div>
-             <div class="list-item">
+             <div class="list-item hvr-float">
                     <img src="css/images/crypto/LTC.svg" alt>
                     <span class="list-item-name">Litecoin</span>
                 </div>
-            <div class="list-item">
+            <div class="list-item hvr-float">
                     <img src="css/images/crypto/XRP.svg" alt>
                     <span class="list-item-name">Ripple</span>
                 </div>         
 
-            <div class="list-item">
+            <div class="list-item hvr-float">
                 <img src="css/images/crypto-icon/QTUM.svg" alt>
                 <span class="list-item-name">QTUM</span>
            
              </div>
 
-             <div class="list-item">
+             <div class="list-item hvr-float">
                  <img src="css/images/crypto/AWC.svg" alt>
                  <span class="list-item-name">AWC</span>
             </div>
-            <div class="list-item">
+            <div class="list-item hvr-float">
                 <img src="css/images/crypto/ERC20.svg" alt>
                 <span class="list-item-name">300+ ERC20 tokens</span>
             </div>
 
-            <div class="list-item">
+            <div class="list-item hvr-float">
                     <img src="css/images/crypto-icon/EOS.svg" alt>
                     <span class="list-item-name">EOS</span>
             </div>
-            <div class="list-item">
+            <div class="list-item hvr-float">
                 <img src="css/images/crypto-icon/BNB.svg" alt>
                 <span class="list-item-name">Binance</span>
              </div>
-            <div class="list-item">
+            <div class="list-item hvr-float">
                 <img src="css/images/crypto-icon/REP.svg" alt>
                 <span class="list-item-name">Augur</span>
              </div>
-            <div class="list-item">
+            <div class="list-item hvr-float">
                 <img src="css/images/crypto-icon/AE.svg" alt>
                 <span class="list-item-name">Aeternity</span>
            
              </div>
-            <div class="list-item">
+            <div class="list-item hvr-float">
                 <img src="css/images/crypto-icon/OMG.svg" alt>
                 <span class="list-item-name">OmiseGO</span>
            
              </div>
-            <div class="list-item">
+            <div class="list-item hvr-float">
                 <img src="css/images/crypto-icon/GNT.svg" alt>
                 <span class="list-item-name">Golem</span>
            
              </div>
-             <div class="list-item">
+             <div class="list-item hvr-float">
                 <img src="css/images/crypto/TRX.svg" alt>
                 <span class="list-item-name">Tron</span>
             </div>             
                 
-                <div class="list-item">
+                <div class="list-item hvr-float">
                     <img src="css/images/crypto/BCH.svg" alt>
                     <span class="list-item-name">Bitcoin Cash</span>
                 </div>
-                <div class="list-item list-item-coming-soon">
+                <div class="list-item list-item-coming-soon hvr-float">
                     <img src="css/images/crypto/DCR.svg" alt>
                     <span class="list-item-name">Decred</span>
                 </div>
           
-                <div class="list-item">
+                <div class="list-item hvr-float">
                     <img src="css/images/crypto/ZEC.svg" alt>
                     <span class="list-item-name">Zcash</span>
                 </div>
-                <div class="list-item">
+                <div class="list-item hvr-float">
                     <img src="css/images/crypto/DASH.svg" alt>
                     <span class="list-item-name">DASH</span>
                 </div>
@@ -388,11 +446,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <img src="css/images/crypto/XMR.svg" alt>
                     <span class="list-item-name">Monero</span>
                 </div>
-                <div class="list-item">
+                <div class="list-item hvr-float">
                     <img src="css/images/crypto/DGB.svg" alt>
                     <span class="list-item-name">DigiByte</span>
                 </div>
-                <div class="list-item">
+                <div class="list-item hvr-float">
                     <img src="css/images/crypto-icon/XLM.svg" alt>
                     <span class="list-item-name">Stellar</span>
                 </div>
@@ -419,19 +477,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container relative">
             <div class="comments-slider relative" data-slider-container>
                 <div class="comments-slider-list" data-slider-list>
-                    <div class="comments-item">
+                    <div class="comments-item hvr-grow">
                         <img src="css/images/monogram.svg" alt class="comments-image">
                         <a href="https://medium.com/@atomicwallet/first-successful-qtum-btc-atomic-swap-fa58794bf15a" target="_blank" class="comments-text">Today our research team made a successful Testnet QTUM-BTC atomic swap. Get prepared to atomic swaps live in Atomic Wallet, we are adding first pairs ASAP.</a>
                     </div>
-                    <div class="comments-item">
+                    <div class="comments-item hvr-grow">
                         <img src="css/images/twitter.svg" alt class="comments-image">
                         <a href="https://twitter.com/atomicwallet/status/976902818979307525" target="_blank" class="comments-text">#AtomicSwap is a trade between two users only so these attacks will be avoided! #Lightning #LN #DDOS #BTC #LTC</a>
                     </div>
-                    <div class="comments-item">
+                    <div class="comments-item hvr-grow">
                         <img src="css/images/github.svg" alt class="comments-image">
                         <a href="https://medium.com/@atomicwallet/atomic-swap-process-on-atomic-wallet-5d2c9a0c3a13" target="_blank" class="comments-text">Atomicwallet - <span class="nowrap">Multi-assets</span> wallet with built-in atomic swap exchange. In the article we describe how the magic happens. No third party it's a private party!</a>
                     </div>
-                    <div class="comments-item">
+                    <div class="comments-item hvr-grow">
                         <img src="css/images/twitter.svg" alt class="comments-image">
                         <a href="https://twitter.com/atomicwallet/status/964207905686749184" target="_blank" class="comments-text">Successful Mainnet @decredproject - @litecoin Atomic Swap has been processed.</a>
                     </div>
@@ -472,7 +530,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         value="">
                                 </div>
                                 <div class="clear">
-                                    <button data-v-74687b68="">Subscribe for updates</button>
+                                    <button data-v-74687b68="" class="hvr-grow">Subscribe for updates</button>
                                 </div>
                             </div>
                         </div>
@@ -509,8 +567,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="comments-slider-list" data-slider-list>
 
                     <div class="comments-item">
-                        <div class="team-author">
-                            <img src="css/images/team-2.jpg" class="team-author-avatar" alt>
+                        <div class="team-author hvr-grow">
+                            <a href="https://twitter.com/gladkos">
+                                <img src="css/images/team-2.jpg" class="team-author-avatar" alt></a>
                             <div class="team-author-name f-medium">Konstantin Gladych</div>
                         </div>
                         <div class="team-text f-light">Konstantin Gladych​, CBDO, PhD in data science with 3 years solid experience in blockchain and cryptocurrencies, 10 years in IT. Konstantin is well-known as the co-founder and CEO of Changelly.com, biggest cryptocurrency instant exchange with over 2 millions active customers monthly and $0.5bln in monthly turnover. Konstantins interests are: decentralization, custody-free solutions, p2p exchangers.</div>
@@ -521,24 +580,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </div>
                     <div class="comments-item">
-                        <div class="team-author">
-                            <img src="css/images/team-3.jpg" class="team-author-avatar" alt>
+                        <div class="team-author hvr-grow">
+                            <a href="https://twitter.com/CharlieShrem"><img src="css/images/team-3.jpg" class="team-author-avatar" alt></a>
                             <div class="team-author-name f-medium">Charlie Shrem</div>
                         </div>
                         <div class="team-text f-light">Charlie Shrem​, Strategic Advisor and Visionary, is an American entrepreneur and bitcoin advocate. In 2011 he co-founded the now-defunct startup company BitInstant, and is a founding member of the Bitcoin Foundation, formerly serving as vice chairman. The Bitcoin Foundation is a nonprofit founded in 2012 with the mission to "standardize, protect and promote the use of bitcoin cryptographic money for the benefit of users worldwide".</div>
-                        <div class="team-social">
-
-                            <a href="https://twitter.com/CharlieShrem" target="_blank"><img src="css/images/icons/team-soc-twitter.svg" alt></a> 
-                            <a href="https://en.wikipedia.org/wiki/Charlie_Shrem" target="_blank"><img src="css/images/icons/team-soc-wiki.svg" alt></a> 
-
-                         
+                        <div class="team-social hvr-grow">
+                            <a href="https://twitter.com/gladkos" target="_blank"><img src="css/images/icons/team-soc-twitter.svg" alt></a>
+                            <a href="https://linkedin.com/in/gladkos/" target="_blank"><img src="css/images/icons/team-soc-in.svg" alt></a>
+                        
                         </div>
                         
                         
                          </div>
                     <div class="comments-item">
-                        <div class="team-author">
-                            <img src="css/images/SimonDixon.png" class="team-author-avatar" alt>
+                        <div class="team-author hvr-grow">
+                            <a href="https://twitter.com/simondixontwitt"><img src="css/images/SimonDixon.png" class="team-author-avatar" alt></a>
                             <div class="team-author-name f-medium">Simon Dixon </div>
                         </div>
                         <div class="team-text f-light">Simon Dixon, Advisor, CEO of online investment platform BnkToTheFuture.com who have invested over US$400m in FinTech companies, like BitFinex, Bitstamp, Kraken, BitPay, ShapeShift, Exodus and over 40 others. Simon's BnkToTheFuture has 300 professional FinTech investors who all believe the future of finance looks very different from today. Their experience and background covers most areas in finance, technology and startups. </div>
@@ -550,8 +607,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>                         
 
                     <div class="comments-item">
-                        <div class="team-author">
-                            <img src="css/images/team-1.jpg" class="team-author-avatar" alt>
+                       <div class="team-author hvr-grow">
+                            <a href="https://www.linkedin.com/in/sokolovpaul/"><img src="css/images/team-1.jpg" class="team-author-avatar" alt></a>
                             <div class="team-author-name f-medium">Paul Sokolov</div>
                         </div>
                         <div class="team-text f-light">Paul Sokolov​, CEO, has three years experience in blockchain, 10 years in fintech, 2 years of which in CEO position at top-20 cryptocurrency exchange. Certified banking cards security and business expert. Launched over 6 successful projects within last five years. Paul’s interests are: cryptocurrency exchanges, wallets, smart contracts, financial inclusion.</div>
