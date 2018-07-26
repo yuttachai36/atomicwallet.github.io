@@ -423,6 +423,18 @@
         right: auto;
         margin-top: 20px;
     }
+        .mc-field-group-top input[type="email"] {
+        width: 70%;
+        padding-left: 110px;
+    }
+    .mc-field-group-top button,
+    .mc-field-group-top input[type="submit"] {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-top: 13px;
+    width: 265px;
+    }
     #mc_embed_signup div.mce_inline_error {
         width: 100% !important;
         margin-top: -98px !important;
@@ -564,4 +576,27 @@
     }
     /* /modal */
 
+    /* new footer */
+    .footer-new {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .footer-new-left {
+        min-width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .footer-row {
+        display: block;
+    }
+    .footer-new-cols {
+        display: block;
+    }
+    .footer-new-col {
+        padding-top: 20px;
+    }
+    .footer-new-email {
+        font-size: 20px;
+    }
+    /* /new footer */
 }
