@@ -202,7 +202,6 @@ img {
 	width:200px;
 	margin-right: 10px;
 }
-}
 .button.disabled {
 	color: #969696;
 	border: 1px solid #969696;
@@ -970,14 +969,12 @@ img {
 	padding-left: 5px;
 	margin-top: 10px;
 }
-
-}
 .subscribe-title-top {
-	line-height: 40px;
-	font-size: 24px;
-	color: #182848;
-	padding-left: 0px;
-	margin-top: 40px;
+	line-height: 20px;
+    font-size: 16px;
+    color: #182848;
+    padding-left: 5px;
+    margin-top: 10px;
 }
 /* form */
 .subscribe-form {
@@ -987,9 +984,10 @@ img {
 }
 .subscribe-form-top {
 	width: 375px;
-	height: 80px;
-	margin-top: 5px;
-	margin-left: 5px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: 5px;
+
 }
 .mc-field-group label {
 	display: none;
@@ -1055,7 +1053,6 @@ img {
     position: absolute;
     top: 0;
     right: 0;
-}
 }
 #mc_embed_signup div.mce_inline_error {
 	width: 341px !important;
@@ -1301,3 +1298,70 @@ hr {
 }
 
 
+.footer-new {
+	background: url(images/bg-footer-new.svg);
+	background-position: center;
+	background-size: cover;
+	padding-top: 90px;
+	padding-bottom: 125px;
+}
+.footer-row {
+	display: flex;
+	justify-content: space-between;
+}
+.footer-new-left {
+	min-width: 500px;
+}
+.footer-new-right {
+	width: 100%;
+	font-size: 14px;
+}
+.footer-new-logo {
+	margin-left: -20px;
+}
+.footer-new-email {
+	display: inline-block;
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+.footer-new-email:hover {
+	text-decoration: underline;
+}
+.footer-new-soc a {
+	display: inline-block;
+	margin-right: 10px;
+}
+.footer-new-soc img {
+	width: 34px;
+	display: inline-block;
+}
+.footer-new-cols {
+	display: flex;
+	justify-content: space-between;
+}
+.footer-new-col-title {
+	font-family: "Roboto Bold";
+	font-weight: bold;
+	line-height: normal;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+.footer-new-col {
+	padding-top: 50px;
+}
+.footer-new-col ul {
+	list-style: none;
+	padding: 0;
+}
+.footer-new-col li {
+	margin-bottom: 8px;
+}
+.footer-new-col a {
+	color: #C4C4C4;
+}
+.footer-new-col a:hover {
+	color: #ffffff;
+}
