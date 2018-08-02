@@ -20,6 +20,19 @@
     color: #182848;
     margin-bottom: 50px;
 }
+.item-page p {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Roboto";
+    max-width: 800px;
+    margin-left: 200px;
+}
+h2 {
+    margin-left:200px;
+}
+h3 {
+    margin-left: 200px;
+}
 .item-page-article {
     line-height: 33px;
     font-size: 24px;
@@ -97,14 +110,23 @@
     .item-page h1 {
         line-height: 50px;
         font-size: 38px;
+        margin-left: none;
     }
+
     .item-page-article {
         line-height: 1.5;
         font-size: 16px;
     }
-    .item-page-article p, .item-page-article .item-page-image-template, .item-page-article h2 {
+    .item-page-article p, .item-page-article .item-page-image-template, .item-page-article h2, .item-page-article h3 {
         margin-top: 15px;
         margin-bottom: 15px;
+        margin-left: 0;
+
+    }
+
+    .item-page-article p {
+        font-size: 15px;
+        max-width: 327px;
     }
     .item-page-download {
         margin-top: 35px;
