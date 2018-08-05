@@ -1,0 +1,18 @@
+<svg width="65" height="65" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>ETH</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(256 -161)">
+<g id="ETH">
+<g id="Fill 1">
+<use xlink:href="#path0_fill" transform="translate(-256 161)" fill="url(#paint0_linear)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 63.6864 -63.6864 0 32.5 0)">
+<stop offset="0" stop-color="#76D4FF"/>
+<stop offset="1" stop-color="#627EEA"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 32.4961 55.2236L 18.2947 35.5655L 32.4961 43.8064L 32.4961 43.8082L 46.7052 35.5655L 32.4961 55.2236ZM 32.4961 27.4961L 46.6957 33.8372L 32.4961 42.082L 18.2947 33.8372L 32.4961 27.4961ZM 32.4961 9.7767L 46.6957 32.9214L 32.4961 26.5766L 18.2947 32.9214L 32.4961 9.7767ZM 32.5 0C 14.5506 0 0 14.5508 0 32.5C 0 50.4492 14.5506 65 32.5 65C 50.4492 65 65 50.4492 65 32.5C 65 14.5508 50.4492 0 32.5 0Z"/>
+</defs>
+</svg>

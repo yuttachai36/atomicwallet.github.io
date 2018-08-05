@@ -1,0 +1,18 @@
+<svg width="65" height="65" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>DCR</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1339 1012)">
+<g id="DCR">
+<g id="Combined Shape">
+<use xlink:href="#path0_fill" transform="translate(1339 -1012)" fill="url(#paint0_linear)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 65 -65 0 32.5 0)">
+<stop offset="0" stop-color="#5BC7AF"/>
+<stop offset="1" stop-color="#2ED6A1"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 32.5 0C 14.5505 0 0 14.5508 0 32.5C 0 50.4495 14.5505 65 32.5 65C 50.4492 65 65 50.4495 65 32.5C 65 14.5508 50.4492 0 32.5 0ZM 30.9579 36.0261L 40.2443 36.0261C 41.9091 36.0211 43.5037 35.355 44.6774 34.1742C 45.851 32.9935 46.5076 31.3948 46.5026 29.73C 46.5118 26.264 43.7102 23.4464 40.2443 23.436L 37.2896 23.436L 30.9556 17.9111L 40.2443 17.9111C 45.879 17.9246 50.7141 21.9289 51.7773 27.4625C 52.8625 32.9978 49.8907 38.5298 44.6763 40.681L 52 47.0737L 43.6129 47.0737L 30.9579 36.0261ZM 26.1998 28.9651L 35.4885 28.9651L 22.8374 17.9111L 14.4503 17.9111L 21.7677 24.3081C 16.5532 26.4592 13.5814 31.9913 14.6667 37.5266C 15.7299 43.0602 20.5651 47.0645 26.1998 47.0779L 35.4863 47.0779L 29.1566 41.551L 26.1998 41.551C 22.7339 41.5405 19.9323 38.723 19.9415 35.257C 19.9333 31.7918 22.7346 28.9755 26.1998 28.9651Z"/>
+</defs>
+</svg>
