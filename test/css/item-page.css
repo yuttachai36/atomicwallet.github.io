@@ -1,0 +1,135 @@
+.item-page-container {
+    overflow: hidden;
+}
+.item-page {
+    max-width: 1208px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.item-page-image {
+    display: block;
+    width: 65px;
+    margin: 0 auto 15px auto;
+}
+.item-page h1 {
+    font-family: "Roboto Bold";
+    font-weight: bold;
+    line-height: 67px;
+    font-size: 48px;
+    text-align: center;
+    color: #182848;
+    margin-bottom: 50px;
+}
+.item-page p {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Roboto";
+    max-width: 800px;
+    margin-left: 200px;
+}
+h2 {
+    margin-left:200px;
+}
+h3 {
+    margin-left: 200px;
+}
+.item-page-article {
+    line-height: 33px;
+    font-size: 24px;
+    color: #182848;
+    position: relative;
+    z-index: 1;
+}
+.item-page-bg {
+    position: absolute;
+    z-index: -1;
+}
+.item-page-bg-1 {
+    top: 120px;
+    right: -400px;
+}
+.item-page-bg-2 {
+    top: 460px;
+    left: -390px;
+}
+.item-page-bg-3 {
+    bottom: -110px;
+    right: -380px;
+}
+.item-page-article a {
+    color: #182848;
+    text-decoration: underline;
+}
+.item-page-article a:hover {
+    text-decoration: none;
+}
+.item-page-image-template {
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item-page-image-template img {
+    width: 100%;
+    display: block;
+}
+.item-page-image-template-container {
+    position: relative;
+    display: inline-block;
+}
+.item-page-article p,
+.item-page-article .item-page-image-template,
+.item-page-article h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.item-page-article h2 {
+    padding-top: 10px;
+}
+.item-page-download {
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+.item-page-download-title {
+    font-family: "Roboto Bold";
+    font-weight: bold;
+    line-height: 67px;
+    font-size: 48px;
+    text-align: center;
+    color: #182848;
+    padding-bottom: 30px;
+}
+
+
+@media screen and (max-width: 830px) {
+    .item-page-download-title {
+        line-height: 47px;
+        font-size: 28px;
+    }
+    .item-page h1 {
+        line-height: 50px;
+        font-size: 38px;
+        margin-left: none;
+    }
+
+    .item-page-article {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+    .item-page-article p, .item-page-article .item-page-image-template, .item-page-article h2, .item-page-article h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0;
+
+    }
+
+    .item-page-article p {
+        font-size: 15px;
+        max-width: 327px;
+    }
+    .item-page-download {
+        margin-top: 35px;
+        margin-bottom: 80px;
+    }
+}
