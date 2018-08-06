@@ -726,7 +726,7 @@ img {
 	float: right;
 }
 .features-item:nth-child(2) {
-	margin-top: 310px;
+	margin-top: 496px;
 	width: 405px;
 }
 .features-item:nth-child(3) {
@@ -750,9 +750,11 @@ img {
 }
 
 .features_icons {
+	display: none;
 	width: 600px;
 	margin-top: 50px;
 	margin-left: -35px;
+	padding-bottom: 250px;
 }
 
 .features_icon {
