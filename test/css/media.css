@@ -193,6 +193,7 @@
     }
     .mobile_interface {
     position: relative;
+    left: auto;
     top: auto;
     right: auto;
     display: block;
