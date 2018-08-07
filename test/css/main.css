@@ -477,6 +477,16 @@ img {
 	width: 225px;
 	text-align: center;
 }
+.download-item-app {
+	position: relative;
+	display: inline-block;
+	justify-content: center;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
 .download-item-mobile {
 	display: flex;
     justify-content: center;
@@ -792,10 +802,10 @@ img {
  * partners
  */
 .partners {
-	margin-top: -30px;
+	margin-top: 30px;
 }
 .partners-list {
-	margin-top: 95px;
+	margin-top: 65px;
 	padding-bottom: 35px;
 	width: 921px;
 	float: right;
