@@ -718,6 +718,14 @@ img {
 	margin-bottom: 40px;
 	margin-top: 50px;
 }
+.features-title-app {
+	line-height: 67px;
+	font-size: 48px;
+	text-align: center;
+	color: #182848;
+	margin-bottom: 40px;
+	margin-top: 270px;
+}
 .features-subtitle {
 	font-weight: 300;
 	line-height: 67px;
