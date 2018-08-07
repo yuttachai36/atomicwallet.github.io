@@ -191,6 +191,14 @@
         width: 50%;
         height: 137px;
     }
+    .mobile_interface {
+    position: relative;
+    left: auto;
+    top: auto;
+    right: auto;
+    display: block;
+    width: 45%;
+    }
     .download-item:after {
         content: none;
     }
@@ -265,6 +273,13 @@
 
     }
     .features-title {
+    line-height: 67px;
+    font-size: 48px;
+    text-align: center;
+    color: #182848;
+    margin-top: 50px;
+    }
+        .features-title-app {
     line-height: 67px;
     font-size: 48px;
     text-align: center;
@@ -398,6 +413,7 @@
     .subscribe {
         margin-top: 40px;
     }
+
     .subscribe .container {
         padding-left: 0;
     }
@@ -405,11 +421,31 @@
         position: relative;
         margin-bottom: 20px;
     }
+    .subscribe-top {
+        margin-top: 40px;
+    }
+    
+    .subscribe-top .container {
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .subscribe-top .icon-mail {
+        position: relative;
+        margin-bottom: 20px;
+    }
     .subscribe-title {
         line-height: 25px;
         font-size: 12px;
     }
+    .subscribe-title-top {
+        line-height: 25px;
+        font-size: 12px;
+    }
     .subscribe-form {
+        width: 100%;
+        text-align: center;
+    }
+    .subscribe-form-top {
         width: 100%;
         text-align: center;
     }
@@ -423,22 +459,11 @@
         right: auto;
         margin-top: 20px;
     }
-        .mc-field-group-top input[type="email"] {
-        width: 70%;
-        padding-left: 110px;
-    }
-    .mc-field-group-top button,
-    .mc-field-group-top input[type="submit"] {
-    position: relative;
-    top: auto;
-    right: auto;
-    margin-top: 13px;
-    width: 265px;
-    }
     #mc_embed_signup div.mce_inline_error {
         width: 100% !important;
         margin-top: -98px !important;
     }
+
     /* /subscribe */
 
     /* footer */

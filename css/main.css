@@ -477,13 +477,33 @@ img {
 	width: 225px;
 	text-align: center;
 }
+.download-item-app {
+	position: relative;
+	display: inline-block;
+	justify-content: center;
+	width: 200px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.download-item-mobile {
+	display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 0 38px 50px rgba(34, 83, 139, 0.1);
+    border-radius: 16px;
+    height: 180px;
+    padding-top: 30px;
+
+}
 .download-item:after {
 	content: "";
 	display: block;
 	position: absolute;
 	top: 10px;
 	left: 0;
-	height: 100px;
+	height: 100px;	
 	width: 1px;
 	background-color: #CCCCCC;
 }
@@ -698,6 +718,14 @@ img {
 	margin-bottom: 40px;
 	margin-top: 50px;
 }
+.features-title-app {
+	line-height: 67px;
+	font-size: 48px;
+	text-align: center;
+	color: #182848;
+	margin-bottom: 40px;
+	margin-top: 100px;
+}
 .features-subtitle {
 	font-weight: 300;
 	line-height: 67px;
@@ -716,7 +744,7 @@ img {
 	float: right;
 }
 .features-item:nth-child(2) {
-	margin-top: 310px;
+	margin-top: 496px;
 	width: 405px;
 }
 .features-item:nth-child(3) {
@@ -740,9 +768,11 @@ img {
 }
 
 .features_icons {
+	display: none;
 	width: 600px;
 	margin-top: 50px;
 	margin-left: -35px;
+	padding-bottom: 250px;
 }
 
 .features_icon {
@@ -780,15 +810,14 @@ img {
  * partners
  */
 .partners {
-	margin-top: -30px;
+	margin-top: 30px;
 }
 .partners-list {
-	margin-top: 95px;
+	margin-top: 65px;
 	padding-bottom: 35px;
 	width: 921px;
 	float: right;
-	vertical-align: middle;
-	border-bottom: 1px solid #BCBABA;
+	
 }
 .partners-list a {
 	display: inline-block;
@@ -970,11 +999,11 @@ img {
 	margin-top: 10px;
 }
 .subscribe-title-top {
-	line-height: 20px;
-    font-size: 16px;
-    color: #182848;
-    padding-left: 5px;
-    margin-top: 10px;
+	line-height: 40px;
+	font-size: 24px;
+	color: #182848;
+	padding-left: 0px;
+	margin-top: 40px;
 }
 /* form */
 .subscribe-form {
@@ -984,10 +1013,9 @@ img {
 }
 .subscribe-form-top {
 	width: 375px;
-    height: 80px;
-    margin-top: 5px;
-    margin-left: 5px;
-
+	height: 80px;
+	margin-top: 5px;
+	margin-left: 5px;
 }
 .mc-field-group label {
 	display: none;
