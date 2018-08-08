@@ -313,6 +313,11 @@
     .partners {
         margin-top: 0;
     }
+    .partners_special {
+
+        width: 100%;
+        margin-left: -60px;
+    }
     .partners-list {
         margin-top: 45px;
         width: 100%;
