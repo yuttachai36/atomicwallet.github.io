@@ -187,6 +187,14 @@
     padding-bottom: 60px;
 
 }
+   .download-text-app {
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    color: #121010;
+    padding-bottom: 60px;
+
+}
     .download-item {
         width: 50%;
         height: 137px;
@@ -318,6 +326,11 @@
         width: 100%;
         padding-bottom: 0;
         border: none;
+    }
+    .partners_special {
+
+        width: 100%;
+        margin-left: -60px;
     }
     .partners-list a {
         width: 100%;

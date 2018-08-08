@@ -255,6 +255,11 @@ img {
 	position: absolute;
 	z-index: -1;
 }
+.bg-app{
+	position: absolute;
+	z-index: 1;
+}
+
 .bg-main {
 	top: -40px;
 	right: -60px;
@@ -292,7 +297,7 @@ img {
 
 .bg-comments {
 	right: -380px;
-	top: -60px;
+	top: -55px;
 }
 .bg-footer {
 	top: -70px;
@@ -448,6 +453,14 @@ img {
 	padding-bottom: 10px;
 }
 .download-text {
+	text-align: center;
+	line-height: 28px;
+	font-size: 20px;
+	color: #121010;
+	padding-bottom: 20px;
+
+}
+.download-text-app {
 	text-align: center;
 	line-height: 28px;
 	font-size: 20px;
@@ -818,6 +831,12 @@ img {
 	width: 921px;
 	float: right;
 	
+}
+.partners_special {
+
+	display: inline-block;
+	padding-bottom: 20px;
+	margin-left: 195px;
 }
 .partners-list a {
 	display: inline-block;
