@@ -322,6 +322,7 @@
 .token-col {
 	width: 520px;
 	float: left;
+	
 }
 .token-col:nth-child(2) {
 	float: right;
@@ -388,12 +389,16 @@
  */
 
 .map {
-	padding-bottom: 105px;
+	
+	padding-bottom: 50px;
+	
 }
 .map .container {
+
 	max-width: 575px;
 }
 .map-title {
+	padding-top: 70px;
 	font-size: 48px;
 	text-align: center;
 	color: #182848;
