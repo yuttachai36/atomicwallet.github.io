@@ -309,7 +309,8 @@
     }
     /* /features */
 
-    /* partners */
+   /* partners */
+    
     .partners {
         margin-top: 0;
     }
@@ -321,20 +322,22 @@
         padding-left: 0px
     }
     .partners_special {
+
         width: 100%;
         margin-left: 0px;
     }
     .partners-list a {
-        width: 100%;
+        width: 90%;
         
         padding-top: 20px
         vertical-align: middle;
         text-align: center;
         margin-bottom: 20px;
+        padding-left: 0px;
     }
     .partners-list img {
         display: inline-block;
-        max-width: 70%;
+        max-width: 60%;
         max-height: 140px;
         vertical-align: middle;
     }
@@ -342,6 +345,7 @@
         padding-left: 0;
     }
     /* /partners */
+
 
     /* comments */
     .comments-title {
@@ -464,6 +468,19 @@
         top: auto;
         right: auto;
         margin-top: 20px;
+    }
+    .mc-field-group-top button,
+    .mc-field-group-top input[type="submit"] {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-top: 20px;
+    width: 228px;
+    margin-left: 1px;
+    }
+    #mc_embed_signup div.mce_inline_error {
+        width: 100% !important;
+        margin-top: -98px !important;
     }
     #mc_embed_signup div.mce_inline_error {
         width: 100% !important;
