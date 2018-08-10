@@ -813,15 +813,20 @@ img {
 	margin-top: 30px;
 }
 .partners-list {
-    padding-bottom: 35px;
-	padding-left: 135px;
+ 
+	padding-bottom: 35px;
+    width: 1000px;
+    padding-left: 100px;
+    
 }
 
 .partners_special {
-	display: inline;
-	padding-bottom: 30px;
-	float: right
-	padding-top: 60px;
+
+	    display: inline;
+    padding-bottom: 30px;
+    float: right padding-top: 60px;
+    padding-left: 325px;
+
 }
 .partners_special a {
 	padding-left: 65px !important;
@@ -837,7 +842,6 @@ img {
 	padding-left: 100px;
 	vertical-align: middle;
 }
-
 
 /*
  * comments
