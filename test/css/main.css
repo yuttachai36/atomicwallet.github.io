@@ -824,6 +824,7 @@ img {
  */
 .partners {
 	margin-top: 30px;
+	position: relative;
 }
 .partners-list {
  
@@ -854,12 +855,10 @@ img {
 	    display: inline;
     padding-bottom: 30px;
     float: right padding-top: 60px;
-    padding-left: 325px;
+    padding-left: 310px;
 
 }
-.partners_special a {
-	padding-left: 65px !important;
-}
+
 .partners-list a {
 	display: inline-block;
 	vertical-align: middle;
