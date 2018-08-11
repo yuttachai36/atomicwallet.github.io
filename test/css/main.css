@@ -371,7 +371,7 @@ img {
 	padding-top: 130px;
 }
 .main-title {
-	width: 450px;
+	width: 500px;
 	line-height: 40px;
 	font-size: 30px;
 	color: #121010;
@@ -397,6 +397,13 @@ img {
 	top: -90px;
 	width: 750px;
 	right: -90px;
+	margin-top: 50px;
+}
+.main-notebook1 {
+	position: absolute;
+	top: -90px;
+	width: 750px;
+	right: -350px;
 	margin-top: 50px;
 }
 
@@ -771,7 +778,7 @@ img {
 .features-text {
 	font-size: 18px;
 	line-height: 25px;
-	width: 500px;
+	width: 450px;
 }
 .features-text a {
 	text-decoration: underline;

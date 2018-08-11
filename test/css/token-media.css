@@ -3,11 +3,18 @@
     .main-notebook {
         display: none;
     }
+    .main-notebook1 {
+        display: none;
+    }
     .main_icons {
         width: 100%;
     }
     .main-title-token {
         width: 100%;
+    }
+    .partners {
+        width: auto;
+        margin-top: 0px;
     }
     .main_icon_text {
     width: 220px;

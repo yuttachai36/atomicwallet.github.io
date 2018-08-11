@@ -9,6 +9,13 @@
     right: -40px;
     margin-top: 50px;
     }
+       .main-notebook1 {
+    position: absolute;
+    top: -90px;
+    width: 710px;
+    margin-top: 50px;
+    right: -350px;
+    }
 
 
 }
@@ -172,6 +179,12 @@
         display: block;
         width: 100%;
     }
+    .main-notebook1 {
+        top: auto;
+        right: auto;
+        display: block;
+        width: 100%;
+    }
     .main-title {
         width: 260px;
         margin: 0 auto;
@@ -225,6 +238,7 @@
     right: auto;
     display: block;
     width: 45%;
+    padding-left: 30px;
     
     }
     .download-item:after {
@@ -320,7 +334,7 @@
         width: 250px;
     }
     .features-item:nth-child(2) {
-        margin-top: 100px;
+        margin-top: 80px;
         width: 260px;
     }
     .features-item:nth-child(3) {
@@ -333,7 +347,7 @@
     }
 
     .features-item-left {
-        padding-top: 150px !important;
+        padding-top: 110px !important;
     }
     /* /features */
 
