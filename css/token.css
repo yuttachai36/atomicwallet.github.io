@@ -256,7 +256,7 @@
 	display: block;
 	height: 1px;
 	width: 100000px;
-	background-color: #BCBABA;
+	
 	bottom: 0;
 	left: 0;
 }
@@ -322,6 +322,7 @@
 .token-col {
 	width: 520px;
 	float: left;
+	
 }
 .token-col:nth-child(2) {
 	float: right;
@@ -388,12 +389,16 @@
  */
 
 .map {
-	padding-bottom: 105px;
+	
+	padding-bottom: 50px;
+	
 }
 .map .container {
+
 	max-width: 575px;
 }
 .map-title {
+	padding-top: 70px;
 	font-size: 48px;
 	text-align: center;
 	color: #182848;
@@ -624,12 +629,13 @@
 	top: -12px;
 }
 .bounty-col:last-child .bounty-item.bounty-item-4 img {
-	top: -42px;
+	top: -22px;
 }
 .bounty-col:last-child .bounty-item.bounty-item-5 img {
 	top: -15px;
-	left: -90px;
+	left: -19px;
 }
+
 .bounty-col:last-child .bounty-item img {
 	left: -80px;
 }
