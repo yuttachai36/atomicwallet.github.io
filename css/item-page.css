@@ -20,19 +20,61 @@
     color: #182848;
     margin-bottom: 50px;
 }
-.item-page p {
+.item-page 
+p {
     font-size: 18px;
     line-height: 30px;
     font-family: "Roboto";
     max-width: 800px;
-    margin-left: 200px;
+    margin-left: 300px;
 }
-h2 {
-    margin-left:200px;
+.item-page li {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Roboto";
+  font-weight: normal;
+  max-width: 800px;
+  margin-left: 250px;
+  padding-left: 30px;
+
 }
-h3 {
-    margin-left: 200px;
+.releases {
+    padding-bottom: 50px;
 }
+.releases li {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Roboto";
+  font-weight: normal;
+  max-width: 600px;
+  margin-left: 34px;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  padding-left: 5px;  
+
+}
+.releases
+h2, h3, h4, h5 {
+    text-align: center;
+    padding: 15px;
+}
+.releases h3 {
+    padding-top: 40px;
+
+}
+.footer-new-left h4 {
+    text-align: left;
+}
+.releases h4 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.releases h5 {
+    padding-top: 5px;
+    padding: 10px;
+}
+
 .item-page-article {
     line-height: 33px;
     font-size: 24px;
@@ -80,7 +122,8 @@ h3 {
 }
 .item-page-article p,
 .item-page-article .item-page-image-template,
-.item-page-article h2 {
+.item-page-article h2, 
+.item-page-article li{
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -121,6 +164,11 @@ h3 {
         margin-top: 15px;
         margin-bottom: 15px;
         margin-left: 0;
+
+    }
+    .releases li {
+        line-height: 20px;
+        padding: 5px;
 
     }
 
