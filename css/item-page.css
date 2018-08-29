@@ -122,6 +122,9 @@ p {
     bottom: -110px;
     right: -380px;
 }
+.item-page-download a {
+    text-decoration: none;
+}
 .item-page-article a {
     color: #182848;
     text-decoration: underline;
