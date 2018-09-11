@@ -409,7 +409,12 @@ img {
 	right: -350px;
 	margin-top: 50px;
 }
-
+.mobile_interface {
+	width: 60%;
+	justify-content: center;
+	margin-left: 240px;
+	margin-top: 50px;
+}
 .main_icons {
 	width: 500px;
 	margin-top: 30px;
