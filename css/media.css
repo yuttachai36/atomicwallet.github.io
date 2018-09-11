@@ -233,13 +233,11 @@
     }
     .mobile_interface {
     position: relative;
-    left: auto;
     top: auto;
     right: auto;
     display: block;
-    width: 45%;
-    padding-left: 25px;
-    
+    width: 100%;
+    margin-left: 0px;
     }
     .download-item:after {
         content: none;
