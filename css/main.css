@@ -265,16 +265,19 @@ img {
 	right: -60px;
 }
 .bg-features-1 {
-	top: 950px;
-	right: 310px;
+	top: 800px;
+    right: 310px;
+    width: 110%;
 }
 .bg-features-2 {
-	top: 1400px;
-	right: -60px;
+    top: 1200px;
+    right: -370px;
+    width: 110%;
 }
 .bg-features-3 {
-	top: 2370px;
-	right: 302px;
+	top: 2000px;
+    right: 302px;
+    width: 110%;
 }
 .bg-features-1-1 {
 	top: 1140px;
@@ -1025,15 +1028,35 @@ img {
 .subscribe {
 	margin-top: 10px;
 }
+.subscribe-mobile .container {
+	padding-left: 335px;
+	height: 150px;
+}
 .subscribe-top {
 	margin-top: 10px;
 }
-.subscribe-top .container {
+.kol-form-button-group {
+    position: relative;
+    top: -40px;
+    right: -5px;
+}
+.subscribe .kol-form-button-group {
+	position: relative;
+    top: -58px;
+    right: -230px;
+}
+.subscribe-mobile .kol-form-button-group {
+	position: relative;
+    right: -65px;
+}
+}
+.subscribe-top .container{
 	padding-left: 26px;
 	padding-top: -40px; 
 }
 .subscribe .container {
 	padding-left: 256px;
+	height: 200px;
 }
 .subscribe-title {
 	line-height: 40px;
@@ -1049,24 +1072,65 @@ img {
 	padding-left: 5px;
 	margin-top: 10px;
 }
-.subscribe-title-top {
+#kol_embed_container_229411 {
+	width: 375px !important;
+	height: 125px;
+	padding-left: 26px;
+}
+.subscribe-title-top,
+.kol-form-title {
 	line-height: 40px;
 	font-size: 24px;
 	color: #182848;
 	padding-left: 0px;
 	margin-top: 40px;
+	font-family: "Roboto Medium";
+    font-weight: 500;
+    width: 500px;
 }
+.subscribe .kol-form-title {
+	line-height: 40px;
+    font-size: 24px;
+    color: #182848;
+    margin-top: 140px;
+    font-family: "Roboto Medium";
+    font-weight: 500;
+    padding-left: 5px;
+    width: 600px;
+}
+
+.subscribe-mobile .kol-form-title {
+	text-align: center;
+	
+}
+.kol_confirmation_message_wrapper  {
+	text-align: center;
+}
+.kol_confirmation_message_wrapper p {
+	padding-top: 25px;
+}
+
 /* form */
 .subscribe-form {
 	width: 600px;
 	height: 140px;
 	margin-top: 25px;
 }
-.subscribe-form-top {
+.form-group {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.subscribe .form-group {
+	margin-top: 25px;
+}
+.subscribe-mobile .form-group {
+	margin-left: 55px;
+}
+.subscribe-form-top,
+.kol_signup_form {
 	width: 375px;
 	height: 80px;
 	margin-top: 5px;
-	margin-left: 5px;
 }
 .mc-field-group label {
 	display: none;
@@ -1074,7 +1138,8 @@ img {
 .mc-field-group-top label {
 	display: none;
 }
-.mc-field-group input[type="email"] {
+.mc-field-group input[type="email"],
+.subscribe .form-control {
 	background: #FFFFFF;
 	box-shadow: 0 8px 20px rgba(24, 40, 72, 0.16);
 	border-radius: 8px;
@@ -1086,7 +1151,21 @@ img {
 	font-family: "Roboto Ligth";
 	font-width: 300;
 }
-.mc-field-group-top input[type="email"] {
+
+.mc-field-group-top input[type="email"],
+.subscribe-mobile .form-control {
+	background: #FFFFFF;
+    /* box-shadow: 0 8px 20px rgba(24, 40, 72, 0.16); */
+    border-radius: 8px;
+    width: 220px;
+    height: 40px;
+    /* border: none; */
+    border: 1px solid #182848;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: "Roboto Ligth";
+} 
+.subscribe-top .form-control {
 	background: #FFFFFF;
     /* box-shadow: 0 8px 20px rgba(24, 40, 72, 0.16); */
     border-radius: 8px;
@@ -1098,9 +1177,9 @@ img {
     font-size: 15px;
     font-family: "Roboto Ligth";
 } 
-
 .mc-field-group button,
-.mc-field-group input[type="submit"] {
+.mc-field-group input[type="submit"],
+.subscribe .kol-form-button {
 	font-family: "Roboto Medium";
 	font-size: 18px;
 	text-align: center;
@@ -1133,6 +1212,38 @@ img {
     top: 0;
     right: 0;
 }
+
+.kol-form-button {
+    font-family: "Roboto Medium";
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #182848;
+    border-radius: 8px;
+    padding: 0 20px 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ .kol-form-button:hover {
+
+ display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+    -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 #mc_embed_signup div.mce_inline_error {
 	width: 341px !important;
 	margin-top: -17px !important;
@@ -1444,3 +1555,4 @@ hr {
 .footer-new-col a:hover {
 	color: #ffffff;
 }
+

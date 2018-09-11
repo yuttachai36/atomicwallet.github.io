@@ -484,8 +484,9 @@
     }
     
     .subscribe-top .container {
-        padding-left: 10px;
-        padding-top: 20px;
+        padding-left: 35px;
+        padding-top: 0px;
+
     }
     .subscribe-top .icon-mail {
         position: relative;
@@ -495,10 +496,21 @@
         line-height: 25px;
         font-size: 12px;
     }
-    .subscribe-title-top {
+    .subscribe-title-top,
+    .kol-form-title {
     line-height: 25px;
     font-size: 15px;
     margin-left: 50px;
+    }
+    .subscribe .kol-form-title,
+    .subscribe-mobile .kol-form-title {
+    line-height: 25px;
+    font-size: 18px;
+    margin-left: 30px;
+    }
+    .subscribe-mobile .kol-form-title {
+        text-align: left;
+        margin-left: 0px;
     }
     .subscribe-form {
         width: 100%;
@@ -507,6 +519,44 @@
     .subscribe-form-top {
         width: 100%;
         text-align: center;
+    }
+    .kol-form-group {
+        width: 100%;
+    }
+    .subscribe-mobile .container {
+        padding-left: 0px;
+    }
+    .subscribe-mobile .form-group {
+        margin-left: 0px;
+    }
+    
+    .subscribe .kol-form-button-group {
+    position: relative;
+    top: auto;
+    margin-top: 20px;
+    width: 228px;
+    margin-left: 1px;
+    right: -60px;
+    }
+    .subscribe-mobile .kol-form-button-group {
+    position: relative;
+    top: auto;
+    margin-top: 20px;
+    width: 228px;
+    margin-left: 1px;
+    right: 0px;
+    }
+    
+    .subscribe-top .kol-form-button-group {
+    position: relative;
+    top: auto;
+    margin-top: 20px;
+    width: 228px;
+    margin-left: 8px;
+    right: 0;
+    }
+    .kol-form-button {
+        width: 230px;
     }
     .mc-field-group input[type="email"] {
         width: 100%;
