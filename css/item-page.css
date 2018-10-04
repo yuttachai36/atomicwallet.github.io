@@ -56,6 +56,7 @@ p {
    margin-left: 200px;
 
 }
+
 .releases {
     padding-bottom: 50px;
 }
@@ -172,6 +173,36 @@ p {
     padding-bottom: 30px;
 }
 
+.button-wallet {
+    display: inline-block;
+    text-align: center;
+    line-height: 34px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff !important;
+    border-radius: 18px;
+    background-color: #1d345d;
+    border: 1px solid #182848;
+    opacity: 1;
+    cursor: pointer;
+    padding: 0 10px 0 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 450px;
+    margin-bottom: 70px;
+    text-decoration: none !important;
+    }
+.widget-cmc {
+    width: 850px;
+    padding-left: 300px;
+    }
+.coinmarketcap-currency-widget {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%
+}
 
 @media screen and (max-width: 830px) {
     .item-page-download-title {
@@ -208,4 +239,5 @@ p {
         margin-top: 35px;
         margin-bottom: 80px;
     }
+
 }
