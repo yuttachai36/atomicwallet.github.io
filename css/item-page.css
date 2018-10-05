@@ -125,7 +125,7 @@ p {
     right: -380px;
 }
 .item-page-download a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .item-page-article a {
     color: #182848;
