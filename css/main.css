@@ -622,6 +622,7 @@ img {
 }
 .download-button-bottom {
 	padding-top: 50px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 .download-button-bottom .button {
