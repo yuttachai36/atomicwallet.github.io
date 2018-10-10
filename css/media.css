@@ -89,6 +89,24 @@
         right: -120px;
         width: 600px;
     }
+
+
+    .bg-features-1-crypto {
+        top: -210px;
+        right: 0;
+        width: 600px;
+    }
+    .bg-features-2-crypto {
+        top: 30px;
+        right: -310px;
+        width: 760px;
+        height: 1400px;
+    }
+    .bg-features-3-crypto {
+        top: 450px;
+        right: -120px;
+        width: 600px;
+    }
     .bg-footer {
         top: 0;
         left: -260px;
@@ -98,6 +116,7 @@
         top: -170px;
         width: 1348px;
     }
+
     /* /bg */
 
     /* header */
@@ -259,7 +278,21 @@
     padding-left: 10px;
     text-align: center;
     }
-
+    .buy-crypto-cards {
+        width: auto;
+    }
+    .buy {
+    flex-wrap: wrap;
+    height: 455px;
+    width: auto;
+    }
+    .button-cards {
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        padding-bottom: 20px;
+    }
     /* /video */
 
     /* list */
@@ -508,7 +541,7 @@
     }
     .subscribe-mobile .kol-form-title {
         text-align: left;
-        margin-left: 0px;
+        margin-left: -30px;
     }
     .subscribe-form {
         width: 100%;
@@ -521,8 +554,13 @@
     .kol-form-group {
         width: 100%;
     }
+    #kol_embed_container_229607 {
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
     .subscribe-mobile .container {
-        padding-left: 0px;
+        padding-left: 40px;
     }
     .subscribe-mobile .form-group {
         margin-left: 0px;
