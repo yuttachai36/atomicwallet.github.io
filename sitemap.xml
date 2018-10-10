@@ -100,7 +100,7 @@
 </url>
 <url>
   <loc>https://atomicwallet.io/cardano</loc>
-  <<changefreq>daily</changefreq>
+   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
