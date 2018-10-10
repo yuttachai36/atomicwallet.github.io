@@ -9,147 +9,123 @@
 
 <url>
   <loc>https://atomicwallet.io/</loc>
-  <lastmod>2018-10-07T12:01:35+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/token</loc>
-  <lastmod>2018-10-05T14:28:56+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/assets</loc>
-  <lastmod>2018-10-05T14:28:56+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/downloads</loc>
-  <lastmod>2018-10-10T15:15:02+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>1.00</priority>
 </url>
-<url>
-  <loc>https://atomicwallet.io/download/hash_sum.pdf</loc>
-  <lastmod>2018-10-10T14:00:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>https://atomicwallet.io/bitcoin</loc>
-  <lastmod>2018-10-05T14:28:56+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/eth</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/litecoin</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/ripple</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/qtum</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/tron</loc>
-  <lastmod>2018-10-10T15:15:02+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/bitcoin-cash</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/ethclassic</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/zcash</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/dash</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/monero</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/stellar</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/bitcoin-gold</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/dogecoin</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/cardano</loc>
-  <lastmod>2018-10-10T15:15:02+00:00</lastmod>
+  <<changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/decred</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/vechain</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/eos</loc>
-  <lastmod>2018-10-05T15:00:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/tezos</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://atomicwallet.io/download/atomicwallet-whitepaper.pdf</loc>
-  <lastmod>2018-08-30T10:18:47+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://atomicwallet.io/terms-of-service</loc>
-  <lastmod>2018-10-05T15:00:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://atomicwallet.io/privacy</loc>
-  <lastmod>2018-10-05T15:00:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://atomicwallet.io/releases</loc>
-  <lastmod>2018-09-20T10:06:19+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/tokenpay</loc>
-  <lastmod>2018-10-01T18:12:15+00:00</lastmod>
+  <changefreq>daily</changefreq>
   <priority>0.64</priority>
 </url>
 
