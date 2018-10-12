@@ -89,6 +89,24 @@
         right: -120px;
         width: 600px;
     }
+
+
+    .bg-features-1-crypto {
+        top: -210px;
+        right: 0;
+        width: 600px;
+    }
+    .bg-features-2-crypto {
+        top: 30px;
+        right: -310px;
+        width: 760px;
+        height: 1400px;
+    }
+    .bg-features-3-crypto {
+        top: 450px;
+        right: -120px;
+        width: 600px;
+    }
     .bg-footer {
         top: 0;
         left: -260px;
@@ -98,6 +116,7 @@
         top: -170px;
         width: 1348px;
     }
+
     /* /bg */
 
     /* header */
@@ -233,13 +252,11 @@
     }
     .mobile_interface {
     position: relative;
-    left: auto;
     top: auto;
     right: auto;
     display: block;
-    width: 45%;
-    padding-left: 25px;
-    
+    width: 100%;
+    margin-left: 0px;
     }
     .download-item:after {
         content: none;
@@ -261,7 +278,21 @@
     padding-left: 10px;
     text-align: center;
     }
-
+    .buy-crypto-cards {
+        width: auto;
+    }
+    .buy {
+    flex-wrap: wrap;
+    height: 455px;
+    width: auto;
+    }
+    .button-cards {
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        padding-bottom: 20px;
+    }
     /* /video */
 
     /* list */
@@ -484,8 +515,9 @@
     }
     
     .subscribe-top .container {
-        padding-left: 10px;
-        padding-top: 20px;
+        padding-left: 35px;
+        padding-top: 0px;
+
     }
     .subscribe-top .icon-mail {
         position: relative;
@@ -495,10 +527,21 @@
         line-height: 25px;
         font-size: 12px;
     }
-    .subscribe-title-top {
+    .subscribe-title-top,
+    .kol-form-title {
     line-height: 25px;
     font-size: 15px;
     margin-left: 50px;
+    }
+    .subscribe .kol-form-title,
+    .subscribe-mobile .kol-form-title {
+    line-height: 25px;
+    font-size: 18px;
+    margin-left: 30px;
+    }
+    .subscribe-mobile .kol-form-title {
+        text-align: left;
+        margin-left: -30px;
     }
     .subscribe-form {
         width: 100%;
@@ -507,6 +550,49 @@
     .subscribe-form-top {
         width: 100%;
         text-align: center;
+    }
+    .kol-form-group {
+        width: 100%;
+    }
+    #kol_embed_container_229607 {
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .subscribe-mobile .container {
+        padding-left: 40px;
+    }
+    .subscribe-mobile .form-group {
+        margin-left: 0px;
+    }
+    
+    .subscribe .kol-form-button-group {
+    position: relative;
+    top: auto;
+    margin-top: 20px;
+    width: 228px;
+    margin-left: 1px;
+    right: -60px;
+    }
+    .subscribe-mobile .kol-form-button-group {
+    position: relative;
+    top: auto;
+    margin-top: 20px;
+    width: 228px;
+    margin-left: 1px;
+    right: 0px;
+    }
+    
+    .subscribe-top .kol-form-button-group {
+    position: relative;
+    top: auto;
+    margin-top: 20px;
+    width: 228px;
+    margin-left: 8px;
+    right: 0;
+    }
+    .kol-form-button {
+        width: 230px;
     }
     .mc-field-group input[type="email"] {
         width: 100%;

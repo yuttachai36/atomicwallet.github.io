@@ -250,6 +250,12 @@ p {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+ul .article-li {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -25px;
+    
+}
 .item-page-article h2 {
     padding-top: 10px;
 }
@@ -270,17 +276,21 @@ p {
 .toc_list {
     display: inline-block;
     margin: 10px;
+    text-align: left;
+    width: 265px;
+    vertical-align: top;
 }
 .toc_list li {
-    max-width: 400px;
+    
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
 }
 #toc_container {
-    width: 500px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 #toc_container li, #toc_container ul, #toc_container ul li{
@@ -318,7 +328,15 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-
+.item-page-blog-image {
+    object-fit: contain;
+    display: block;
+    margin: 1rem auto;
+}
+.item-page-blog-image img {
+    max-width: 100%;
+    height: auto;
+}
 @media screen and (max-width: 830px) {
     .item-page-download-title {
         line-height: 47px;
@@ -361,6 +379,9 @@ p {
 
     .coinmarketcap-currency-widget {
         width: auto !important;
+    }
+    .widget-paragraph {
+            flex-wrap: wrap;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -441,6 +462,9 @@ p {
     .suggest-articles-button {
         width: auto;
         }
+    .widget-rate {
+        margin: auto;
+        }
     }
 @media screen and (min-width: 768px) and (max-width: 1000px) {
     .item-page p {
@@ -500,10 +524,19 @@ p {
     .item-page-image-interface img {
     margin-right: 60px;
     }
+        .item-page-blog-image img{
+      max-width: 65%
+    }
+    .item-page h1 {
+        font-size: 40px;
+    }
 }
 @media  screen and (min-width: 1440px) {
     .item-page p {
         max-width: 700px;
+    }
+    .item-page-blog-image img{
+      max-width: 75%
     }
 }
 @media  screen and (min-width: 1600px) {
@@ -514,4 +547,8 @@ p {
     width: 500px;
     margin-right: 50px;
     }
+    .item-page-blog-image img{
+      max-width: 75%
+    }
+
 }
