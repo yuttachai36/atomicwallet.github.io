@@ -19,7 +19,9 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.item-page ol li {
+    line-height: 4px;
+}
 .item-page h1 {
     font-family: "Roboto Bold";
     font-weight: bold;
