@@ -467,6 +467,14 @@ ul .article-li {
     .widget-rate {
         margin: auto;
         }
+        .item-page ol li {
+    margin-left: auto;
+    padding-left: initial;
+    line-height: inherit;
+    }
+    .item-page h2 {
+        line-height: 58px;
+    }
     }
 @media screen and (min-width: 768px) and (max-width: 1000px) {
     .item-page p {
