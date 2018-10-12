@@ -265,16 +265,19 @@ img {
 	right: -60px;
 }
 .bg-features-1 {
-	top: 950px;
-	right: 310px;
+	top: 800px;
+    right: 310px;
+    width: 110%;
 }
 .bg-features-2 {
-	top: 1400px;
-	right: -60px;
+    top: 1200px;
+    right: -370px;
+    width: 110%;
 }
 .bg-features-3 {
-	top: 2370px;
-	right: 302px;
+	top: 2000px;
+    right: 302px;
+    width: 110%;
 }
 .bg-features-1-1 {
 	top: 1140px;
@@ -294,6 +297,47 @@ img {
 	width: 627px;
 	height: 375px;
 }
+
+/*buy-crypto*/
+
+.bg-features-1-crypto {
+	top: 0px;
+	right: 510px;
+    width: 1250px;
+    height: 1300px;
+}
+.bg-features-2-crypto {
+    top: 250px;
+    right: -430px;
+    height: 1200px;
+    width: 1300px;
+}
+.bg-features-3-crypto {
+	top: 800px;
+    right: -460px;
+    width: 3000px;
+    height: 1800px;
+}
+.bg-features-1-1-crypto {
+	top: 200px;
+	right: -50px;
+	width: 627px;
+	height: 375px;
+}
+.bg-features-2-1-crypto {
+	top: 870px;
+	right: 610px;
+	width: 627px;
+	height: 375px;
+}
+.bg-features-3-1-crypto {
+	top: 1550px;
+	right: 0;
+	width: 627px;
+	height: 375px;
+}
+
+
 
 .bg-comments {
 	right: -380px;
@@ -332,6 +376,13 @@ img {
 	left: 310px;
 	text-align: left;
 }
+.header-menu-crypto {
+	position: absolute;
+	top: 30px;
+	left: 270px;
+	text-align: left;
+}
+
 .header-menu-icons {
 	position: absolute;
 	top: 25px;
@@ -343,16 +394,19 @@ img {
 	margin-left: 10px;
 }
 
-.header-menu a {
+.header-menu a,
+.header-menu-crypto a {
 	display: inline-block;
 	font-size: 15px;
 	color: #ffffff;
 	text-transform: uppercase;
 }
-.header-menu a:hover {
+.header-menu a:hover,
+.header-menu-crypto a:hover {
 	text-decoration: underline;
 }
-.header-menu a + a {
+.header-menu a + a,
+.header-menu-crypto a + a {
 	margin-left: 30px;
 }
 
@@ -406,13 +460,47 @@ img {
 	right: -350px;
 	margin-top: 50px;
 }
-
+.mobile_interface {
+	width: 60%;
+	justify-content: center;
+	margin-left: 240px;
+	margin-top: 50px;
+}
 .main_icons {
 	width: 500px;
 	margin-top: 30px;
 	margin-left: 0;
 }
+.main_icons-buy-crypto {
+	width: 500px;
+	margin-top: 180px;
+	margin-left: 500px;
+}
 
+.buy-crypto-cards {
+	display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buy-crypto-item {
+	padding-left: 10px;
+    padding-right: 10px;
+}
+.buy-crypto-button {
+	margin: 0px 10px 0px 10px;
+}
+.button-cards {
+	display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .main_icon {
 	width: 130px;
 	float: left;
@@ -422,7 +510,19 @@ img {
 	opacity: 1;
 
 }
+.main_icon-buy-crypto {
+	width: 130px;
+	float: right;
+	margin-right: 18px;
+	text-align: center;
+	font-size: 15px;
+	opacity: 1;
+}
+.main_icon-buy-crypto p {
+	text-align: left;
+	padding-left: 20px;
 
+}
 .main_icon_image {
 	height: 70px;
 	opacity: 0.9;
@@ -452,7 +552,28 @@ img {
 	height: 180px;
 	padding-top: 30px;
 }
+ .buy {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 0 38px 50px rgba(34, 83, 139, 0.1);
+    border-radius: 16px;
+    height: 170px;
+    padding-top: 45px;
+    width: 600px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    }
 .download-title {
+	line-height: 67px;
+	font-size: 48px;
+	text-align: center;
+	color: #182848;
+	padding-bottom: 10px;
+}
+.download-title-top {
 	line-height: 67px;
 	font-size: 48px;
 	text-align: center;
@@ -465,6 +586,14 @@ img {
 	font-size: 20px;
 	color: #121010;
 	padding-bottom: 20px;
+
+}
+
+.download-text-crypto {
+	text-align: center;
+	line-height: 28px;
+	font-size: 20px;
+	color: #121010;
 
 }
 .download-text-app {
@@ -484,8 +613,16 @@ img {
 	margin-top: -130px;
 }
 
+.download-text-small-crypto {
+    text-align: center;
+    line-height: 19px;
+    font-size: 16px;
+    color: #121010;
+    margin-top: 30px;
+}
 .download-button-bottom {
 	padding-top: 50px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 .download-button-bottom .button {
@@ -550,7 +687,7 @@ img {
 }
 .download-button {
 	display: inline-block !important;
-	width: 120px;
+	width: 150px;
 	font-family: "Roboto";
 	font-weight: normal;
 }
@@ -667,7 +804,7 @@ img {
 	padding-bottom: 0;
 }
 .list1 {
-	margin-top: 205px;
+	margin-top: 95px;
 	padding-bottom: 0;
 }
 .list-items {
@@ -774,6 +911,11 @@ img {
 	font-size: 36px;
 	margin-bottom: 25px;
 	margin-top: 30px;
+}
+.features-item-title-crypto {
+	font-size: 36px;
+	margin-bottom: 25px;
+	margin-top: 50px;
 }
 .features-text {
 	font-size: 18px;
@@ -1025,15 +1167,34 @@ img {
 .subscribe {
 	margin-top: 10px;
 }
+.subscribe-mobile .container {
+	padding-left: 335px;
+	height: 150px;
+}
 .subscribe-top {
 	margin-top: 10px;
 }
-.subscribe-top .container {
-	padding-left: 26px;
-	padding-top: -40px; 
+.kol-form-button-group {
+    position: relative;
+    top: -40px;
+    right: -5px;
+}
+.subscribe .kol-form-button-group {
+	position: relative;
+    top: -58px;
+    right: -230px;
+}
+.subscribe-mobile .kol-form-button-group {
+	position: relative;
+    right: -65px;
+}
+
+.subscribe-top .container{
+	padding-left: 16px; 
 }
 .subscribe .container {
 	padding-left: 256px;
+	height: 200px;
 }
 .subscribe-title {
 	line-height: 40px;
@@ -1049,24 +1210,65 @@ img {
 	padding-left: 5px;
 	margin-top: 10px;
 }
-.subscribe-title-top {
+#kol_embed_container_229607 {
+	width: 375px !important;
+	height: 125px;
+	padding-left: 10px;
+}
+.subscribe-title-top,
+.kol-form-title {
 	line-height: 40px;
 	font-size: 24px;
 	color: #182848;
 	padding-left: 0px;
 	margin-top: 40px;
+	font-family: "Roboto Medium";
+    font-weight: 500;
+    width: 500px;
 }
+.subscribe .kol-form-title {
+	line-height: 40px;
+    font-size: 24px;
+    color: #182848;
+    margin-top: 140px;
+    font-family: "Roboto Medium";
+    font-weight: 500;
+    padding-left: 5px;
+    width: 600px;
+}
+
+.subscribe-mobile .kol-form-title {
+	text-align: center;
+	
+}
+.kol_confirmation_message_wrapper  {
+	text-align: center;
+}
+.kol_confirmation_message_wrapper p {
+	padding-top: 25px;
+}
+
 /* form */
 .subscribe-form {
 	width: 600px;
 	height: 140px;
 	margin-top: 25px;
 }
-.subscribe-form-top {
+.form-group {
+    margin-top: 5px;
+    
+}
+.subscribe .form-group {
+	margin-top: 25px;
+}
+.subscribe-mobile .form-group {
+	margin-left: 55px;
+}
+.subscribe-form-top,
+.kol_signup_form {
 	width: 375px;
 	height: 80px;
 	margin-top: 5px;
-	margin-left: 5px;
 }
 .mc-field-group label {
 	display: none;
@@ -1074,7 +1276,8 @@ img {
 .mc-field-group-top label {
 	display: none;
 }
-.mc-field-group input[type="email"] {
+.mc-field-group input[type="email"],
+.subscribe .form-control {
 	background: #FFFFFF;
 	box-shadow: 0 8px 20px rgba(24, 40, 72, 0.16);
 	border-radius: 8px;
@@ -1084,9 +1287,23 @@ img {
 	padding-left: 35px;
 	font-size: 20px;
 	font-family: "Roboto Ligth";
-	font-width: 300;
+	font-weight: 300;
 }
-.mc-field-group-top input[type="email"] {
+
+.mc-field-group-top input[type="email"],
+.subscribe-mobile .form-control {
+	background: #FFFFFF;
+    /* box-shadow: 0 8px 20px rgba(24, 40, 72, 0.16); */
+    border-radius: 8px;
+    width: 220px;
+    height: 40px;
+    /* border: none; */
+    border: 1px solid #182848;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: "Roboto Ligth";
+} 
+.subscribe-top .form-control {
 	background: #FFFFFF;
     /* box-shadow: 0 8px 20px rgba(24, 40, 72, 0.16); */
     border-radius: 8px;
@@ -1098,9 +1315,9 @@ img {
     font-size: 15px;
     font-family: "Roboto Ligth";
 } 
-
 .mc-field-group button,
-.mc-field-group input[type="submit"] {
+.mc-field-group input[type="submit"],
+.subscribe .kol-form-button {
 	font-family: "Roboto Medium";
 	font-size: 18px;
 	text-align: center;
@@ -1132,6 +1349,40 @@ img {
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.kol-form-button {
+    font-family: "Roboto Medium";
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #182848;
+    border-radius: 8px;
+    padding: 0 20px 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ .kol-form-button:hover {
+
+ display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+    -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.buy-crypto-subscribe .subscribe .kol-form-title {
+	margin-top: 50px;
 }
 #mc_embed_signup div.mce_inline_error {
 	width: 341px !important;
@@ -1444,3 +1695,4 @@ hr {
 .footer-new-col a:hover {
 	color: #ffffff;
 }
+
