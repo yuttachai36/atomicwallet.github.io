@@ -4,13 +4,13 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@atomicwallet">
     <meta name="twitter:creator" content="@atomicwallet">
-    <meta name="twitter:title" content="Custodial vs. Non-custodial Wallets">
-    <meta name="twitter:description" content="Decentralization is the key idea of the blockchain technology. Despite game-changing and disruptive features, blockchain still has some hurdles related to security issues.">
+    <meta name="twitter:title" content="How private keys work?">
+    <meta name="twitter:description" content="Fund protection is one of the main priority in cryptocurrency wallets. That’s why we use a 12 words mnemonic seed. Mnemonic seed kept in a secured keystore and fully encrypted.">
     <meta name="twitter:image" content="https://atomicwallet.io/css/images/articles/custodial-non-custodial-wallets.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta charset="UTF-8">
-    <title>Custodial vs Non-Custodial Wallets</title>
+    <title>What are private keys and HD wallets</title>
     <meta name="description" content="Light multi-assets wallet with built-in atomic swap exchange">
     <link rel="stylesheet" href="test/css/main.css">
     <link rel="stylesheet" href="test/css/list.css">
@@ -106,12 +106,13 @@
 </div>
 
 <div class="item-page-container">
+
     <div class="item-page">
-        
-        <h1>Custodial vs. Non-custodial Wallets</h1>
-        <img src="css/images/bg-item-page-1.svg" alt="" class="item-page-bg item-page-bg-1">
+      <img src="css/images/bg-item-page-1.svg" alt="" class="item-page-bg item-page-bg-1">
             <img src="css/images/bg-item-page-2.svg" alt="" class="item-page-bg item-page-bg-2">
             <img src="css/images/bg-item-page-3.svg" alt="" class="item-page-bg item-page-bg-3">
+        <h1 class="blog-header-h1" style="position: relative;
+    z-index: 2;">How private keys work?</h1>
         <div class="item-page-article">
             
 
@@ -119,68 +120,74 @@
 
             <div class="item-page-image-template">
 
-                <div class="item-page-blog-image">
-                    <img src="css/images/articles/custodial-non-custodial-wallets.png" alt="">
+                <div class="item-page-blog-image blog-margin">
+                    <img src="css/images/articles/what-are-private-keys.png" alt="">
 
                 </div>
                 </div>
                 <h4>Find answer</h4>
                 <div id="toc_container">
                             <ul class="toc_list">
-                              <li><a href="#custodial">What are custodial wallets?</a></li>
-                              <li><a href="#non-custodial">What are non-custodial wallets?</a></li>
+                              <li><a href="#hdwallet">What are HD wallets?</a></li>
+                              <li><a href="#seed">How Mnemonic Seed generated?</a></li>
                             </ul>
                                <ul class="toc_list">
-                                <li><a href="#store">How to securely store your mnenonic seed?</a></li>
-                                <li><a href="#download">Download non-custodial wallet</a></li>
+                                <li><a href="#pubkey">Private key and public address</a></li>
+                                <li><a href="#download">Download Atomic Wallet</a></li>
                                </ul>
                   </div>
             <h2>Preface</h2>
-            <p><b>Decentralization is the key idea of the blockchain technology</b>. Despite game-changing and disruptive features, blockchain still has some hurdles related to security issues.</p>
-            <p>Almost every crypto enthusiast has the fear of losing their <b>private keys</b>, because they <b>give a full access to the funds</b>. Once lost, the keys cannot be restored and you will no longer control the savings, so you won’t be able to restore access to the wallet. Such wallets are called non-custodial.</p>
-            <p> On the other hand, <b>if your private keys are stored by some wallet or third-party servers, no one makes warranty of the hack-proof</b>. This is the hidden peril of every wallet service that doesn’t provide you with private keys. These wallets are called custodial. </p> 
-            <p><b>If someone stores your keys,you DO NOT have a full control over your funds</b>. When the third-party data is getting hacked, your money becomes exposed to a high risk to be stolen.</p>
-            <p>So let’s take a closer look at custodial and non-custodial wallets to find out all their pros and cons.</p>
-            <h2 style="margin-top: unset;">What are Custodial wallets?</h2>
-            <p id="custodial"><b>Сustodial Wallets</b> are services and exchanges that <b>don’t provide you access to private keys and store them on servers.</b> The main advantage of custodial wallets is that you can restore access to your account in case you've lost your password. The bad news is they can freeze your funds in case of maintenance or due to KYC requirements. There is always a risk that your money may be stolen in case of hacking attacks.</p>
-            <p>For example, hackers stole about 700 BTC from one of the most famed Bitcoin centralized wallet: Blockchain.Info</p>
-            <div class="item-page-image-template">
-                <div class="item-page-blog-image">
-                  <a href="https://24btc.cc/blockchain-info-under-attack-about-700-bitcoins-were-stolen/">
-                    <img style="width: 70%;" src="css/images/articles/blockchain-info-under-attack.png" alt="">
-                  </a>
-                </div>
-            </div>
-            <p>The same is fair for centralized exchanges, as they are also prone to hacker attacks. The exchanges control your assets and may freeze your account without KYC/AML confirmation (KYC – Know Your Customer, AML – Anti Money Laundering).</p>
-            <h2 id="coin">What are non-custodial wallets?</h2>
-            <p id="non-custodial"><b>Non-custodial wallets give you full control over your funds and in the most cases provide serverless solutions</b>. The keys stored in an encrypted manner on the user's device and never leave it out. Your money is under your control, but there is also a drawback. <b>If you lose your mnemonic seed, you will never be able to restore access to your funds.</b></p> 
-            <p> For example, in case you  brake your PC, it is stolen, or if you delete the app, you will be able to recover the access only with your seed phrase.  <b>What is seed phrase and private keys?</b> <a href="https://medium.com/@atomicwallet/private-keys-13bff897799e">Learn more about a seed phrase and private keys here.</a></p>
-            <h2 id="store">How to securely store your mnemonic seed?</h2>
-            <p>Keys are generating by mnemonic seed. We strongly recommend you to store it on paper in two secured place. <b>Do not store the phrase on your PC or as a photo on your mobile phone.</b> The seed is even more important than the password of your wallet, since it generates the keys and restores the data. Back up the seed, write it down on a piece of paper, engrave on a piece of metal, store it in your safe or give it to your mom. Don’t lose the seed, under any circumstances!</p>
-            <div class="item-page-image-template-container">
+            <p><b>Fund protection is one of the main priority in cryptocurrency wallets.</b> That’s why we use a  12 words mnemonic seed. Mnemonic seed kept in a secured keystore and fully encrypted. Only with the master password, you can get access to the seed. This also requires some special user's efforts to prevent themselves from funds loss. <a href="#pubkey">Let's take a look how private keys works!</a></p><br>  
+                                    <div class="item-page-image-template-container">
                   <div class="item-page-image-interface">
-                    <img src="css/images/mainnotebook.png" alt="">
+                    <img src="css/images/mainnotebook.png" class="hvr-grow" alt="">
                     </div>
                     <div class="item-page-image-wallet-download">
-                     <h4>Non-Custodial Wallet</h4>
-                      <p style="font-size: 17px;">Download new multi-asset Non-Custodial Wallet. We support most of the blockchains, exchange options and buy-crypto with credit card. <b>In Atomic only you control your funds.</b></p>
+                     <h4>Secure Atomic Wallet</h4>
+                      <p style="font-size: 17px;">Download new multi-asset Wallet with Mnemonic Seed control. We support most of the blockchains, exchange options and buy-crypto with credit card. <b>In Atomic only you control your funds.</b></p>
                       <div>
                             <a href="#download" class="button-wallet">Download Atomic Wallet</a>
                       </div>
                     </div>
                 </div>
-            <h2>How to create a non-custodial wallet</h2>
-            <ol>
-            <li><a href="#download">Download the App</a> and install it.</li>
-            <li>Launch and click on the "Create wallet" button.</li>
-            <li>Create the password.</li>
-            <li>Copy the seed phrase provided and keep it in a secret place.</li>
-            <li>Enjoy decentralized manage your assets.</li>
-            </ol>
-            <p><b>We are happy to provide you with the most convenient way to hold and manage all of your cryptocurrency assets in a decentralized manner!</b></p>
-
-            
-
+            <h2 id="hdwallet">From Mnemonic to HD wallets</h2>
+            <p><b>Products that generate a master key from mnemonic seed called hierarchical deterministic wallets or HD wallets.</b> Users are strongly advised to use HD wallets for safety reasons. First of all, HD wallet can be backed up using only a seed phrase. It can also recover addresses and funds attached to them.</p>
+            <h3>How mnemonic reveals access to the addresses and private keys?</h3>
+            <p>All your funds are stored on the blockchain. To gain access to them you need to use your private key. Mneonic Seed contains all private keys, basicly HD wallets decipher mnemonic seed and can give it to user as a set of private keys and public addresses: <a href="https://atomicwallet.io/bitcoin">BTC</a>, <a href="https://atomicwallet.io/ethereum">ETH</a>, <a href="https://atomicwallet.io/ripple">XRP</a>, <a href="https://atomicwallet.io/monero">XMR</a> and others...</p>
+            <h3>Let's take a closer look at the process</h3>
+            <ol class="blog-li">
+            <li>Public address and private key are deciphered from Mnemonic Seed</li>
+            <li>Each word is taken from a dictionary and assigned to a certain combination of numbers</li>
+            <li>Then all private keys and public addresses are generated from that numbers.</li>
+            <li>That's why with mnemonic you can easily recover all addresses and the funds on them.</li>
+          </ol>
+          <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                     <img src="css/images/articles/private-keys-explained.png" alt="" class="hvr-grow">
+                </div>
+            </div>
+            <h3 id="seed">How does <a href="#download">Atomic Wallet</a> generate Mnemonic Seed?</h3>
+            <p><b>HD wallets uses 12-word seed phrase to generate an entire tree of key pairs.</b> It’s almost impossible to hack it. Mnemonic is the “root” of the tree as it can be algorithmically converted into the all private keys used in the wallet.
+            <br><br>That single key does not replace other private keys but is rather used to generate them. <b>All your addresses still have different private keys, but they can be all restored by the one seed phrase.</b></p> 
+            <h3>The advantage of HD wallets</h3>
+            <p><b>In non-deterministic wallets each key is randomly generated on its own accord and they are not extracted from one seed phrase.</b> Therefore, any backups of the wallet must store each and every single private key used as an address, as well as a buffer of 100 or so future keys that may have already been given out as addresses but with payments not yet received.</p>
+            <h3 id="pubkey">What is a Private key?</h3>
+            <p>In the context of cryptocurrencies the <b>private key is a secret number that allows users to spend their assets.</b> Each private key is attached to the public address as a signature. <b>Public address is an address that contains all history of transactions used as some sort of identification.</b> It's propagated all over the blockchain and is accessible for everyone. But to gain access to the funds on it the private keys is required.</p>
+            <h3>How are private keys stored in <a href="#download">Atomic Wallet</a>?</h3>
+            <p>When you installed Atomic Wallet and create a new account the small file appears on your device. It contains randomly generated mnemonic seed and fully encrypted. Only you have access to this file and only you control it. In case of loss there is no way to recover access to your funds except by the mnemonic seed. </p>
+            <h3>Private Key security Note</h3>
+            <p><b>Never show your mnemonic seed to anyone and keep it in a safe place! If someone finds out your mnemonic, he will be able to access all your addresses and funds.</b>
+            <br><br>Private keys give you access to funds stored on your public address. That’s why it’s important to keep them in a secure place where no unauthorized person can access them. Private keys can be kept on computer files, printed on paper or stored in a keystore.</p>
+            <h3><a href="#download">Atomic Wallet</a> backup with Mnemonic seed</h3>
+            <p>If something goes wrong you can easily recover your funds via back-up phrase or by exporting private key. Here is a process how you can restore access to your wallet by Mnemonic Seed.</p>
+            <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                     <img src="css/images/articles/private-key-atomic-wallet.gif" alt="">
+                </div>
+            </div>
+            <h3>Conclusion</h3>
+            <p><b>Take your mnemonic seed, private keys and master password, and intruders will never get access to your assets.</b>
+            <br><br>If you’re curious to know more about Atomic Wallet security — check our <a href="https://atomicwallet.io/atomic-wallet-security">special article.</a></p>     
             <div class="item-page-download">
                 <div class="item-page-download-title" id="download">Download Atomic Wallet</div>
                 <!-- Subscribe Pop-up-->
