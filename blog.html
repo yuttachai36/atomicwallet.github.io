@@ -25,6 +25,7 @@
 
         gtag('config', 'UA-114023091-1');
     </script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -46,61 +47,15 @@
 
 <!-- menu -->
 
-<div class="header-menu-mobile header-menu-close f-light only-mobile" id="menu-mobile">
-    <div class="container relative">
-        <a href="/">Wallet</a>
-        <a href="/token">Token Sale</a>
-        <a href="/assets">Assets</a>
-        <a href="/downloads" class="hvr-grow">Download</a>
-        <a href="http://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
-        <a href="https://medium.com/atomic-wallet">Blog</a>
-        <button class="header-menu-mobile-close" id="menu-button-close"></button>
-    </div>
+<div id="inject-header">
+  
 </div>
 
-<div class="header-container">
-  <div class="container relative">
-      <img src="css/images/bg-first-screen.svg" alt class="bg bg-main">
-      <header class="header">
-          <a href="https://atomicwallet.io" class="header-logo">
-              <img src="css/images/logo.svg" alt="Atomic">
-          </a>
-          <nav class="header-menu f-light">
-              <a href="/" class="hvr-grow">Wallet</a>
-              <a href="token" class="hvr-grow">Token Sale</a>
-              <a href="assets" class="hvr-grow">Assets</a>
-              <a href="/downloads" class="hvr-grow">Download</a>
-              <a href="http://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
-              <a href="https://medium.com/atomic-wallet" class="hvr-grow">Blog</a>
-          </nav>
-          <nav class="header-menu-icons  f-light">
+<!--Header finale-->
 
-              <a href="https://twitter.com/atomicwallet" target="_blank" class="hvr-float">
-                  <img src="css/images/top_twitter.svg">
-              </a>
-              <a href="https://t.me/atomicwalletchat" target="_blank" class="hvr-float">
-                  <img src="css/images/top_telegram.svg">
-              </a>
-              <a href="https://medium.com/atomic-wallet" target="_blank" class="hvr-float">
-                      <img src="css/images/top_medium.svg">
-                  </a>
-              <a href="https://www.facebook.com/atomicwallet" target="_blank" class="hvr-float">
-                      <img src="css/images/top_facebook.svg">
-                  </a>
 
-              <!--<a href="https://github.com/Atomicwallet" target="_blank" class="hvr-float">
-                  <img src="css/images/top_github.svg">
-              </a>-->
 
-              </a>
-              <a href="https://www.reddit.com/user/atomicwallet/" target="_blank" class="hvr-float">
-                  <img src="css/images/top_reddit.svg">
-              </a>
-          </nav>
-          <button class="header-button only-mobile" id="menu-button-open"></button>
-      </header>
-  </div>
-</div>
+
 
 <div class="item-page-container">
     <div class="item-page">
@@ -110,56 +65,61 @@
             
 
             <div class="blog-container"> 
-              <a href="https://atomicwallet.io/custodial-non-custodial-wallets-comparison">
            <div class="blog-div">
+              <a href="https://atomicwallet.io/custodial-non-custodial-wallets-comparison">
             <div class="small-image-blog">
               <img src="css/images/articles/custodial-non-custodial-wallets.png" alt="">
             </div>
             <div class="blog-div-text">
               <h4>Custodial vs. Non-custodial Wallets</h4>
             <p>Decentralization is the key idea of the blockchain technology. Despite game-changing and disruptive features, blockchain still has some hurdles related to security issues.</p></div>
+              </a>
           </div>
-          </a>
-          <a href="https://atomicwallet.io/what-are-private-keys-and-how-they-work">
+         
           <div class="blog-div">
+            <a href="https://atomicwallet.io/what-are-private-keys-and-how-they-work">
             <div class="small-image-blog">
               <img src="css/images/articles/what-are-private-keys.png" alt="">
             </div>
             <div class="blog-div-text">
               <h4>Private Keys in Atomic Wallet</h4>
             <p>Protection of users funds is one of the main goals of the Atomic team. That’s why we use a mnemonic seed.</p></div>
+            </a>
           </div>
-        </a>
-        <a href="https://atomicwallet.io/what-is-destination-tag">
+        
           <div class="blog-div">
+            <a href="https://atomicwallet.io/what-is-destination-tag">
             <div class="small-image-blog">
               <img src="css/images/articles/Destination_Tag.png" alt="">
             </div>
             <div class="blog-div-text">
               <h4>Destination Tag - XRP, XLM, Monero</h4>
             <p>Know what is Destination Tag, if you set random numbers or unsuitable values instead of the Tag — you’ll lose your funds<span class="mobile-hide">, they will be sent to any other user or on the main exchange address without the ability to take them back.</span></p></div>
+            </a>
           </div>
-        </a>
-        <a href="https://atomicwallet.io/centralized-exchanges-vs-atomic-swap">
+        
           <div class="blog-div">
+            <a href="https://atomicwallet.io/centralized-exchanges-vs-atomic-swap">
             <div class="small-image-blog">
               <img src="css/images/articles/atomic-swap-vs-decentralized-exchanges.png" alt="">
             </div>
             <div class="blog-div-text">
               <h4>Atomic Swap VS Centralized Exchanges</h4>
             <p>The market capitalization is estimated in billions of dollars, the volume of transactions is growing, the cryptocurrencies is recognized by the governments. Looks pretty optimistic, isn’t it?</p></div>
+          </a>
           </div>
-        </a>
-        <a href="https://atomicwallet.io/atomic-wallet-security">
+        
           <div class="blog-div">
+            <a href="https://atomicwallet.io/atomic-wallet-security">
             <div class="small-image-blog">
               <img src="css/images/articles/cryptocurrency-wallet-security.png" alt="">
             </div>
             <div class="blog-div-text">
               <h4>Atomic Wallet Security</h4>
             <p>Security is one of the most important priorities on the cryptocurrency market. It’s easy to remember all situations when different exchanges were hacked when users lost their funds on the centralized platforms.</p></div>
+            </a>
           </div>
-        </a>
+        
         <!--<a href="#">
           <div class="blog-div">
             <div class="small-image-blog">
@@ -185,88 +145,26 @@
     </div>
 </div>
 
-<footer class="footer-new">
-    <div class="container relative">
-        <div class="footer-row">
-            <div class="footer-new-left">
-                <a href="/"><img src="css/images/logo.png" alt="" class="footer-new-logo"></a><br>
-                <a href="mailto:hello@atomicwallet.io" class="footer-new-email f-light">hello@atomicwallet.io</a><br>
-                <div class="footer-new-soc">
-                    <a href="https://twitter.com/atomicwallet" target="_blank">
-                        <img src="css/images/top_twitter.svg">
-                    </a>
-                    <a href="https://t.me/atomicwalletchat" target="_blank">
-                        <img src="css/images/top_telegram.svg">
-                    </a>
-                    <a href="https://github.com/Atomicwallet" target="_blank">
-                        <img src="css/images/top_github.svg">
-                    </a>
-                    <a href="https://medium.com/atomic-wallet" target="_blank">
-                        <img src="css/images/top_medium.svg">
-                    </a>
-                    <a href="https://www.reddit.com/user/atomicwallet/" target="_blank">
-                        <img src="css/images/top_reddit.svg">
-                    </a>
-                    <a href="https://www.facebook.com/atomicwallet" target="_blank">
-                        <img src="css/images/top_facebook.svg">
-                    </a>
-                </div>
-            </div>
-            <div class="footer-new-right">
-                <div class="footer-new-cols">
-                    <div class="footer-new-col">
-                        <div class="footer-new-col-title">Atomic wallet</div>
-                        <ul class="f-light">
-                            <li><a href="/">Wallet</a></li>
-                            <li><a href="token">Token Sale</a></li>
-                            <li><a href="assets">Assets</a></li>
-                   
-                        </ul>
-                    </div>
-                    <div class="footer-new-col">
-                        <div class="footer-new-col-title">Information</div>
-                        <ul class="f-light">
-                            <li><a href="https://atomicwallet.io/download/atomicwallet-whitepaper.pdf">White paper</a></li>
+<!--Inject Footer-->
+<div id="inject-footer">
+  
+</div>
 
-                            <li><a href="https://atomicwallet.io/terms-of-service">Terms of service</a></li>
-                            <li><a href="https://atomicwallet.io/privacy">Privacy policy</a></li>
-                            <li><a href="https://drive.google.com/drive/folders/1zbu1nKCBq2zNCnEtjWsw3oMJei6aFSuZ">Press Kit</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-new-col">
-                        <div class="footer-new-col-title">Assets</div>
-                        <ul class="f-light">
-                            <li><a href="https://atomicwallet.io/bitcoin">Bitcoin (BTC)</a></li>
-                            <li><a href="https://atomicwallet.io/litecoin">Litecoin (LTC)</a></li>
-                            <li><a href="https://atomicwallet.io/monero">Monero (XMR)</a></li>
-                            <li><a href="https://atomicwallet.io/ripple">Ripple (XRP)</a></li>
-                            <li><a href="https://atomicwallet.io/tezos">Tezos (XTZ)</a></li>
-                            <li><a href="https://atomicwallet.io/eos">EOS</a></li>
-                            <li><a href="https://atomicwallet.io/tron">TRON (TRX)</a></li>
-
-                            <li><a href="https://atomicwallet.io/bitcoin-cash">Bitcoin Cash (BCH)</a></li>
-                            <li><a href="https://atomicwallet.io/assets">More...</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-new-col">
-                        <div class="footer-new-col-title">Support</div>
-                        <ul class="f-light">
-                            <li><a href="http://support.atomicwallet.io/support/home">FAQ</a></li>
-                            <li><a href="http://support.atomicwallet.io/support/tickets/new">Submit a ticket</a></li>
-                            <li><a href="https://t.me/atomicwalletchat">Chat</a></li>
-                            <li><a href="https://t.me/atomicwallet">News Channel</a></li>
-                            <li><a href="mailto:listing@atomicwallet.io">Listing your asset</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+<!--Inject Footer finale-->
 
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/jquery.touchSwipe.js"></script>
 <script src="js/app.js"></script>
+<script>
+    $(function(){
+  $("#inject-header").load("header.html");
+});
+  </script>
+  <script>
+    $(function(){
+  $("#inject-footer").load("footer.html");
+});
+  </script>
 
 </body>
 </html>
