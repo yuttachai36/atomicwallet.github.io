@@ -4,13 +4,13 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@atomicwallet">
     <meta name="twitter:creator" content="@atomicwallet">
-    <meta name="twitter:title" content="Custodial vs. Non-custodial Wallets">
-    <meta name="twitter:description" content="Decentralization is the key idea of the blockchain technology. Despite game-changing and disruptive features, blockchain still has some hurdles related to security issues.">
-    <meta name="twitter:image" content="https://atomicwallet.io/css/images/articles/custodial-non-custodial-wallets.png">
+    <meta name="twitter:title" content="What is Destination Tag for XRP, XLM and Monero">
+    <meta name="twitter:description" content="Destination Tag is a technology that defines the specific recipient of the transaction. You can notice that you have the same XRP address as the other user on the exchange service.">
+    <meta name="twitter:image" content="https://atomicwallet.io/css/images/articles/Destination_Tag.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta charset="UTF-8">
-    <title>Custodial vs Non-Custodial Wallets</title>
+    <title>What is Destination Tag</title>
     <meta name="description" content="Light multi-assets wallet with built-in atomic swap exchange">
     <link rel="stylesheet" href="test/css/main.css">
     <link rel="stylesheet" href="test/css/list.css">
@@ -106,13 +106,12 @@
 </div>
 
 <div class="item-page-container">
-    <div class="item-page">
-        
-        <h1>Custodial vs. Non-custodial Wallets</h1>
-        <img src="css/images/bg-item-page-1.svg" alt="" class="item-page-bg item-page-bg-1">
+  <img src="css/images/bg-item-page-1.svg" alt="" class="item-page-bg item-page-bg-1">
             <img src="css/images/bg-item-page-2.svg" alt="" class="item-page-bg item-page-bg-2">
             <img src="css/images/bg-item-page-3.svg" alt="" class="item-page-bg item-page-bg-3">
+    <div class="item-page">
         <div class="item-page-article">
+           <h1>What is Destination Tag for XRP, XLM and Monero</h1>
             
 
     
@@ -120,66 +119,73 @@
             <div class="item-page-image-template">
 
                 <div class="item-page-blog-image">
-                    <img src="css/images/articles/custodial-non-custodial-wallets.png" alt="">
+                    <img src="css/images/articles/Destination_Tag.png" alt="">
 
                 </div>
                 </div>
                 <h4>Find answer</h4>
                 <div id="toc_container">
                             <ul class="toc_list">
-                              <li><a href="#custodial">What are custodial wallets?</a></li>
-                              <li><a href="#non-custodial">What are non-custodial wallets?</a></li>
+                              <li><a href="#dtag">What is Destination Tag?</a></li>
+                              <li><a href="#usedtag">How to use Destination Tag?</a></li>
                             </ul>
                                <ul class="toc_list">
-                                <li><a href="#store">How to securely store your mnenonic seed?</a></li>
-                                <li><a href="#download">Download non-custodial wallet</a></li>
+                                <li><a href="#dtagmemo">Destination Tag/Memo Id in Atomic Wallet?</a></li>
+                                <li><a href="#20xrp">20XRP Rule</a></li>
                                </ul>
                   </div>
             <h2>Preface</h2>
-            <p><b>Decentralization is the key idea of the blockchain technology</b>. Despite game-changing and disruptive features, blockchain still has some hurdles related to security issues.</p>
-            <p>Almost every crypto enthusiast has the fear of losing their <b>private keys</b>, because they <b>give a full access to the funds</b>. Once lost, the keys cannot be restored and you will no longer control the savings, so you won’t be able to restore access to the wallet. Such wallets are called non-custodial.</p>
-            <p> On the other hand, <b>if your private keys are stored by some wallet or third-party servers, no one makes warranty of the hack-proof</b>. This is the hidden peril of every wallet service that doesn’t provide you with private keys. These wallets are called custodial. </p> 
-            <p><b>If someone stores your keys,you DO NOT have a full control over your funds</b>. When the third-party data is getting hacked, your money becomes exposed to a high risk to be stolen.</p>
-            <p>So let’s take a closer look at custodial and non-custodial wallets to find out all their pros and cons.</p>
-            <h2 style="margin-top: unset;">What are Custodial wallets?</h2>
-            <p id="custodial"><b>Сustodial Wallets</b> are services and exchanges that <b>don’t provide you access to private keys and store them on servers.</b> The main advantage of custodial wallets is that you can restore access to your account in case you've lost your password. The bad news is they can freeze your funds in case of maintenance or due to KYC requirements. There is always a risk that your money may be stolen in case of hacking attacks.</p>
-            <p>For example, hackers stole about 700 BTC from one of the most famed Bitcoin centralized wallet: Blockchain.Info</p>
+            <p>To manage XRP, XLM or XMR you need to know one unique feature called Destination Tag or Memo Id. So what is it?</p>
+            <h2 id="dtag">What is Destination Tag?</h2>
+            <p><b>Destination Tag is a technology that defines the specific recipient of the transaction.</b>
+            <br>You can notice that you have the same XRP address as the other user on the exchange service. It happens because Exchange uses only one XRP address for all users on the same platform. How to not make a mess from this addresses or move funds to the certain user?
+            <br><br>
+            In this cases, the Destination Tag is used. It differs for each user and establishes exactly recipient of the assets.</p>
+            <p><b>If you set random numbers or wrong Destination/Memo you’ll lose your funds</b>, they will be sent to any other user or on the main exchange address without the Destination Tag.</p>
+            <p>The Destination Tag purpose is identification transaction recipient.
+            <br><br>It’s like the numbers of rooms. If you are living in the apartment building you’ll need to know exactly your room number. If you are living in a private house you’ll not.</p>
+            <h3 id="usedtag">How to use Destination Tag?</h3>
+            <p><b>The Destination Tag is not required if you use your own personal address</b>, as like in the decentralized <a href="#download">Atomic Wallet</a> — every user has they own coin address. But when you manage coins with the centralized exchange — Destination Tag is necessary required!
+            <h3>Whas is a unique address?</h3>
+            <p>Unique address or fee for registrations is a special feature for Ripple and Stellar. You need to pay 20 XRP or 1 XLM for address registration in the blockchain. This will be an unspendable balance which is a fee to prevent the whole network from spam attacks. In other cryptocurrencies you don't need to pay for address registration, except for <a href="https://atomicwallet.io/eos">EOS</a></p>
+            <ul>
+              <li>In Ripple Destination Tag can be shown in the address after the «?dt=».
+              <br>As like as: «rw7AxoYRb5MyRf3oRjSVPtgsQYQLp6rqGn?dt=1234567890»</li>
+              <li>In <a href="https://atomicwallet.io/stellar">Stellar</a> the Destination Tag is called «Memo ID»</li>
+              <li>In <a href="https://atomicwallet.io/monero">Monero</a> Destination Tag is a «Payment ID»</li>
+            </ul>
             <div class="item-page-image-template">
                 <div class="item-page-blog-image">
                   <a href="https://24btc.cc/blockchain-info-under-attack-about-700-bitcoins-were-stolen/">
-                    <img style="width: 70%;" src="css/images/articles/blockchain-info-under-attack.png" alt="">
+                    <img style="width: 70%;" src="https://cdn-images-1.medium.com/max/800/1*Zw-zH1__9Zk2JHLkkr8N8Q.png" alt="">
                   </a>
                 </div>
             </div>
-            <p>The same is fair for centralized exchanges, as they are also prone to hacker attacks. The exchanges control your assets and may freeze your account without KYC/AML confirmation (KYC – Know Your Customer, AML – Anti Money Laundering).</p>
-            <h2 id="coin">What are non-custodial wallets?</h2>
-            <p id="non-custodial"><b>Non-custodial wallets give you full control over your funds and in the most cases provide serverless solutions</b>. The keys stored in an encrypted manner on the user's device and never leave it out. Your money is under your control, but there is also a drawback. <b>If you lose your mnemonic seed, you will never be able to restore access to your funds.</b></p> 
-            <p> For example, in case you  brake your PC, it is stolen, or if you delete the app, you will be able to recover the access only with your seed phrase.  <b>What is seed phrase and private keys?</b> <a href="https://medium.com/@atomicwallet/private-keys-13bff897799e">Learn more about a seed phrase and private keys here.</a></p>
-            <h2 id="store">How to securely store your mnemonic seed?</h2>
-            <p>Keys are generating by mnemonic seed. We strongly recommend you to store it on paper in two secured place. <b>Do not store the phrase on your PC or as a photo on your mobile phone.</b> The seed is even more important than the password of your wallet, since it generates the keys and restores the data. Back up the seed, write it down on a piece of paper, engrave on a piece of metal, store it in your safe or give it to your mom. Don’t lose the seed, under any circumstances!</p>
+            <h3 id="dtagmemo">“You will be Destination Tag free”</h3>
+            <p>If you want to use the custody-free wallet for Ripple, Stellar, Monero, other top coins and all of the tokens — download and install <a href="#download">Atomic Wallet,</a> the first multi-asset wallet with build-in Atomic Swap <a href="https://atomicwallet.io/centralized-exchanges-vs-atomic-swap">DEX</a>. You’ll have your own address for all of the coins and you will be Destination Tag free.</p>
+            <p>Just send your address without the Destination Tag. The sender will be able to set any random numbers as Destination Tag and you will receive your funds. When you send it to someone you will able to set the Destination Tag of the recipient.</p>
+            <h3 id="20xrp">Main Rule: Ripple — 20 XRP/ Stellar 1 XLM</h3>
+            <p>Pay your attention, if you use any custody-free wallet there is network requirement of that coins and their essence is as follows:</p>
+            <ul>
+              <li>20 XRP is an fee for address activation.
+                <br>Any other Ripple wallet will ask you for it except exchanges.</li>
+            <li>1 XLM is a fee for address activation.</li>
+            <li>XMR has fees for address activation.</li>
+            </ul>
+
+            <br><br>  
             <div class="item-page-image-template-container">
                   <div class="item-page-image-interface">
                     <img src="css/images/mainnotebook.png" alt="">
                     </div>
                     <div class="item-page-image-wallet-download">
                      <h4>Non-Custodial Wallet</h4>
-                      <p style="font-size: 17px;">Download new multi-asset Non-Custodial Wallet. We support most of the blockchains, exchange options and buy-crypto with credit card. <b>In Atomic only you control your funds.</b></p>
+                      <p style="font-size: 17px;">Download new multi-asset Non-Custodial Wallet. We support most of the blockchains including XRP, XLM, XMR, exchange options and buy-crypto with credit card. <b>In Atomic only you control your funds.</b></p>
                       <div>
                             <a href="#download" class="button-wallet">Download Atomic Wallet</a>
                       </div>
                     </div>
                 </div>
-            <h2>How to create a non-custodial wallet</h2>
-            <ol>
-            <li><a href="#download">Download the App</a> and install it.</li>
-            <li>Launch and click on the "Create wallet" button.</li>
-            <li>Create the password.</li>
-            <li>Copy the seed phrase provided and keep it in a secret place.</li>
-            <li>Enjoy decentralized manage your assets.</li>
-            </ol>
-            <p><b>We are happy to provide you with the most convenient way to hold and manage all of your cryptocurrency assets in a decentralized manner!</b></p>
-
-            
 
             <div class="item-page-download">
                 <div class="item-page-download-title" id="download">Download Atomic Wallet</div>
