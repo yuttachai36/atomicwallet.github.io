@@ -521,16 +521,16 @@ ul .article-li {
       .item-page-container {
         margin-top: -128px;
       }
-
+    iframe {
+        width: 300px;
+        height: 150px;
+    }
       .item-page ul {
         display: flex;
         flex-wrap: wrap;
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
-      }
-      .item-page ul li {
-        margin-left: 0px;
       }
       .header-article img {
         width: 60px;
@@ -586,6 +586,8 @@ ul .article-li {
     .item-page li {
         font-size: 14px;
         line-height: 25px;
+        padding-left: 0px;
+        margin-left: 26px;
     }
     .button-wallet {
         text-align: center;
@@ -613,8 +615,8 @@ ul .article-li {
         margin: auto;
         }
         .item-page ol li {
-        margin-left: auto;
         padding-left: initial;
+        line-height: 20px;
     }
     .button-suggest {
         display: flex;
