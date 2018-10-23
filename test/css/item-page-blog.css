@@ -517,6 +517,8 @@ ul .article-li {
     .item-page li {
         font-size: 14px;
         line-height: 25px;
+        padding-left: 0px;
+        margin-left: 26px;
     }
     .button-wallet {
         text-align: center;

@@ -134,9 +134,9 @@
   <priority>0.6</priority>   
 </url>
 <url>
-   <loc>https://atomicwallet.io/custodial-non-custodial-wallets-comparison</loc>
+   <loc>https://atomicwallet.io/blog</loc>
   <changefreq>daily</changefreq>
-  <priority>0.6</priority>   
+  <priority>0.80</priority>   
 </url>
 
 </urlset>
