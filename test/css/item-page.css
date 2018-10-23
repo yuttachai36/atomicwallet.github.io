@@ -454,6 +454,11 @@ ul .article-li {
     width: 390px;
     height: 100%;
 }
+.blog-container div:nth-child(7) .small-image-blog img {
+    width: 331px;
+    height: 100%;
+
+}
 
 .blog-container a:nth-child(5) .blog-div {
     /*margin-left: 350px;
@@ -647,7 +652,8 @@ ul .article-li {
     .blog-container div:nth-child(3) .small-image-blog img,
     .blog-container div:nth-child(4) .small-image-blog img,
     .blog-container div:nth-child(5) .small-image-blog img,
-    .blog-container div:nth-child(6) .small-image-blog img
+    .blog-container div:nth-child(6) .small-image-blog img,
+    .blog-container div:nth-child(7) .small-image-blog img
      {
         width: 259px;
     }
