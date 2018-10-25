@@ -728,16 +728,20 @@ ul .article-li {
     }
 
     .item-page-image-interface img {
-    margin-right: 60px;
+        margin-right: 60px;
     }
         .item-page-blog-image img{
-      max-width: 65%
+        max-width: 65%
+    }
+    #toc_container li {
+        margin-left: auto;
     }
     .item-page h1 {
         font-size: 40px;
     }
     .item-page li {
-        max-width: 620px;
+        max-width: 545px;
+        margin-left: 315px;
     }
     
 }
