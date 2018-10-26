@@ -102,10 +102,14 @@ p {
   margin-left: 215px;
   padding-left: 30px;
 }
-cite {
+cite,
+blockquote {
     font-size: 15px;
     display: block;
     text-align: center;
+}
+abbr {
+    text-decoration-style: wavy;
 }
 .blog-quote {
     text-align: center;
