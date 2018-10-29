@@ -220,6 +220,9 @@ blockquote {
 .item-page-article a:hover {
     text-decoration: none;
 }
+.download-name a {
+    text-decoration: none;
+}
 .item-page-image-template {
     text-align: center;
     max-width: 1000px;
@@ -321,7 +324,6 @@ ul .article-li {
     color: #ffffff !important;
     border-radius: 18px;
     background-color: #1d345d;
-    border: 1px solid #182848;
     opacity: 1;
     cursor: pointer;
     padding: 0 10px 0 10px;
@@ -344,6 +346,7 @@ ul .article-li {
     margin-left: auto;
     margin-right: auto;
 }
+
 .item-page-blog-image {
     object-fit: contain;
     display: block;
