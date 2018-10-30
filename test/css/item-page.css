@@ -743,11 +743,17 @@ ul .article-li {
         max-width: 545px;
         margin-left: 315px;
     }
+    .item-page ol li {
+        line-height: 30px;
+    }
     
 }
 @media  screen and (min-width: 1440px) {
     .item-page p {
         max-width: 700px;
+    }
+    .item-page ol li {
+        line-height: 20px;
     }
     .item-page-blog-image img{
       max-width: 75%
