@@ -438,7 +438,7 @@ ul .article-li {
     margin-bottom: 10px;
 }
 .blog-container div:nth-child(1) .small-image-blog img {
-    padding-left: 39px;
+    width: 385px;
 }
 .blog-container div:nth-child(3) .small-image-blog img {
     width: 390px;
@@ -455,7 +455,8 @@ ul .article-li {
 }
 .blog-container div:nth-child(6) .small-image-blog img,
 .blog-container div:nth-child(7) .small-image-blog img,
-.blog-container div:nth-child(8) .small-image-blog img {
+.blog-container div:nth-child(8) .small-image-blog img,
+.blog-container div:nth-child(9) .small-image-blog img {
        width: 395px;
     height: auto;
 }
@@ -650,6 +651,9 @@ ul .article-li {
     .blog-div-text h4 {
         padding-bottom: 10px;
         padding-top: 15px;
+    }
+    .blog-container .blog-div:nth-child(1) .small-image-blog img {
+        width: 250px;
     }
     .blog-container .blog-div:nth-child(2) .small-image-blog img {
         padding-top: 0px;
