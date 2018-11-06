@@ -197,7 +197,7 @@ img {
 	color: #182848;
 	border: 1px solid #182848;
 	border-radius: 18px;
-	
+
 	cursor: pointer;
 	width:200px;
 	margin-right: 10px;
@@ -660,7 +660,7 @@ img {
 	position: absolute;
 	top: 10px;
 	left: 0;
-	height: 100px;	
+	height: 100px;
 	width: 1px;
 	background-color: #CCCCCC;
 }
@@ -976,16 +976,13 @@ img {
 	position: relative;
 }
 .partners-list {
- 
-	padding-bottom: 35px;
-    width: 1000px;
-    padding-left: 100px;
-    
+
+
 }
 .investors {
 	padding-bottom: 70px;
     width: 1000px;
-    
+
 }
 .investors a {
 	display: inline-block;
@@ -1009,14 +1006,13 @@ img {
 }
 
 .partners-list a {
-	display: inline-block;
+	display: inline-flex;
 	vertical-align: middle;
 	padding-top: 30px;
-	padding-left: 90px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 .partners-list a + a {
-	padding-left: 100px;
+	padding-left: 90px;
 	vertical-align: middle;
 }
 
@@ -1190,7 +1186,7 @@ img {
 }
 
 .subscribe-top .container{
-	padding-left: 16px; 
+	padding-left: 16px;
 }
 .subscribe .container {
 	padding-left: 256px;
@@ -1239,7 +1235,7 @@ img {
 
 .subscribe-mobile .kol-form-title {
 	text-align: center;
-	
+
 }
 .kol_confirmation_message_wrapper  {
 	text-align: center;
@@ -1256,7 +1252,7 @@ img {
 }
 .form-group {
     margin-top: 5px;
-    
+
 }
 .subscribe .form-group {
 	margin-top: 25px;
@@ -1287,7 +1283,7 @@ img {
 	padding-left: 35px;
 	font-size: 20px;
 	font-family: "Roboto Ligth";
-	font-width: 300;
+	font-weight: 300;
 }
 
 .mc-field-group-top input[type="email"],
@@ -1302,7 +1298,7 @@ img {
     padding-left: 20px;
     font-size: 15px;
     font-family: "Roboto Ligth";
-} 
+}
 .subscribe-top .form-control {
 	background: #FFFFFF;
     /* box-shadow: 0 8px 20px rgba(24, 40, 72, 0.16); */
@@ -1314,7 +1310,7 @@ img {
     padding-left: 20px;
     font-size: 15px;
     font-family: "Roboto Ligth";
-} 
+}
 .mc-field-group button,
 .mc-field-group input[type="submit"],
 .subscribe .kol-form-button {
@@ -1381,7 +1377,9 @@ img {
     -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
-
+.buy-crypto-subscribe .subscribe .kol-form-title {
+	margin-top: 50px;
+}
 #mc_embed_signup div.mce_inline_error {
 	width: 341px !important;
 	margin-top: -17px !important;
@@ -1693,4 +1691,3 @@ hr {
 .footer-new-col a:hover {
 	color: #ffffff;
 }
-
