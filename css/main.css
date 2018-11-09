@@ -236,6 +236,9 @@ img {
 .icon-secure {
 	background-image: url(images/icons/secure.svg);
 }
+.icon-buy-crypto {
+  background-image: url(images/icons/buy-crypto.png)
+}
 .icon-partners {
 	background-image: url(images/icons/partners.svg);
 }
@@ -279,6 +282,11 @@ img {
     right: 302px;
     width: 110%;
 }
+.bg-features-4 {
+top: 2750px;
+right: -370px;
+width: 110%;
+}
 .bg-features-1-1 {
 	top: 1140px;
 	right: -50px;
@@ -319,8 +327,7 @@ img {
     height: 1800px;
 }
 .bg-features-1-1-crypto {
-	top: 200px;
-	right: -50px;
+	top: 3564px;
 	width: 627px;
 	height: 375px;
 }
@@ -905,7 +912,7 @@ img {
 	width: 405px;
 }
 .features-item:nth-child(3) {
-	padding-top: 570px;
+    padding-top: 520px;
 }
 .features-item-title {
 	font-size: 36px;
