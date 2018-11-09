@@ -30,7 +30,7 @@
     color: #182848;
     margin-bottom: 60px;
 }
-.item-page 
+.item-page
 p {
     font-size: 18px;
     line-height: 30px;
@@ -73,7 +73,7 @@ p {
 }
 .suggest-articles-button:hover {
     color: gray;
-   } 
+   }
 /*.item-page h2, h3 {
     margin-left: 200px;
     text-align: left !important;
@@ -146,7 +146,7 @@ p {
   margin-left: 34px;
   margin-top: 10px !important;
   margin-bottom: 10px !important;
-  padding-left: 5px;  
+  padding-left: 5px;
 
 }
 cite,
@@ -165,7 +165,7 @@ blockquote {
 }
 .releases h2, h3, h4, h5 {
     text-align: center;
-    margin-left: 0px; 
+    margin-left: 0px;
     padding: 15px;
 }
 .releases h3 {
@@ -223,6 +223,7 @@ blockquote {
 .download-name a {
     text-decoration: none;
 }
+
 .item-page-image-template {
     text-align: center;
     max-width: 1000px;
@@ -250,7 +251,7 @@ blockquote {
 }
 .item-page-image-wallet-download{
     margin-left: 10px;
-    height: auto;  
+    height: auto;
 }
 .item-page-image-wallet-download h4 {
     margin-top: 0px;
@@ -261,7 +262,7 @@ blockquote {
 }
 .item-page-article p,
 .item-page-article .item-page-image-template,
-.item-page-article h2, 
+.item-page-article h2,
 .item-page-article li{
     margin-top: 25px;
     margin-bottom: 25px;
@@ -270,7 +271,7 @@ ul .article-li {
     font-size: 16px;
     line-height: 24px;
     margin-top: -25px;
-    
+
 }
 .item-page-article h2 {
     padding-top: 10px;
@@ -297,7 +298,7 @@ ul .article-li {
     vertical-align: top;
 }
 .toc_list li {
-    
+
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -385,7 +386,7 @@ ul .article-li {
     margin-top: -20px;
 }
 .blog-container {
-    display: flex;  
+    display: flex;
     flex-wrap: wrap;
     margin-bottom: 150px;
 }
@@ -485,6 +486,10 @@ ul .article-li {
         flex-wrap: wrap;
         margin-bottom: 0px;
       }
+      iframe {
+          width: 300px;
+          height: 150px;
+      }
       .item-page-container {
         margin-top: -128px;
       }
@@ -517,7 +522,7 @@ ul .article-li {
         width: 99%;
         margin-right: 0px;
         margin-bottom: 20px;
-    } 
+    }
     #toc_container {
         width: auto;
         display: flex;
