@@ -54,6 +54,9 @@ p {
 .button-right:hover {
     text-decoration: underline;
 }
+iframe {
+  box-shadow: 0 38px 50px rgba(34, 83, 139, 0.16);
+}
 .suggest-articles-button {
     display: inline-block;
     text-align: center;
@@ -492,6 +495,7 @@ ul .article-li {
       iframe {
           width: 300px;
           height: 150px;
+          box-shadow: 0 38px 50px rgba(34, 83, 139, 0.16);
       }
       .item-page-container {
         margin-top: -128px;
