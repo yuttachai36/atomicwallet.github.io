@@ -283,7 +283,7 @@ img {
     width: 110%;
 }
 .bg-features-4 {
-top: 2950px;
+top: 2850px;
 right: -370px;
 width: 110%;
 }
@@ -327,7 +327,7 @@ width: 110%;
     height: 1800px;
 }
 .bg-features-1-1-crypto {
-	top: 3680px;
+	top: 3600px;
 	width: 627px;
 	height: 375px;
 }
@@ -1005,10 +1005,9 @@ width: 110%;
 
 .partners_special {
 
-	    display: inline;
     padding-bottom: 30px;
-    float: right padding-top: 60px;
-    padding-left: 310px;
+    width: 200px;
+    margin: 0 auto;
 
 }
 
