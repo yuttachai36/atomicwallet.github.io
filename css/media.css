@@ -33,6 +33,16 @@
 }
 
 }
+@media screen and (min-width: 1365px) and (max-width:1600px) {
+    .main-notebook {
+      right: -80px;
+      width: 740px;
+    }
+    .main-notebook-wallet {
+      right: -50px;
+      width: 730px;
+    }
+}
 @media screen and (max-width: 830px) {
     body {
         min-width: inherit;
