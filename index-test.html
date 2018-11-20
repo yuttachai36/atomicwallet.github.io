@@ -45,8 +45,68 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-<!---Cokies Code with adroll-->
+
+
+<!--Adroll pixel activation-->
+<script type="text/javascript">
+    adroll_adv_id = "JZ4BUZ67SFACZCG74M6BCJ";
+    adroll_pix_id = "C6LOMQPZ2VDUVJXWWRHGUQ";
+
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script>
+<!--End of Adroll activation-->
+    <!--Cookies-->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2a406e",
+          "text": "#ffffff"
+        },
+        "button": {
+          "background": "#14a1de",
+          "text": "#ffffff"
+        }
+      },
+      "position": "bottom-right",
+      "type": "opt-out",
+      "content": {
+        "message": "We use cookies to enhance your experience. By using Atomic Wallet, you agree to our Privacy Policy",
+        "deny": "Decline",
+        "href": "https://atomicwallet.io/privacy"
+      }
+    })});
+    </script>
+<!--End of the Cookies-->
+
+<!--Adroll cookies activation -->
 <script>
+function checkCookie() {
+if (document.cookie.split(';').filter(function(item) {
+return item.indexOf('cookieconsent_status=deny') >= 0
+}).length) {
+/*AdRoll pixel will not fire*/
+} else if (document.cookie.split(';').filter(function(item) {
+return item.indexOf('cookieconsent_status=dismiss') >= 0
+}).length) {
+/*AdRoll pixel will fire on next page load and all subsequent navigation*/
 adroll_adv_id = "JZ4BUZ67SFACZCG74M6BCJ";
 adroll_pix_id = "C6LOMQPZ2VDUVJXWWRHGUQ";
 /* OPTIONAL: provide email to improve user identification */
@@ -80,35 +140,7 @@ window.attachEvent('onload', _onload)
 }
 checkCookie();
 </script>
-<!--End of the cookies code with adroll-->
-
-    <!--Cookies-->
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-    <script>
-    window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#f7f8f9"
-        },
-        "button": {
-          "background": "transparent",
-          "border": "#2b9ffb",
-          "text": "#2b9ffb"
-        }
-      },
-      "theme": 'classic',
-      "static": true,
-      "content": {
-        "message": 'We use cookies to enhance your experience. By using Atomic Wallet you agree to our '
-        '<a href="/privacy" target="_blank" class=".sign-up-download-link">Privacy Policy</a>',
-        ' and ',
-        '<a href="/terms-of-service" target="_blank" class="sign-up-download-link">Terms of service</a>',
-      }
-    })});
-    </script>
-<!--End of the Cookies-->
+<!--End of Adroll cookies-->
 </head>
 <body>
 
