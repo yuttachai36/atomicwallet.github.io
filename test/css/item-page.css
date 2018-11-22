@@ -109,7 +109,7 @@ blockquote {
     text-align: center;
 }
 abbr {
-    text-decoration-style: wavy;
+    text-decoration-style: double;
 }
 .blog-quote {
     text-align: center;
@@ -444,7 +444,8 @@ ul .article-li {
 .blog-container div:nth-child(12) .small-image-blog img {
     width: 390px;
 }
-.blog-container div:nth-child(4) .small-image-blog img {
+.blog-container div:nth-child(4) .small-image-blog img,
+.blog-container div:nth-child(7) .small-image-blog img {
     width: 395px;
 
 }
@@ -454,7 +455,7 @@ ul .article-li {
     height: 100%;
 }
 
-.blog-container div:nth-child(7) .small-image-blog img,
+
 .blog-container div:nth-child(8) .small-image-blog img,
 .blog-container div:nth-child(9) .small-image-blog img,
 .blog-container div:nth-child(10) .small-image-blog img,
