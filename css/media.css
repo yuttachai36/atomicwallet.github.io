@@ -421,14 +421,18 @@
     margin-top: 520px;
     }
     .partners-list,
-    .investors {
+    .investors,
+    .partners_special {
         justify-content: center;
     }
     .partners_special {
+      vertical-align: middle;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-left: 0px;
+      text-align: left;
+      width: auto;
 
-        width: 500%;
-        margin-left: 0px;
-        padding-left: 0px;
 
     }
     .partners-list a,
