@@ -48,6 +48,11 @@
 
 
 <!--Adroll pixel activation-->
+
+<script type="text/javascript" async="" src="https://s.adroll.com/j/roundtrip.js"></script>
+
+
+
 <script type="text/javascript">
     adroll_adv_id = "JZ4BUZ67SFACZCG74M6BCJ";
     adroll_pix_id = "C6LOMQPZ2VDUVJXWWRHGUQ";
@@ -69,77 +74,58 @@
     }());
 </script>
 <!--End of Adroll activation-->
+
     <!--Cookies-->
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+
     <script>
-    window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#2a406e",
-          "text": "#ffffff"
-        },
-        "button": {
-          "background": "#14a1de",
-          "text": "#ffffff"
-        }
-      },
-      "position": "bottom-right",
-      "type": "opt-out",
-      "content": {
-        "message": "We use cookies to enhance your experience. By using Atomic Wallet, you agree to our Privacy Policy",
-        "deny": "Decline",
-        "href": "https://atomicwallet.io/privacy"
-      }
-    })});
+            window.addEventListener('load', function(){
+            window.cookieconsent.initialise({
+              layout: 'atomic-cookie',
+              layouts: {
+                'atomic-cookie': '{{message}}{{allow}}',
+              },
+              palette: {
+                popup: {
+                  background: '#14a1de',
+                  text: '#ffffff'
+                },
+                button: {
+                  background: '#10d078',
+                  text: '#ffffff',
+                }
+              },
+              theme: 'classic',
+              position: 'bottom-right',
+              static: true,
+              content: {
+                message: [
+                  'We use cookies to enhance your experience. ',
+                  'By using Atomic, you agree to our ',
+                  '<a href="/terms-of-service" target="_blank" class="link-green">Terms of Use</a>',
+                  ' and ',
+                  '<a href="/privacy" target="_blank" class="link-green">Privacy Policy</a>',
+                ].join(''),
+                dismiss: 'Accept',
+              },
+              elements: {
+                message: '<span id="cookieconsent:desc" class="cc-message">{{message}}</span>',
+                allow: '<div class="cc-compliance"><a aria-label="dismiss cookie message" tabindex="0" class="cc-btn cc-dismiss">{{dismiss}}</a></div>',
+              },
+            })});
     </script>
 <!--End of the Cookies-->
-
+<!--Cookies trigger-->
+<script type="text/javascript" src="https://d.adroll.com/consent/check/JZ4BUZ67SFACZCG74M6BCJ?_s=172d2325b3cc6304359ae163f277ebf5&amp;adroll_fpc=9d6a0bc93f855fc3e954b6676613f6be"></script>
+<script id="adroll_scr_exp" onerror="window.adroll_exp_list = [];" type="text/javascript" src="https://s.adroll.com/j/exp/JZ4BUZ67SFACZCG74M6BCJ/index.js"></script>
+<!--End of the Cookies Trigger-->
+<script async="true" type="text/javascript" src="https://d.adroll.com/pixel/JZ4BUZ67SFACZCG74M6BCJ/C6LOMQPZ2VDUVJXWWRHGUQ?adroll_fpc=9d6a0bc93f855fc3e954b6676613f6be&amp;pv=79516293435.06558&amp;cookie=JZ4BUZ67SFACZCG74M6BCJ%3A3%C6LOMQPZ2VDUVJXWWRHGUQ%3A3%7C6BLCRM66P5HMBJ544AHMK5%3A3&amp;adroll_s_ref=&amp;keyw=&amp;arrfrr=https%3A%2F%2Fatomicwallet.io%2F"></script>
+<script type="text/javascript" src="//s.adroll.com/j/sendrolling.js"></script>
 <!--Adroll cookies activation -->
-<script>
-function checkCookie() {
-if (document.cookie.split(';').filter(function(item) {
-return item.indexOf('cookieconsent_status=deny') >= 0
-}).length) {
-/*AdRoll pixel will not fire*/
-} else if (document.cookie.split(';').filter(function(item) {
-return item.indexOf('cookieconsent_status=dismiss') >= 0
-}).length) {
-/*AdRoll pixel will fire on next page load and all subsequent navigation*/
-adroll_adv_id = "JZ4BUZ67SFACZCG74M6BCJ";
-adroll_pix_id = "C6LOMQPZ2VDUVJXWWRHGUQ";
-/* OPTIONAL: provide email to improve user identification */
-/* adroll_email = "username@example.com"; */
-(function() {
-var _onload = function() {
-if (document.readyState && !/loaded|complete/.test(document.readyState)) {
-setTimeout(_onload, 10);
-return
-}
-if (!window.__adroll_loaded) {
-__adroll_loaded = true;
-setTimeout(_onload, 50);
-return
-}
-var scr = document.createElement("script");
-var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
-scr.setAttribute('async', 'true');
-scr.type = "text/javascript";
-scr.src = host + "/j/roundtrip.js";
-((document.getElementsByTagName('head') || [null])[0] ||
-document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
-};
-if (window.addEventListener) {
-window.addEventListener('load', _onload, false);
-} else {
-window.attachEvent('onload', _onload)
-}
-}());
-}
-}
-checkCookie();
-</script>
+
+
 <!--End of Adroll cookies-->
 </head>
 <body>
@@ -898,6 +884,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </footer>
 
 <script src="js/app.js"></script>
+<script type="text/javascript">
+    adroll_adv_id = "JZ4BUZ67SFACZCG74M6BCJ";
+    adroll_pix_id = "C6LOMQPZ2VDUVJXWWRHGUQ";
 
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script>
 </body>
 </html>

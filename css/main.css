@@ -1004,12 +1004,16 @@ width: 110%;
 }
 
 .partners_special {
-
-    padding-bottom: 30px;
-    width: 200px;
-    margin: 0 auto;
+  padding-bottom: 30px;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 200px;
+}
+.partners_special a {
 
 }
+
 
 .partners-list a {
 	display: inline-flex;
