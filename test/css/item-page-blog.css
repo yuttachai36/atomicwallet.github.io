@@ -302,7 +302,7 @@ ul .article-li {
 }
 .toc_list li {
 
-    margin-left: auto;
+    margin-left: auto !important;
     margin-right: auto;
     padding-left: 20px;
 }
@@ -647,7 +647,7 @@ ul .article-li {
         max-width: 700px;
     }
     .item-page li {
-      margin-left: 250px;
+      margin-left: 250px;s
     }
     .item-page-blog-image img{
       max-width: 75%
