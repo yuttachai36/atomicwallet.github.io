@@ -129,7 +129,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-   <loc>http://support.atomicwallet.io/support/home</loc>
+   <loc>https://support.atomicwallet.io/support/home</loc>
   <changefreq>daily</changefreq>
   <priority>0.6</priority>   
 </url>
