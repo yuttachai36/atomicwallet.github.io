@@ -437,7 +437,8 @@ ul .article-li {
     margin-bottom: 10px;
 }
 .blog-container div:nth-child(1) .small-image-blog img {
-    width: 385px;
+    width: 395px;
+    height: 271px;
 }
 .blog-container div:nth-child(3) .small-image-blog img,
 .blog-container div:nth-child(6) .small-image-blog img,
@@ -449,7 +450,7 @@ ul .article-li {
     width: 395px;
 
 }
-.blog-container div:nth-child(5) .small-image-blog img {
+.blog-container div:nth-child(9) .small-image-blog img {
     width: 390px;
     padding-left: 20px;
     height: 100%;
@@ -463,7 +464,9 @@ ul .article-li {
 .blog-container div:nth-child(13) .small-image-blog img,
 .blog-container div:nth-child(14) .small-image-blog img,
 .blog-container div:nth-child(15) .small-image-blog img,
-.blog-container div:nth-child(16) .small-image-blog img
+.blog-container div:nth-child(16) .small-image-blog img,
+.blog-container div:nth-child(17) .small-image-blog img,
+.blog-container div:nth-child(18) .small-image-blog img
  {
        width: 395px;
     height: auto;
@@ -662,6 +665,7 @@ ul .article-li {
     }
     .blog-container .blog-div:nth-child(1) .small-image-blog img {
         width: 250px;
+        height: 200px;
     }
     .blog-container .blog-div:nth-child(2) .small-image-blog img {
         padding-top: 0px;
@@ -680,7 +684,9 @@ ul .article-li {
     .blog-container div:nth-child(13) .small-image-blog img,
     .blog-container div:nth-child(14) .small-image-blog img,
     .blog-container div:nth-child(15) .small-image-blog img,
-    .blog-container div:nth-child(16) .small-image-blog img
+    .blog-container div:nth-child(16) .small-image-blog img,
+    .blog-container div:nth-child(17) .small-image-blog img,
+    .blog-container div:nth-child(18) .small-image-blog img
      {
         width: 259px;
     }
