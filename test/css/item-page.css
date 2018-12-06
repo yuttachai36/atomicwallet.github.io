@@ -446,13 +446,16 @@ ul .article-li {
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.blog-container div:nth-child(1) .small-image-blog img {
-    width: 395px;
+.blog-container div:nth-child(1) .small-image-blog img,
+.blog-container div:nth-child(2) .small-image-blog img
+ {
+    width: 390px;
     height: 271px;
 }
 .blog-container div:nth-child(3) .small-image-blog img,
 .blog-container div:nth-child(6) .small-image-blog img,
-.blog-container div:nth-child(10) .small-image-blog img {
+.blog-container div:nth-child(10) .small-image-blog img,
+ {
     width: 390px;
 }
 .blog-container div:nth-child(4) .small-image-blog img,
@@ -476,16 +479,16 @@ ul .article-li {
 .blog-container div:nth-child(15) .small-image-blog img,
 .blog-container div:nth-child(16) .small-image-blog img,
 .blog-container div:nth-child(17) .small-image-blog img,
-.blog-container div:nth-child(18) .small-image-blog img
+.blog-container div:nth-child(18) .small-image-blog img,
+.blog-container div:nth-child(19) .small-image-blog img,
+.blog-container div:nth-child(20) .small-image-blog img
  {
        width: 395px;
     height: auto;
 }
 
 .blog-container div:nth-child(2) .small-image-blog img {
-    width: 371px;
-    height: auto;
-    padding-top: 20px;
+
 }
 
 .blog-container a:nth-child(5) .blog-div {
@@ -694,7 +697,7 @@ ul .article-li {
         height: 200px;
     }
     .blog-container .blog-div:nth-child(2) .small-image-blog img {
-        padding-top: 0px;
+        height: auto;
         width: 250px;
     }
     .blog-container div:nth-child(3) .small-image-blog img,
@@ -712,7 +715,9 @@ ul .article-li {
     .blog-container div:nth-child(15) .small-image-blog img,
     .blog-container div:nth-child(16) .small-image-blog img,
     .blog-container div:nth-child(17) .small-image-blog img,
-    .blog-container div:nth-child(18) .small-image-blog img
+    .blog-container div:nth-child(18) .small-image-blog img,
+    .blog-container div:nth-child(19) .small-image-blog img,
+    .blog-container div:nth-child(20) .small-image-blog img
      {
         width: 259px;
     }
