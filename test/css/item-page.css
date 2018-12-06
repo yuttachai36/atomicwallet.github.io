@@ -368,6 +368,16 @@ ul .article-li {
     width: 850px;
     padding-left: 300px;
     }
+.widget-cc {
+    width:  700px;
+    margin: 0 auto;
+}
+
+.chartTypeTabLinks,
+.cccCustomRadioContainer {
+        display: none
+    }
+
 .coinmarketcap-currency-widget {
     display: block;
     margin-left: auto;
@@ -436,13 +446,16 @@ ul .article-li {
     margin-top: 5px;
     margin-bottom: 10px;
 }
-.blog-container div:nth-child(1) .small-image-blog img {
-    width: 395px;
+.blog-container div:nth-child(1) .small-image-blog img,
+.blog-container div:nth-child(2) .small-image-blog img
+ {
+    width: 390px;
     height: 271px;
 }
 .blog-container div:nth-child(3) .small-image-blog img,
 .blog-container div:nth-child(6) .small-image-blog img,
-.blog-container div:nth-child(12) .small-image-blog img {
+.blog-container div:nth-child(10) .small-image-blog img,
+ {
     width: 390px;
 }
 .blog-container div:nth-child(4) .small-image-blog img,
@@ -459,23 +472,23 @@ ul .article-li {
 
 .blog-container div:nth-child(8) .small-image-blog img,
 .blog-container div:nth-child(9) .small-image-blog img,
-.blog-container div:nth-child(10) .small-image-blog img,
 .blog-container div:nth-child(11) .small-image-blog img,
 .blog-container div:nth-child(13) .small-image-blog img,
 .blog-container div:nth-child(14) .small-image-blog img,
+.blog-container div:nth-child(12) .small-image-blog img,
 .blog-container div:nth-child(15) .small-image-blog img,
 .blog-container div:nth-child(16) .small-image-blog img,
 .blog-container div:nth-child(17) .small-image-blog img,
-.blog-container div:nth-child(18) .small-image-blog img
+.blog-container div:nth-child(18) .small-image-blog img,
+.blog-container div:nth-child(19) .small-image-blog img,
+.blog-container div:nth-child(20) .small-image-blog img
  {
        width: 395px;
     height: auto;
 }
 
 .blog-container div:nth-child(2) .small-image-blog img {
-    width: 371px;
-    height: auto;
-    padding-top: 20px;
+
 }
 
 .blog-container a:nth-child(5) .blog-div {
@@ -558,6 +571,22 @@ ul .article-li {
       .header-article img {
         width: 60px;
       }
+
+      /* CryptoCompare Widget */
+
+    .widget-cc {
+        max-width: 320px;
+    }
+    .chartTypeTabLinks,
+    .cccCustomRadioContainer {
+        display: none
+    }
+    div #cccChartDivBTC {
+        height: 400px !important;
+    }
+
+     /* End of CryptoCompare Widget */
+     
       .item-page h1 {
         line-height: 40px;
         font-size: 32px;
@@ -668,7 +697,7 @@ ul .article-li {
         height: 200px;
     }
     .blog-container .blog-div:nth-child(2) .small-image-blog img {
-        padding-top: 0px;
+        height: auto;
         width: 250px;
     }
     .blog-container div:nth-child(3) .small-image-blog img,
@@ -686,7 +715,9 @@ ul .article-li {
     .blog-container div:nth-child(15) .small-image-blog img,
     .blog-container div:nth-child(16) .small-image-blog img,
     .blog-container div:nth-child(17) .small-image-blog img,
-    .blog-container div:nth-child(18) .small-image-blog img
+    .blog-container div:nth-child(18) .small-image-blog img,
+    .blog-container div:nth-child(19) .small-image-blog img,
+    .blog-container div:nth-child(20) .small-image-blog img
      {
         width: 259px;
     }
