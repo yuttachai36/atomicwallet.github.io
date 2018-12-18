@@ -138,5 +138,15 @@
   <changefreq>daily</changefreq>
   <priority>0.80</priority>   
 </url>
+<url>
+   <loc>https://atomicwallet.io/bitcoin-price</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>   
+</url>
+<url>
+   <loc>https://atomicwallet.io/ethereum-price</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>   
+</url>
 
 </urlset>
