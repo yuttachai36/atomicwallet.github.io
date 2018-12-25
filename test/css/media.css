@@ -531,13 +531,16 @@
     .kol-form-title {
     line-height: 25px;
     font-size: 15px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    }
+    .subscribe .kol-form-title {
+        width: 320px;
     }
     .subscribe .kol-form-title,
     .subscribe-mobile .kol-form-title {
     line-height: 25px;
     font-size: 18px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     }
     .subscribe-mobile .kol-form-title {
         text-align: left;
