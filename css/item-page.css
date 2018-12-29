@@ -59,10 +59,35 @@ p {
     padding-left: 0px;
 
 }
-
+/* Download Templates  */
+.downloads-container {
+    margin: 150px;
+    }
 .releases {
-    padding-bottom: 50px;
-}
+    background-color: white;
+    margin-bottom: 60px;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 38px 50px rgba(34, 83, 139, 0.1);
+    }
+
+    .releases h4 {
+      font-size: 24px;
+      padding-top: 15px;
+      padding-bottom: 5px;
+    }
+    .downloads-container h3 {
+      text-align: center !important;
+      margin-left: 0px;
+    }
+    .downloads-container p {
+      text-align: left; 
+      max-width: 800px;
+      font-size: 17px;
+      margin-left: 0px;
+    }
+
 .releases li {
   font-size: 16px;
   line-height: 22px;
@@ -94,11 +119,11 @@ p {
 .footer-new-left h4 {
     text-align: left;
 }
-.releases h4 {
+/* .releases h4 {
     font-size: 20px;
     padding-top: 15px;
     padding-bottom: 5px;
-}
+} */
 .releases h5 {
     padding-top: 5px;
     padding: 10px;
@@ -250,4 +275,15 @@ p {
     .coinmarketcap-currency-widget {
         width: auto;
     }
+    .downloads-container {
+        margin:  10px;
+      }
+    .downloads-container h3 {
+        font-size: 24px;
+      }
+    .downloads-container p {
+        max-width: 327px;
+        padding-bottom: 0px;
+        font-size: 16px;
+      }
 }
