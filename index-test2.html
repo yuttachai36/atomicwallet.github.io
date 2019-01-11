@@ -5,19 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>Atomic Wallet</title>
-    <meta name="description" content="Manage your Bitcoin, Ethereum, XRP, Litecoin, Stellar and over 300 tokens in Atomic secure wallet interface. Exchange and buy crypto for USD with credit card.">
+    <meta name="description" content="Light multi-assets wallet with built-in atomic swap exchange.">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="test/css/item-page-blog.css">
 
     <meta property="og:title" content="Atomic Wallet"/>
-    <meta property="og:description" content="Manage your Bitcoin, Ethereum, XRP, Litecoin, Stellar and over 300 tokens in Atomic secure wallet interface. Exchange and buy crypto for USD with credit card."/>
+    <meta property="og:description" content="Light multi-assets wallet with built-in atomic swap exchange."/>
     <meta property="og:image" content="https://atomicwallet.io/apple-touch-icon.png"/>
     <meta property="og:url" content="https://atomicwallet.io" />
-<!-- TrustBox script -->
-<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-<!-- End TrustBox script -->
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -27,7 +24,7 @@
     <!-- End Google Tag Manager -->
 
 
-    <!-- Global site tag (gtag.js) - Google Analytics
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114023091-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -37,7 +34,7 @@
         }
         gtag('js', new Date());
         gtag('config', 'UA-114023091-1');
-    </script> -->
+    </script>
 
 
 
@@ -48,6 +45,133 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+
+<!--Adroll pixel activation-->
+
+<!-- <script type="text/javascript" async="" src="https://s.adroll.com/j/roundtrip.js"></script> -->
+
+<!-- <script type="text/javascript">
+    adroll_adv_id = "JZ4BUZ67SFACZCG74M6BCJ";
+    adroll_pix_id = "C6LOMQPZ2VDUVJXWWRHGUQ";
+
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script> -->
+
+<script>
+function activateAdroll() {
+  console.log('Adroll enable');
+  adroll_adv_id = "JZ4BUZ67SFACZCG74M6BCJ";
+  adroll_pix_id = "C6LOMQPZ2VDUVJXWWRHGUQ";
+
+  if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+  if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+  var scr = document.createElement("script");
+  var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+  scr.setAttribute('async', 'true');
+  scr.type = "text/javascript";
+  scr.src = host + "/j/roundtrip.js";
+  ((document.getElementsByTagName('head') || [null])[0] ||
+      document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+}
+</script>
+<!--End of Adroll activation-->
+
+<!--Cookies-->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#3c404d",
+      "text": "#d6d6d6"
+    },
+    "button": {
+      "background": "#8bed4f"
+    }
+  },
+  onStatusChange: function(status) {
+    //console.log(this.hasConsented() ?'enable cookies' : 'disable cookies');
+    activateAdroll();
+  },
+  onInitialise: function (status) {
+    var type = this.options.type;
+    var didConsent = this.hasConsented();
+    if (didConsent) {
+      //console.log('enable cookies');
+      activateAdroll();
+    }
+    if (!didConsent) {
+      //console.log('disabled cookies');
+    }
+  },
+  layout: 'atomic-cookie',
+  layouts: {
+    'atomic-cookie': '{{message}}{{allow}}',
+  },
+  palette: {
+    popup: {
+      background: '#3A5693',
+      text: '#ffffff'
+    },
+    button: {
+      background: '#309BF8',
+      text: '#ffffff',
+    }
+  },
+  theme: 'classic',
+  position: 'bottom-left',
+  content: {
+    message: [
+      'We use cookies to enhance your experience. ',
+      'By using Atomic, you agree to our ',
+      '<a href="https://atomicwallet.io/terms-of-service" target="_blank" class="link-green">Terms of Use</a>',
+      ' and ',
+      '<a href="https://atomicwallet.io/privacy" target="_blank" class="link-green">Privacy Policy</a>',
+    ].join(''),
+    dismiss: 'Accept',
+  },
+  elements: {
+    message: '<span id="cookieconsent:desc" class="cc-message">{{message}}</span>',
+    allow: '<div class="cc-compliance"><a aria-label="dismiss cookie message" tabindex="0" class="cc-btn cc-dismiss">{{dismiss}}</a></div>',
+  },
+})});
+</script>
+<!--End of the Cookies-->
+<!--Cookies trigger-->
+
+<style>
+  .link-green {
+    text-decoration: underline;
+    color: #ffffff;
+  }
+</style>
+<!-- <script type="text/javascript" src="https://d.adroll.com/consent/check/JZ4BUZ67SFACZCG74M6BCJ?_s=172d2325b3cc6304359ae163f277ebf5&amp;adroll_fpc=9d6a0bc93f855fc3e954b6676613f6be"></script>
+<script id="adroll_scr_exp" onerror="window.adroll_exp_list = [];" type="text/javascript" src="https://s.adroll.com/j/exp/JZ4BUZ67SFACZCG74M6BCJ/index.js"></script> -->
+
+<!--End of the Cookies Trigger-->
+<!-- <script async="true" type="text/javascript" src="https://d.adroll.com/pixel/JZ4BUZ67SFACZCG74M6BCJ/C6LOMQPZ2VDUVJXWWRHGUQ?adroll_fpc=9d6a0bc93f855fc3e954b6676613f6be&amp;pv=79516293435.06558&amp;cookie=JZ4BUZ67SFACZCG74M6BCJ%3A3%C6LOMQPZ2VDUVJXWWRHGUQ%3A3%7C6BLCRM66P5HMBJ544AHMK5%3A3&amp;adroll_s_ref=&amp;keyw=&amp;arrfrr=https%3A%2F%2Fatomicwallet.io%2F"></script>
+<script type="text/javascript" src="https://s.adroll.com/j/sendrolling.js"></script> -->
+<!--Adroll cookies activation -->
+
+
+<!--End of Adroll cookies-->
 </head>
 <body>
 
@@ -59,6 +183,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBC3CH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 
 
     <script src="js/aos.js"></script>
@@ -69,10 +198,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="header-menu-mobile header-menu-close f-light only-mobile" id="menu-mobile">
     <div class="container relative">
         <a href="/" class="header-menu-here">Wallet</a>
-        <a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin</a>
+        <a href="/token">Token Sale</a>
         <a href="/assets">Assets</a>
         <a href="/downloads">Download</a>
-        <a href="https://support.atomicwallet.io/support/home">Support</a>
+        <a href="http://support.atomicwallet.io/support/home">Support</a>
         <a href="https://atomicwallet.io/blog">Blog</a>
         <button class="header-menu-mobile-close" id="menu-button-close"></button>
     </div>
@@ -86,10 +215,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
         <nav class="header-menu f-light">
             <a href="/" class="header-menu-here hvr-grow">Wallet</a>
-            <a href="https://atomicwallet.io/buy-bitcoin" class="hvr-grow">Buy Bitcoin</a>
+            <a href="token" class="hvr-grow">Token Sale</a>
             <a href="assets" class="hvr-grow">Assets</a>
             <a href="/downloads" class="hvr-grow">Download</a>
-            <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+            <a href="http://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
             <a href="https://atomicwallet.io/blog" class="hvr-grow">Blog</a>
         </nav>
         <nav class="header-menu-icons  f-light">
@@ -106,11 +235,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="https://www.facebook.com/atomicwallet" target="_blank" class="hvr-float">
                     <img src="css/images/top_facebook.svg">
                 </a>
-            <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" class="hvr-float">
-                <img src="css/images/top_reddit.svg">
+
+
             </a>
-            <a href="https://steemit.com/@atomicwallet" target="_blank" class="hvr-float">
-                <img src="css/images/top_steemit.svg">
+            <a href="https://www.reddit.com/user/atomicwallet/" target="_blank" class="hvr-float">
+                <img src="css/images/top_reddit.svg">
             </a>
         </nav>
         <button class="header-button only-mobile" id="menu-button-open"></button>
@@ -130,23 +259,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <div class="main_icon f-light"><div class="main_icon_image"><img src="css/images/anonymous.svg" class="hvr-float"></div>Anonymous
                     </div>
-                     <a href="#download" class="button-wallet" style="    height: 40px;
-    margin-top: 35px;
-    margin-left: 106px;
-    width: 210px;
-    display: inline-block;
-    padding: 4px 0px;">Download</a>
                 </div>
             </h1>
         <a href="#download"><img src="css/images/mainnotebook.png"  alt class="main-notebook" data-aos="fade-left" data-aos-duration="800"> </a>
     </div>
-    
-
 </main>
+   <section class="subscribe-top" id="contacts" data-aos="fade-right">
+    <div class="container relative">
+<div id="kol_embed_container_229607"></div>
+<script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+<script>window.$kol_jquery = window.jQuery</script>
+<script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_embed.js"></script>
+<script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/229607.js'></script>
+</div>
+</section>
 
 
-  
-<section class="container download-container relative" style="top: -73px; padding-top: 0px;">
+<section class="container download-container relative">
     <!-- Subscribe Pop-up-->
 <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
 <script>window.$kol_jquery = window.jQuery</script>
@@ -159,210 +288,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
 <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/223800.js'></script>
 <!-- End of mobile download Pop-up-->
-<section class="team" id="team" data-slider style="margin-bottom: 20px;">
-    <div class="container relative">
-                    <h2 class="download-title-top f-bold"><br><br><a name="download">Reviews</a></h2>
-       <h3 class="download-text f-light">Thousands of users trust Atomic. Check reviews.</h3>
-<!--         <div class="comments-arrows relative">
 
-            <button class="comments-arrow comments-arrow-left" disabled data-slider-left></button>
-            <button class="comments-arrow comments-arrow-right" data-slider-right></button>
-        </div> -->
-
-    </div>
-<style type="text/css">
-@media screen and (max-width: 830px) {
-.team-social .trustpilot-soc {
-  width: 80px;
-}
-}
-.team-social .trustpilot-soc {
-  width: 140px;
-}
-  
-</style>
-    <div class="comments-slider-label">
-
-        <div class="container relative">
-
-
-            <div class="comments-slider relative" data-slider-container>
-                <div class="comments-slider-list" data-slider-list>
-
-
-                        <div class="comments-item comments-item-reviews">
-                        <div class="team-author hvr-grow">
-                            <a href="https://twitter.com/CharlieShrem"><img src="css/images/team-3.jpg" class="team-author-avatar" alt>
-                            <div class="team-author-name f-medium">Charlie Shrem</div>
-                            
-                                </a>
-                        </div>
-                        <div><img src="css/images/trustpilot.png" style="margin-bottom: 15px;" alt="">
-                        </div>
-                        <a href="https://twitter.com/CharlieShrem/status/1009538446678020104?s=09" target="_blank">
-                        <div class="team-text f-light">Being able to swap assets without a centralized service is awesome - atomicwallet.io
-                         </div></a>
-                            <div class="team-social">
-                            <a href="https://twitter.com/CharlieShrem/status/1009538446678020104?s=09" target="_blank"><img src="css/images/icons/team-soc-twitter.svg" alt></a>
-
-                        </div>
-                    </div>
-                        <div class="comments-item comments-item-reviews">
-                        <div class="team-author hvr-grow">
-                            <a href="https://twitter.com/FateOfCrypto/status/1030212687249240069">
-                                <img src="https://pbs.twimg.com/profile_images/1034462682043346944/ckEJLY7h_bigger.jpg" class="team-author-avatar" alt>
-                            <div class="team-author-name f-medium">FateOfCrypto</div>
-                                </a>
-                        </div>
-                        <div><img src="css/images/trustpilot.png" style="margin-bottom: 15px;" alt="">
-                        </div>
-                        <a href="https://twitter.com/FateOfCrypto/status/1030212687249240069">
-                        <div class="team-text f-light"><b>*Attention*</b> If you are looking for a Multi-Asset Crypto Wallet, look into @atomicwallet! Much Respect to the team behind it...</div> </a>
-                        <div class="team-social">
-                            <a href="https://twitter.com/atomicwallet" target="_blank"><img src="css/images/icons/team-soc-twitter.svg" alt></a>
-
-                        </div>
-                    </div>
-                    <div class="comments-item comments-item-reviews">
-                        <div class="team-author hvr-grow">
-                            <a href="https://twitter.com/Rz_Eye/status/1035604379028652032"><img src="https://pbs.twimg.com/profile_images/954189980020236288/nHyfyjF1_400x400.jpg" width="65px;" class="team-author-avatar" alt>
-                            <div class="team-author-name f-medium">RzEye</div>
-                                </a>
-                        </div>
-                        <div><img src="css/images/trustpilot.png" style="margin-bottom: 15px;" alt="">
-                        </div><a href="https://twitter.com/Rz_Eye/status/1035604379028652032">
-                        <a href="https://twitter.com/Rz_Eye/status/1035604379028652032">
-                        <div class="team-text f-light">Use the @atomicwallet  only 2 days now and I am already totally overwhelmed. Super clean modern design and easy compact handling is definitely the key here.
-Excellent work💪 </div></a>
-                        <div class="team-social">
-                            <a href="https://twitter.com/atomicwallet" target="_blank"><img src="css/images/icons/team-soc-twitter.svg" alt></a>
-                            
-
-                        </div>
-                    </div>
-                        <div class="comments-item comments-item-reviews">
-                        <div class="team-author hvr-grow">
-                            <img src="https://user-images.trustpilot.com/default/v1/73x73.png" class="team-author-avatar" alt>
-                            <div class="team-author-name f-medium">Clarice Transparant</div>
-                                
-                        </div>
-                        <div><img src="css/images/trustpilot-4.png" style="margin-bottom: 15px;" alt="">
-                        </div>
-                        <a href="https://www.trustpilot.com/users/5bb4da3a4de5666d346e78fd">
-                        <div class="team-text f-light"><b>
-Great multi-wallet</b><br>
-
-Great multi-wallet. Their support is also really great!
-
-</div></a>
-                        <div class="team-social">
-                            <a href="https://www.trustpilot.com/review/atomicwallet.io" target="_blank"><img src="css/images/icons/team-soc-trustpilot.svg" alt class="trustpilot-soc"></a>
-                           
-
-                        </div>
-                    </div>
-
-                                        <div class="comments-item comments-item-reviews">
-                        <div class="team-author hvr-grow">
-                          <a href="https://www.trustpilot.com/users/5c0b87f03f0baa0f6e27a308" title="">
-                            <img src="https://user-images.trustpilot.com/5c0b87f03f0baa0f6e27a308/73x73.png" class="team-author-avatar" alt></a>
-                            <div class="team-author-name f-medium">
-ernesto espiritu</div>
-                                
-                        </div>
-                        <div><img src="css/images/trustpilot.png" style="margin-bottom: 15px;" alt="">
-                        </div>
-                        <a href="https://www.trustpilot.com/users/5c0b87f03f0baa0f6e27a308">
-                        <div class="team-text f-light"><b>Personal favorite multi currency wallet.</b><br> Very useful Coin Swapping exchange, Swap any coin to other coin, I normally used it for swapping my high value coins against small value coins...</div></a>
-                        <div class="team-social">
-                            <a href="https://www.trustpilot.com/review/atomicwallet.io" target="_blank"><img src="css/images/icons/team-soc-trustpilot.svg" alt class="trustpilot-soc"></a>
-                       
-
-                        </div>
-                    </div>
-                                        <div class="comments-item comments-item-reviews">
-                        <div class="team-author hvr-grow">
-                            <a href="https://www.trustpilot.com/users/5a870bd1f675864e5603359f"><img src="https://user-images.trustpilot.com/default/v1/73x73.png" class="team-author-avatar" alt>
-                            <div class="team-author-name f-medium">Johan Dulst</div>
-                                </a>
-                        </div>
-                        <div><img src="css/images/trustpilot.png" style="margin-bottom: 15px;" alt="">
-                        </div><a href="https://www.trustpilot.com/users/5a870bd1f675864e5603359f" title="">
-                        <div class="team-text f-light">
-<b>Super Multi-Wallet.</b> <br> 
-if there are problems , they do fast updates to solve things, Top.
-great support also.
-Go on like that, Respect.
-</div>
-</a>
-                        <div class="team-social">
-                            <a href="https://www.trustpilot.com/review/atomicwallet.io" target="_blank"><img src="css/images/icons/team-soc-trustpilot.svg" alt class="trustpilot-soc"></a>
-                        
-
-                        </div>
-                    </div>
-                                        <div class="comments-item comments-item-reviews">
-                        <div class="team-author hvr-grow">
-                            <img src="https://user-images.trustpilot.com/default/v1/73x73.png" class="team-author-avatar" alt>
-                            <div class="team-author-name f-medium">Sean Freeman</div>
-                                
-                        </div>
-                        <div><img src="css/images/trustpilot.png" style="margin-bottom: 15px;" alt="">
-                        </div>
-                        <a href="https://www.trustpilot.com/users/5be07b645483f4b8a943a579">
-                        <div class="team-text f-light"><b>Simple and clean is the way this wallet makes me feel. It's too hard to let go.</b><br>
-                      
-
-In addition to being a decentralized wallet AW gives you the ability to do token exchanges...</div></a>
-                        <div class="team-social">
-                            <a href="https://www.trustpilot.com/review/atomicwallet.io" target="_blank"><img src="css/images/icons/team-soc-trustpilot.svg" alt class="trustpilot-soc"></a>
-                          
-
-                        </div>
-                    </div>
-
-                       <div class="comments-item comments-item-reviews">
-                        <div class="team-author hvr-grow">
-                            <img src="https://user-images.trustpilot.com/5ae8bc324de5666d34f077eb/73x73.png" class="team-author-avatar" alt>
-                            <div class="team-author-name f-medium">In cognito</div>
-                                
-                        </div>
-                        <div><img src="css/images/trustpilot.png" style="margin-bottom: 15px;" alt="">
-                        </div>
-                        <a href="https://www.trustpilot.com/users/5ae8bc324de5666d34f077eb">
-                        <div class="team-text f-light"><b>Best there is</b><br>
-Simply put..... Its the best wallet I've ever used.
-I could go on and on at length about all the cool features and just how much better it is than others out there but I'm not .... Just try it!
-</div></a>
-                        <div class="team-social">
-                            <a href="https://www.trustpilot.com/review/atomicwallet.io" target="_blank"><img src="css/images/icons/team-soc-trustpilot.svg" alt class="trustpilot-soc"></a>
-                           
-
-                        </div>
-                    </div>
-
-
-              
-
-            
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <br>
-            <div class="comments-arrows comments-arrows-reviews relative">
-
-            <button class="comments-arrow comments-arrow-left" disabled data-slider-left></button>
-            <button class="comments-arrow comments-arrow-right" data-slider-right></button>
-        </div>
-</section>
-      <div class="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="5b11644f3e11e200014a1efe" data-style-height="52px" data-style-width="100%">
-  <a href="https://www.trustpilot.com/review/atomicwallet.io" target="_blank">Trustpilot</a>
-</div>
     <h2 class="download-title-top f-bold mobile-hide" id="download"><br><br><a name="download">Download Atomic Wallet</a></h2>
         <br><h3 class="download-text f-light"> Atomic Wallet is available for all major Operating Systems.<br> <a href="#contacts" class="sign-up-download-link">Subscribe</a> for our updates to know about latest news and releases.<br><br></h3>
-    <p class="download-text">The latest version of the wallet: <a class="sign-up-download-link" href="/downloads">1.37.1</a></p>
+    <p class="download-text">The latest version of the wallet: <a class="sign-up-download-link" href="/downloads">1.34.0</a></p>
     <div class="download">
         <div class="download-item download-item-windows hvr-grow" data-download="windows">
             <a href="https://atomicwallet.io/download/atomicwallet.exe" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-windows.svg" alt class="download-item-img-color"></a>
@@ -474,12 +403,6 @@ I could go on and on at length about all the cool features and just how much bet
 
 
 
-<h3 class="features-title-app f-bold" style="margin-top: 100px;">Atomic Wallet Overview</h3>
-<p class="download-text f-light">Manage your crypto wisely!<br> Learn how to setup Atomic Wallet to send, receive, exchange and buy cryptocurrency.</p>
-<div class="item-page-image-template">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GvPLN8pe_IY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
 <section class="features" id="features">
     <div class="container relative">
         <img src="css/images/bg-video.svg" alt="" class="bg bg-video">
@@ -487,12 +410,9 @@ I could go on and on at length about all the cool features and just how much bet
         <img src="css/images/bg-features-1.svg" alt class="bg bg-features-1">
         <img src="css/images/bg-features-2.svg" alt class="bg bg-features-2">
         <img src="css/images/bg-features-3.svg" alt class="bg bg-features-3">
-        <img src="css/images/bg-features-2.svg" alt class="bg bg-features-4">
-        <img src="css/images/features1.png" data-aos="zoom-in" data-aos-duration="800" alt class="bg bg-features-1-1-crypto mobile-hide">
         <img src="css/images/features-1.png" data-aos="zoom-in" data-aos-duration="800" alt class="bg bg-features-1-1 mobile-hide">
         <img src="css/images/features-2.png" data-aos="zoom-in" data-aos-duration="800" alt class="bg bg-features-2-1 mobile-hide">
         <img src="css/images/features-3.png" data-aos="zoom-in" data-aos-duration="800" alt class="bg bg-features-3-1 mobile-hide">
-
         <h2 class="features-title f-bold" data-aos="fade-right" data-aos-duration="800" data-aos-duration="800">Features</h2>
         <p class="download-text mobile-hide f-light" data-aos="fade-right" data-aos-duration="800"><strong>Atomic Wallet</strong> provides a powerful, in-demand service<br> that allows users to reduce effort spent on managing crypto assets​ and <br>makes it transparent and reliable <br><br><br>
         <img  class="mobile-hide" width="95%" style="margin-bottom: 100px" src="css/images/interfaces3.png"><br>
@@ -507,9 +427,9 @@ I could go on and on at length about all the cool features and just how much bet
         <div>
             <div class="features-item">
                 <div class="icon icon-light icon-exchange"></div>
-                <div class="features-item-title f-medium" data-aos="fade-up-right" data-aos-duration="800">Atomic Swap Exchange</div>
+                <div class="features-item-title f-medium" data-aos="fade-up-right" data-aos-duration="800">Atomic Swap</div>
                 <div class="features-text f-light" data-aos="fade-right" data-aos-duration="800">
-                    Use decentralized Atomic Swap to proceed with cross-chain exchange avoiding third party risks. <br><br><span class="mobile-hide">For coins not yet supported by Atomic Swap, we have built-in ShapeShift, ChangeNOW and Changelly exchanges.<br><br></span><br>
+                    Use decentralized Atomic Swap to proceed with cross-chain exchange avoiding third party risks. <br><br>For coins not yet supported by Atomic Swap, we have built-in ShapeShift and Changelly exchanges.<br><br>
                     <a href="https://atomicwallet.io/centralized-exchanges-vs-atomic-swap">Read more about Atomic Swaps.</a>
 
                 <div class="features_icons mobile-hide">
@@ -533,20 +453,9 @@ I could go on and on at length about all the cool features and just how much bet
                 <div class="features-item-title f-medium" data-aos="fade-up-right" data-aos-duration="800">Multi-currency</div>
                 <div class="features-text f-light" data-aos="fade-right" data-aos-duration="800">Atomic Wallet currently supports 300+<br> coins and tokens. It's the most convenient way to handle all your crypto assets. <a href="/assets">The list</a> is updated on a daily basis and we keep hunting for more!</div>
             </div>
-            <div class="mobile-hide"  style="padding-top:330px;"></div>
-            <div class="features-item features-item-right">
-                <div class="icon icon-light icon-buy-crypto"></div>
-                <div class="features-item-title f-medium" data-aos="fade-up-left" data-aos-duration="800">Buy Crypto</div>
-                <div class="features-text f-light" data-aos="fade-right" data-aos-duration="800">Buy Bitcoin, Litecoin, Ethereum and XRP with your Bank card. We accept USD, EUR and your local currency worldwide. <br><br><a href="https://atomicwallet.io/buy-bitcoin-with-bank-card">Learn how to buy crypto in Atomic Wallet</a><br><br>
-                </div>
-            </div>
         </div>
     </div>
 </section>
-<div style="margin-top: 950px;" class="mobile-hide">
-</div>
-<div style="margin-top: 550px;" class="only-mobile">
-</div>
 
 <h3 class="features-title-app f-bold">Mobile Atomic Wallet</h3>
        <div class="container relative"><img class="mobile_interface" src="css/images/mobile_interface1.png">
@@ -711,10 +620,8 @@ I could go on and on at length about all the cool features and just how much bet
 
 
                 <div class="list-item hvr-float">
-                  <a href="https://atomicwallet.io/bitcoin-sv">
-                    <img src="css/images/crypto-icon/BCHSV.svg" alt>
-                    <span class="list-item-name">Bitcoin SV</span>
-                    </a>
+                    <img src="css/images/crypto-icon/AE.svg" alt>
+                    <span class="list-item-name">Aeternity</span>
                 </div>
 
                 <div class="list-item hvr-float">
@@ -731,12 +638,6 @@ I could go on and on at length about all the cool features and just how much bet
                     <a href="https://atomicwallet.io/vechain">
                     <img src="css/images/crypto-icon/VET.svg" alt>
                     <span class="list-item-name">VeChain</span>
-                    </a>
-                 </div>
-                 <div class="list-item hvr-float">
-                   <a href="/neo">
-                    <img src="css/images/crypto-icon/NEO.svg" alt>
-                    <span class="list-item-name">NEO</span>
                     </a>
                  </div>
 
@@ -763,7 +664,10 @@ I could go on and on at length about all the cool features and just how much bet
                     <img src="css/images/crypto-icon/SMART.svg" alt>
                     <span class="list-item-name">Smart Cash</span>
                  </div>
-
+                 <div class="list-item hvr-float list-item-coming-soon">
+                    <img src="css/images/crypto-icon/IOTA.svg" alt>
+                    <span class="list-item-name">IOTA</span>
+                 </div>
         <!--
         <div class="list-bottom relative">
             <a href="#list" class="button" id="list-full" data-text="Hide full list">View full list</a>
@@ -874,7 +778,7 @@ I could go on and on at length about all the cool features and just how much bet
                         </div>
                     </div>
 
-                    <!--<div class="comments-item">
+                    <div class="comments-item">
                        <div class="team-author hvr-grow">
                             <a href="https://www.linkedin.com/in/sokolovpaul/"><img src="css/images/team-1.jpg" class="team-author-avatar" alt>
                             <div class="team-author-name f-medium">Paul Sokolov</div>
@@ -886,7 +790,7 @@ I could go on and on at length about all the cool features and just how much bet
                             <a href="https://www.linkedin.com/in/sokolovpaul/" target="_blank"><img src="css/images/icons/team-soc-in.svg" alt></a>
 
                         </div>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -938,12 +842,7 @@ I could go on and on at length about all the cool features and just how much bet
             <a class="hvr-grow" href="https://fenbushi.digital" target="_blank"><img src="css/images/partner-fenbushi.png" alt=""></a>
             <a class="hvr-grow" href="https://coinmarketcap.com/" target="_blank"><img src="css/images/partner-coinmarketcap.png" alt=""></a>
 
-
-
-
             <div class="partners_special">
-              <a class="hvr-grow" href="https://airdrops.io/" target="_blank"><img src="css/images/partner-airdrops.png" alt=""></a>
-              <a class="hvr-grow" href="https://coincodex.com/" target="_blank"><img src="css/images/coincodex.png" alt="" style="width: 70%; height: 70%;"></a>
 
             </div>
 
@@ -980,9 +879,6 @@ I could go on and on at length about all the cool features and just how much bet
                     <a href="https://www.facebook.com/atomicwallet" target="_blank">
                         <img src="css/images/top_facebook.svg">
                     </a>
-                    <!--<a href="https://steemit.com/@atomicwallet" target="_blank">
-                        <img src="css/images/top_steemit.svg">
-                    </a>-->
                 </div>
             </div>
             <div class="footer-new-right">
@@ -1025,8 +921,8 @@ I could go on and on at length about all the cool features and just how much bet
                     <div class="footer-new-col">
                         <div class="footer-new-col-title">Support</div>
                         <ul class="f-light">
-                            <li><a href="https://support.atomicwallet.io/support/home">FAQ</a></li>
-                            <li><a href="https://support.atomicwallet.io/support/tickets/new">Submit a ticket</a></li>
+                            <li><a href="http://support.atomicwallet.io/support/home">FAQ</a></li>
+                            <li><a href="http://support.atomicwallet.io/support/tickets/new">Submit a ticket</a></li>
                             <li><a href="https://t.me/atomicwalletchat">Chat</a></li>
                             <li><a href="https://t.me/atomicwallet">News Channel</a></li>
                             <li><a href="mailto:listing@atomicwallet.io">Listing your asset</a></li>
@@ -1040,6 +936,25 @@ I could go on and on at length about all the cool features and just how much bet
 </footer>
 
 <script src="js/app.js"></script>
+<script type="text/javascript">
+    /*adroll_adv_id = "JZ4BUZ67SFACZCG74M6BCJ";
+    adroll_pix_id = "C6LOMQPZ2VDUVJXWWRHGUQ";
 
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());*/
+</script>
 </body>
 </html>
