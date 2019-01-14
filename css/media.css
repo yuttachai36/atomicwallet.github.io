@@ -42,6 +42,9 @@
       right: -50px;
       width: 730px;
     }
+    .comments-arrows-reviews {
+    top: 30px;
+    }
 }
 @media screen and (max-width: 830px) {
     body {
@@ -459,6 +462,9 @@
         height: 24px;
         top: 20px;
         background-size: 13px;
+    }
+    .comments-arrows-reviews {
+    top: 30px;
     }
     .comments-arrow-left {
         right: 60px;
