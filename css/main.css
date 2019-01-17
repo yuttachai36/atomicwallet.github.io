@@ -483,7 +483,42 @@ width: 110%;
 	opacity: 0.6;
 }
 
+.mobile-download-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;    
+}
 
+.coin-page-title-text {
+ width: 410px;
+    line-height: 20px;
+    font-size: 19px;
+    color: #121010;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.coin-page-title {
+width: 500px;
+    line-height: 40px;
+    font-size: 30px;
+    color: #121010;
+    margin-top: -10px;
+    margin-left: 60px;
+
+}
+.coin-page-icon {
+	position: absolute;
+	 top: -75px;
+    left: 179px
+}
+.coin-page-download-button {
+	  height: 40px !important; 
+    margin-top: 35px !important;
+    margin-left: 106px !important;
+    width: 210px !important;
+    display: inline-block !important;
+    padding: 4px 0px !important;
+}
 .download-item-img-color {
 	display: none;
 }
