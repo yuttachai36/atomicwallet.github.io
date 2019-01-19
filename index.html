@@ -98,7 +98,7 @@ window.cookieconsent.initialise({
   },
   layout: 'atomic-cookie',
   layouts: {
-    'atomic-cookie': '{{message}}{{allow}}',
+    'atomic-cookie': '{{message}}{{allow}}{{close}}',
   },
   palette: {
     popup: {
@@ -111,7 +111,7 @@ window.cookieconsent.initialise({
     }
   },
   theme: 'classic',
-  position: 'bottom-left',
+  position: 'bottom',
   content: {
     message: [
       'We use cookies to enhance your experience. ',
@@ -121,10 +121,12 @@ window.cookieconsent.initialise({
       '<a href="https://atomicwallet.io/privacy" target="_blank" class="link-green">Privacy Policy</a>',
     ].join(''),
     dismiss: 'Accept',
+    close: 'x',
   },
   elements: {
     message: '<span id="cookieconsent:desc" class="cc-message">{{message}}</span>',
     allow: '<div class="cc-compliance"><a aria-label="dismiss cookie message" tabindex="0" class="cc-btn cc-dismiss">{{dismiss}}</a></div>',
+    close: '<span aria-label="dismiss cookie message" tabindex="0" class="cc-close" style="color=white;font-size:1em;">{{close}}</span>',
   },
 })});
 </script>
@@ -136,6 +138,7 @@ window.cookieconsent.initialise({
     text-decoration: underline;
     color: #ffffff;
   }
+
 </style>
 </head>
 <body>
@@ -373,7 +376,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div>
        <div class="mobile-download-button">
             <div class="download-item-app hvr-grow" data-download="android">
-            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet"><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet" target="_blank"><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
             <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img" style="box-shadow: 0 38px 50px rgba(34, 83, 139, 0.1)"></a>
         </div>
     <div class="download-item-app hvr-grow" data-download="iOS">
