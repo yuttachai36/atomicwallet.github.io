@@ -98,7 +98,7 @@ window.cookieconsent.initialise({
   },
   layout: 'atomic-cookie',
   layouts: {
-    'atomic-cookie': '{{message}}{{allow}}',
+    'atomic-cookie': '{{message}}{{allow}}{{close}}',
   },
   palette: {
     popup: {
@@ -111,7 +111,7 @@ window.cookieconsent.initialise({
     }
   },
   theme: 'classic',
-  position: 'bottom-left',
+  position: 'bottom',
   content: {
     message: [
       'We use cookies to enhance your experience. ',
@@ -121,10 +121,12 @@ window.cookieconsent.initialise({
       '<a href="https://atomicwallet.io/privacy" target="_blank" class="link-green">Privacy Policy</a>',
     ].join(''),
     dismiss: 'Accept',
+    close: 'x',
   },
   elements: {
     message: '<span id="cookieconsent:desc" class="cc-message">{{message}}</span>',
     allow: '<div class="cc-compliance"><a aria-label="dismiss cookie message" tabindex="0" class="cc-btn cc-dismiss">{{dismiss}}</a></div>',
+    close: '<span aria-label="dismiss cookie message" tabindex="0" class="cc-close" style="color=white;font-size:1em;">{{close}}</span>',
   },
 })});
 </script>
@@ -136,6 +138,7 @@ window.cookieconsent.initialise({
     text-decoration: underline;
     color: #ffffff;
   }
+
 </style>
 </head>
 <body>
@@ -373,7 +376,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div>
        <div class="mobile-download-button">
             <div class="download-item-app hvr-grow" data-download="android">
-            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet"><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet" target="_blank"><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
             <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img" style="box-shadow: 0 38px 50px rgba(34, 83, 139, 0.1)"></a>
         </div>
     <div class="download-item-app hvr-grow" data-download="iOS">
@@ -392,10 +395,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </section>
 
+<div class="mobile-hide">
 <h3 class="features-title-app f-bold" style="margin-top: 70px;">Atomic Wallet Overview</h3>
 <p class="download-text f-light">Manage your crypto wisely!<br> Learn how to setup Atomic Wallet to send, receive, exchange and buy cryptocurrency.</p>
 <div class="item-page-image-template">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GvPLN8pe_IY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 </div>
 
 <section class="features" id="features">
@@ -455,7 +460,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="features-item features-item-right">
                 <div class="icon icon-light icon-buy-crypto"></div>
                 <div class="features-item-title f-medium" data-aos="fade-up-left" data-aos-duration="800">Buy Crypto</div>
-                <div class="features-text f-light" data-aos="fade-right" data-aos-duration="800">Buy Bitcoin, Litecoin, Ethereum and XRP with your Bank card. We accept U, SDEUR and your local currency worldwide. <br><br><a href="https://atomicwallet.io/buy-bitcoin-with-bank-card">Learn how to buy crypto in Atomic Wallet</a><br><br>
+                <div class="features-text f-light" data-aos="fade-right" data-aos-duration="800">Buy Bitcoin, Litecoin, Ethereum and XRP with your Bank card. We accept USD, EUR and your local currency worldwide. <br><br><a href="https://atomicwallet.io/buy-bitcoin-with-bank-card">Learn how to buy crypto in Atomic Wallet</a><br><br>
                 </div>
             </div>
         </div>
