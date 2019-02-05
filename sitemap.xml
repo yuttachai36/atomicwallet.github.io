@@ -169,17 +169,27 @@
   <priority>0.80</priority>   
 </url>
 <url>
-   <loc>https://atomicwallet.io/dash-price</loc>
+  <loc>https://atomicwallet.io/dash-price</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>   
 </url>
 <url>
-   <loc>https://atomicwallet.io/tron-price</loc>
+  <loc>https://atomicwallet.io/tron-price</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>   
 </url>
 <url>
    <loc>https://atomicwallet.io/bitcoin-cash-price</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>   
+</url>
+<url>
+     <loc>https://atomicwallet.io/dogecoin-price</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>   
+</url>
+<url>
+   <loc>https://atomicwallet.io/best-crypto-to-invest-in-2019</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>   
 </url>
