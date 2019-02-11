@@ -203,5 +203,10 @@
   <changefreq>daily</changefreq>
   <priority>0.80</priority>   
 </url>
+<url>
+   <loc>https://support.atomicwallet.io/support/solutions/folders/36000156631</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>   
+</url>
 
 </urlset>
