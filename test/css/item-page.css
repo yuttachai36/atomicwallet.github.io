@@ -123,9 +123,9 @@ abbr {
     width: auto;
     margin-bottom: 30px;
 }
-.item-page ol li {
+/* .item-page ol li {
     line-height: 4px;
-}
+} */
 .item-page .blog-li-longtext li {
     line-height: 30px;
 }
