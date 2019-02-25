@@ -1158,3 +1158,220 @@ width: 500px;
 .footer-new-col a:hover {
 	color: #ffffff;
 }
+
+
+/************* SUPPORT PAGES *************/
+.support-container {
+	width: 100%;
+	max-width: 1200px;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+.support-title {
+	font-size: 64px;
+	text-transform: capitalize;
+}
+
+.support-sub-title {
+	font-family: 'Roboto Ligth', sans-serif;
+	font-size: 35px;
+}
+
+/************* SUPPORT LIST CARDS *************/
+.list-cards {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+	flex-wrap: wrap;
+}
+
+.card-item {
+	width: 24%;
+	text-align: center;
+	background: #ffffff;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	padding: 50px 30px;
+	margin-bottom: 20px;
+	color: inherit;
+	transition: background .4s;
+}
+
+.card-item:hover {
+	background: #efefef;
+}
+
+.card-header {
+	font-size: 24px;
+	text-transform: capitalize;
+	margin-top: 15px;
+}
+
+.card-description {
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #828282;
+	margin-top: 10px;
+}
+
+.card-count-articles {
+	font-weight: 300;
+	font-size: 13px;
+	text-transform: capitalize;
+	color: #828282;
+	margin-top: 30px;
+}
+/************* /SUPPORT LIST CARDS ************/
+
+/************* SUPPORT POPULAR *************/
+.support-articles {
+	margin-top: 70px;
+}
+
+.support-article-title {
+	font-size: 48px;
+	text-transform: capitalize;
+}
+
+.article-item {
+	width: 500px;
+	display: inline-block;
+}
+
+.article-item:first-child {
+	margin-right: 100px;
+}
+
+.article-item-title {
+	font-size: 24px;
+	text-transform: capitalize;
+	display: block;
+	color: inherit;
+	margin-top: 15px;
+}
+
+.article-item-title:hover {
+	text-decoration: underline;
+}
+/************* /SUPPORT POPULAR ************/
+
+
+/************* SUPPORT PAGE *************/
+.support-page {
+	display: flex;
+	justify-content: space-between;
+}
+
+.support-aside {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+}
+
+.support-aside-item {
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	color: inherit;
+}
+
+.support-aside-item.active {
+	color: #40BEFE;
+}
+
+.support-aside-item img {
+	width: 20px;
+	color: #000;
+}
+
+.support-aside-item span {
+	font-size: 20px;
+	margin-left: 10px;
+	text-transform: capitalize;
+}
+
+.support-aside-item:hover span {
+	text-decoration: underline;
+}
+
+.support-main-wrap {
+	width: 100%;
+}
+
+.support-main {
+	width: 100%;
+	background: #fff;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	padding: 50px 70px 120px;
+}
+
+.support-main-title {
+	font-size: 48px;
+	text-transform: capitalize;
+	display: flex;
+	align-items: center;
+}
+
+.support-main-subtitle {
+	font-size: 36px;
+	text-transform: capitalize;
+}
+
+.support-main-title span {
+	margin-left: 20px;
+}
+
+.support-main-list {
+	margin-top: 40px;
+}
+
+.support-main-item {
+	margin-bottom: 30px;
+	color: inherit;
+	display: block;
+}
+
+.main-item-header {
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.support-main-item:hover .main-item-header {
+	text-decoration: underline;
+}
+
+.main-item-description {
+	font-size: 18px;
+	color: #828282;
+	text-transform: capitalize;
+	margin-top: 10px;
+}
+/************* /SUPPORT PAGE ************/
+
+/************* SUPPORT ARTICLES *************/
+.support-article {
+	margin-top: 40px;
+}
+
+.article-header {
+	font-size: 36px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.article-description {
+	font-size: 18px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+.article-img img {
+	width: 100%;
+}
+/************* /SUPPORT ARTICLES ************/
+
+/************* /SUPPORT PAGES ************/
