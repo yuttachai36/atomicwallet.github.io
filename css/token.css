@@ -529,6 +529,8 @@ img {
 }
 .investors {
 	padding-bottom: 70px;
+	max-width: 799px;
+	margin: 0 auto;
 
 
 }
