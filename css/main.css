@@ -1230,7 +1230,7 @@ width: 500px;
 }
 
 .support-article-title {
-	font-size: 48px;
+	font-size: 36px;
 	text-transform: capitalize;
 }
 
@@ -1244,11 +1244,12 @@ width: 500px;
 }
 
 .article-item-title {
-	font-size: 24px;
+	font-size: 20px;
 	text-transform: capitalize;
 	display: block;
-	color: inherit;
+	color: #213b74;
 	margin-top: 15px;
+	
 }
 
 .article-item-title:hover {
@@ -1277,7 +1278,7 @@ width: 500px;
 }
 
 .support-aside-item.active {
-	color: #40BEFE;
+	color: #727272;
 }
 
 .support-aside-item img {
@@ -1344,9 +1345,8 @@ width: 500px;
 }
 
 .main-item-description {
-	font-size: 18px;
+	font-size: 17px;
 	color: #828282;
-	text-transform: capitalize;
 	margin-top: 10px;
 }
 /************* /SUPPORT PAGE ************/
@@ -1356,6 +1356,43 @@ width: 500px;
 	margin-top: 40px;
 }
 
+.support-article li {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 17px;
+}
+.support-article a {
+	font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    color: black;
+    padding-right: 3px;
+}
+.support-main h1,
+.support-article h1, h2 {
+	font-size: 36px;
+}
+.support-article h2 {
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+.support-article h3 {
+	font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+.support-article h4 {
+	font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+.support-article p {
+	font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
 .article-header {
 	font-size: 36px;
 	text-transform: capitalize;
@@ -1363,15 +1400,15 @@ width: 500px;
 }
 
 .article-description {
-	font-size: 18px;
-	text-transform: capitalize;
+	font-size: 17px;
 	margin-bottom: 20px;
-	line-height: 1.5;
+	line-height: 1.6;
 }
 
 .article-img img {
 	width: 100%;
 }
+
 /************* /SUPPORT ARTICLES ************/
 
 /************* /SUPPORT PAGES ************/
