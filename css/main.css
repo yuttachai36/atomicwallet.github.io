@@ -961,6 +961,9 @@ width: 500px;
 	height: 125px;
 	padding-left: 10px;
 }
+.kol-form-title {
+	font-size: 1.5em;
+}
 
 .subscribe .kol-form-title {
 	line-height: 40px;
