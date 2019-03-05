@@ -228,5 +228,10 @@
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://atomicwallet.io/ethereum-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
