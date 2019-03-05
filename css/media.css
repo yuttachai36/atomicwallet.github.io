@@ -22,7 +22,7 @@
 	.partners-list {
 		display: inline-flex;
 		flex-wrap: wrap;
-		max-width: 999px;
+		max-width: 1199px;
 		justify-content: center;
 	}
 
@@ -60,6 +60,8 @@
 	.comments-arrows-reviews {
 		top: 30px;
 	}
+	.partners-list {
+			}
 }
 
 @media screen and (max-width: 830px) {
