@@ -147,6 +147,26 @@
         text-align: center;
         color: #182848;
     }
+    .main-notebook-test {
+        background: none;
+    }
+
+    .mobile-interfaces3 {
+        background: none;
+    }
+    .bg-features-1-1-test {
+        background: none;
+    }
+    .bg-features-2-1-test {
+        background:  none;
+    }
+    .bg-features-3-1-test {
+        background:  none;
+    }
+    .bg-features-1-1-crypto-test {
+        background: none;
+    }
+
     .main-notebook {
         position: relative;
         top: auto;

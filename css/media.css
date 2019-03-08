@@ -187,6 +187,27 @@
 		width: 1348px;
 	}
 
+/* index-1 test */
+.main-notebook-test {
+        background: none;
+    }
+
+    .mobile-interfaces3 {
+        background: none;
+    }
+    .bg-features-1-1-test {
+        background: none;
+    }
+    .bg-features-2-1-test {
+        background:  none;
+    }
+    .bg-features-3-1-test {
+        background:  none;
+    }
+    .bg-features-1-1-crypto-test {
+        background: none;
+    }
+/* end index-1 test */
 	/* /bg */
 	/* header */
 	.header-menu {
