@@ -405,6 +405,12 @@ width: 110%;
 	margin: 0 auto;
 
 }
+
+.mobile-1,.mobile-2,.mobile-3,.mobile-4,.mobile-5 {
+	background: none;
+}
+
+
 .mobile_interface {
 	width: 60%;
 	justify-content: center;
