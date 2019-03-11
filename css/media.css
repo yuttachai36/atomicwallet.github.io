@@ -191,6 +191,47 @@
 .main-notebook-test {
         background: none;
     }
+.mobile-1 {
+	background: transparent url("images/mobile-interface-mobile.png") no-repeat center;
+	background-size: 100% 100%;
+	width: 192px;
+	height: 412px;
+	-webkit-transform: scale(0.999);
+  transform: scale(0.999);
+}
+.mobile-2 {
+	background: transparent url("images/mobile-interface-mobile2.png") no-repeat center;
+		background-size: 100% 100%;
+		width: 192px;
+	height: 412px;
+	-webkit-transform: scale(0.999);
+  transform: scale(0.999);
+}
+.mobile-3 {
+	background: transparent url("images/mobile-interface-mobile3.png") no-repeat center;
+		background-size: 100% 100%;
+		width: 192px;
+	height: 412px;
+	-webkit-transform: scale(0.999);
+  transform: scale(0.999);
+}
+.mobile-4 {
+	background: transparent url("images/mobile-interface-mobile4.png") no-repeat center;
+		background-size: 100% 100%;
+		width: 192px;
+	height: 412px;
+	-webkit-transform: scale(0.999);
+  transform: scale(0.999);
+}
+.mobile-5 {
+	background: transparent url("images/mobile-interface-mobile5.png") no-repeat center;
+		background-size: 100% 100%;
+		width: 192px;
+	height: 412px;
+	-webkit-transform: scale(0.999);
+  transform: scale(0.999);
+}
+  
 
     .mobile-interfaces3 {
         background: none;
@@ -207,6 +248,10 @@
     .bg-features-1-1-crypto-test {
         background: none;
     }
+
+   .youtube-player {
+	background: none;
+   }
 /* end index-1 test */
 	/* /bg */
 	/* header */
