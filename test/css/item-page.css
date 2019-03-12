@@ -556,10 +556,12 @@ ul .article-li {
     text-decoration: none;
 }
 
-
+.blog-header {
+    text-align: center !important;
+}
 .blog-div-text h4 {
-    margin-top: -30px;
-
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 .blog-div-text p {
     font-size: 16px;
@@ -1038,54 +1040,39 @@ ul .article-li {
         margin-right: auto;
         max-width: 347px;
     }
+    .header-container, .blog {
+        background-color: #f2f2f2;
+    }
     .blog-div {
         margin-left: auto;
-        margin-right: auto;
-        width: 270px;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
     }
     .small-image-blog img {
-        height: 157px;
-        padding-top: 10px;
-    }
+        width: 100%;
+        height: auto;
+        object-fit: none;
+        margin: 0;
+        border-radius: 0;
+
+            }
     .blog-div-text p{
-        padding: 0px 19px;
+        text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
     }
     .blog-div-text h4 {
-        padding-bottom: 10px;
-        padding-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
     }
-    .blog-container .blog-div:nth-child(1) .small-image-blog img {
-        width: 250px;
-        height: 200px;
-    }
-    .blog-container .blog-div:nth-child(2) .small-image-blog img {
-        height: auto;
-        width: 250px;
-    }
-.blog-image-template {
-    width: 259px;
-}
-    .blog-container div:nth-child(3) .small-image-blog img,
-    .blog-container div:nth-child(4) .small-image-blog img,
-    .blog-container div:nth-child(5) .small-image-blog img,
-    .blog-container div:nth-child(6) .small-image-blog img,
-    .blog-container div:nth-child(7) .small-image-blog img,
-    .blog-container div:nth-child(8) .small-image-blog img,
-    .blog-container div:nth-child(9) .small-image-blog img,
-    .blog-container div:nth-child(10) .small-image-blog img,
-    .blog-container div:nth-child(11) .small-image-blog img,
-    .blog-container div:nth-child(13) .small-image-blog img,
-    .blog-container div:nth-child(12) .small-image-blog img,
-    .blog-container div:nth-child(14) .small-image-blog img,
-    .blog-container div:nth-child(15) .small-image-blog img,
-    .blog-container div:nth-child(16) .small-image-blog img,
-    .blog-container div:nth-child(17) .small-image-blog img,
-    .blog-container div:nth-child(18) .small-image-blog img,
-    .blog-container div:nth-child(19) .small-image-blog img,
-    .blog-container div:nth-child(20) .small-image-blog img
-     {
-        width: 259px;
-    }
+
 
 /* Downloads Boxes */
 .downloads-container {
