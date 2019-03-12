@@ -1,3 +1,4 @@
+
 .only-mobile {
     display: none;
 }
@@ -27,7 +28,7 @@
     
 
     .container {
-        width: 320px;
+        
     }
     .only-mobile {
         display: block;
@@ -68,6 +69,7 @@
     .bg-main {
         width: 1591px;
         right: -110px;
+        display: none;
     }
     .bg-video {
         top: 70px;
@@ -130,7 +132,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: #344e84;
+        background: #182848;
         z-index: 111;
         padding-top: 50px;
     }
@@ -166,9 +168,13 @@
     margin-top: -10px;
     margin-left: 2px;
     }
+    .header {
+        height: 95px;
+        background-color: #182848;
+    }
     .header-button {
         position: absolute;
-        top: 15px;
+        top: 17px;
         right: 28px;
         width: 65px;
         height: 65px;
@@ -228,6 +234,7 @@
         flex-wrap: wrap;
         height: auto;
         justify-content: baseline;
+        display: none;
     }
 
     .download-text {
@@ -501,6 +508,9 @@
     /* subscribe */
     .subscribe {
         margin-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
     }
 
     .subscribe .container {
@@ -535,6 +545,7 @@
     }
     .subscribe .kol-form-title {
         width: 320px;
+        margin-top: 0px;
     }
     .subscribe .kol-form-title,
     .subscribe-mobile .kol-form-title {

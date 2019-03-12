@@ -7,7 +7,7 @@
     <title>Terms of Service</title>
     <meta name="description" content="Light multi-assets wallet with built-in atomic swap exchange">
     <link rel="stylesheet" href="css/terms.css">
-    <!-- <link rel="stylesheet" href="css/media.css"> -->
+    <link rel="stylesheet" href="css/media.css">
     
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -54,77 +54,6 @@ function activateAdroll() {
 </script>
 <!--End of Adroll activation-->
 
-<!--Cookies-->
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#3c404d",
-      "text": "#d6d6d6"
-    },
-    "button": {
-      "background": "#8bed4f"
-    }
-  },
-  onStatusChange: function(status) {
-    //console.log(this.hasConsented() ?'enable cookies' : 'disable cookies');
-    activateAdroll();
-  },
-  onInitialise: function (status) {
-    var type = this.options.type;
-    var didConsent = this.hasConsented();
-    if (didConsent) {
-      //console.log('enable cookies');
-      activateAdroll();
-    }
-    if (!didConsent) {
-      //console.log('disabled cookies');
-    }
-  },
-  layout: 'atomic-cookie',
-  layouts: {
-    'atomic-cookie': '{{message}}{{allow}}',
-  },
-  palette: {
-    popup: {
-      background: '#3A5693',
-      text: '#ffffff'
-    },
-    button: {
-      background: '#309BF8',
-      text: '#ffffff',
-    }
-  },
-  theme: 'classic',
-  position: 'bottom-left',
-  content: {
-    message: [
-      'We use cookies to enhance your experience. ',
-      'By using Atomic, you agree to our ',
-      '<a href="https://atomicwallet.io/terms-of-service" target="_blank" class="link-green">Terms of Use</a>',
-      ' and ',
-      '<a href="https://atomicwallet.io/privacy" target="_blank" class="link-green">Privacy Policy</a>',
-    ].join(''),
-    dismiss: 'Accept',
-  },
-  elements: {
-    message: '<span id="cookieconsent:desc" class="cc-message">{{message}}</span>',
-    allow: '<div class="cc-compliance"><a aria-label="dismiss cookie message" tabindex="0" class="cc-btn cc-dismiss">{{dismiss}}</a></div>',
-  },
-})});
-</script>
-<!--End of the Cookies-->
-<!--Cookies trigger-->
-
-<style>
-  .link-green {
-    text-decoration: underline;
-    color: #ffffff;
-  }
-</style>
 
 </head>
 <body>
@@ -309,9 +238,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </a>
                     <a href="https://www.facebook.com/atomicwallet" target="_blank">
                         <img src="css/images/top_facebook.svg">
-                    </a>
-                    <a href="https://steemit.com/@atomicwallet" target="_blank">
-                        <img src="css/images/top_steemit.svg">
                     </a>
                 </div>
             </div>
