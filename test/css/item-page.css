@@ -967,8 +967,8 @@ ul .article-li {
 
       }
       .item-page-article p {
-        font-size: 15px;
-        line-height: 26px;
+        font-size: 16px;
+        line-height: 27px;
       }
       .blog-margin {
     margin-top: auto;
@@ -1040,7 +1040,7 @@ ul .article-li {
         margin-right: auto;
         max-width: 347px;
     }
-    .header-container, .blog {
+    .blog {
         background-color: #f2f2f2;
     }
     .blog-div {
