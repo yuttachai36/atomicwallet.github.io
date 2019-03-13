@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@atomicwallet">
+    <meta name="twitter:creator" content="@atomicwallet">
+    <meta name="twitter:title" content="How Lightning Network works? | Atomic Wallet Guide">
+    <meta name="twitter:description" content="Lightning Network is a Layer-2 protocol functioning on top of a certain blockchain, for example Bitcoin, XRP, Litecoin. Lightning serves as a solution for scalability issues in the blockchain by providing fast transactions with almost zero fees">
+    <meta name="twitter:image" content="https://atomicwallet.io/css/images/articles/lightning-network.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="lightning network, bitcoin lightning network, litecoin lightning network, xrp lightning network, what is lightning network, how lightning network works">
+    <meta name="description" content="Lightning Network is a Layer-2 protocol functioning on top of a certain blockchain, for example Bitcoin, XRP, Litecoin. Lightning serves as a solution for scalability issues in the blockchain by providing fast transactions with almost zero fees"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>How Lightning Network works? | Lightning Network Explained</title>
+    <link rel="stylesheet" href="test/css/main.css">
+    <link rel="stylesheet" href="test/css/list.css">
+    <link rel="stylesheet" href="test/css/media.css">
+    <link rel="stylesheet" href="test/css/item-page.css">
+
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KBC3CH8');</script>
+    <!-- End Google Tag Manager -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114023091-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-114023091-1');
+    </script>-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Start of Async Prefinery Code -->
+    <script type="text/javascript">var _pfy = _pfy || [];(function(){function pfy_load(){var pfys=document.createElement('script');pfys.type='text/javascript';pfys.async=true;pfys.src='https://widget.prefinery.com/widget/v2/1w40x3e4.js';var pfy=document.getElementsByTagName('script')[0];pfy.parentNode.insertBefore(pfys,pfy);}if (window.attachEvent){window.attachEvent('onload',pfy_load);}else{window.addEventListener('load',pfy_load,false);}})();</script>
+    <!-- End of Async Prefinery Code -->
+
+</head>
+<body>
+
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBC3CH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<!-- menu -->
+
+<div class="header-menu-mobile header-menu-close f-light only-mobile" id="menu-mobile">
+    <div class="container relative">
+        <a href="/">Wallet</a>
+        <a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin</a>
+        <a href="/assets">Assets</a>
+        <a href="/downloads" class="hvr-grow">Download</a>
+        <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+        <a href="/blog">Blog</a>
+        <button class="header-menu-mobile-close" id="menu-button-close"></button>
+    </div>
+</div>
+
+<div class="header-container">
+  <div class="container relative">
+      <img src="css/images/bg-first-screen.svg" alt class="bg bg-main">
+      <header class="header">
+          <a href="https://atomicwallet.io" class="header-logo">
+              <img src="css/images/logo.svg" alt="Atomic">
+          </a>
+          <nav class="header-menu f-light">
+              <a href="/" class="hvr-grow">Wallet</a>
+              <a href="https://atomicwallet.io/buy-bitcoin" class="hvr-grow">Buy Bitcoin</a>
+              <a href="assets" class="hvr-grow">Assets</a>
+              <a href="/downloads" class="hvr-grow">Download</a>
+              <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+              <a href="blog" class="hvr-grow">Blog</a>
+          </nav>
+          <nav class="header-menu-icons  f-light">
+
+              <a href="https://twitter.com/atomicwallet" target="_blank" class="hvr-float">
+                  <img src="css/images/top_twitter.svg">
+              </a>
+              <a href="https://t.me/atomicwalletchat" target="_blank" class="hvr-float">
+                  <img src="css/images/top_telegram.svg">
+              </a>
+              <a href="https://medium.com/atomic-wallet" target="_blank" class="hvr-float">
+                      <img src="css/images/top_medium.svg">
+                  </a>
+              <a href="https://www.facebook.com/atomicwallet" target="_blank" class="hvr-float">
+                      <img src="css/images/top_facebook.svg">
+                  </a>
+              <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" class="hvr-float">
+                  <img src="css/images/top_reddit.svg">
+              </a>
+             <a href="https://steemit.com/@atomicwallet" target="_blank" class="hvr-float">
+                <img src="css/images/top_steemit.svg">
+            </a>
+
+          </nav>
+          <button class="header-button only-mobile" id="menu-button-open"></button>
+      </header>
+  </div>
+</div>
+
+
+<div class="item-page-container">
+
+    <div class="item-page">
+
+        <div class="item-page-article">
+
+          <h1 style="margin-bottom: 10px;">What is Lightning Network
+
+</h1>
+
+            <div class="item-page-image-template">
+
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/lightning-network.png" alt="What is Lightning Network?" class="hvr-grow">
+                  </div>
+                </div>
+                <h2>Contents:</h2>
+                            <ul >
+                              <li><a href="#lightning">What is Lightning Network?</a></li>
+                              <li><a href="#works">How the Lightning Network works?</a></li>
+                                <li><a href="#where">Where is Lightning Network used?</a></li>
+                                <li><a href="#disadvantages">Disadvantages of the Lightning Network</a></li>
+                                <li><a href="#verdict">Lightning Network: Verdict</a></li>
+                               </ul>
+
+              <p>The overall cryptocurrency capitalization is already more than $133.5 BLN, almost 400K transactions pass through the Bitcoin <a href="https://atomicwallet.io/what-is-blockchain">Blockchain</a> daily. Each transaction is queued with other requests, processed by the miners, adding to the Blockchain and then distributed to the nodes around the world. For some cryptocurrency transfers, such a set of actions is superfluous and loads the network in vain.</p>
+              <p>For example, the load in the Bitcoin network is gradually increasing, as there are scalability issues taking place from time to time. The network bandwidth is measured by a particular number of operations per second, which is lower in comparison to the real number of transactions. The Lightning Network technology appeared as a solution to this problem.</p>
+              <h3 id="lightning">What is Lightning Network</h3>
+              <p>Lightning Network (LN) is a so-called "Layer-2" protocol functioning on top of a certain blockchain. LN serves as a solution for scalability issues in the blockchain by enablins fast transactions with a very low network fee. In this article, we'll go deeper and learn all the benefits of this technology.</p>
+              <h3 id="works">How the Lightning network works</h3>
+              <p>The Lightning network was created by two developers: Joseph Poon and Thaddeus Dryja, and alpha-launched in 2017. This technology is using bidirectional payment channels. Two participants freeze the same amount in the Blockchain to open a payment channel between each other, and then use debt receipts among themselves to perform a transaction.</p>
+              <div class="cite"><cite>
+With this technology, operations are being built on top of the Blockchain, and only the initial deposit and the final result of all exchanges adds in the Blockchain, which greatly decreases the load of the main Blockchain network.</cite></div>                                             
+
+
+
+
+
+
+<div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/how-lightning-network-works.png" alt="" class="">
+                    </div>
+                </div>
+
+                <p>Imagine that Bob and Alice freeze 10 BTC, each one freezes 5 BTC. This deposit is added to the Blockchain and the payment channel is considered and open between Bob and Alice. Now, if Bob wants to send to Alice 2 BTC, he needs to transfer the ownership of 2 BTC with 3 BTC left. Alice, in turn will get 2 BTC from Bob and will own 7 BTC. Either Bob or Alice may close the channel,and the result will be recorded in the Blockchain, but if they plan to transfer more money to each other, the channel is to left open.</p>
+                <p>Transactions are going instantly and with the smaller fee due the fact that each operation doesn't require a separate entry in the main Blockchain, but this technology acquires its full power when many more channels are combined into one common Lightning Network. Likewise, the channel is open for payments between Bob and Alice, and another channel is open between other two participants, so Bob can send to any participant, without having a direct open channel between them.</p>
+                <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/how-lightning-network-works.png" alt="" class="">
+                    </div>
+                </div>
+                <h3 id="where">Where is Lightning Network used</h3>
+                <p>As of now, Lightning Network has already greatly reduced the load on the Bitcoin network. It’s noticeable that this technology can work not only on the Bitcoin Blockchain but also on many other: <a href="https://atomicwallet.io/stellar">Stellar</a>, <a href="https://atomicwallet.io/ethereum">Ethereum</a>, <a href="https://atomicwallet.io/zcash">Zcash</a>, <a href="https://atomicwallet.io/litecoin">Litecoin</a> and <a href="https://atomicwallet.io/ripple">XRP</a>. XRP (Ripple) has already launched Lightning Network on its mainnet, and Litecoin is working on it right now, because the LN technology improves the work of the whole Blockchain by making the network more scalable, increasing transaction speed and lowering the fees even for those who don't use this technology.</p>
+                <div class="cite"><cite>The Blockstream engineer, Christian Decker, expressed the opinion that
+
+“Using the Lightning network the Blockchain can reach the level of such payment systems as VISA or MasterCard”.</cite></div>
+                <p>In addition, the bidirectional channel technology partly increases the transactions anonymity which is attractive to many users of cryptocurrency.</p>
+                <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/lightning-tps.png" alt="" class="">
+                    </div>
+                </div>
+                <h3 id="disadvantages">Disadvantages of Lightning Network</h3>
+                <p>Firstly, at this moment the Lightning Network is on an experimental stage and hence big important transactions are still better to carry out in the main Bitcoin network. </p>
+                <p>Secondly, Peer-to-Peer (P2P) protocol utilized in Lightning Network requires both peers online in order to complete a transaction. Should one gets offline, the broadcasting stops immediately.</p>
+                <p>The third is you can’t top up the channel from the mainnet. It’s called "Channel depletion", a situation occurring when the first node transfers all the funds of the channel to the second node. Then such a channel can work only in one direction, hence sending funds from the first node is impossible unless the second one transfers part of the funds back, or the two nodes will have to open a new payment channel.</p>
+                <div class="cite"><cite>Apart from that, there is a concerning issue with 64% of the network capacity belongs to one user. That case reasonably calls into question the decentralization of Lightning Network.</cite></div>
+                <h3 id="verdict">Lightning Network verdict</h3>
+                <p><span class="m-prediction">Pros:</span> The Lightning Network concept means that the system will work on top of the blockchain, but won’t actually have its security behind itself. Thus, it’s very likely that it will be mostly used for small transactions.</p>
+                <p><span class="m-prediction">Cons:</span> The Lightning network allows users to perform transactions directly among themselves, without adding the data of each transaction in the main Blockchain. Given that, LN kills two birds with one stone:</p>
+                <ul>
+                  <li>LN provides faster and cheaper transactions</li>
+                  <li>LN significantly reduces the network load</li>
+                </ul>
+                <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/bitcoin-fees.png" alt="" class="">
+                    </div>
+                </div>
+                <p>This technology contributes the most to user anonymity, and also opens the way to game-changing exchange solutions, but as of yet, there’s no software with which real-life casual users of the network can make transactions. We will support the Lightning Network in <a href="https://atomicwallet.io">Atomic Wallet</a> – decentralized and universal wallet that supports 300+ cryptocurrency assets, built-in exchange and "buy crypto" service, so you get all you need in one secure interface.</p>
+
+                <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/mainnotebook.png" alt="" class="">
+                    </div>
+                </div>
+                <p>Atomic Wallet has already implemented Atomic Swap exchange in mainnet for BTC–LTC–QTUM trading pairs and you can directly exchange your assets in a decentralized order book. Atomic is a universal wallet that supports 300+ cryptocurrency assets, built-in exchange and "Buy crypto with a credit card" feature, so you'll get all you need in one decentralized interface.</p>
+
+
+            <div class="item-page-download">
+                <div class="item-page-download-title" id="download">Download Atomic Wallet</div>
+                <!-- Subscribe Pop-up-->
+                <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+                <script>window.$kol_jquery = window.jQuery</script>
+                <script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
+                <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/220933.js'></script>
+                <div class="download">
+                    <div class="download-item download-item-windows hvr-grow" data-download="windows">
+                        <a href="https://atomicwallet.io/download/atomicwallet.exe" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-windows.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-windows-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Windows</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-apple hvr-grow" data-download="apple">
+                        <a href="https://atomicwallet.io/download/atomicwallet.dmg" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-apple.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-apple-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">macOS</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-ubuntu hvr-grow" data-download="ubuntu">
+                        <a href="https://atomicwallet.io/download/atomicwallet.AppImage" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-ubuntu.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-ubuntu-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Ubuntu</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-debian hvr-grow" data-download="debian">
+                        <a href="https://atomicwallet.io/download/atomicwallet.deb" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-debian.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-debian-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                     <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Debian</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-fedora hvr-grow" data-download="fedora">
+                        <a href="https://atomicwallet.io/download/atomicwallet.rpm" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-fedora.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-fedora-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                     <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Fedora</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Download</a>
+                </span>
+                    </div>
+                </div> 
+        <div class="only-mobile">
+        <span class="download-text f-light only-mobile"> Manage your Bitcoin, Ethereum, XRP, Litecoin, XLM and over 300 other coins and tokens.</span></div>
+       <div class="mobile-download-button">
+            <div class="download-item-app hvr-grow" data-download="android">
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet&referrer=utm_source%3Dwebsite" target="_blank" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'android'="" });=""><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
+            <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img"></a>
+        </div>
+    <div class="download-item-app hvr-grow" data-download="iOS">
+            <a href="" onclick="window.kol_modal_223800.show()"><img src="css/images/OS/appstore.svg" width="80%" alt class="download-item-img-color"></a>
+            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
+        </div>
+
+
+        </div>
+ <!--                  <div class="button-suggest">
+                <div class="button-left">
+                <a href="https://atomicwallet.io/tron" class= "suggest-articles-button">
+                  <img src="css/images/articles/icons/arrow-left.svg" alt="">
+                 Read about TRON</a>
+                </div>
+                <div class="button-right">
+                <a href="https://atomicwallet.io/ripple" class= "suggest-articles-button">
+                  Read about Ripple <img src="css/images/articles/icons/arrow-right.svg" alt=""></a>
+                </div>
+                  </div> -->
+            </div>
+
+    </div>
+</div>
+
+<footer class="footer-new">
+    <div class="container relative">
+        <div class="footer-row">
+            <div class="footer-new-left">
+                <a href="/"><img src="css/images/logo.png" alt="" class="footer-new-logo"></a><br>
+                <a href="mailto:support@atomicwallet.io" class="footer-new-email f-light">support@atomicwallet.io</a><br>
+                <div class="footer-new-soc">
+                    <a href="https://twitter.com/atomicwallet" target="_blank">
+                        <img src="css/images/top_twitter.svg">
+                    </a>
+                    <a href="https://t.me/atomicwalletchat" target="_blank">
+                        <img src="css/images/top_telegram.svg">
+                    </a>
+                    <a href="https://github.com/Atomicwallet" target="_blank">
+                        <img src="css/images/top_github.svg">
+                    </a>
+                    <a href="https://medium.com/atomic-wallet" target="_blank">
+                        <img src="css/images/top_medium.svg">
+                    </a>
+                    <a href="https://www.reddit.com/r/atomicwallet/" target="_blank">
+                        <img src="css/images/top_reddit.svg">
+                    </a>
+                    <a href="https://www.facebook.com/atomicwallet" target="_blank">
+                        <img src="css/images/top_facebook.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-new-right">
+                <div class="footer-new-cols">
+
+                                                          <div class="footer-new-col">
+                        <div class="footer-new-col-title">Atomic Wallet</div>
+                        <ul class="f-light">
+                          <li><a href="https://support.atomicwallet.io/">Support</a></li>
+                           <li><a href="https://t.me/atomicwalletchat">Telegram chat</a></li>
+                            <li><a href="https://atomicwallet.io/terms-of-service">Terms of service</a></li>
+                            <li><a href="https://atomicwallet.io/privacy">Privacy policy</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1zbu1nKCBq2zNCnEtjWsw3oMJei6aFSuZ">Press Kit</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+                                        <div class="footer-new-col">
+                        <div class="footer-new-col-title">Buy Crypto</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin (BTC)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-litecoin">Buy Litecoin (LTC)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-ethereum">Buy Ethereum (ETH)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-ripple">Buy Ripple (XRP)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-bitcoin-cash">Buy Bitcoin Cash (BCH)</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-new-col">
+                        <div class="footer-new-col-title">Assets</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/bitcoin">Bitcoin (BTC)</a></li>
+                            <li><a href="https://atomicwallet.io/ethereum">Ethereum (ETH)</a></li>
+                            <li><a href="https://atomicwallet.io/ripple">Ripple (XRP)</a></li>
+                            <li><a href="https://atomicwallet.io/litecoin">Litecoin (LTC)</a></li>
+                            <li><a href="https://atomicwallet.io/eos">EOS</a></li>
+                            <li><a href="https://atomicwallet.io/neo">NEO</a></li>
+                            <li><a href="https://atomicwallet.io/tron">TRON (TRX)</a></li>
+                            <li><a href="https://atomicwallet.io/dogecoin">Dogecoin (DOGE)</a></li>
+                            <li><a href="https://atomicwallet.io/cardano">Cardano (ADA)</a></li>
+                            <li><a href="https://atomicwallet.io/dash">DASH</a></li>
+                            <li><a href="https://atomicwallet.io/stellar">Stellar (XLM)</a></li>
+                            <li><a href="https://atomicwallet.io/zcash">Zcash (ZEC)</a></li>
+                        </ul>
+                    </div>
+
+                                        <div class="footer-new-col">
+                        <div class="footer-new-col-title">Cryptocurrency Prices</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/bitcoin-price">Bitcoin Price</a></li>
+                            <li><a href="https://atomicwallet.io/litecoin-price">Litecoin Price</a></li>
+                            <li><a href="https://atomicwallet.io/ethereum-price">Ethereum Price</a></li>
+                            <li><a href="https://atomicwallet.io/ripple-price">Ripple Price</a></li>
+                            <li><a href="https://atomicwallet.io/stellar-price">Stellar Price</a></li>
+                            <li><a href="https://atomicwallet.io/eos-price">EOS Price</a></li>
+                            <li><a href="https://atomicwallet.io/neo-price">NEO Price</a></li>
+                            <li><a href="https://atomicwallet.io/tron-price">TRON Price</a></li>
+                            <li><a href="https://atomicwallet.io/dogecoin-price">Dogecoin Price</a></li>
+                            
+                            <li><a href="https://atomicwallet.io/dash-price">DASH Price</a></li>
+                            <li><a href="https://atomicwallet.io/zcash-price">ZCash Price</a></li>
+                            <li><a href="https://atomicwallet.io/bitcoin-cash-price">Bitcoin Cash Price</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.touchSwipe.js"></script>
+<script src="js/app.js"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c8415a69e34d1d4"></script>
+</body>
+</html>
