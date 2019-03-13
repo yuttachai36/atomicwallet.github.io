@@ -29,7 +29,7 @@
 </url>
 
 <url>
-  <loc>https://atomicwallet.io/bitcoin</loc>
+  <loc>https://atomicwallet.io/bitcoin-wallet</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>

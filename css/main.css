@@ -925,6 +925,11 @@ width: 500px;
 	white-space: normal;
 	line-height: 1;
 }
+.reviews .comments-item {
+	height: 337px;
+    padding-top: 33px;
+    margin-bottom: 20px;
+}
 .team .comments-slider {
 	height: 540px;
 }
@@ -932,6 +937,9 @@ width: 500px;
 	height: 511px;
 	padding: 15px 24px 0 24px;
 }
+/* .swiper-pagination-bullets {
+	padding:  30px;
+} */
 .team-author {
 	margin-bottom: 30px;
 	text-align: center;
