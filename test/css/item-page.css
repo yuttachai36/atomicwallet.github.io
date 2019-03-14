@@ -21,7 +21,10 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.header-container {
+    overflow: hidden;
+    height: 240px;
+}
 .item-page h1 {
     width: 680px;
     font-family: "Roboto";
@@ -50,6 +53,10 @@
 .download-text {
     text-align: left;
 }
+.download {
+    box-shadow: none;
+}
+
 .item-page ul, ol {
     width: 680px;
     margin: 0 auto;

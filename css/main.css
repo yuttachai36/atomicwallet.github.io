@@ -557,7 +557,8 @@ width: 110%;
 .mobile-download-button {
     display: flex;
     justify-content: center;
-    padding-top: 45px;    
+    padding-top: 45px;
+    padding-bottom: 20px;    
 }
 
 .coin-page-title-text {
