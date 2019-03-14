@@ -56,7 +56,12 @@
 .download {
     box-shadow: none;
 }
-
+.image-span {
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: -17px;
+}
 .item-page ul, ol {
     width: 680px;
     margin: 0 auto;
