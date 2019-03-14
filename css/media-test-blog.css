@@ -293,6 +293,9 @@
     height: 455px;
     width: auto;
     }
+    .image-span {
+        top: 0px !important;
+    }
     .button-cards {
         flex-wrap: wrap;
         margin-left: auto;
