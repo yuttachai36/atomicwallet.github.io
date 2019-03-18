@@ -160,9 +160,9 @@
 	}
 
 	.bg-features-4 {
-		top: 1250px;
-		right: -120px;
-		width: 510px;
+		top: 1226px;
+    	right: -120px;
+    	width: 565px;
 	}
 
 
@@ -392,7 +392,12 @@
 		padding-bottom: 35px;
 
 	}
-
+	#swap {
+		height: 713px;
+	}
+	body div.item-page-container {
+		margin-top: 0px;
+	}
 	/* /main */
 	/* download */
 	.download-title {
