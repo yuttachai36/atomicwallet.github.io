@@ -18,7 +18,6 @@ main.support {
     font-family: 'Roboto Ligth', sans-serif;
     font-size: 35px;
 }
-
 /************* SUPPORT LIST CARDS *************/
 .list-cards {
     display: flex;
@@ -444,7 +443,9 @@ abbr {
 iframe {
     width: 680px;
     height: 395px;
-
+}
+ #calc {
+    height: 700px;
 }
 .blog-quote {
     text-align: center;
