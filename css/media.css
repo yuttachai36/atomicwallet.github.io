@@ -1085,6 +1085,7 @@
 	.support .article-item {
 		width: 100%;
 		margin-right: 0;
+		padding: 0 20px;
 	}
 
 	.support .article-item-title {
@@ -1105,6 +1106,7 @@
 		order: 2;
 		width: 100%;
 		margin-top: 20px;
+		padding: 0 40px;
 	}
 
 	.support-main {
@@ -1113,6 +1115,9 @@
 
 	.support-main-title {
 		font-size: 35px;
+	}
+	.support-articles {
+		padding:  0 20px;
 	}
 	/************* /SUPPORT PAGE ************/
 }
