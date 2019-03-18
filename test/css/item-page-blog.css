@@ -20,6 +20,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+.widget-cc {
+    width:  680px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
 
 .item-page h1 {
     font-family: "Roboto Bold";
@@ -442,6 +447,9 @@ ul .article-li {
     }
     .button-right {
         float: none;
+    }
+    .widget-cc {
+        max-width: 100%;
     }
 
     .item-page-article {
