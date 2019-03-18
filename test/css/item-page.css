@@ -914,7 +914,9 @@ ul .article-li {
       .header-container {
         background-color: white;
       }
-
+      .wallet {
+        height: auto;
+      }
       .header-article img {
         width: 60px;
       }
