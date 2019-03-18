@@ -570,12 +570,12 @@ width: 110%;
     margin-left: 30px;
 }
 .coin-page-title {
-width: 500px;
+max-width: 400px;
+text-align: center;
     line-height: 40px;
     font-size: 30px;
     color: #121010;
     margin-top: -10px;
-    margin-left: 60px;
 
 }
 .coin-page-icon {
