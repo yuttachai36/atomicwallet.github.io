@@ -47,98 +47,6 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <!--Cookies-->
-<!-- <script>
-function activateAdroll() {
-  console.log('Adroll enable');
-  adroll_adv_id = "JZ4BUZ67SFACZCG74M6BCJ";
-  adroll_pix_id = "C6LOMQPZ2VDUVJXWWRHGUQ";
-
-  if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
-  if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
-  var scr = document.createElement("script");
-  var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
-  scr.setAttribute('async', 'true');
-  scr.type = "text/javascript";
-  scr.src = host + "/j/roundtrip.js";
-  ((document.getElementsByTagName('head') || [null])[0] ||
-      document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
-}
-</script>
-
-
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#3c404d",
-      "text": "#d6d6d6"
-    },
-    "button": {
-      "background": "#8bed4f"
-    }
-  },
-  onStatusChange: function(status) {
-    //console.log(this.hasConsented() ?'enable cookies' : 'disable cookies');
-    activateAdroll();
-  },
-  onInitialise: function (status) {
-    var type = this.options.type;
-    var didConsent = this.hasConsented();
-    if (didConsent) {
-      //console.log('enable cookies');
-      activateAdroll();
-    }
-    if (!didConsent) {
-      //console.log('disabled cookies');
-    }
-  },
-  layout: 'atomic-cookie',
-  layouts: {
-    'atomic-cookie': '{{message}}{{allow}}{{close}}',
-  },
-  palette: {
-    popup: {
-      background: '#3A5693',
-      text: '#ffffff'
-    },
-    button: {
-      background: '#309BF8',
-      text: '#ffffff',
-    }
-  },
-  theme: 'classic',
-  position: 'bottom',
-  content: {
-    message: [
-      'We use cookies to enhance your experience. ',
-      'By using Atomic, you agree to our ',
-      '<a href="https://atomicwallet.io/terms-of-service" target="_blank" class="link-green">Terms of Use</a>',
-      ' and ',
-      '<a href="https://atomicwallet.io/privacy" target="_blank" class="link-green">Privacy Policy</a>',
-    ].join(''),
-    dismiss: 'Accept',
-    close: 'x',
-  },
-  elements: {
-    message: '<span id="cookieconsent:desc" class="cc-message">{{message}}</span>',
-    allow: '<div class="cc-compliance"><a aria-label="dismiss cookie message" tabindex="0" class="cc-btn cc-dismiss">{{dismiss}}</a></div>',
-      close: '<span aria-label="dismiss cookie message" tabindex="0" class="cc-close" style="color=white;font-size:1em;">{{close}}</span>',
-  },
-})});
-</script>
-End of the Cookies-->
-
-
-<style>
-  .link-green {
-    text-decoration: underline;
-    color: #ffffff;
-  }
-</style>
 </head>
 <body>
 
@@ -152,12 +60,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-    <script src="js/aos.js"></script>
+     <script src="js/aos.js"></script>
   <script>
     AOS.init();
   </script>
 
-<div class="header-menu-mobile header-menu-close f-light only-mobile" id="menu-mobile">
+<div class="only-mobile header-menu-mobile header-menu-close f-light" id="menu-mobile">
     <div class="container relative">
         <a href="/" class="header-menu-here">Wallet</a>
         <a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin</a>
@@ -256,7 +164,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End of mobile download Pop-up-->
 
 
-<section class="reviews mobile-hide" id="team" data-slider>
+<section class="reviews mobile-hide">
     <div class="container relative">
                     <h2 class="download-title-top f-bold"><br><br><a name="download">Reviews</a></h2>
        <h3 class="download-text f-light">Atomic is trusted by thousands of users</h3>
@@ -375,7 +283,7 @@ In addition to being a decentralized wallet AW gives you the ability to do token
                         </div>
                         <a href="https://www.trustpilot.com/users/57668f8e0000ff000a2a8fdd">
                         <div class="team-text f-light"><b>I am very happy with Atomic Wallet</b><br>
-I am very happy with Atomic Wallet, they are very active to make sure that we are updated regularly, It is a quality wallet, I am happy to recommend it to friends, Thanks for a great service
+They are very active to make sure that we are updated regularly, It is a quality wallet, I am happy to recommend it to friends, Thanks for a great service
 
 </div></a>
 
@@ -412,7 +320,7 @@ I am very happy with Atomic Wallet, they are very active to make sure that we ar
 
     <h2 class="download-title-top f-bold mobile-hide" id="download"><br><br><a name="download">Download Atomic Wallet</a></h2>
         <h2 class="download-title-top f-bold only-mobile" id="download"><a name="download">Atomic Wallet</a></h2>
-        <h2 class="download-text f-light only-mobile container"> Manage your Bitcoin, Ethereum, XRP, Litecoin, XLM and over 300 other coins and tokens.<br></h2>
+        <h2 class="download-text f-light only-mobile"> Manage your Bitcoin, Ethereum, XRP, Litecoin, XLM and over 300 other coins and tokens.<br></h2>
         <br><h3 class="download-text f-light mobile-hide"> Atomic Wallet is available for all major Operating Systems.<br> <a href="#contacts" class="sign-up-download-link mobile-hide">Subscribe</a> for our updates to know about latest news and releases.<br><br></h3>
     <p class="download-text mobile-hide">The latest version of the wallet: <a class="sign-up-download-link" href="/downloads">1.38.4</a></p>
 
@@ -522,11 +430,11 @@ I am very happy with Atomic Wallet, they are very active to make sure that we ar
        <div class="mobile-download-button">
             <div class="download-item-app hvr-grow" data-download="android">
             <a href="https://play.google.com/store/apps/details?id=io.atomicwallet" target="_blank"><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
-            <img src="css/images/OS/googleplay.svg" alt class="download-item-img"></a>
+            <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img"></a>
         </div>
     <div class="download-item-app hvr-grow" data-download="iOS">
-            <a href="" onclick="window.kol_modal_223800.show()"><img src="css/images/OS/appstore.svg" width="80%" alt class="download-item-img-color"></a>
-            <img src="css/images/OS/appstore.svg" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
+            <a href="" onclick="window.kol_modal_223800.show()">
+            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img"></a>
         </div>
 
 
@@ -568,8 +476,8 @@ I am very happy with Atomic Wallet, they are very active to make sure that we ar
             <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img"></a>
         </div>
     <div class="download-item-app hvr-grow" data-download="iOS">
-            <a href="" onclick="window.kol_modal_223800.show()"><img src="css/images/OS/appstore.svg" width="80%" alt class="download-item-img-color"></a>
-            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
+            <a href="" onclick="window.kol_modal_223800.show()"><!-- <img src="css/images/OS/appstore.svg" width="80%" alt class="download-item-img-color"> -->
+            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img"></a>
         </div>
 
 
@@ -583,7 +491,7 @@ I am very happy with Atomic Wallet, they are very active to make sure that we ar
 
 </section>
 
-<section class="reviews only-mobile" id="team" data-slider>
+<section class="reviews only-mobile">
     <div class="container relative">
                     <h2 class="download-title-top f-bold"><br><br><a name="download">Reviews</a></h2>
        <h3 class="download-text f-light">Atomic is trusted by thousands of users</h3>
@@ -842,7 +750,7 @@ In addition to being a decentralized wallet AW gives you the ability to do token
                  <span class="list-item-name">AWC</span>
             </div>
             </a>
-            <a href="https://atomicwallet.io/assets">
+            <a href="https://atomicwallet.io/how-to-add-erc20-token">
             <div class="list-item hvr-float">
                 <img src="css/images/crypto/ERC20.svg" alt>
                 <span class="list-item-name">300+ ERC20 tokens</span>
@@ -980,14 +888,15 @@ In addition to being a decentralized wallet AW gives you the ability to do token
     -->
     </div>
 </section>
-<section class="comments mobile-hide" id="news" data-slider>
+<section class="comments mobile-hide">
     <div class="container relative">
         <h2 class="features-title f-bold">News</h2>
+                <img src="css/images/bg-comments.svg" alt class="bg bg-comments">
     </div>
     <div class="comments-slider-label">
         <div class="container relative">
-            <div class="comments-slider relative" data-slider-container>
-                <div class="comments-slider-list" data-slider-list>
+            <div class="comments-slider relative">
+                <div class="comments-slider-list">
                     <div class="comments-item hvr-grow">
                         <img src="css/images/twitter.svg" alt class="comments-image">
                         <a href="https://twitter.com/atomicwallet/status/1075783864675639301" target="_blank" class="comments-text">Secure, manage and exchange your #BitcoinSV in @AtomicWallet! $BSV</a>
@@ -1016,7 +925,7 @@ In addition to being a decentralized wallet AW gives you the ability to do token
 <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/229450.js'></script>
 </div>
 </section>
-<section class="comments only-mobile" id="news" data-slider>
+<section class="comments only-mobile">
     <div class="container relative">
          <h2 class="features-title f-bold">News</h2>
  <!-- Link Swiper's CSS -->
@@ -1064,26 +973,6 @@ In addition to being a decentralized wallet AW gives you the ability to do token
     top: -570px;
         }
 
-    .animated {
-        /*CSS transitions*/
-        -o-transition-property: none !important;
-        -moz-transition-property: none !important;
-        -ms-transition-property: none !important;
-        -webkit-transition-property: none !important;
-        transition-property: none !important;
-        /*CSS transforms*/
-        -o-transform: none !important;
-        -moz-transform: none !important;
-        -ms-transform: none !important;
-        -webkit-transform: none !important;
-        transform: none !important;
-        /*CSS animations*/
-        -webkit-animation: none !important;
-        -moz-animation: none !important;
-        -o-animation: none !important;
-        -ms-animation: none !important;
-        animation: none !important;
-    }
     .list1 {
             position: relative;
     top: -400px;
@@ -1150,6 +1039,9 @@ box-shadow: none;
     padding-bottom: 0px;
 
   }
+  .trustpilot-widget {
+    height: 40px;
+  }
 
 </style>
 
@@ -1165,24 +1057,14 @@ box-shadow: none;
 </section> -->
 
 
-<section class="comments team mobile-hide" id="team" data-slider>
+<section class="comments team mobile-hide">
     <div class="container relative">
         <h2 class="features-title f-bold">Team</h2>
-        <div class="only-mobile">
-          
-       
-        <div class="comments-arrows relative">
-            <button class="comments-arrow comments-arrow-left" disabled data-slider-left></button>
-            <button class="comments-arrow comments-arrow-right" data-slider-right></button>
-        </div>
-    </div>
      </div>
-    <div class="comments-slider-label mobile-hide">
+     <div class="comments-slider-label mobile-hide">
         <div class="container relative">
-            <div class="comments-slider relative" data-slider-container>
-                <div class="comments-slider-list" data-slider-list>
-
-
+            <div class="comments-slider relative">
+                <div class="comments-slider-list">
                     <div class="comments-item">
                         <div class="team-author hvr-grow">
                             <a href="https://twitter.com/gladkos">
@@ -1514,8 +1396,8 @@ box-shadow: none;
 
 </footer>
 
-<script src="js/app.js"></script>
 <script> (function() { var v = document.getElementsByClassName("youtube-player"); for (var n = 0; n < v.length; n++) { v[n].onclick = function () { var iframe = document.createElement("iframe"); iframe.setAttribute("src", "//www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel="+ this.dataset.related +"&controls="+this.dataset.control+"&showinfo=" + this.dataset.info); iframe.setAttribute("frameborder", "0"); iframe.setAttribute("id", "youtube-iframe"); iframe.setAttribute("style", "width: 100%; height: 100%; position: absolute; top: 0; left: 0;"); if (this.dataset.fullscreen == 1){ iframe.setAttribute("allowfullscreen", ""); } while (this.firstChild) { this.removeChild(this.firstChild); } this.appendChild(iframe); }; } })(); </script>
 <!-- TrustBox script --> <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> <!-- End TrustBox script -->
+<script src="js/app.js"></script>
 </body>
 </html>
