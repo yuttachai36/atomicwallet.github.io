@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@atomicwallet">
+    <meta name="twitter:creator" content="@atomicwallet">
+    <meta name="twitter:title" content="Atomic Wallet Troubleshooting | Atomic Wallet Support">
+    <meta name="twitter:description"
+          content="">
+    <!-- <meta name="twitter:image" content="https://atomicwallet.io/css/images/articles/bitcoin-price-prediction.png"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="UTF-8">
+    <title>Atomic Wallet Troubleshooting | Atomic Wallet Support</title>
+    <meta name="description"
+          content="">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="test/css/item-page.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KBC3CH8');</script>
+    <!-- End Google Tag Manager -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114023091-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+          dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+
+      gtag('config', 'UA-114023091-1');
+  </script>-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Start of Async Prefinery Code -->
+    <script type="text/javascript">var _pfy = _pfy || [];
+    (function () {
+      function pfy_load() {
+        var pfys = document.createElement('script');
+        pfys.type = 'text/javascript';
+        pfys.async = true;
+        pfys.src = 'https://widget.prefinery.com/widget/v2/1w40x3e4.js';
+        var pfy = document.getElementsByTagName('script')[0];
+        pfy.parentNode.insertBefore(pfys, pfy);
+      }
+
+      if (window.attachEvent) {
+        window.attachEvent('onload', pfy_load);
+      } else {
+        window.addEventListener('load', pfy_load, false);
+      }
+    })();</script>
+    <!-- End of Async Prefinery Code -->
+
+</head>
+<body>
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBC3CH8"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- menu -->
+
+<div class="header-menu-mobile header-menu-close f-light only-mobile" id="menu-mobile">
+    <div class="container relative">
+        <a href="https://atomicwallet.io/">Wallet</a>
+        <a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin</a>
+        <a href="https://atomicwallet.io/assets">Assets</a>
+        <a href="https://atomicwallet.io/downloads" class="hvr-grow">Download</a>
+        <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+        <a href="https://atomicwallet.io/blog">Blog</a>
+        <button class="header-menu-mobile-close" id="menu-button-close"></button>
+    </div>
+</div>
+
+<div class="header-container">
+    <div class="container relative">
+        <img src="css/images/bg-first-screen.svg" alt class="bg bg-main">
+        <header class="header">
+            <a href="https://atomicwallet.io" class="header-logo">
+                <img src="css/images/logo.svg" alt="Atomic">
+            </a>
+            <nav class="header-menu f-light">
+                <a href="https://atomicwallet.io/" class="hvr-grow">Wallet</a>
+                <a href="https://atomicwallet.io/buy-bitcoin" class="hvr-grow">Buy Bitcoin</a>
+                <a href="https://atomicwallet.io/assets" class="hvr-grow">Assets</a>
+                <a href="https://atomicwallet.io/downloads" class="hvr-grow">Download</a>
+                <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+                <a href="https://atomicwallet.io/blog" class="hvr-grow">Blog</a>
+            </nav>
+            <nav class="header-menu-icons  f-light">
+
+                <a href="https://twitter.com/atomicwallet" target="_blank" class="hvr-float">
+                    <img src="css/images/top_twitter.svg">
+                </a>
+                <a href="https://t.me/atomicwalletchat" target="_blank" class="hvr-float">
+                    <img src="css/images/top_telegram.svg">
+                </a>
+                <a href="https://medium.com/atomic-wallet" target="_blank" class="hvr-float">
+                    <img src="css/images/top_medium.svg">
+                </a>
+                <a href="https://www.facebook.com/atomicwallet" target="_blank" class="hvr-float">
+                    <img src="css/images/top_facebook.svg">
+                </a>
+                <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" class="hvr-float">
+                    <img src="css/images/top_reddit.svg">
+                </a>
+                <a href="https://steemit.com/@atomicwallet" target="_blank" class="hvr-float">
+                    <img src="css/images/top_steemit.svg">
+                </a>
+
+            </nav>
+            <button class="header-button only-mobile" id="menu-button-open"></button>
+        </header>
+    </div>
+</div>
+
+<main class="main support">
+    <div class="support-container support-page">
+        <div class="support-aside">
+            <a href="https://atomicwallet.io/common-questions" class="support-aside-item active">
+                <img src="css/images/support/faq.svg" alt=""> <span>faq</span>
+            </a>
+             <a href="https://atomcwallet.io/troubleshooting" class="support-aside-item active">
+                <img src="css/images/support/troubleshooting.svg" alt=""> <span>Troubleshooting</span>
+            </a>
+            <!--<a href="/" class="support-aside-item">
+                <img src="css/images/support/support-9.svg" alt=""> <span>faq</span>
+            </a>
+            <a href="/" class="support-aside-item">
+                <img src="css/images/support/support-9.svg" alt=""> <span>faq</span>
+            </a>
+            <a href="/" class="support-aside-item">
+                <img src="css/images/support/support-9.svg" alt=""> <span>faq</span>
+            </a>
+            <a href="/" class="support-aside-item">
+                <img src="css/images/support/support-9.svg" alt=""> <span>faq</span>
+            </a>
+            <a href="/" class="support-aside-item">
+                <img src="css/images/support/support-9.svg" alt=""> <span>faq</span>
+            </a> -->
+
+        </div>
+        <div class="support-main">
+            <div class="item-page">
+                 <div class="item-page-article">
+            <div class="support-main-title">
+                <img src="css/images/support/troubleshooting.svg" alt="">
+                <span>Troubleshooting</span>
+                </div>
+                   
+                 <h3 id="login">Can’t log in to the wallet.</h3>
+                 <p>If you have forgotten your password, you can restore the access to your wallet using your 12 words seed phrase. To do that, press “Restore from backup”, then input your seed phrase. Once the access is restored, you can change your password in settings. In case the seed phrase is lost, you won’t be able to restore the access. For that reason, we strongly recommend you <b>keeping your funds in a safe place</b>. It's the only way to access to your wallet.</p>
+                 <p>If there is another reason why you can’t log in to your Atomic Wallet, kindly contact the support team at <a href="mailto:support@atomicwallet.io">support@atomicwallet.io</a></p>
+                  <div class="item-page-image-template">
+                    <img src="css/images/support/articles/restore-wallet-with-backup.png" alt="">
+                  </div>
+
+                   <h3 id="import">I can’t import my private keys</h3>
+                 <p><a href="https://atomicwallet.io">Atomic Wallet</a> support the import of private keys so you can <a href="https://support.atomicwallet.io/support/solutions/articles/36000068114-how-to-move-funds-to-atomic-wallet-">move your funds to Atomic Wallet</a> by importing the private keys or exporting them to another one. If you have any issues with that process, it may happen due to the incompatibility. You may try the following:</p>
+                 <ul>
+                     <li>Refresh both wallets and import the keys again;</li>
+                     <li>Check if you are importing / <a href="https://atomicwallet.io/faq/what-are-private-keys">exporting private keys</a>, not something else.</li>
+                     <li>Contact our support team at <a href="mailto:support@atomicwallet.io">support@atomicwallet.io</a>.</li>
+                 </ul>
+
+                   <h3 id="exchange-stuck">My exchange got stuck. What happened?</h3>
+                 <p>When exchanging cryptocurrencies in Atomic Wallet, the average transaction takes around 30 minutes. It may take longer due to several issues as follows:</p>
+                 <ul>
+                     <li>KYC checks</li>
+                     <li>Blockchain overload</li>
+                     <li>Currency maintenance</li>
+                     <li>Technical issues</li>
+                 </ul>
+                 <p>For more information, you can contact our support team via <a href="mailto:atomicwallet.io">email</a> or <a href="https://t.me/atomicwalletchat">Telegram</a>.</p>
+
+                 <h3 id="erc20-sending-issue">I can’t send my ERC20 tokens</h3>
+                 <p>Every token transaction on the Ethereum blockchain requires ETH as a <a href="https:atomicwallet.io/faq/how-fees-calculated">network fee</a>. If you can’t send any of ERC20 tokens on your Atomic Wallet, make sure you have enough amount ETH to cover the network fee. If you don’t, then you’ll need to top up the Ethereum balance first. You can do it in several ways:</p>
+                 <ul>
+                     <li><a href="https://atomicwallet.io/faq/how-to-exchange-crypto">Exchange cryptocurrency to ETH</a>.</li>
+                     <li><a href="https://atomicwallet.io/buy-ethereum">Buy ETH with a credit card</a>.</li>
+                 </ul>
+                  <p>Both these operations can be performed within <a href="https://atomicwallet.io">Atomic Wallet’s</a> interface.</p>
+
+
+                   <h3 id="not-received-reward">I didn’t receive my airdrop / bounty reward.</h3>
+                 <p>Atomic Wallet has an ongoing bounty / airdrop campaign. We pay AWC tokens to our loyal customers who post good quality content about Atomic Wallet or take part in our <a href="https://atomicwallet.io/faq/what-is-awc">Airdrop campaign</a>. The rewards are paid manually on a regular basis. If you haven’t received your reward for some reason, contact our support team at <a href="mailto:support@atomicwallet.io">support@atomicwallet.io</a>. In your message, kindly provide the following:</p>
+                 <ul>
+                     <li>your email registered on Atomic,</li>
+                     <li>an ETH wallet address on Atomic,</li>
+                     <li>links to your promotion content.</li>
+                 </ul>
+
+
+                   <h3 id="xrp-xlm">XRP and XLM balances are shown less</h3>
+                 <p>Atomic Wallet gives you full control over your funds. For that reason, we provide you with original XRP and XLM addresses. For these addresses, the <a href="https://atomicwallet.io/ripple">XRP</a> and <a href="https://atomicwallet.io/stellar">Stellar</a> networks charge the fee of 20 XRP and 1 XLM, respectively, as an unspendable balance. That’s why you see your XRP and XLM balance less.</p>
+
+                   <h3 id="balance-not-showing">The balance doesn’t show up</h3>
+                 <p>Atomic Wallet takes the information from open-source libraries and public nodes. Each time you launch the app, Atomic connects to that sources, downloads and displays information on your payment. This process takes time that depends on the quality of your internet connection. If the connection is poor, the balance may tend to lag or be shown incorrectly. <br>Try the following:</p>
+                 <ul>
+                     <li>re-launch the application,</li>
+                     <li>make sure you have a stable internet connection,</li>
+                     <li>leave your device for 5 minutes and let Atomic to establish the connection to sources,</li>
+                     <li>try again with VPN turned on.</li>
+                 </ul>
+                 <p>If your issue still persists, contact our support team at <a href="mailto:support@atomicwallet.io">support@atomicwallet.io</a>, provide the app version you are using, the OS name and the <a href="https://atomicwallet.io/faq/error-log">error log file</a>.</p>
+
+
+                   <h3 id="zero-balance">The balance shows 0 (zero) or “–” (dash)</h3>
+                 <p>In some cases, you may see zero balance for certain cryptocurrencies. <br>
+                 It happens due to lack of connection to a block explorer or in the cases when your actual balance is 0.</p>
+                  <div class="item-page-image-template">
+                    <img src="css/images/support/articles/zero-balance.png" alt="">
+                  </div>
+                  <p>In other cases, you may see dash (–) instead of some amount, like in <a href="https://atomicwallet.io/monero">Monero</a>, is a lost connection to a block explorer or library.</p>
+                  <div class="item-page-image-template">
+                    <img src="css/images/support/articles/dash-balance.png" alt="">
+                  </div>
+                  <p>If you see the balance showing either 0 or “–”, try the following:</p>
+                  <ul>
+                      <li>Make sure your funds are safe and check the balance in a <a href="">block explorer</a>.</li>
+                      <li>Make sure your device is connected to the internet.</li>
+                      <li>Re-launch the application and let it connect to a block explorer.</li>
+                      <li>Try again with VPN turned on.</li>
+                  </ul>
+                  <p>If the issue persists, contact our support team at support@atomicwallet.io and provide the following information:</p>
+                  <ul>
+                      <li>version of the application you are using and the OS of your device,</li>
+                      <li><a href="https://atomicwalet.io/faq/error-log">error log file</a>.</li>
+                  </ul>
+                  
+                   <h3 id="missing-coins">I don’t see some coins in the Atomic Wallet mobile app</h3>
+                 <p>Atomic Wallet has over 300 cryptocurrencies listed. However, some of them are not added yet in the mobile version of the application. In fact, some cryptocurrencies take time to deploy on the mobile app, as they have some particularities. We are working hard to add the rest of the cryptos to the mobile app as soon as possible.</p>
+                 <p>Another reason why the crypto is missing is its long-term technical maintenance.</p>
+                 <p>In both cases, you need Atomic Wallet to add the missing crypto back. To figure out the approximate time frames, please contact our support team at <a href="mailto:support@atomicwallet.io">support@atomicwallet.io</a>.</p>  
+
+                   <h3 id="scammed">I’ve been tricked by scammers</h3>
+                 <p>Atomic Wallet is a popular cryptocurrency wallet that, unfortunately, may have scammy copycat applications or fraudulent activity illegally running on behalf of the brand. We report all the detected scams urgently. However, in some cases, it takes some time to reach out moderators and ban the frauds. During that period of time, some gullible users are exposed to a high risk of falling prey for scams.</p>
+                 <p>If you suspect you have been tricked by frauds, contact us at <a href="mailto:support@atomicwallet.io">support@atomicwallet.io</a> immediately and provide all the details that could help us track and report the scam. In your message, kindly answer the following questions:</p>
+                 <ul>
+                     <li>Where did you encounter the scam?</li>
+                     <li>Did you download the scammy application?</li>
+                     <li>Have you input your <a href="https://atomicwallet.io/what-are-private-keys-and-how-they-work">12-word mnemonic seed</a>?</li>
+                 </ul>
+
+
+                  <h3 id="sending-error">I keep getting error messages when sending</h3>
+                 <p>Sometimes, when sending crypto, you may encounter some errors, such as:</p>
+                 <ul>
+                     <li>Transaction failed, please try again later.</li>
+                     <li>Can’t connect to blockexplorer.</li>
+                     <li>Can’t connect to ChangeNow.</li>
+                 </ul>
+                 <p>All these mistakes are linked to the connection with blockexplorer or our exchange partners. <br>
+                    Please follow these steps:</p>
+                    <ul>
+                        <li>Install and use <a href="https://www.pcmag.com/article/359499/how-to-set-up-and-use-a-vpn" rel="nofollow">VPN</a>,</li>
+                        <li>Upgrade the wallet to our <a href="https://atomicwallet.io/downloads">latest version</a>,</li>
+                        <li>Make sure you have a stable Internet connection,</li>
+                        <li>Try to relaunch your wallet,</li>
+                        <li>If the issue persists, please contact our support team at <a href="mailto:support@atomicwallet.io">support@atomicwallet.io</a> and attaching your <a href="https://atomicwallet.io/error-log">error log files and Atomic id</a>.</li>
+                    </ul>
+                 <br>
+
+                
+            
+         
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer-new">
+    <div class="container relative">
+        <div class="footer-row">
+            <div class="footer-new-left">
+                <a href="/"><img src="css/images/logo.png" alt="" class="footer-new-logo"></a><br>
+                <a href="mailto:support@atomicwallet.io"
+                   class="footer-new-email f-light">support@atomicwallet.io</a><br>
+                <div class="footer-new-soc">
+                    <a href="https://twitter.com/atomicwallet" target="_blank">
+                        <img src="css/images/top_twitter.svg">
+                    </a>
+                    <a href="https://t.me/atomicwalletchat" target="_blank">
+                        <img src="css/images/top_telegram.svg">
+                    </a>
+                    <a href="https://github.com/Atomicwallet" target="_blank">
+                        <img src="css/images/top_github.svg">
+                    </a>
+                    <a href="https://medium.com/atomic-wallet" target="_blank">
+                        <img src="css/images/top_medium.svg">
+                    </a>
+                    <a href="https://www.reddit.com/r/atomicwallet/" target="_blank">
+                        <img src="css/images/top_reddit.svg">
+                    </a>
+                    <a href="https://www.facebook.com/atomicwallet" target="_blank">
+                        <img src="css/images/top_facebook.svg">
+                    </a>
+                  
+                </div>
+            </div>
+            <div class="footer-new-right">
+                <div class="footer-new-cols">
+                    <div class="footer-new-col">
+                        <div class="footer-new-col-title">Atomic Wallet</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/">Wallet</a></li>
+                            <li><a href="https://atomicwallet.io/token">Token Sale</a></li>
+                            <li><a href="https://atomicwallet.io/assets">Assets</a></li>
+                            <li><a href="https://atomicwallet.io/blog">Blog</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-new-col">
+                        <div class="footer-new-col-title">Information</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/download/atomicwallet-whitepaper.pdf">White paper</a>
+                            </li>
+
+                            <li><a href="https://atomicwallet.io/terms-of-service">Terms of service</a></li>
+                            <li><a href="https://atomicwallet.io/privacy">Privacy policy</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1zbu1nKCBq2zNCnEtjWsw3oMJei6aFSuZ">Press
+                                Kit</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-new-col">
+                        <div class="footer-new-col-title">Assets</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/bitcoin-wallet">Bitcoin (BTC)</a></li>
+                            <li><a href="https://atomicwallet.io/litecoin">Litecoin (LTC)</a></li>
+                            <li><a href="https://atomicwallet.io/monero">Monero (XMR)</a></li>
+                            <li><a href="https://atomicwallet.io/ripple">Ripple (XRP)</a></li>
+                            <li><a href="https://atomicwallet.io/tezos">Tezos (XTZ)</a></li>
+                            <li><a href="https://atomicwallet.io/eos">EOS</a></li>
+                            <li><a href="https://atomicwallet.io/tron">TRON (TRX)</a></li>
+
+                            <li><a href="https://atomicwallet.io/bitcoin-cash">Bitcoin Cash (BCH)</a></li>
+                            <li><a href="https://atomicwallet.io/assets">More...</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-new-col">
+                        <div class="footer-new-col-title">Support</div>
+                        <ul class="f-light">
+                            <li><a href="https://support.atomicwallet.io/support/home">faq</a></li>
+                            <li><a href="https://support.atomicwallet.io/support/tickets/new">Submit a ticket</a></li>
+                            <li><a href="https://t.me/atomicwalletchat">Chat</a></li>
+                            <li><a href="https://t.me/atomicwallet">News Channel</a></li>
+                            <li><a href="mailto:listing@atomicwallet.io">Listing your asset</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.touchSwipe.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
