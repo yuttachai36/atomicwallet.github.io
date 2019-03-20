@@ -1110,11 +1110,17 @@
 	}
 
 	.support-main {
-		padding: 30px;
+		padding: 0px;
 	}
 
 	.support-main-title {
-		font-size: 35px;
+		font-size: 30px;
+    	padding: 0 20px;
+    	padding-top: 25px;
+    	margin-bottom: -15px;
+	}
+	.support-main-title img {
+		width: 50px;
 	}
 	.support-articles {
 		padding:  0 20px;
