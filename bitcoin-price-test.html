@@ -113,133 +113,183 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </nav>
         <button class="header-button only-mobile" id="menu-button-open"></button>
     </header>
+
 </div>
 </div>
+<!-- TradingView Widget BEGIN -->
+ 
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Financial Markets</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "title": "BTC/USD",
+      "proName": "BITFINEX:BTCUSD"
+    },
+    {
+      "title": "ETH/USD",
+      "proName": "BITFINEX:ETHUSD"
+    },
+    {
+      "description": "XRP/USD",
+      "proName": "KRAKEN:XRPUSD"
+    },
+    {
+      "description": "XLM/USD",
+      "proName": "BITFINEX:XLMUSD"
+    },
+    {
+      "description": "LTC/USD",
+      "proName": "COINBASE:LTCUSD"
+    },
+    {
+      "description": "DOGE/USD",
+      "proName": "BITTREX:DOGEUSD"
+    },
+    {
+      "description": "BCH/USD",
+      "proName": "COINBASE:BCHUSD"
+    },
+    {
+      "description": "DASH/USD",
+      "proName": "KRAKEN:DASHUSD"
+    },
+    {
+      "description": "EOS/USD",
+      "proName": "KRAKEN:EOSUSD"
+    },
+    {
+      "description": "DGB/USD",
+      "proName": "BITFINEX:DGBUSD"
+    }
+  ],
+  "theme": "light",
+  "isTransparent": true,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+  </script>
+
+</div>
+<!-- TradingView Widget END -->
 <div class="item-page-container">
     
     <div class="item-page">
         
         <div class="item-page-article no-background">
+        	<div id="wallet-button" class="center">
+        	<a href="https://atomicwallet.io/buy-bitcoin" class="button-wallet" id="buy-crypto-button">Buy Bitcoin</a>
+        	<a href="https://atomicwallet.io/downloads" class="button-wallet" id="buy-crypto-button">Get Wallet</a>
+        	</div>
+        	<style>
+        		#buy-crypto-button {
+    display: inline-block;
+    width: 210px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+				.header-container {
+	height: auto;
+}
+}
+        	</style>
             <h1>Live Bitcoin Price: Supply + Market Cap</h1>
+            <h3>BTC / USD Price</h3>
             <div class="widget-price">
-<script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
-<coingecko-coin-ticker-widget coin-id="bitcoin" currency="usd" locale="en"></coingecko-coin-ticker-widget>
+                <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_a6953"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/COINBASE-BTCUSD/" rel="noopener" target="_blank"><span class="blue-text">BTCUSD chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "symbol": "COINBASE:BTCUSD",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_a6953"
+}
+  );
+  </script>
 </div>
-<h3>Bitcoin Price Chart</h3>
-<div class="widget-price">
-<script type="text/javascript">
-baseUrl = "https://widgets.cryptocompare.com/";
-var scripts = document.getElementsByTagName("script");
-var embedder = scripts[ scripts.length - 1 ];
-(function (){
-var appName = encodeURIComponent(window.location.hostname);
-if(appName==""){appName="local";}
-var s = document.createElement("script");
-s.type = "text/javascript";
-s.async = true;
-var theUrl = baseUrl+'serve/v3/coin/chart?fsym=BTC&tsyms=USD,EUR,CNY,GBP';
-s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
-embedder.parentNode.appendChild(s);
-})();
-</script>
 </div>
+<style>
+	#tradingview_a6953 {
+		width: 320px;
+	}
+</style>
+<h3>BTC / EUR Price</h3>
+            <div class="widget-price">
+                <!-- TradingView Widget BEGIN -->
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_66891"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/COINBASE-BTCEUR/" rel="noopener" target="_blank"><span class="blue-text">BTCEUR chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "symbol": "COINBASE:BTCEUR",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_66891"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+</div>
+<h3>BTC / JPY Price</h3>
+            <div class="widget-price">
+                <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div id="tradingview_24d82"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BITFINEX-BTCJPY/" rel="noopener" target="_blank"><span class="blue-text">BTCJPY chart</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "symbol": "BITFINEX:BTCJPY",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_24d82"
+}
+  );
+  </script>
+</div>
+
+            </div>
+
 
 </div>
 </div>
 </div>
-<section class="coin-price-section">
-    <div class="container relative buy-coin">
-        <h3 class="features-title f-bold">Buy Bitcoin</h3>
-        <img src="css/images/bg-comments.svg" alt class="bg bg-comments">
-        <div class="buy-coin-wrapper">
-                    <div class="buy-coin-item hvr-grow">
-                      <div class="buy-coin-fiat-value">
-                        <span>100$</span></div>
-                        <a href="https://atomicwallet.io/buy-bitcoin">
-                        <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.02457</span><span class="ticker">BTC </span>
-                          <div class="buy-coin-button">BUY</div>
-                          </a>
-                        </div>
-                    </div>
-                    <div class="buy-coin-item hvr-grow">
-                      <div class="buy-coin-fiat-value">
-                        <span>200$</span></div>
-                        <a href="https://atomicwallet.io/buy-bitcoin">
-                        <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.04915</span><span class="ticker">BTC </span>
-                          <div class="buy-coin-button">BUY</div>
-                      </a>
-                        </div>
-                    </div>
-                    <div class="buy-coin-item hvr-grow">
-                      <div class="buy-coin-fiat-value">
-                        <span>500$</span></div>
-                        <a href="https://atomicwallet.io/buy-bitcoin">
-                        <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.12288</span><span class="ticker">BTC </span>
-                          <div class="buy-coin-button">BUY</div>
-                      </a>
-                        </div>
-                    </div>
-                    <div class="buy-coin-item hvr-grow">
-                      <div class="buy-coin-fiat-value">
-                        <span>1000$</span></div>
-                        <a href="https://atomicwallet.io/buy-bitcoin">
-                        <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.2457</span><span class="ticker">BTC </span>
-                          <div class="buy-coin-button">BUY</div>
-                      </a>
-                        </div>
-                    </div>
-                    
-                    </div>
 
-</section>
-<section class="list1" id="list1">
-    <div class="container relative">
-        <h3 class="features-title f-bold">Buy Cryptocurrency</h3>
-        <div class="list-items f-medium">
-            <a href="https://atomicwallet.io/buy-bitcoin">
-            <div class="list-item">
-                <img src="css/images/crypto/BTC.svg" alt>
-                <span class="list-item-name">Buy Bitcoin</span>
-            </div>
-            </a>
-             <a href="https://atomicwallet.io/buy-ethereum">
-             <div class="list-item">
-                <img src="css/images/crypto/ETH.svg" alt>
-                <span class="list-item-name">Buy Ethereum</span>
-            </div>
-            </a>
-             <a href="https://atomicwallet.io/buy-litecoin">
-              <div class="list-item">
-                    <img src="css/images/crypto-icon/LTC.svg" alt>
-                    <span class="list-item-name">Buy Litecoin</span>
-                </div>
-                </a>
-                <a href="https://atomicwallet.io/buy-ripple">
-             <div class="list-item">
-                    <img src="css/images/crypto/XRP.svg" alt>
-                    <span class="list-item-name">Buy Ripple</span>
-                </div>
-              </a>
-            <a href="https://atomicwallet.io/buy-bitcoin-cash">
-                 <div class="list-item">
-                    <img src="css/images/crypto/BCH.svg" alt>
-                    <span class="list-item-name">Buy BCH</span>
-                </div>
-                </a>
-                <a href="https://atomicwallet.io/cryptocurrency-prices">
-                 <div class="list-item">
-                    <img src="css/images/crypto/ERC20.svg" alt>
-                    <span class="list-item-name">More Assets</span>
-                </div>
-                </a>
-               
-    </div>
-</div>
-</section>
 <div class="relative coin-price-section">
     <h2 class="features-title f-bold">Bitcoin Wallet</h2>
     <p class="download-text center f-light container">Manage your crypto wisely!<br> Learn how to setup Atomic Wallet to send, receive, exchange and buy cryptocurrency.</p>
@@ -377,7 +427,7 @@ embedder.parentNode.appendChild(s);
 
 
         
-        <div class="mobile-hide">
+        <div>
        <div class="mobile-download-button">
             <div class="download-item-app hvr-grow" data-download="android">
             <a href="https://play.google.com/store/apps/details?id=io.atomicwallet" target="_blank"><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
@@ -397,171 +447,102 @@ embedder.parentNode.appendChild(s);
         <!--<a href="magnet:?xt=urn:btih:8F40C43C1602510238281D707D6C29B674B61C95&dn=Atomic" class="button hash-torrent" target="_blank">Torrent Download</a>-->
     </div>
 
-</section>
 
-<section class="comments">
-<div class="item-page-container">
-    
-    <div class="item-page">
-        
-        <div class="item-page-article">
-            <h2>What is Bitcoin</h2>
-
-            
-             <!-- <div class="item-page-image-template mobile-hide">
-                <div class="item-page-blog-image">
+<!-- <section class="coin-price-section">
+    <div class="container relative buy-coin">
+        <h3 class="features-title f-bold">Buy Bitcoin</h3>
+        <img src="css/images/bg-comments.svg" alt class="bg bg-comments">
+        <div class="buy-coin-wrapper">
+                    <div class="buy-coin-item hvr-grow">
+                      <div class="buy-coin-fiat-value">
+                        <span>100$</span></div>
+                        <a href="https://atomicwallet.io/buy-bitcoin">
+                        <div class="buy-coin-rate">
+                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.02457</span><span class="ticker">BTC </span>
+                          <div class="buy-coin-button">BUY</div>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="buy-coin-item hvr-grow">
+                      <div class="buy-coin-fiat-value">
+                        <span>200$</span></div>
+                        <a href="https://atomicwallet.io/buy-bitcoin">
+                        <div class="buy-coin-rate">
+                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.04915</span><span class="ticker">BTC </span>
+                          <div class="buy-coin-button">BUY</div>
+                      </a>
+                        </div>
+                    </div>
+                    <div class="buy-coin-item hvr-grow">
+                      <div class="buy-coin-fiat-value">
+                        <span>500$</span></div>
+                        <a href="https://atomicwallet.io/buy-bitcoin">
+                        <div class="buy-coin-rate">
+                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.12288</span><span class="ticker">BTC </span>
+                          <div class="buy-coin-button">BUY</div>
+                      </a>
+                        </div>
+                    </div>
+                    <div class="buy-coin-item hvr-grow">
+                      <div class="buy-coin-fiat-value">
+                        <span>1000$</span></div>
+                        <a href="https://atomicwallet.io/buy-bitcoin">
+                        <div class="buy-coin-rate">
+                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.2457</span><span class="ticker">BTC </span>
+                          <div class="buy-coin-button">BUY</div>
+                      </a>
+                        </div>
+                    </div>
                     
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TkaW2QaRfBU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
+                    </div>
+
+</section>
+<section class="list1" id="list1">
+    <div class="container relative">
+        <h3 class="features-title f-bold">Buy Cryptocurrency</h3>
+        <div class="list-items f-medium">
+            <a href="https://atomicwallet.io/buy-bitcoin">
+            <div class="list-item">
+                <img src="css/images/crypto/BTC.svg" alt>
+                <span class="list-item-name">Buy Bitcoin</span>
             </div>
-            <br>
-            <h3>What is Bitcoin?</h3> -->
-            <p>The first digital cryptocurrency in the world was Bitcoin. The project initially started as Satoshi Nakamoto proposal, who has published the project's whitepaper on bitcointalk in 2008. In 2009 he mined the fist genesis block of Bitcoin.
-            Bitcoin is some sort of a new digital "gold", you may earn a part of it, hold it, mine or use as a payment method. Despite other faster and more scalable cryptos on the market, Bitcoin is still the leader, the most demanded and the most influential cryptocurrency, the most tradable pair on exchanges. If the Bitcoin price drops it is also affects the price of the most coins and tokens.</p>
-            <h3>Bitcoin price Prediction</h3>
-            <p>Despite a number of negative factors, the forecast for Bitcoin for 2019, according to many experts, is positive. The reason is that the popularity of cryptocurrency is growing. It is planned that by the beginning of 2020 the number of BTC users will rise to the level of five million people. For comparison, back in 2014, this parameter was about 1.5 million. Against this background, it can be argued that in the coming years, Bitcoin will dominate among other competitors and is unlikely to leave the “throne”.</p>
-        </div>
-
-            <div class="item-page-download">
-                  <div class="item-page-download-title" id="download">Download Atomic Wallet</div>
-                <!-- Subscribe Pop-up-->
-                <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
-                <script>window.$kol_jquery = window.jQuery</script>
-                <script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
-                <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/220933.js'></script>
-  <!-- Subscribe Pop-up mobile download-->
-    <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
-<script>window.$kol_jquery = window.jQuery</script>
-<script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
-<script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/223800.js'></script>
-<!-- End of mobile download Pop-up-->
-
-                
-                <div class="download">
-                    <div class="download-item download-item-windows hvr-grow" data-download="windows">
-                        <a href="https://atomicwallet.io/download/atomicwallet.exe" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-windows.svg" alt="" class="download-item-img-color"></a>
-                        <img src="css/images/logo-windows-color.svg" alt="" class="download-item-img">
-                        <span class="download-name">
-                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Windows</a>
-                </span>
-                        <span class="download-button-label">
-                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Download</a>
-                </span>
-                    </div>
-                    <div class="download-item download-item-apple hvr-grow" data-download="apple">
-                        <a href="https://atomicwallet.io/download/atomicwallet.dmg" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-apple.svg" alt="" class="download-item-img-color"></a>
-                        <img src="css/images/logo-apple-color.svg" alt="" class="download-item-img">
-                        <span class="download-name">
-                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">macOS</a>
-                </span>
-                        <span class="download-button-label">
-                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">Download</a>
-                </span>
-                    </div>
-                    <div class="download-item download-item-ubuntu hvr-grow" data-download="ubuntu">
-                        <a href="https://atomicwallet.io/download/atomicwallet.AppImage" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-ubuntu.svg" alt="" class="download-item-img-color"></a>
-                        <img src="css/images/logo-ubuntu-color.svg" alt="" class="download-item-img">
-                        <span class="download-name">
-                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Ubuntu</a>
-                </span>
-                        <span class="download-button-label">
-                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Download</a>
-                </span>
-                    </div>
-                    <div class="download-item download-item-debian hvr-grow" data-download="debian">
-                        <a href="https://atomicwallet.io/download/atomicwallet.deb" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-debian.svg" alt="" class="download-item-img-color"></a>
-                        <img src="css/images/logo-debian-color.svg" alt="" class="download-item-img">
-                        <span class="download-name">
-                     <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Debian</a>
-                </span>
-                        <span class="download-button-label">
-                    <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Download</a>
-                </span>
-                    </div>
-                    <div class="download-item download-item-fedora hvr-grow" data-download="fedora">
-                        <a href="https://atomicwallet.io/download/atomicwallet.rpm" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-fedora.svg" alt="" class="download-item-img-color"></a>
-                        <img src="css/images/logo-fedora-color.svg" alt="" class="download-item-img">
-                        <span class="download-name">
-                     <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Fedora</a>
-                </span>
-                        <span class="download-button-label">
-                    <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Download</a>
-                </span>
-                    </div>
-                </div> 
-        <div class="only-mobile">
-        <span class="download-text f-light only-mobile"> Manage your Bitcoin, Ethereum, XRP, Litecoin, XLM and over 300 other coins and tokens.</span></div>
-       <div class="mobile-download-button">
-            <div class="download-item-app hvr-grow" data-download="android">
-            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet&referrer=utm_source%3Dwebsite" target="_blank" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'android'="" });=""><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
-            <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img"></a>
-        </div>
-    <div class="download-item-app hvr-grow" data-download="iOS">
-            <a href="" onclick="window.kol_modal_223800.show()"><img src="css/images/OS/appstore.svg" width="80%" alt class="download-item-img-color"></a>
-            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
-        </div>
-
-
-        </div>
- <!--                  <div class="button-suggest">
-                <div class="button-left">
-                <a href="https://atomicwallet.io/tron" class= "suggest-articles-button">
-                  <img src="css/images/articles/icons/arrow-left.svg" alt="">
-                 Read about TRON</a>
-                </div>
-                <div class="button-right">
-                <a href="https://atomicwallet.io/ripple" class= "suggest-articles-button">
-                  Read about Ripple <img src="css/images/articles/icons/arrow-right.svg" alt=""></a>
-                </div>
-                  </div> -->
+            </a>
+             <a href="https://atomicwallet.io/buy-ethereum">
+             <div class="list-item">
+                <img src="css/images/crypto/ETH.svg" alt>
+                <span class="list-item-name">Buy Ethereum</span>
             </div>
-
+            </a>
+             <a href="https://atomicwallet.io/buy-litecoin">
+              <div class="list-item">
+                    <img src="css/images/crypto-icon/LTC.svg" alt>
+                    <span class="list-item-name">Buy Litecoin</span>
+                </div>
+                </a>
+                <a href="https://atomicwallet.io/buy-ripple">
+             <div class="list-item">
+                    <img src="css/images/crypto/XRP.svg" alt>
+                    <span class="list-item-name">Buy Ripple</span>
+                </div>
+              </a>
+            <a href="https://atomicwallet.io/buy-bitcoin-cash">
+                 <div class="list-item">
+                    <img src="css/images/crypto/BCH.svg" alt>
+                    <span class="list-item-name">Buy BCH</span>
+                </div>
+                </a>
+                <a href="https://atomicwallet.io/cryptocurrency-prices">
+                 <div class="list-item">
+                    <img src="css/images/crypto/ERC20.svg" alt>
+                    <span class="list-item-name">More Assets</span>
+                </div>
+                </a>
+               
     </div>
 </div>
-
-<h2 class="top-stories">Top Stories</h2>
-          <div class="related-search-grid">
-              
-              <div class="rsh-block hvr-grow">
-                <a href="https://atomicwallet.io/how-to-choose-bitcoin-wallet">
-                <div class="rsh-text">
-                <h4>How to choose Bitcoin Wallet?</h4>
-              </div>
-               <div class="rsh-image-block">
-                <img src="css/images/articles/how-to-choose-bitcoin-wallet-rs.png" alt="">
-              </div>
-              </a>
-               </div>
-                  <div class="rsh-block hvr-grow">
-                <a href="https://atomicwallet.io/bitcoin-wallet">
-                <div class="rsh-text">
-                <h4>What is Bitcoin?</h4>            
-              </div>
-               <div class="rsh-image-block">
-                <img src="css/images/articles/mainnotebook-rs.png" alt="">
-              </div>
-              </a>
-               </div>
-             <div class="rsh-block hvr-grow">
-                <a href="https://atomicwallet.io/buy-ethereum">
-                                <div class="rsh-text">
-                <h4>How to buy Ethereum?</h4>
-              </div>
-               <div class="rsh-image-block">
-                <img src="css/images/articles/buy-ethereum-simplex-rs.png" alt="">
-              </div>
-            </a>
-            </div>
-            </div>
-            <section class="subscribe" id="contacts">
-<div class="container relative">
-<div id="kol_embed_container_229450"></div>
-<script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
-<script>window.$kol_jquery = window.jQuery</script>
-<script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_embed.js"></script>
-<script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/229450.js'></script>
-
 </section>
+ -->
+
   
 <!--<section class="comments mobile-hide">
     <div class="container relative">
