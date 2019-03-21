@@ -1257,6 +1257,16 @@ ul .article-li {
     border-radius: 0px;
     background-color: transparent;
    }
+   #buy-crypto-button {
+    width: 160px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+   }
+   #wallet-button {
+    margin-top: 135px;
+    margin-bottom: 10px;
+   }
    .related-search-grid {
     grid-gap: auto;
    }
