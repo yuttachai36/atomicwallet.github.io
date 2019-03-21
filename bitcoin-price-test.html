@@ -83,12 +83,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img src="css/images/logo.svg" alt="Atomic">
         </a>
         <nav class="header-menu f-light">
-            <a href="/" class="header-menu-here hvr-grow">Wallet</a>
-            <a href="https://atomicwallet.io/buy-bitcoin" class="hvr-grow">Buy Bitcoin</a>
-            <a href="assets" class="hvr-grow">Assets</a>
-            <a href="/downloads" class="hvr-grow">Download</a>
-            <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
-            <a href="https://atomicwallet.io/blog" class="hvr-grow">Blog</a>
+            <a href="/" >Wallet</a>
+            <a href="https://atomicwallet.io/buy-bitcoin" >Buy Bitcoin</a>
+            <a href="assets">Assets</a>
+            <a href="/downloads">Download</a>
+            <a href="https://support.atomicwallet.io/support/home" target="_blank" >Support</a>
+            <a href="https://atomicwallet.io/blog">Blog</a>
         </nav>
         <nav class="header-menu-icons  f-light">
 
@@ -117,10 +117,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <!-- TradingView Widget BEGIN -->
+
  
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Financial Markets</span></a> by TradingView</div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
   {
   "symbols": [
@@ -173,31 +174,137 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </script>
 
 </div>
+
 <!-- TradingView Widget END -->
 <div class="item-page-container">
     
     <div class="item-page">
         
         <div class="item-page-article no-background">
+
+ 		 <div class="mobile-download-button only-mobile">
+            <div class="download-item-app hvr-grow" data-download="android">
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet" target="_blank"><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
+            <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img"></a>
+        </div>
+    <div class="download-item-app hvr-grow" data-download="iOS">
+            <a href="" onclick="window.kol_modal_223800.show()"><!-- <img src="css/images/OS/appstore.svg" width="80%" alt class="download-item-img-color"> -->
+            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img"></a>
+        </div>
+
+
+        </div>
         	<div id="wallet-button" class="center">
         	<a href="https://atomicwallet.io/buy-bitcoin" class="button-wallet" id="buy-crypto-button">Buy Bitcoin</a>
         	<a href="https://atomicwallet.io/downloads" class="button-wallet" id="buy-crypto-button">Get Wallet</a>
         	</div>
         	<style>
-        		#buy-crypto-button {
+#buy-crypto-button {
     display: inline-block;
-    width: 210px;
+    width: 250px;
+    height: 45px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
+    padding: 5px;
 }
+.header-container {
+	    background-color: #182848;
+	    height: inherit;
+}
+.header {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.bg-main {
+	display: none;
+}
+.header-logo {
+	display: block;
+    margin-right: auto;
+    margin-left: 0px;
+    position: relative;
+    top: -14px;
+
+}
+.header-menu {
+	display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+.header-menu-icons {
+	display: block;
+	margin-right: auto;
+	position: relative;
+    top: 0px;
+    left: 0px;
+}
+.header-menu a {
+	padding: 0 15px;
+	margin-left: 0px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-bottom: 0px solid transparent;
+    transition: all .3s;
+}
+.header-menu a + a {
+	/* padding: 0 15px; */
+	margin-left: 0px;
+/*     display: flex;
+    align-items: center;
+    height: 100%;
+    border-bottom: 0px solid transparent;
+    transition: all .3s; */
+}
+.header-menu a:hover {
+	  border-bottom: 10px solid #289bfa;
+      box-shadow: inset 0px -10px 29px 0px rgba(30, 97, 164, 0.09);
+      text-decoration: none;
+}
+.button-wallet:hover {
+	background-color: #2ea4fb;
+    transition: all .3s;
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
 				.header-container {
 	height: auto;
 }
+.header-menu {
+	display: none;
+}
+.header-logo {
+	top: 0px;
+}
+.header {
+	margin-top: 0px;
+}
+.header-menu-icons {
+	display: none;
+}
+#wallet-button {
+	display: none;
+}
+.mobile-download-button {
+	margin-top: 120px;
+	margin-bottom: -50px;
+	padding-top: 30px;
+    padding-bottom: 30px;
+}
 }
         	</style>
-            <h1>Live Bitcoin Price: Supply + Market Cap</h1>
+        	<div style="margin-top: 50px;"></div>
+            <h1>Live Bitcoin Price: Supply and Market Cap</h1>
             <h3>BTC / USD Price</h3>
             <div class="widget-price">
                 <!-- TradingView Widget BEGIN -->
@@ -441,11 +548,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         </div>
         </div>
-    <div class="download-button-bottom mobile-hide">
+    <div class="download-button-bottom mobile-hide" style="margin-top: 0px;">
         <a href="https://atomicwallet.io/download/hash_sum.pdf" target="_blank" class="button hash-torrent hvr-float">Check Hash Sum</a>&nbsp;&nbsp;&nbsp;&nbsp;
 
         <!--<a href="magnet:?xt=urn:btih:8F40C43C1602510238281D707D6C29B674B61C95&dn=Atomic" class="button hash-torrent" target="_blank">Torrent Download</a>-->
     </div>
+</section>
 
 
 <!-- <section class="coin-price-section">
