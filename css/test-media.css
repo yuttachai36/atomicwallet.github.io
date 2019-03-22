@@ -49,7 +49,7 @@
 
 }
 
-@media screen and (min-width: 1365px) and (max-width: 1920px) {
+@media screen and (min-width: 1300px) and (max-width: 1920px) {
 	.main-notebook {
 		right: -80px;
 		width: 740px;
@@ -63,8 +63,9 @@
 	.comments-arrows-reviews {
 		top: 30px;
 	}
-	.partners-list {
-			}
+	 .partners-list {
+    max-width: 800px;
+  }
 }
 
 @media screen and (max-width: 830px) {
@@ -230,6 +231,7 @@
 	-webkit-transform: scale(0.999);
   transform: scale(0.999);
 }
+
   
 
     .mobile-interfaces3 {
@@ -479,6 +481,12 @@
 		padding-bottom: 20px;
 	}
 
+
+    .list1 {
+            position: relative;
+    top: -400px;
+    margin-bottom: -400px;
+    }
 	/* /video */
 	/* list */
 	.list {
@@ -537,6 +545,8 @@
 		margin-top: 60px;
 		margin-left: 0;
 		width: 250px;
+		    position: relative;
+    top: -570px;
 
 	}
 

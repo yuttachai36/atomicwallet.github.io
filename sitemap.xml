@@ -238,5 +238,10 @@
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://atomicwallet.io/vtho-staking</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
