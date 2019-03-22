@@ -377,13 +377,13 @@ width: 110%;
 
     }
     .swiper-button-next {
-      top: 541px;
-      right: -45px;
+      top: 541px !important;
+      right: -45px !important;
 
     }
     .swiper-button-prev {
-      top: 541px;
-      left: -45px;
+      top: 541px !important;
+      left: -45px !important;
     }
 
 /*
@@ -898,13 +898,17 @@ text-align: center;
 }
 
 
-.partners-list a {
+.partners-list img,
+.partners-list a
+ {
 	display: inline-flex;
 	vertical-align: middle;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-.partners-list a + a {
+.partners-list img + img,
+.partners-list a + a,
+.partners-list a + img {
 	padding-left: 90px;
 	vertical-align: middle;
 }
