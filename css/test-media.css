@@ -22,18 +22,11 @@
 		right: -350px;
 	}
 
-	.partners-list {
-		display: inline-flex;
-		flex-wrap: wrap;
-		max-width: 1199px;
-		justify-content: center;
-	}
 
-	.partners-list a {
-		padding-left: 25px;
-	}
 
-	.partners-list a + a {
+	.partners-list a + a,
+	.partners-list img + img,
+	.partners-list a + img {
 		padding-left: 30px;
 	}
 
