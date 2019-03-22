@@ -344,6 +344,7 @@ ul .article-li {
     }
     .button-wallet:hover {
         background-color: #369127;
+        transition: all .5s;
     }
 .widget-cmc {
     width: 850px;
