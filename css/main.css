@@ -888,10 +888,10 @@ text-align: center;
 
 .partners_special {
   padding-bottom: 30px;
-  width: 800px;
+  width: fit-content;
   margin: 0 auto;
-  text-align: center;
-  margin-left: 200px;
+  /* text-align: center; */
+  /* margin-left: 200px; */
 }
 .partners_special a {
 
