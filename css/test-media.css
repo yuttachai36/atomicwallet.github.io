@@ -10,6 +10,9 @@
 		right: -40px;
 		margin-top: 50px;
 	}
+	.main-notebook-test {
+		right: -40px;
+	}
 
 	.main-notebook1 {
 		position: absolute;
@@ -1154,5 +1157,17 @@
 
 	.article-description {
 		font-size: 15px;
+	}
+}
+@media screen (min-width: 767px) and (max-width: 768px) {
+	.kol-form-title {
+		width: 300px;
+	}
+	.subscribe {
+		margin: 0 auto;
+    	width: 377px;
+	}
+	.header-button {
+		
 	}
 }
