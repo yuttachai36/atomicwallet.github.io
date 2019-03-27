@@ -437,6 +437,9 @@ color: #172A3F;
 .download {
     box-shadow: none;
 }
+.buy-coin {
+    margin-top: -40px;
+}
 .image-span {
     font-size: 14px;
     text-align: center;
