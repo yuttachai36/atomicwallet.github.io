@@ -377,13 +377,17 @@ width: 110%;
 
     }
     .swiper-button-next {
-      top: 541px !important;
-      right: -45px !important;
+      top: -191px !important;
+    right: -45px !important;
+    position: relative !important;
+    margin-left: auto;
 
     }
     .swiper-button-prev {
-      top: 541px !important;
-      left: -45px !important;
+     top: -211px !important;
+    left: -45px !important;
+    position: relative !important;
+    margin-right: auto;
     }
 
 /*
