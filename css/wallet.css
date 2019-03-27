@@ -1187,8 +1187,9 @@ ul .article-li {
         min-width: 100%;
         }
         .item-page-container {
-        margin-top: -128px;
-        background-color: white;
+        padding-top: 20px;
+        /* margin-top: -128px; */
+        /* background-color: white; */
         }
        .item-page-article {
         padding-top: 0px;
@@ -1329,6 +1330,7 @@ ul .article-li {
       }
       .header-container {
         background-color: white;
+        height: auto;
       }
       .wallet {
         height: auto;
