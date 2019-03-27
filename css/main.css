@@ -769,6 +769,7 @@ text-align: center;
   .column > .buy-coin-item-features {
   	height: auto;
   	min-height: auto;
+  	margin-bottom: 80px;
   }
   .buy-coin-item-features > .buy-coin-button {
   	    height: 56px;
