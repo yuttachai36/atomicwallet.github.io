@@ -784,9 +784,11 @@ text-align: center;
   }
 .column .buy-coin-item-features .buy-coin-features h3 {
 	font-size: 3em;
+	width: auto;
 }
   .column .buy-coin-item-features .buy-coin-features h4 {
   	font-size: 1.4em;
+  	width: auto;
   }
    .buy-coin-item-features > .buy-coin-button:hover {
     transition: all .4s;
@@ -906,6 +908,7 @@ text-align: center;
   	    font-size: 1.3em;
     /* color: #3b5998; */
     color: #182848;
+    width: 200px;
   }
   .buy-coin-item-features h3 {
   	font-size: 2em;
@@ -927,6 +930,8 @@ text-align: center;
   .buy-coin-features p {
   	    font-size: 1em;
     line-height: 1.5em;
+    height: 100px;
+    vertical-align: top;
   }
 
   /* end flex */
