@@ -197,6 +197,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 <style>
+	.swiper-pagination {
+		padding: 30px;
+	}
   .trustpilot-logo {
   	width: 10%;
     top: 15px;
@@ -233,7 +236,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     background-color: #3ca2d9;
     margin: 0px;
     border-radius: 4px;
-    padding: 15px 25px;
+    padding: 1em;
     border-width: 1px;
     border-style: solid;
     border-color: #3ca2d9;
@@ -354,7 +357,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
   .buy-coin-features-section {
     background-color: #ecedef;
-    padding: 20px 0;
+    padding: 50px 0;
     margin-top: 50px;
   }
   .buy-coin-features h4,
@@ -455,6 +458,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
   .buy-coin-item-features {
   	background-color: white;
+  	min-height: auto;
+  }
+  .swiper-pagination {
+  	padding: 0px;
   }
  }
 
@@ -585,7 +592,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </span>
         </div>
     </div>
+ <div class="only-mobile">
+       <div class="mobile-download-button" id="download">
+            <div class="download-item-app hvr-grow" data-download="android">
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet" target="_blank"><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
+            <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img" id="download"></a>
+        </div>
+    <div class="download-item-app hvr-grow" data-download="iOS">
+            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
+        </div>
 
+
+        </div>
+        </div>
 
 
 
@@ -641,9 +660,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="reviews">
     <div class="container relative">
     	 <link rel="stylesheet" href="css/swiper.min.css">
-                    <h2 class="download-title-top f-bold"><br><br><a name="download">Reviews</a></h2>
-       <h3 class="download-text center f-light">Atomic is trusted by thousands of users.
-       <br> Rate us on <a href="https://www.trustpilot.com/review/atomicwallet.io"><img src="css/images/articles/trustpilot-logo.png" class="trustpilot-logo" alt=""></a></h3>
+                    <h2 class="download-title-top f-bold"><br><br><a name="download">Trusted Reviews</a></h2>
+       <h3 class="download-text center f-light">Check what our customers say on <a href="https://www.trustpilot.com/review/atomicwallet.io"><img src="css/images/articles/trustpilot-logo.png" class="trustpilot-logo" alt=""></a></h3>
 
 
 
@@ -766,7 +784,7 @@ They are very active to make sure that we are updated regularly, It is a quality
 </div>
 
    <!-- Add Pagination -->
-    <div class="swiper-pagination" style="padding: 30px !important;"></div>
+    <div class="swiper-pagination"></div>
     <!-- Add Arrows -->
   </div>
       <div class="swiper-button-next"></div>
@@ -995,7 +1013,7 @@ $(window).trigger('resize')
 		</div>
 	
 		<div class="buy-coin-button">
-		<a href="#buy">	
+		<a href="#download">	
 			Buy Bitcoin</a>
 		</div>
 	</div>
