@@ -197,6 +197,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 <style>
+	.swiper-pagination {
+		padding: 30px;
+	}
   .trustpilot-logo {
   	width: 10%;
     top: 15px;
@@ -455,6 +458,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   }
   .buy-coin-item-features {
   	background-color: white;
+  	min-height: auto;
+  }
+  .swiper-pagination {
+  	padding: 0px;
   }
  }
 
@@ -585,7 +592,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </span>
         </div>
     </div>
+ <div class="only-mobile">
+       <div class="mobile-download-button" id="download">
+            <div class="download-item-app hvr-grow" data-download="android">
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet" target="_blank"><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
+            <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img" id="download"></a>
+        </div>
+    <div class="download-item-app hvr-grow" data-download="iOS">
+            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
+        </div>
 
+
+        </div>
+        </div>
 
 
 
@@ -765,7 +784,7 @@ They are very active to make sure that we are updated regularly, It is a quality
 </div>
 
    <!-- Add Pagination -->
-    <div class="swiper-pagination" style="padding: 30px !important;"></div>
+    <div class="swiper-pagination"></div>
     <!-- Add Arrows -->
   </div>
       <div class="swiper-button-next"></div>
@@ -994,7 +1013,7 @@ $(window).trigger('resize')
 		</div>
 	
 		<div class="buy-coin-button">
-		<a href="#buy">	
+		<a href="#download">	
 			Buy Bitcoin</a>
 		</div>
 	</div>
