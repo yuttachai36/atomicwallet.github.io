@@ -472,7 +472,9 @@ iframe {
     width: auto;
     margin-bottom: 30px;
 }
-
+.ol-ul {
+    margin-bottom: -25px !important;
+}
 /* .item-page ol li {
     line-height: 4px;
 } */
@@ -1386,6 +1388,10 @@ ul .article-li {
     padding-right: 20px;
     width: 100%;
     }
+    /* add this clas before ul/ol in paragraphs */
+    .ol-ul {
+    margin-bottom: 12px !important;
+}
 
 
 /* Downloads Boxes */
