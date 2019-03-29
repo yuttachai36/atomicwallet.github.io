@@ -1,12 +1,14 @@
 let qs = q => document.querySelector(q);
 let qsa = q => document.querySelectorAll(q);
 
+const COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE = 0.05
+const URL_BUY_BITCOIN_PAGE = 'buy-bitcoin'
 
 /* buy bitcoin */
 
 class BuyBitcoin {
     constructor() {
-        if(window.location.href.includes('buy')) {
+        if(window.location.href.includes(URL_BUY_BITCOIN_PAGE)) {
             this.hundredRateSpan = qs('#hundred-dollar-rate');
             this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
             this.thousandRateSpan = qs('#thousand-coin-rate');
@@ -14,7 +16,6 @@ class BuyBitcoin {
             this.getPrice()
         }
     }
-
 
     getPrice () {
         fetch("https://min-api.cryptocompare.com/data/pricemultifull?tsyms=USD&fsyms=BTC")
@@ -24,9 +25,9 @@ class BuyBitcoin {
 
               if (!price) return
 
-              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * 0.05)).toFixed(8)
-              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * 0.05)).toFixed(8)
-              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * 0.05)).toFixed(8)
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(8)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(8)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(8)
           })
           .catch(console.log)
     }
