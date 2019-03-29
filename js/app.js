@@ -1,6 +1,38 @@
 let qs = q => document.querySelector(q);
 let qsa = q => document.querySelectorAll(q);
 
+
+/* buy bitcoin */
+
+class BuyBitcoin {
+    constructor() {
+        if(window.location.href.includes('buy')) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+    }
+
+
+    getPrice () {
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?tsyms=USD&fsyms=BTC")
+          .then(r => r.json())
+          .then(r => {
+              const price = r.RAW.BTC.USD.PRICE
+
+              if (!price) return
+
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * 0.05)).toFixed(8)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * 0.05)).toFixed(8)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * 0.05)).toFixed(8)
+          })
+          .catch(console.log)
+    }
+}
+
+
 /* download */
 class Download {
     constructor() {
@@ -385,3 +417,4 @@ class Page {
 }
 
 new Page();
+new BuyBitcoin();
