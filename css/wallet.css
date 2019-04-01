@@ -674,7 +674,10 @@ iframe {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     color: #182848;
-
+}
+.position-top {
+    position: relative;
+    z-index: 2;
 
 }
 .releases {

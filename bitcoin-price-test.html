@@ -240,6 +240,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     left: 0px;
 
 }
+.buy-coin-item-features {
+  flex: unset;
+}
+.widget-price,
+.widget-cc {
+  width: 800px;
+}
+.center {
+  text-align: center !important;
+}
 .header-menu-icons {
 	display: block;
 	margin-right: auto;
@@ -292,8 +302,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 .header-menu-icons {
 	display: none;
 }
+.column > .buy-coin-item-features {
+  /* padding-bottom: 20px; */
+}
 #wallet-button {
 	display: none;
+}
+.widget-price,
+.widget-cc {
+  width: 100%;
+}
+.list1 {
+      position: relative;
+    top: unset;
+    margin-bottom: unset;
 }
 .mobile-download-button {
 	margin-top: 120px;
@@ -301,12 +323,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	padding-top: 30px;
     padding-bottom: 30px;
 }
+.mobile-download-button {
+  margin-top: 0px;
+}
 }
         	</style>
         	<div style="margin-top: 50px;"></div>
-            <h1>Live Bitcoin Price: Supply and Market Cap</h1>
-            <h3>BTC / USD Price</h3>
-            <div class="widget-price">
+            <h1 class="center mobile-hide">Live Bitcoin Price: Supply and Market Cap</h1>
+            <h3 class="center mobile-hide">BTC / USD Price</h3>
+            <div class="widget-price mobile-hide">
                 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div id="tradingview_a6953"></div>
@@ -336,8 +361,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		width: 320px;
 	}
 </style>
-<h3>BTC / EUR Price</h3>
-            <div class="widget-price">
+<h2 class="center mobile-hide">BTC / EUR Price</h2>
+            <div class="widget-price mobile-hide">
                 <!-- TradingView Widget BEGIN -->
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
@@ -364,47 +389,115 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <!-- TradingView Widget END -->
 </div>
-<h3>BTC / JPY Price</h3>
+
+<section>
+            <h2 class="center">Live Bitcoin Price: Supply + Market Cap</h2>
             <div class="widget-price">
-                <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div id="tradingview_24d82"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BITFINEX-BTCJPY/" rel="noopener" target="_blank"><span class="blue-text">BTCJPY chart</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript">
-  new TradingView.widget(
-  {
-  "symbol": "BITFINEX:BTCJPY",
-  "interval": "D",
-  "timezone": "Etc/UTC",
-  "theme": "Light",
-  "style": "1",
-  "locale": "en",
-  "toolbar_bg": "#f1f3f6",
-  "enable_publishing": false,
-  "hide_side_toolbar": false,
-  "allow_symbol_change": true,
-  "container_id": "tradingview_24d82"
-}
-  );
-  </script>
+<script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
+<coingecko-coin-ticker-widget coin-id="bitcoin" currency="usd" locale="en"></coingecko-coin-ticker-widget>
 </div>
-
-            </div>
-
+</section>
+<h2 class="center">Bitcoin Converter</h2>
+<div class="widget-cc"><script src="https://widgets.coingecko.com/coingecko-coin-converter-widget.js"></script>
+<coingecko-coin-converter-widget  coin-id="bitcoin" currency="usd" background-color="#ffffff" font-color="#4c4c4c" locale="en"></coingecko-coin-converter-widget></div>
 
 </div>
 </div>
 </div>
+<section class="mobile-hide">
+    <div class="container relative buy-coin">
+        <h3 class="features-title f-bold">Buy Bitcoin with Credit Card</h3>
+        <img src="css/images/bg-comments.svg" alt class="bg bg-comments">
+        <div class="buy-coin-wrapper">
+                    <div class="buy-coin-item hvr-grow">
+                        <a href="https://atomicwallet.io/buy-bitcoin">
+                      <div class="buy-coin-fiat-value">
+                        <span>$100</span></div>
+                        <div class="buy-coin-rate">
+                          <p>Get</p>
+                          <img src="css/images/crypto-icon/BTC.svg" alt="">
+                          <span id="hundred-dollar-rate"> </span>
+                          <span class="ticker">BTC </span>
+                          <div class="buy-coin-button">BUY</div>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="buy-coin-item hvr-grow">
+                        <a href="https://atomicwallet.io/buy-bitcoin">
+                      <div class="buy-coin-fiat-value">
+                        <span>$500</span></div>
+                        <div class="buy-coin-rate">
+                        <p>Get</p>
+                        <img src="css/images/crypto-icon/BTC.svg" alt="">
+                        <span id="five-hundred-coin-rate"> </span>
+                        <span class="ticker">BTC </span>
+                        <div class="buy-coin-button"><b>👍 BEST BUY 👍</b></div>
+                      </a>
+                        </div>
+                    </div>
+                    <div class="buy-coin-item hvr-grow">
+                        <a href="https://atomicwallet.io/buy-bitcoin">
+                      <div class="buy-coin-fiat-value">
+                        <span>$1000</span></div>
+                        <div class="buy-coin-rate">
+                        <p>Get</p>
+                        <img src="css/images/crypto-icon/BTC.svg" alt="">
+                        <span id="thousand-coin-rate"> </span>
+                        <span class="ticker">BTC </span>
+                        <div class="buy-coin-button">BUY</div>
+                      </a>
+                        </div>
+                    </div>
 
-<div class="relative coin-price-section">
-    <h2 class="features-title f-bold">Bitcoin Wallet</h2>
-    <p class="download-text center f-light container">Manage your crypto wisely!<br> Learn how to setup Atomic Wallet to send, receive, exchange and buy cryptocurrency.</p>
+                    </div>
+
+
+</section>
+
+
+
+
+
+<section class="position-top">
+  
+  <div class="flex-container column">
+    <div class="buy-coin-item-features">
+      <div class="buy-coin-features">
+      <h3>Buy Bitcoin in a few minutes</h3>
+      <h4>Start with $50, Credit or debit card accepted.</h4>
+    </div>
+
+    <div class="buy-coin-button">
+    <a href="https://atomicwallet.io/buy-bitcoin">
+      Buy Bitcoin</a>
+    </div>
+  </div>
+
+</section>
+
+<div class="item-page-container">
+
+    <div class="item-page">
+
+        <div class="item-page-article">
+
+            <br><h2>What is Bitcoin</h2>
+            <p>The first digital cryptocurrency in the world was Bitcoin. The project initially started as Satoshi Nakamoto proposal, who has published the project's whitepaper on bitcointalk in 2008. In 2009 he mined the fist genesis block of Bitcoin.
+            Bitcoin is some sort of a new digital "gold", you may earn a part of it, hold it, mine or use as a payment method. Despite other faster and more scalable cryptos on the market, Bitcoin is still the leader, the most demanded and the most influential cryptocurrency, the most tradable pair on exchanges. If the Bitcoin price drops it is also affects the price of the most coins and tokens.</p>
+            <h3>Bitcoin Price Prediction</h3>
+            <p>Fluctuations in the Bitcoin exchange rate price led to the division of experts into two groups. Some believe the situation with a correction issues are temporary, and already in 2019, Bitcoin will reach new heights. Others, however, argue that the era of cryptocurrency is ceasing to exist. <a href="https://atomicwallet.io/bitcoin-price-prediction">Read more</a></p>
+
+    <h2>Bitcoin Wallet</h2>
+    <p>Manage your crypto wisely! Learn how to setup Atomic Wallet to send, receive, exchange and buy cryptocurrency.</p>
 <div class="item-page-image-template">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GvPLN8pe_IY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-</div>
-</div>
+
+            <br>
+            </div>
+          </div>
+        </div>
+
 
 
 <section class="container download-container relative">
@@ -555,273 +648,115 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 
-<!-- <section class="coin-price-section">
-    <div class="container relative buy-coin">
-        <h3 class="features-title f-bold">Buy Bitcoin</h3>
-        <img src="css/images/bg-comments.svg" alt class="bg bg-comments">
-        <div class="buy-coin-wrapper">
-                    <div class="buy-coin-item hvr-grow">
-                      <div class="buy-coin-fiat-value">
-                        <span>100$</span></div>
-                        <a href="https://atomicwallet.io/buy-bitcoin">
-                        <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.02457</span><span class="ticker">BTC </span>
-                          <div class="buy-coin-button">BUY</div>
-                          </a>
-                        </div>
-                    </div>
-                    <div class="buy-coin-item hvr-grow">
-                      <div class="buy-coin-fiat-value">
-                        <span>200$</span></div>
-                        <a href="https://atomicwallet.io/buy-bitcoin">
-                        <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.04915</span><span class="ticker">BTC </span>
-                          <div class="buy-coin-button">BUY</div>
-                      </a>
-                        </div>
-                    </div>
-                    <div class="buy-coin-item hvr-grow">
-                      <div class="buy-coin-fiat-value">
-                        <span>500$</span></div>
-                        <a href="https://atomicwallet.io/buy-bitcoin">
-                        <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.12288</span><span class="ticker">BTC </span>
-                          <div class="buy-coin-button">BUY</div>
-                      </a>
-                        </div>
-                    </div>
-                    <div class="buy-coin-item hvr-grow">
-                      <div class="buy-coin-fiat-value">
-                        <span>1000$</span></div>
-                        <a href="https://atomicwallet.io/buy-bitcoin">
-                        <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.2457</span><span class="ticker">BTC </span>
-                          <div class="buy-coin-button">BUY</div>
-                      </a>
-                        </div>
-                    </div>
-                    
-                    </div>
 
-</section>
+
 <section class="list1" id="list1">
     <div class="container relative">
-        <h3 class="features-title f-bold">Buy Cryptocurrency</h3>
+        <h3 class="features-title f-bold">Other Coins</h3>
         <div class="list-items f-medium">
-            <a href="https://atomicwallet.io/buy-bitcoin">
+            <a href="https://atomicwallet.io/EOS price">
             <div class="list-item">
-                <img src="css/images/crypto/BTC.svg" alt>
-                <span class="list-item-name">Buy Bitcoin</span>
+                <img src="css/images/crypto/EOS.svg" alt>
+                <span class="list-item-name">EOS Price</span>
             </div>
             </a>
-             <a href="https://atomicwallet.io/buy-ethereum">
+             <a href="https://atomicwallet.io/ethereum-price">
              <div class="list-item">
                 <img src="css/images/crypto/ETH.svg" alt>
-                <span class="list-item-name">Buy Ethereum</span>
+                <span class="list-item-name">Ethereum Price</span>
             </div>
             </a>
-             <a href="https://atomicwallet.io/buy-litecoin">
+             <a href="https://atomicwallet.io/litecoin-price">
               <div class="list-item">
                     <img src="css/images/crypto-icon/LTC.svg" alt>
-                    <span class="list-item-name">Buy Litecoin</span>
+                    <span class="list-item-name">Litecoin Price</span>
                 </div>
                 </a>
-                <a href="https://atomicwallet.io/buy-ripple">
+                <a href="https://atomicwallet.io/ripple-price">
              <div class="list-item">
                     <img src="css/images/crypto/XRP.svg" alt>
-                    <span class="list-item-name">Buy Ripple</span>
+                    <span class="list-item-name">Ripple Price</span>
                 </div>
               </a>
-            <a href="https://atomicwallet.io/buy-bitcoin-cash">
+            <a href="https://atomicwallet.io/bitcoin-cash-price">
                  <div class="list-item">
                     <img src="css/images/crypto/BCH.svg" alt>
-                    <span class="list-item-name">Buy BCH</span>
+                    <span class="list-item-name">Bitcoin Cash Price</span>
+                </div>
+                </a>
+           <a href="https://atomicwallet.io/neo-price">
+             <div class="list-item">
+                <img src="css/images/crypto-icon/NEO.svg" alt>
+                <span class="list-item-name">NEO Price</span>
+            </div>
+            </a>
+             <a href="https://atomicwallet.io/tron-price">
+              <div class="list-item">
+                    <img src="css/images/crypto-icon/TRX.svg" alt>
+                    <span class="list-item-name">Tron Price</span>
+                </div>
+                </a>
+                <a href="https://atomicwallet.io/dogecoin-price">
+             <div class="list-item">
+                    <img src="css/images/crypto-icon/DOGE.svg" alt>
+                    <span class="list-item-name">Dogecoin Price</span>
+                </div>
+              </a>
+            <a href="https://atomicwallet.io/cardano-price">
+                 <div class="list-item">
+                    <img src="css/images/crypto-icon/ADA.svg" alt>
+                    <span class="list-item-name">Cardano Price</span>
+                </div>
+                </a>
+                <a href="https://atomicwallet.io/stellar-price">
+                 <div class="list-item">
+                    <img src="css/images/crypto-icon/XLM.svg" alt>
+                    <span class="list-item-name">Stellar Price</span>
+                </div>
+                </a>
+                <a href="https://atomicwallet.io/zcash-price">
+                 <div class="list-item">
+                    <img src="css/images/crypto-icon/ZEC.svg" alt>
+                    <span class="list-item-name">ZCash Price</span>
                 </div>
                 </a>
                 <a href="https://atomicwallet.io/cryptocurrency-prices">
                  <div class="list-item">
                     <img src="css/images/crypto/ERC20.svg" alt>
-                    <span class="list-item-name">More Assets</span>
+                    <span class="list-item-name">Assets List</span>
                 </div>
                 </a>
                
     </div>
 </div>
 </section>
- -->
 
-  
-<!--<section class="comments mobile-hide">
-    <div class="container relative">
-        <h2 class="features-title f-bold">News</h2>
-                
+
+
+
+
+
+
+<section class="position-top list1">
+  <div class="flex-container column">
+    <div class="buy-coin-item-features">
+
+    <div class="buy-coin-button">
+    <a href="https://atomicwallet.io/buy-bitcoin">
+      Buy Bitcoin</a>
     </div>
-    <div class="comments-slider-label">
-        <div class="container relative">
-            <div class="comments-slider relative">
-                <div class="comments-slider-list">
-                    <div class="comments-item hvr-grow">
-                        <img src="css/images/twitter.svg" alt class="comments-image">
-                        <a href="https://twitter.com/atomicwallet/status/1075783864675639301" target="_blank" class="comments-text">Secure, manage and exchange your #BitcoinSV in @AtomicWallet! $BSV</a>
-                    </div>
-                    <div class="comments-item hvr-grow">
-                        <img src="css/images/twitter.svg" alt class="comments-image">
-                        <a href="https://twitter.com/Aurora_dao/status/1065976899552374785" target="_blank" class="comments-text">$AWC by @atomicwallet has been added to #IDEX https://idex.market/eth/awc 
-#ethereum #crypto #CryptoNews</a>
-                    </div>
-                    <div class="comments-item hvr-grow">
-                        <img src="css/images/twitter.svg" alt class="comments-image">
-                        <a href="https://twitter.com/atomicwallet/status/1081773743637180416" target="_blank" class="comments-text">Our community Atomic Wallet token $AWC was listed on @CoinMarketCap!</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  </div>
 </section>
 
-
-
-
-<section class="comments team mobile-hide">
-    <div class="container relative">
-        <h2 class="features-title f-bold">Team</h2>
-     </div>
-     <div class="comments-slider-label mobile-hide">
-        <div class="container relative">
-            <div class="comments-slider relative">
-                <div class="comments-slider-list">
-                    <div class="comments-item">
-                        <div class="team-author hvr-grow">
-                            <a href="https://twitter.com/gladkos" rel="nofollow">
-                                <img src="css/images/team-2.jpg" class="team-author-avatar" alt>
-                            <div class="team-author-name f-medium">Konstantin Gladych</div>
-                                </a>
-                        </div>
-                        <div class="team-text f-light">Konstantin Gladych​, CEO, PhD in data science with 3 years solid experience in blockchain and cryptocurrencies, 10 years in IT. Konstantin is well-known as the co-founder and CEO of Changelly.com, biggest cryptocurrency instant exchange with over 2 millions active customers monthly and $0.5bln in monthly turnover. Konstantins interests are: decentralization, custody-free solutions, p2p exchangers.</div>
-                        <div class="team-social">
-                            <a href="https://twitter.com/gladkos" target="_blank" rel="nofollow"><img src="css/images/icons/team-soc-twitter.svg" alt></a>
-                            <a href="https://linkedin.com/in/gladkos/" target="_blank" rel="nofollow"><img src="css/images/icons/team-soc-in.svg" alt></a>
-
-                        </div>
-                    </div>
-                    <div class="comments-item">
-                        <div class="team-author hvr-grow">
-                            <a href="https://twitter.com/CharlieShrem" rel="nofollow"><img src="css/images/team-3.jpg" class="team-author-avatar" alt>
-                            <div class="team-author-name f-medium">Charlie Shrem</div>
-                                </a>
-                        </div>
-                        <div class="team-text f-light">Charlie Shrem​, Strategic Advisor and Visionary, is an American entrepreneur and bitcoin advocate. In 2011 he co-founded the now-defunct startup company BitInstant, and is a founding member of the Bitcoin Foundation, formerly serving as vice chairman. The Bitcoin Foundation is a nonprofit founded in 2012 with the mission to "standardize, protect and promote the use of bitcoin cryptographic money for the benefit of users worldwide".</div>
-                        <div class="team-social">
-                            <a href="https://twitter.com/CharlieShrem" target="_blank" rel="nofollow"><img src="css/images/icons/team-soc-twitter.svg" alt></a>
-                            <a href="https://linkedin.com/in/charlieshrem/" target="_blank" rel="nofollow"><img src="css/images/icons/team-soc-in.svg" alt></a>
-
-                        </div>
-
-
-                         </div>
-                    <div class="comments-item">
-                        <div class="team-author hvr-grow">
-                            <a href="https://twitter.com/simondixontwitt" rel="nofollow"><img src="css/images/SimonDixon.png" class="team-author-avatar" alt>
-                            <div class="team-author-name f-medium">Simon Dixon </div>
-                                </a>
-                        </div>
-                        <div class="team-text f-light">Simon Dixon, Advisor, CEO of online investment platform BnkToTheFuture.com who have invested over US$400m in FinTech companies, like BitFinex, Bitstamp, Kraken, BitPay, ShapeShift, Exodus and over 40 others. Simon's BnkToTheFuture has 300 professional FinTech investors who all believe the future of finance looks very different from today. Their experience and background covers most areas in finance, technology and startups. </div>
-                        <div class="team-social">
-                            <a href="https://twitter.com/simondixontwitt" target="_blank" rel="nofollow"><img src="css/images/icons/team-soc-twitter.svg" alt></a>
-                            <a href="https://www.linkedin.com/in/simondixonbankingreform/" target="_blank" rel="nofollow"><img src="css/images/icons/team-soc-in.svg" alt></a>
-
-                        </div>
-                    </div>
-
-                    div class="comments-item">
-                       <div class="team-author hvr-grow">
-                            <a href="https://www.linkedin.com/in/sokolovpaul/"><img src="css/images/team-1.jpg" class="team-author-avatar" alt>
-                            <div class="team-author-name f-medium">Paul Sokolov</div>
-                                </a>
-                        </div>
-                        <div class="team-text f-light">Paul Sokolov​, CPO, has three years experience in blockchain, 10 years in fintech, 2 years of which in CEO position at top-20 cryptocurrency exchange. Certified banking cards security and business expert. Launched over 6 successful projects within last five years. Paul’s interests are: cryptocurrency exchanges, wallets, smart contracts, financial inclusion.</div>
-                        <div class="team-social">
-
-                            <a href="https://www.linkedin.com/in/sokolovpaul/" target="_blank"><img src="css/images/icons/team-soc-in.svg" alt></a>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="subscribe" id="contacts">
+<div class="container relative">
+<div id="kol_embed_container_229450"></div>
+<script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+<script>window.$kol_jquery = window.jQuery</script>
+<script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_embed.js"></script>
+<script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/229450.js'></script>
+</div>
 </section>
-
- 
--->
-<!--<section class="video mobile-hide">
-    <div class="container relative">
-        <h2  class="features-title f-bold">Video
-        </h2>
-        <div class="video-container">
-            <div class="video-text video-youtube">
-                <a href="https://www.youtube.com/channel/UCLMnUt6BBtA67eic1vRGF3g" taget="_blank">
-                    <img src="css/images/icons/icon-youtube.svg">
-                </a><br><br>
-                Check Atomic Wallet team videos to feel the inspiration, review Atomic Wallet UI and get educated from conferences. To stay up to date, subscribe to our YouTube channel.
-
-            </div>
-            <div class="video-youtube">
-                <a href="https://www.youtube.com/watch?v=VsZuDJMmVPY&feature=youtu.be&t=6h2m" target="_blank" frameborder="0">
-                    <div class="gladych-preview">
-                        
-                    </div>
-                   
-                </a>
-            </div>
-            <div class="video-youtube">
-                 <div class="youtube-player" data-id="U6LZqiSfLTc" data-related="0" data-control="0" data-info="0" data-fullscreen="0" style="width:100%;display: block; position: relative;cursor: pointer;max-height:315px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto"> <img src="css/images/video-enjoy.jpg"  style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 101%; width: 101%;height:auto; position: absolute; right: 0; top: -100%;"> <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('http://i.imgur.com/TxzC70f.png') no-repeat;"></div> </div> 
-            </div>
-            <div class="video-youtube">
-                   <div class="youtube-player" data-id="6dg2COvK0LY" data-related="0" data-control="0" data-info="0" data-fullscreen="0" style="width:100%;display: block; position: relative;cursor: pointer;max-height:315px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto"> <img src="css/images/video-atomic-mobile.jpg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 101%; width: 101%;height:auto; position: absolute; right: 0; top: -100%;"> <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('http://i.imgur.com/TxzC70f.png') no-repeat;"></div> </div> 
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-<div class="partners mobile-hide">
-    <h3 class="features-title f-bold aos-init aos-animate" data-aos="fade-right" data-aos-duration="800">Partners & Investors</h3>
-    <div class="container relative cfx">
-        <div class="partners-list">
-<style>
-    .partners-list{     
-    flex-wrap: wrap;
-    margin: 0 auto;
-    max-width: 700px;
-    display: block;
-  }
-@media screen and (min-width: 1300px) and (max-width: 1920px) { 
-  .partners-list {
-    max-width: 800px;
-  }
-
-}
-</style>
-
-            <a class="hvr-grow" href="https://changelly.com/?ref_id=c2062aad8a83" taget="_blank"><img src="css/images/partner-changelly.png" alt=""></a>
-            <a class="hvr-grow" href="https://changenow.io?link_id=7c7eaf1f7efc4b" target="_blank"><img src="css/images/partner-changenow.png" alt=""></a>
-            <a class="hvr-grow" href="https://shapeshift.io" taget="_blank"><img src="css/images/partner-ShapeShift.png" alt=""></a>
-          </div>
-            <div class="partners-list">
-            <a class="hvr-grow" href="https://www.blockchair.com/" target="_blank"><img src="css/images/partner-blockchair.png" alt=""></a>
-            <a class="hvr-grow" href="https://ethplorer.io/" target="_blank"><img src="css/images/partner-ethplorer.png" alt=""></a>
-              <a class="hvr-grow" href="https://coinmarketcap.com/" target="_blank"><img src="css/images/partner-coinmarketcap.png" alt=""></a>
-          </div>
--->
-
-
-
-
-
-
-
 
 <footer class="footer-new">
     <div class="container relative">
