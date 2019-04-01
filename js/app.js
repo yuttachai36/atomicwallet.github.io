@@ -8,6 +8,7 @@ const URL_BUY_BITCOIN_PAGE = 'buy-bitcoin'
 const URL_BUY_RIPPLE_PAGE = 'buy-ripple'
 const URL_BUY_ETHEREUM_PAGE = 'buy-ethereum'
 
+
 /* buy bitcoin */
 
 class BuyBitcoin {
@@ -28,14 +29,15 @@ class BuyBitcoin {
               const price = r.RAW.BTC.USD.PRICE
 
               if (!price) return
-
               this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
               this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
               this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+
           })
           .catch(console.log)
     }
 }
+
 
 /* buy litecoin */
 
@@ -152,6 +154,7 @@ class BuyBitcoinCash {
           .catch(console.log)
     }
 }
+
 /* download */
 class Download {
     constructor() {
