@@ -7,6 +7,7 @@
     <meta name="twitter:title" content="How to buy XRP (Ripple)?">
     <meta name="twitter:description" content="You can easily receive XRP on your address right in Atomic Wallet interface. Pass simple verification process which takes up to 15 minutes and recieve crypto on your address.">
     <meta name="twitter:image" content="https://atomicwallet.io/css/images/articles/buy-ripple.png">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="description" content="Buy Ripple (XRP) in 20 minutes with your bank card. Visa and Master Card accepted. Purchase Ripple (XRP) instantly. Pass verification and receive Ripple (XRP) on your address.">
@@ -161,37 +162,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <div class="buy-coin-fiat-value">
                         <span>$100</span></div>
                         <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/XRP.svg" alt=""> <span>324.46</span><span class="ticker">XRP</span>
+                          <p>Get</p> <img src="css/images/crypto-icon/XRP.svg" alt="">
+                          <span id="hundred-dollar-rate"> 324.46</span>
+                          <span class="ticker">XRP</span>
                           <div class="buy-coin-button">BUY</div>
                           </a>
                         </div>
                     </div>
-                    <!-- <div class="buy-coin-item hvr-grow">
-                      <div class="buy-coin-fiat-value">
-                        <span>$200</span></div>
-                        <a href="#buy">
-                        <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/BTC.svg" alt=""><span> 0.04915</span><span class="ticker">BTC </span>
-                          <div class="buy-coin-button">BUY</div>
-                      </a>
-                        </div>
-                    </div> -->
-                    <div class="buy-coin-item hvr-grow">
-                        <a href="#buy">
+                   
+                     <div class="buy-coin-item hvr-grow">
                       <div class="buy-coin-fiat-value">
                         <span>$500</span></div>
+                        <a href="#buy">
                         <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/XRP.svg" alt=""> <span>1622</span><span class="ticker">XRP</span>
-                          <div class="buy-coin-button"><b>👍 BEST BUY 👍</b></div>
+                        <p>Get</p>
+                        <img src="css/images/crypto-icon/XRP.svg" alt="">
+                        <span id="five-hundred-coin-rate"> 0.12288</span>
+                        <span class="ticker">XRP </span>
+                        <div class="buy-coin-button"><b>👍 BEST BUY 👍</b></div>
                       </a>
                         </div>
                     </div>
+
                     <div class="buy-coin-item hvr-grow">
                         <a href="#buy">
                       <div class="buy-coin-fiat-value">
                         <span>$1000</span></div>
                         <div class="buy-coin-rate">
-                          <p>Get</p> <img src="css/images/crypto-icon/XRP.svg" alt=""> <span>3245</span><span class="ticker">XRP</span>
+                          <p>Get</p> <img src="css/images/crypto-icon/XRP.svg" alt="">
+                          <span id="thousand-coin-rate">3245</span>
+                          <span class="ticker">XRP</span>
                           <div class="buy-coin-button">BUY</div>
                       </a>
                         </div>
@@ -218,7 +218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h3 id="buy">Buy Ripple (XRP) in a secure way</h3>
   <ol>
     <li data-number="1"><h4>Install Atomic Wallet</h4>
-      <p><a href="#download">Download the app</a>. Atomic is a free and secure place to manage Bitcoin, Ethereum, XRP and more than 300+ assets. </p></li>
+      <p><span class="mobile-hide"><a href="#download">Download the app</a>.</span><span class="only-mobile"><a href="https://atomicwallet.io/downloads">Download the app</a>.</span> Atomic is a free and secure place to manage Bitcoin, Ethereum, XRP and more than 300+ assets. </p></li>
     <li data-number="2"><h4>Verify your Identity</h4>
     <p>Verification is required to prevent identity theft or fraud. Photo ID is required to make sure it's really you.</p></li>
     <li data-number="3"><h4>Get Bitcoin</h4>
@@ -229,6 +229,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <img src="css/images/articles/buy-ripple.png" class="mobile-hide" alt="">
     </div>
   </div>
+
+                <div class="only-mobile">
+       <div class="mobile-download-button buy-download-mobile-button">
+            <div class="download-item-app hvr-grow" data-download="android">
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet" target="_blank">
+            <img src="css/images/OS/googleplay.svg" alt class="download-item-img"></a>
+        </div>
+    <div class="download-item-app hvr-grow" data-download="iOS">
+           
+            <img src="css/images/OS/appstore.svg" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
+        </div>
+
+
+        </div>
+        </div>
 </section>
 
 </div>

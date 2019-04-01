@@ -338,12 +338,12 @@ color: #929EAA;
 }
   .buy-coin-rate  span {
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 67px;
-text-align: center;
-color: #172A3F;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 67px;
+    text-align: center;
+    color: #172A3F;
   }
   .buy-coin-rate  span.ticker {
     color: #929EAA;
@@ -370,7 +370,10 @@ color: #172A3F;
     cursor: pointer;
 
   }
-
+  .buy-download-mobile-button {
+    padding-top: 15px !important;
+    padding-bottom: 0px !important;
+  }
 
 
 
@@ -1200,6 +1203,7 @@ ul .article-li {
         }
        .item-page-article {
         padding-top: 0px;
+        border-radius: 0px;
        }
        .item-page p {
         max-width: 100%;
@@ -1307,6 +1311,9 @@ ul .article-li {
     }
     .widget-cc {
         width: 100%;
+    }
+    .buy-coin-features-section {
+        padding: 0px;
     }
 
 
@@ -1611,6 +1618,12 @@ ul .article-li {
     }
     .comments {
         padding-top: 150px;
+    }
+    .buy-coin-features-section {
+        padding: 0px;
+    }
+    .item-page-article {
+        border-radius: 0px;
     }
 
 }
