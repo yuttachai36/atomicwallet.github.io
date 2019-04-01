@@ -803,6 +803,7 @@ text-align: center;
   .buy-coin-button a {
   	text-decoration: none;
   	color: inherit;
+  	padding: 12px;
   }
   .flex-item h3 {
     font-size: 2em;

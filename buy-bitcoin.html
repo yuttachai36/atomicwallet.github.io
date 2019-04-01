@@ -158,9 +158,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <img src="css/images/bg-comments.svg" alt class="bg bg-comments">
         <div class="buy-coin-wrapper">
                     <div class="buy-coin-item hvr-grow">
+                        <a href="#buy">
                       <div class="buy-coin-fiat-value">
                         <span>$100</span></div>
-                        <a href="#buy">
                         <div class="buy-coin-rate">
                           <p>Get</p>
                           <img src="css/images/crypto-icon/BTC.svg" alt="">
@@ -181,9 +181,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </div> -->
                     <div class="buy-coin-item hvr-grow">
+                        <a href="#buy">
                       <div class="buy-coin-fiat-value">
                         <span>$500</span></div>
-                        <a href="#buy">
                         <div class="buy-coin-rate">
                         <p>Get</p>
                         <img src="css/images/crypto-icon/BTC.svg" alt="">
@@ -194,9 +194,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </div>
                     <div class="buy-coin-item hvr-grow">
+                        <a href="#buy">
                       <div class="buy-coin-fiat-value">
                         <span>$1000</span></div>
-                        <a href="#buy">
                         <div class="buy-coin-rate">
                         <p>Get</p>
                         <img src="css/images/crypto-icon/BTC.svg" alt="">
@@ -228,7 +228,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h3 id="buy">Buy Bitcoin in a secure way</h3>
   <ol>
     <li data-number="1"><h4>Install Atomic Wallet</h4>
-      <p><a href="#download">Download the app</a>. Atomic is a free and secure place to manage Bitcoin, Ethereum, XRP and more than 300+ assets. </p></li>
+      <p><span class="mobile-hide"><a href="#download">Download the app</a>.</span><span class="only-mobile"><a href="https://atomicwallet.io/downloads">Download the app</a>.</span> Atomic is a free and secure place to manage Bitcoin, Ethereum, XRP and more than 300+ assets. </p></li>
     <li data-number="2"><h4>Verify your Identity</h4>
     <p>Verification is required to prevent identity theft or fraud. Photo ID is required to make sure it's really you.</p></li>
     <li data-number="3"><h4>Get Bitcoin</h4>
@@ -239,6 +239,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <img src="css/images/articles/buy-bitcoin.png" class="mobile-hide" alt="">
     </div>
   </div>
+              <div class="only-mobile">
+       <div class="mobile-download-button buy-download-mobile-button">
+            <div class="download-item-app hvr-grow" data-download="android">
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet" target="_blank">
+            <img src="css/images/OS/googleplay.svg" alt class="download-item-img"></a>
+        </div>
+    <div class="download-item-app hvr-grow" data-download="iOS">
+           
+            <img src="css/images/OS/appstore.svg" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
+        </div>
+
+
+        </div>
+        </div>
 </section>
 
 </div>
@@ -373,13 +387,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
+
         <!--<a href="magnet:?xt=urn:btih:8F40C43C1602510238281D707D6C29B674B61C95&dn=Atomic" class="button hash-torrent" target="_blank">Torrent Download</a>-->
     </div>
 
 </section>
 
 <section class="buy-coin-features-section">
-        	<h2 class="features-title f-bold">Atomic is a great option to Buy Bitcoin</h2>
+          <h2 class="features-title f-bold">Atomic is a great option to Buy Bitcoin</h2>
         <div class="flex-container">
                         <div class="buy-coin-item-features">
                         <div class="buy-coin-features">
@@ -393,12 +409,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="buy-coin-item-image">
                             <img src="css/images/icons/exchange-icon.svg" class="" alt>
                         </div>
-						<h4>Universal solution</h4>
+            <h4>Universal solution</h4>
                         <p>Store, Receive, Send, Buy and Exchange 300+ coins and tokens in one place.</p></div>
                     </div>
                        <div class="buy-coin-item-features">
                         <div class="buy-coin-features">
-                   	 <div class="buy-coin-item-image">
+                     <div class="buy-coin-item-image">
                             <img src="css/images/icons/migration-icon.svg" class="" alt>
                         </div><h4>Start with just $50</h4>
                         <p>$50 is the minimum amount to purchase. Receive crypto in less than 30 minutes.</p></div>
@@ -422,7 +438,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>  -->
 <section class="reviews">
     <div class="container relative">
-    	 <link rel="stylesheet" href="css/swiper.min.css">
+       <link rel="stylesheet" href="css/swiper.min.css">
                     <h2 class="download-title-top f-bold"><br><a name="download">Trusted Reviews</a></h2>
        <h3 class="download-text center f-light">Check what our customers say on <a href="https://www.trustpilot.com/review/atomicwallet.io"><img src="css/images/articles/trustpilot-logo.png" class="trustpilot-logo" alt=""></a></h3>
 
@@ -753,18 +769,20 @@ $(window).trigger('resize')
 </section>
 -->
 <section class="mobile-hide">
-	<div class="flex-container column">
-		<div class="buy-coin-item-features">
-			<div class="buy-coin-features">
-			<h3>Buy Bitcoin in a few minutes</h3>
-			<h4>Start with $50, Credit or debit card accepted.</h4>
-		</div>
+  
+  <div class="flex-container column">
+    <div class="buy-coin-item-features">
+      <div class="buy-coin-features">
+      <h3>Buy Bitcoin in a few minutes</h3>
+      <h4>Start with $50, Credit or debit card accepted.</h4>
+    </div>
 
-		<div class="buy-coin-button">
-		<a href="#download">
-			Buy Bitcoin</a>
-		</div>
-	</div>
+    <div class="buy-coin-button">
+    <a href="#download">
+      Buy Bitcoin</a>
+    </div>
+  </div>
+
 </section>
 
 <div class="item-page-container">

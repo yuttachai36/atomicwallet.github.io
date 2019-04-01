@@ -2,7 +2,12 @@ let qs = q => document.querySelector(q);
 let qsa = q => document.querySelectorAll(q);
 
 const COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE = 0.05
+const URL_BUY_LITECOIN_PAGE = 'buy-litecoin'
+const URL_BUY_BITCOINCASH_PAGE = 'buy-bitcoin-cash'
 const URL_BUY_BITCOIN_PAGE = 'buy-bitcoin'
+const URL_BUY_RIPPLE_PAGE = 'buy-ripple'
+const URL_BUY_ETHEREUM_PAGE = 'buy-ethereum'
+
 
 /* buy bitcoin */
 
@@ -24,15 +29,131 @@ class BuyBitcoin {
               const price = r.RAW.BTC.USD.PRICE
 
               if (!price) return
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
 
-              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(5)
-              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(5)
-              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(5)
           })
           .catch(console.log)
     }
 }
 
+
+/* buy litecoin */
+
+class BuyLitecoin {
+    constructor() {
+        if(window.location.href.includes(URL_BUY_LITECOIN_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+    }
+
+    getPrice () {
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?tsyms=USD&fsyms=LTC")
+          .then(r => r.json())
+          .then(r => {
+              const price = r.RAW.LTC.USD.PRICE
+
+              if (!price) return
+
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+          })
+          .catch(console.log)
+    }
+}
+
+/* buy ripple */
+
+class BuyRipple {
+    constructor() {
+        if(window.location.href.includes(URL_BUY_RIPPLE_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+    }
+
+    getPrice () {
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?tsyms=USD&fsyms=XRP")
+          .then(r => r.json())
+          .then(r => {
+              const price = r.RAW.XRP.USD.PRICE
+
+              if (!price) return
+
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(0)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(0)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(0)
+          })
+          .catch(console.log)
+    }
+}
+
+/* buy ethereum */
+
+class BuyEthereum {
+    constructor() {
+        if(window.location.href.includes(URL_BUY_ETHEREUM_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+    }
+
+    getPrice () {
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?tsyms=USD&fsyms=ETH")
+          .then(r => r.json())
+          .then(r => {
+              const price = r.RAW.ETH.USD.PRICE
+
+              if (!price) return
+
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+          })
+          .catch(console.log)
+    }
+}
+
+/* buy bitcoin-cash */
+
+class BuyBitcoinCash {
+    constructor() {
+        if(window.location.href.includes(URL_BUY_BITCOINCASH_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+    }
+
+    getPrice () {
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?tsyms=USD&fsyms=BCH")
+          .then(r => r.json())
+          .then(r => {
+              const price = r.RAW.BCH.USD.PRICE
+
+              if (!price) return
+
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+          })
+          .catch(console.log)
+    }
+}
 
 /* download */
 class Download {
@@ -419,3 +540,7 @@ class Page {
 
 new Page();
 new BuyBitcoin();
+new BuyLitecoin();
+new BuyRipple();
+new BuyBitcoinCash();
+new BuyEthereum();
