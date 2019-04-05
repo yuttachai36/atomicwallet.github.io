@@ -13,6 +13,8 @@ const URL_BUY_BITCOINCASH_PRICE_PAGE = 'bitcoin-cash-price'
 const URL_BUY_BITCOIN_PRICE_PAGE = 'bitcoin-price'
 const URL_BUY_RIPPLE_PRICE_PAGE = 'ripple-price'
 const URL_BUY_ETHEREUM_PRICE_PAGE = 'ethereum-price'
+const URL_BUY_ETHEREUM_PRICE_PREDICTION_PAGE = 'ethereum-price-prediction'
+
 
 const URL_BUY_NEO_PRICE_PAGE = 'neo-price'
 const URL_BUY_DOGECOIN_PRICE_PAGE = 'dogecoin-price'
@@ -195,6 +197,13 @@ class BuyEthereum {
             this.getPrice()
         }
         if(window.location.href.includes(URL_BUY_ETHEREUM_PRICE_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+        if(window.location.href.includes(URL_BUY_ETHEREUM_PRICE_PREDICTION_PAGE)) {
             this.hundredRateSpan = qs('#hundred-dollar-rate');
             this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
             this.thousandRateSpan = qs('#thousand-coin-rate');
