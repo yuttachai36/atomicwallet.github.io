@@ -184,9 +184,84 @@
   <priority>0.80</priority>   
 </url>
 <url>
-     <loc>https://atomicwallet.io/dogecoin-price</loc>
+  <loc>https://atomicwallet.io/dogecoin-price</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>   
+</url>
+<url>
+  <loc>https://atomicwallet.io/zcash-price</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/eos-price</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/bitcoin-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/ethereum-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/ethereum-price-prediction-2019</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/litecoin-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/ripple-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/stellar-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/neo-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/dash-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/tron-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/bitcoin-cash-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/dogecoin-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/zcash-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/eos-price-prediction</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
    <loc>https://atomicwallet.io/best-crypto-to-invest-in-2019</loc>
@@ -215,21 +290,6 @@
 </url>
 <url>
   <loc>https://atomicwallet.io/faq/common-questions</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://atomicwallet.io/zcash-price</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://atomicwallet.io/eos-price</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://atomicwallet.io/ethereum-price-prediction</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>

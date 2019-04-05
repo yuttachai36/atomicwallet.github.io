@@ -75,14 +75,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <button class="header-menu-mobile-close" id="menu-button-close"></button>
     </div>
 </div>
-<div class="header-container">
+<div class="coin header-container">
 <div class="container relative">
-    <img src="css/images/bg-first-screen.svg" alt class="bg bg-main">
-    <header class="header">
+    <img src="css/images/bg-first-screen.svg" alt class="bg coin bg-main">
+    <header class="coin header">
         <a href="https://atomicwallet.io" class="header-logo">
             <img src="css/images/logo.svg" alt="Atomic">
         </a>
-        <nav class="header-menu f-light">
+        <nav class="coin header-menu f-light">
             <a href="/" >Wallet</a>
             <a href="https://atomicwallet.io/buy-bitcoin" >Buy Bitcoin</a>
             <a href="assets">Assets</a>
@@ -90,7 +90,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="https://support.atomicwallet.io/support/home" target="_blank" >Support</a>
             <a href="https://atomicwallet.io/blog">Blog</a>
         </nav>
-        <nav class="header-menu-icons  f-light">
+        <nav class="coin header-menu-icons  f-light">
 
             <a href="https://twitter.com/atomicwallet" target="_blank" class="hvr-float">
                 <img src="css/images/top_twitter.svg">
@@ -182,7 +182,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         
         <div class="item-page-article no-background">
 
- 		 <div class="mobile-download-button only-mobile">
+     <div class="mobile-download-button only-mobile">
             <div class="download-item-app hvr-grow" data-download="android">
             <a href="https://play.google.com/store/apps/details?id=io.atomicwallet" target="_blank"><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
             <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img"></a>
@@ -193,144 +193,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
         </div>
-        	<div id="wallet-button" class="center">
-        	<a href="https://atomicwallet.io/buy-bitcoin" class="button-wallet" id="buy-crypto-button">Buy Bitcoin</a>
-        	<a href="https://atomicwallet.io/downloads" class="button-wallet" id="buy-crypto-button">Get Wallet</a>
-        	</div>
-        	<style>
-#buy-crypto-button {
-    display: inline-block;
-    width: 250px;
-    height: 45px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    padding: 5px;
-}
-.header-container {
-	    background-color: #182848;
-	    height: inherit;
-}
-.header {
-	display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-.bg-main {
-	display: none;
-}
-.header-logo {
-	display: block;
-    margin-right: auto;
-    margin-left: 0px;
-    position: relative;
-    top: -14px;
+          <div id="wallet-button" class="center">
+            <div class="buy-coin-item-features buy-coin-item-features-top">
+              <div class="buy-coin-button">
+    <a href="https://atomicwallet.io/buy-bitcoin">
+      Buy Bitcoin</a>
+    </div>
+              <div class="buy-coin-button">
+    <a href="https://atomicwallet.io/downloads">
+      Get Wallet</a>
+              </div>
+          </div>
+        </div>
 
-}
-.header-menu {
-	display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
-    align-items: center;
-    position: relative;
-    top: 0px;
-    left: 0px;
-
-}
-.buy-coin-item-features {
-  flex: unset;
-}
-.widget-price,
-.widget-cc {
-  width: 800px;
-}
-.center {
-  text-align: center !important;
-}
-.header-menu-icons {
-	display: block;
-	margin-right: auto;
-	position: relative;
-    top: 0px;
-    left: 0px;
-}
-.header-menu a {
-	padding: 0 15px;
-	margin-left: 0px;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    border-bottom: 0px solid transparent;
-    transition: all .3s;
-    font-family: sans-serif;
-}
-.header-menu a + a {
-	/* padding: 0 15px; */
-	margin-left: 0px;
-/*     display: flex;
-    align-items: center;
-    height: 100%;
-    border-bottom: 0px solid transparent;
-    transition: all .3s; */
-}
-.header-menu a:hover {
-	  border-bottom: 10px solid #289bfa;
-      box-shadow: inset 0px -10px 29px 0px rgba(30, 97, 164, 0.09);
-      text-decoration: none;
-}
-.button-wallet:hover {
-	background-color: #2ea4fb;
-    transition: all .3s;
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-				.header-container {
-	height: auto;
-}
-.header-menu {
-	display: none;
-}
-.header-logo {
-	top: 0px;
-}
-.header {
-	margin-top: 0px;
-}
-.header-menu-icons {
-	display: none;
-}
-.column > .buy-coin-item-features {
-  /* padding-bottom: 20px; */
-}
-#wallet-button {
-	display: none;
-}
-.widget-price,
-.widget-cc {
-  width: 100%;
-}
-.list1 {
-      position: relative;
-    top: unset;
-    margin-bottom: unset;
-}
-.mobile-download-button {
-	margin-top: 120px;
-	margin-bottom: -50px;
-	padding-top: 30px;
-    padding-bottom: 30px;
-}
-.mobile-download-button {
-  margin-top: 0px;
-}
-}
-        	</style>
-        	<div style="margin-top: 50px;"></div>
-            <h1 class="center mobile-hide">Live Bitcoin Price: Supply and Market Cap</h1>
-            <h3 class="center mobile-hide">BTC / USD Price</h3>
+          <div style="margin-top: 50px;"></div>
+            <h1 class="center mobile-hide">Live Bitcoin Price Chart: BTC Value, Supply and Market Cap</h1>
+            <h3 class="center mobile-hide">BTC to USD Price</h3>
             <div class="widget-price mobile-hide">
                 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
@@ -357,11 +235,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <style>
-	#tradingview_a6953 {
-		width: 320px;
-	}
+  #tradingview_a6953 {
+    width: 320px;
+  }
 </style>
-<h2 class="center mobile-hide">BTC / EUR Price</h2>
+<h2 class="center mobile-hide">BTC to EUR Price</h2>
             <div class="widget-price mobile-hide">
                 <!-- TradingView Widget BEGIN -->
 <!-- TradingView Widget BEGIN -->
@@ -391,7 +269,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <section>
-            <h2 class="center">Live Bitcoin Price: Supply + Market Cap</h2>
+            <h2 class="center">Bitcoin Price today: BTC Value, Supply and Market Cap</h2>
             <div class="widget-price">
 <script src="https://widgets.coingecko.com/coingecko-coin-ticker-widget.js"></script>
 <coingecko-coin-ticker-widget coin-id="bitcoin" currency="usd" locale="en"></coingecko-coin-ticker-widget>
@@ -748,7 +626,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
-<section class="subscribe" id="contacts">
+<section class="subscribe only-mobile" id="contacts">
 <div class="container relative">
 <div id="kol_embed_container_229450"></div>
 <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>

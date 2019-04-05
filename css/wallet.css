@@ -265,8 +265,12 @@ main.support {
   }
 
   .list-items {
-    max-width: 1100px;
     margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
   }
   .list-item {
     margin-top: 0px;
@@ -340,7 +344,7 @@ color: #929EAA;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 33px;
     line-height: 67px;
     text-align: center;
     color: #172A3F;
@@ -1149,6 +1153,108 @@ ul .article-li {
     background:  none;
   }
 /* End Download boxes  */
+
+
+/* COIN-PRICE PAGES CSS */
+
+.buy-coin-item-features-top {
+  background-color: transparent;
+    display: flex;
+    flex-flow: row;
+    width: 638px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.buy-coin-item-features a {
+ text-decoration: unset;
+ color: inherit;
+}
+#buy-crypto-button {
+    display: inline-block;
+    width: 250px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 5px;
+}
+.coin.header-container {
+        background-color: #182848;
+        height: inherit;
+}
+.coin.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.coin.bg-main {
+    display: none;
+}
+.coin.header-logo {
+    display: block;
+    margin-right: auto;
+    margin-left: 0px;
+    position: relative;
+    top: -14px;
+
+}
+.coin.header-menu {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+.buy-coin-item-features {
+  flex: unset;
+}
+.widget-price,
+.widget-cc {
+  width: 800px;
+}
+.center {
+  text-align: center !important;
+}
+.coin.header-menu-icons {
+    display: block;
+    margin-right: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.coin.header-menu a {
+    padding: 0 15px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-bottom: 0px solid transparent;
+    transition: all .3s;
+    font-family: sans-serif;
+}
+.coin.header-menu a + a {
+    margin-left: 0px;
+}
+.coin.header-menu a:hover {
+      border-bottom: 10px solid #289bfa;
+      box-shadow: inset 0px -10px 29px 0px rgba(30, 97, 164, 0.09);
+      text-decoration: none;
+}
+.button-wallet:hover {
+    background-color: #2ea4fb;
+    transition: all .3s;
+}
+
+/* END OF COIN-PRICE PAGES CSS */
+
+
+
 @media screen and (max-width: 830px) {
     .item-page-download-title {
         line-height: 47px;
@@ -1317,6 +1423,9 @@ ul .article-li {
     }
     .buy-coin-features-section {
         padding: 0px;
+    }
+    .list-items {
+        display: block;
     }
 
 
@@ -1628,6 +1737,48 @@ ul .article-li {
     .item-page-article {
         border-radius: 0px;
     }
+
+    /* COIN-PRICE PAGES CSS */
+.coin.header-container {
+    height: auto;
+}
+.coin.header-menu {
+    display: none;
+}
+.coin.header-logo {
+    top: 0px;
+}
+.coin.header {
+    margin-top: 0px;
+}
+.coin.header-menu-icons {
+    display: none;
+}
+.column > .buy-coin-item-features {
+  /* padding-bottom: 20px; */
+}
+#wallet-button {
+    display: none;
+}
+.widget-price,
+.widget-cc {
+  width: 100%;
+}
+.list1 {
+      position: relative;
+    top: unset;
+    margin-bottom: unset;
+}
+.mobile-download-button {
+    margin-top: 120px;
+    margin-bottom: -50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mobile-download-button {
+  margin-top: 0px;
+}
+/* END OF COIN-PRICE PAGES CSS */
 
 }
 

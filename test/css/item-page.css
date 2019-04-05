@@ -250,10 +250,35 @@ main.support {
 .article-img img {
     width: 100%;
 }
+.buy-coin-item-features {
+    padding: 50px;
+}
 
 /************* /SUPPORT ARTICLES ************/
 
 /************* /SUPPORT PAGES ************/
+
+
+
+
+
+/* BUY-COIN-SECTION-BLOG-ITEMS */
+
+.buy-coin-wrapper {
+
+}
+
+
+
+
+
+
+/* BUY-COIN-SECTION-BLOG-ITEMS */
+
+
+
+
+
 
 .item-page-container {
     overflow: hidden;
@@ -1169,7 +1194,17 @@ ul .article-li {
     .widget-cc {
         width: 100%;
     }
-
+    #wallet-button {
+    flex-wrap: wrap;
+    display: flex !important;
+    margin-top: 10px !important;
+}
+    #wallet-button .buy-coin-button {
+        margin-top: 20px;
+    }
+    .buy-coin-item-features-top {
+    flex-flow: column !important;
+}
 
     table, th, td {
     text-align: left;
