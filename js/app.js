@@ -7,6 +7,10 @@ const URL_BUY_BITCOINCASH_PAGE = 'buy-bitcoin-cash'
 const URL_BUY_BITCOIN_PAGE = 'buy-bitcoin'
 const URL_BUY_RIPPLE_PAGE = 'buy-ripple'
 const URL_BUY_ETHEREUM_PAGE = 'buy-ethereum'
+const URL_BUY_ZCASH_PAGE = 'buy-zcash'
+const URL_BUY_DOGECOIN_PAGE = 'buy-dogecoin'
+const URL_BUY_NEO_PAGE = 'buy-neo'
+const URL_BUY_TRON_PAGE = 'buy-tron'
 
 const URL_BUY_LITECOIN_PRICE_PAGE = 'litecoin-price'
 const URL_BUY_BITCOINCASH_PRICE_PAGE = 'bitcoin-cash-price'
@@ -23,6 +27,7 @@ const URL_BUY_RIPPLE_PRICE_PREDICTION_PAGE = 'ripple-price-prediction'
 const URL_BUY_ZCASH_PRICE_PAGE = 'zcash-price'
 const URL_BUY_BTG_PRICE_PAGE = 'bitcoin-gold-price'
 const URL_BUY_LITECOIN_PRICE_PREDICTION_PAGE = 'litecoin-price-prediction'
+const URL_BUY_STELLAR_PRICE_PAGE = 'stellar-price'
 
 
 
@@ -246,6 +251,13 @@ class BuyDogecoin {
 
             this.getPrice()
         }
+        if(window.location.href.includes(URL_BUY_DOGECOIN_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
     }
 
 
@@ -274,7 +286,16 @@ class BuyZCash {
 
             this.getPrice()
         }
+
+            if(window.location.href.includes(URL_BUY_ZCASH_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
     }
+
 
 
     getPrice () {
@@ -285,9 +306,75 @@ class BuyZCash {
 
               if (!price) return
 
-              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
-              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
-              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(3)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(3)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(3)
+          })
+          .catch(console.log)
+    }
+}
+
+class BuyTRON {
+    constructor() {
+        if(window.location.href.includes(URL_BUY_TRON_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+
+            if(window.location.href.includes(URL_BUY_ZCASH_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+    }
+
+
+
+    getPrice () {
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?tsyms=USD&fsyms=TRX")
+          .then(r => r.json())
+          .then(r => {
+              const price = r.RAW.TRX.USD.PRICE
+
+              if (!price) return
+
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(0)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(0)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(0)
+          })
+          .catch(console.log)
+    }
+}
+
+
+class BuyStellar {
+    constructor() {
+        if(window.location.href.includes(URL_BUY_STELLAR_PRICE_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+    }
+
+
+    getPrice () {
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?tsyms=USD&fsyms=XLM")
+          .then(r => r.json())
+          .then(r => {
+              const price = r.RAW.XLM.USD.PRICE
+
+              if (!price) return
+
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(1)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(1)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(1)
           })
           .catch(console.log)
     }
@@ -296,7 +383,7 @@ class BuyZCash {
 
 class BuyNEO {
     constructor() {
-        if(window.location.href.includes(URL_BUY_NEO_PRICE_PAGE)) {
+        if(window.location.href.includes(URL_BUY_NEO_PAGE)) {
             this.hundredRateSpan = qs('#hundred-dollar-rate');
             this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
             this.thousandRateSpan = qs('#thousand-coin-rate');
@@ -744,3 +831,6 @@ new BuyDogecoin();
 new BuyNEO();
 new BuyEthereum();
 new BuyBitcoinGold();
+new BuyStellar();
+new BuyZCash();
+new BuyTRON();
