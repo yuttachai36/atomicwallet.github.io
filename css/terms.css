@@ -235,8 +235,9 @@ img {
 	top: 1880px;
 	right: -380px;
 }
+
 .page {
-	margin-top: 170px;
+	/*margin-top: 170px;*/
 	overflow: hidden;
 	margin-bottom: 80px;
 }
@@ -349,7 +350,9 @@ img {
         width: 1591px;
         right: -110px;
     }
-  
+    .header-container {
+    height: auto; 
+    }
 
 
     /* /bg */
