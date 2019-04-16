@@ -139,6 +139,32 @@
   <priority>0.80</priority>   
 </url>
 <url>
+   <loc>https://atomicwallet.io/buy-neo</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>   
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-tron</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>   
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-zcash</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>   
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-dogecoin</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>   
+</url>
+<url>
+   <loc>https://atomicwallet.io/bitcoin-price</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>   
+</url>
+
+<url>
    <loc>https://atomicwallet.io/bitcoin-price</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>   
