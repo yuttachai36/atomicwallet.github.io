@@ -11,6 +11,7 @@ const URL_BUY_ZCASH_PAGE = 'buy-zcash'
 const URL_BUY_DOGECOIN_PAGE = 'buy-dogecoin'
 const URL_BUY_NEO_PAGE = 'buy-neo'
 const URL_BUY_TRON_PAGE = 'buy-tron'
+const URL_BUY_STELLAR_PAGE = 'buy-stellar'
 
 const URL_BUY_LITECOIN_PRICE_PAGE = 'litecoin-price'
 const URL_BUY_BITCOINCASH_PRICE_PAGE = 'bitcoin-cash-price'
@@ -28,6 +29,7 @@ const URL_BUY_ZCASH_PRICE_PAGE = 'zcash-price'
 const URL_BUY_BTG_PRICE_PAGE = 'bitcoin-gold-price'
 const URL_BUY_LITECOIN_PRICE_PREDICTION_PAGE = 'litecoin-price-prediction'
 const URL_BUY_STELLAR_PRICE_PAGE = 'stellar-price'
+const URL_BUY_TRON_PRICE_PAGE = 'tron-price'
 
 
 
@@ -233,7 +235,7 @@ class BuyEthereum {
     }
 }
 
-/* buy dogecoin */ 
+/* buy dogecoin */
 
 class BuyDogecoin {
     constructor() {
@@ -324,7 +326,7 @@ class BuyTRON {
             this.getPrice()
         }
 
-            if(window.location.href.includes(URL_BUY_ZCASH_PAGE)) {
+            if(window.location.href.includes(URL_BUY_TRON_PRICE_PAGE)) {
             this.hundredRateSpan = qs('#hundred-dollar-rate');
             this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
             this.thousandRateSpan = qs('#thousand-coin-rate');
@@ -355,6 +357,13 @@ class BuyTRON {
 class BuyStellar {
     constructor() {
         if(window.location.href.includes(URL_BUY_STELLAR_PRICE_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+        if(window.location.href.includes(URL_BUY_STELLAR_PAGE)) {
             this.hundredRateSpan = qs('#hundred-dollar-rate');
             this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
             this.thousandRateSpan = qs('#thousand-coin-rate');
