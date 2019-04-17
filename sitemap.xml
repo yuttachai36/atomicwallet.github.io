@@ -131,62 +131,113 @@
 <url>
    <loc>https://support.atomicwallet.io</loc>
   <changefreq>daily</changefreq>
-  <priority>0.6</priority>   
+  <priority>0.6</priority>
 </url>
 <url>
    <loc>https://atomicwallet.io/blog</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
+</url>
+<url>
+  <url>
+   <loc>https://atomicwallet.io/buy-ripple</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-dogecoin</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+
+   <loc>https://atomicwallet.io/buy-neo</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-stellar</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-tron</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-bitcoin-cash</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-ethereum</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-litecoin</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-ripple</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-zcash</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
    <loc>https://atomicwallet.io/bitcoin-price</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
    <loc>https://atomicwallet.io/ethereum-price</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
    <loc>https://atomicwallet.io/litecoin-price</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
    <loc>https://atomicwallet.io/ripple-price</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
    <loc>https://atomicwallet.io/stellar-price</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
    <loc>https://atomicwallet.io/neo-price</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/dash-price</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/tron-price</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
    <loc>https://atomicwallet.io/bitcoin-cash-price</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/dogecoin-price</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/zcash-price</loc>
@@ -266,22 +317,22 @@
 <url>
    <loc>https://atomicwallet.io/best-crypto-to-invest-in-2019</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
    <loc>https://support.atomicwallet.io/support/solutions/articles/36000034281-what-is-the-difference-between-exchange-instant-exchange-and-atomic-swaps-</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
    <loc>https://support.atomicwallet.io/support/solutions/articles/36000088736-where-to-find-my-private-keys-btc-eth-xrp-</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
    <loc>https://support.atomicwallet.io/support/solutions/folders/36000156631</loc>
   <changefreq>daily</changefreq>
-  <priority>0.80</priority>   
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://atomicwallet.io/smart-contracts</loc>

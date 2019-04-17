@@ -887,15 +887,11 @@ ul .article-li {
     flex-wrap: wrap;
     margin-bottom: 150px;
 }
-.small-image-blog {
-
-
-}
 .small-image-blog img {
     object-fit: fill;
     height: 239px;
     margin-left: 5px;
-    border-radius: 16px;
+    /*border-radius: 16px;*/
 }
 .blog-li li {
     line-height: 30px !important;
