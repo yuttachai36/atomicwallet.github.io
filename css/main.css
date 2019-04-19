@@ -879,8 +879,9 @@ text-align: center;
   	margin-bottom: 80px;
   }
   .buy-coin-item-features > .buy-coin-button {
-  	    height: 56px;
-    width: 206px;
+  	height: 56px;
+  	min-width: 201px;
+    max-width: 251px;
     position: relative;
     font-weight: 500;
     color: rgb(255, 255, 255);
