@@ -360,7 +360,7 @@ width: 110%;
     .swiper-slide {
       text-align: center;
       font-size: 18px;
-      
+
       /* Center slide text vertically */
       display: -webkit-box;
       display: -ms-flexbox;
@@ -419,6 +419,113 @@ box-shadow: none;
   .trustpilot-widget {
     height: 40px;
   }
+
+  /************* /COIN PRICE PAGES ************/
+
+  .coin-price-section {
+      padding-top: 50px;
+    }
+
+
+    .buy-coin-item {
+      /* display: inline-flex; */
+      /* vertical-align: top; */
+      /* flex-wrap: wrap; */
+      width: 320px;
+      /* height: 300px; */
+      background: #FFFFFF;
+      box-shadow: 0 8px 40px rgba(24, 40, 72, 0.1);
+      border-radius: 10px;
+      /* padding: 110px 24px 0 24px; */
+      /* text-align: center; */
+      white-space: normal;
+      line-height: 1;
+      text-align: center;
+    }
+    .buy-coin-fiat-value {
+      width: 100%;
+      height: 122px;
+      background-color: #324B80;
+      text-align: center;
+      padding: 25px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .buy-coin-fiat-value > span {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 67px;
+      color: #ffffff;
+    }
+    .buy-coin-wrapper {
+      display: grid;
+      grid-row-gap: 80px;
+      justify-content: center;
+      grid-column-gap: 38px;
+      grid-template-columns: repeat(3, 320px);
+    }
+    .buy-coin-rate {
+      width: 100%;
+      height: 178px;
+      padding: 15px;
+    }
+    .buy-coin-rate p {
+      font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+
+  color: #929EAA;
+    }
+    .buy-coin-rate img {
+      height: 36px;
+      vertical-align: -4px;
+      padding-right: 5px;
+  }
+    .buy-coin-rate  span {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 33px;
+      line-height: 67px;
+      text-align: center;
+      color: #172A3F;
+    }
+    .buy-coin-rate  span.ticker {
+      color: #929EAA;
+      padding-left: 5px;
+    }
+    .buy-coin-button {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #324B80;
+      border-top: 1px solid #D1D8E2;
+      padding: 20px;
+      position: relative;
+      top: 14px;
+    }
+    .buy-coin-rate:hover {
+      background: #EBEFF3;
+      /* border-radius: 0px 0px 4px 4px; */
+      cursor: pointer;
+
+    }
+    .buy-download-mobile-button {
+      padding-top: 15px !important;
+      padding-bottom: 0px !important;
+    }
+
+
 
 
 /*
@@ -634,7 +741,7 @@ box-shadow: none;
     display: flex;
     justify-content: center;
     padding-top: 45px;
-    padding-bottom: 20px;    
+    padding-bottom: 20px;
 }
 
 .coin-page-title-text {
@@ -660,7 +767,7 @@ text-align: center;
     left: 179px
 }
 .coin-page-download-button {
-	  height: 40px !important; 
+	  height: 40px !important;
     margin-top: 35px !important;
     margin-left: 106px !important;
     width: 210px !important;
@@ -1083,7 +1190,7 @@ text-align: center;
 	margin-top: 30px;
 	position: relative;
 }
-.partners-list{     
+.partners-list{
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 700px;
@@ -1233,7 +1340,7 @@ text-align: center;
 	display: inline-block;
 	vertical-align: top;
 	border-radius: 50%;
-	
+
 }
 .team-author-name {
 	margin-top: 7px;
@@ -1457,7 +1564,7 @@ text-align: center;
 
 
 
- 
+
 
 .footer-new {
 	background: url(images/bg-footer-new.svg);
@@ -1526,5 +1633,3 @@ text-align: center;
 .footer-new-col a:hover {
 	color: #ffffff;
 }
-
-

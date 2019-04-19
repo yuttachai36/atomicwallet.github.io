@@ -13,13 +13,23 @@ const URL_BUY_NEO_PAGE = 'buy-neo'
 const URL_BUY_TRON_PAGE = 'buy-tron'
 const URL_BUY_STELLAR_PAGE = 'buy-stellar'
 
+const URL_LITECOIN_WALLET_PAGE = 'litecoin-wallet'
+const URL_BITCOINCASH_WALLET_PAGE = 'bitcoin-cash-wallet'
+const URL_BITCOIN_WALLET_PAGE = 'bitcoin-wallet'
+const URL_RIPPLE_WALLET_PAGE = 'ripple-wallet'
+const URL_ETHEREUM_WALLET_PAGE = 'ethereum-wallet'
+const URL_ZCASH_WALLET_PAGE = 'zcash-wallet'
+const URL_DOGECOIN_WALLET_PAGE = 'dogecoin-wallet'
+const URL_NEO_WALLET_PAGE = 'neo-wallet'
+const URL_TRON_WALLET_PAGE = 'tron-wallet'
+const URL_STELLAR_WALLET_PAGE = 'stellar-wallet'
+
 const URL_BUY_LITECOIN_PRICE_PAGE = 'litecoin-price'
 const URL_BUY_BITCOINCASH_PRICE_PAGE = 'bitcoin-cash-price'
 const URL_BUY_BITCOIN_PRICE_PAGE = 'bitcoin-price'
 const URL_BUY_RIPPLE_PRICE_PAGE = 'ripple-price'
 const URL_BUY_ETHEREUM_PRICE_PAGE = 'ethereum-price'
 const URL_BUY_ETHEREUM_PRICE_PREDICTION_PAGE = 'ethereum-price-prediction'
-
 
 const URL_BUY_NEO_PRICE_PAGE = 'neo-price'
 const URL_BUY_DOGECOIN_PRICE_PAGE = 'dogecoin-price'
@@ -45,6 +55,13 @@ class BuyBitcoinCash {
             this.getPrice()
         }
         if(window.location.href.includes(URL_BUY_BITCOINCASH_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+        if(window.location.href.includes(URL_BITCOINCASH_WALLET_PAGE)) {
             this.hundredRateSpan = qs('#hundred-dollar-rate');
             this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
             this.thousandRateSpan = qs('#thousand-coin-rate');
@@ -81,6 +98,13 @@ class BuyBitcoin {
             this.getPrice()
         }
         if(window.location.href.includes(URL_BUY_BITCOIN_PRICE_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+        if(window.location.href.includes(URL_BITCOIN_WALLET_PAGE)) {
             this.hundredRateSpan = qs('#hundred-dollar-rate');
             this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
             this.thousandRateSpan = qs('#thousand-coin-rate');
@@ -131,6 +155,13 @@ class BuyLitecoin {
 
             this.getPrice()
         }
+        if(window.location.href.includes(URL_LITECOIN_WALLET_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
     }
 
     getPrice () {
@@ -168,6 +199,13 @@ class BuyRipple {
             this.getPrice()
         }
         if(window.location.href.includes(URL_BUY_RIPPLE_PRICE_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+        if(window.location.href.includes(URL_RIPPLE_WALLET_PAGE)) {
             this.hundredRateSpan = qs('#hundred-dollar-rate');
             this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
             this.thousandRateSpan = qs('#thousand-coin-rate');
@@ -217,6 +255,13 @@ class BuyEthereum {
 
             this.getPrice()
         }
+        if(window.location.href.includes(URL_ETHEREUM_WALLET_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
     }
 
     getPrice () {
@@ -260,6 +305,13 @@ class BuyDogecoin {
 
             this.getPrice()
         }
+        if(window.location.href.includes(URL_DOGECOIN_WALLET_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
     }
 
 
@@ -288,14 +340,20 @@ class BuyZCash {
 
             this.getPrice()
         }
-
-            if(window.location.href.includes(URL_BUY_ZCASH_PAGE)) {
+        if(window.location.href.includes(URL_BUY_ZCASH_PAGE)) {
             this.hundredRateSpan = qs('#hundred-dollar-rate');
             this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
             this.thousandRateSpan = qs('#thousand-coin-rate');
 
             this.getPrice()
         }
+        if(window.location.href.includes(URL_ZCASH_WALLET_PAGE)) {
+        this.hundredRateSpan = qs('#hundred-dollar-rate');
+        this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+        this.thousandRateSpan = qs('#thousand-coin-rate');
+
+        this.getPrice()
+      }
     }
 
 
@@ -333,6 +391,13 @@ class BuyTRON {
 
             this.getPrice()
         }
+        if(window.location.href.includes(URL_TRON_WALLET_PAGE)) {
+        this.hundredRateSpan = qs('#hundred-dollar-rate');
+        this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+        this.thousandRateSpan = qs('#thousand-coin-rate');
+
+        this.getPrice()
+      }
     }
 
 
@@ -370,6 +435,13 @@ class BuyStellar {
 
             this.getPrice()
         }
+        if(window.location.href.includes(URL_STELLAR_WALLET_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
     }
 
 
@@ -393,6 +465,13 @@ class BuyStellar {
 class BuyNEO {
     constructor() {
         if(window.location.href.includes(URL_BUY_NEO_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+        if(window.location.href.includes(URL_NEO_WALLET_PAGE)) {
             this.hundredRateSpan = qs('#hundred-dollar-rate');
             this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
             this.thousandRateSpan = qs('#thousand-coin-rate');
