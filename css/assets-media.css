@@ -1,0 +1,83 @@
+@media screen and (max-width: 830px) {
+    .header-container {
+        height: 140px;
+    }
+    .main-subtitle {
+        font-size: 14px;
+    }
+    .main {
+        padding-top: 0;
+    }
+    .list-table {
+        margin-top: 30px;
+        overflow: hidden;
+    }
+    .list-table-swiped-zone {
+        top: 30px;
+    }
+    .list-table .container {
+        position: relative;
+        padding-left: 125px;
+    }
+
+    .header-menu-icons {
+        display: none;
+    }
+
+    .list-table-search {
+        height: 30px;
+        z-index: 1;
+    }
+    .list-table-search input {
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .list-table-item {
+        margin-top: 10px;
+        height: 43px;
+        display: flex;
+        align-items: baseline;
+        line-height: 1.2;
+        position: relative;
+    }
+    .list-table-item img {
+        width: 30px;
+    }
+    .list-table-fullname {
+        display: inline-block;
+        width: 90px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: absolute;
+        top: 20px;
+        left: 35px;
+        font-size: 10px;
+    }
+    .list-table-abbname {
+        position: absolute;
+        top: 0;
+        left: 35px;
+        font-size: 18px;
+    }
+
+    .list-table-caption {
+        border: none;
+        margin-top: 20px;
+        height: 30px;
+        line-height: 30px;
+        width: 500px;
+    }
+    .list-table-th {
+        font-size: 12px;
+        width: 100px;
+    }
+    .list-table-items {
+        width: 500px;
+    }
+    .list-table-items-col {
+        font-size: 12px;
+        line-height: 35px;
+        margin-bottom: 15px;
+        width: 100px;
+    }
+}
