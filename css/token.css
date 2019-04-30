@@ -153,8 +153,8 @@ img {
     /*width: 140px;*/
     font-size: 18px;
     padding: 1px 20px 0;
-    background: #2ca1fb;
-    color: white;
+    /*background: #2ca1fb;*/
+    color: #2ca1fb;
     border-radius: 16px;
     margin: 0 auto;
     text-align: center;
@@ -323,6 +323,14 @@ img {
   .col-item-token:nth-child(3) {
     width: 364px;
   }
+
+  .item-page-image-template {
+    text-align: center;
+    max-width: 837px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
