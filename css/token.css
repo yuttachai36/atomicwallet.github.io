@@ -150,9 +150,9 @@ img {
   .button-token {
     height: 32px;
     line-height: 30px;
-    width: 140px;
+    /*width: 140px;*/
     font-size: 18px;
-    padding: 1px 15px 0;
+    padding: 1px 20px 0;
     background: #2ca1fb;
     color: white;
     border-radius: 16px;
