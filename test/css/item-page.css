@@ -890,7 +890,8 @@ ul .article-li {
 .small-image-blog img {
     object-fit: fill;
     height: 239px;
-    margin-left: 5px;
+    width: 100%;
+    /*margin-left: 5px;*/
     /*border-radius: 16px;*/
 }
 .blog-li li {
