@@ -58,6 +58,41 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://atomicwallet.io/neo</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/bitcoin</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/bitcoin-sv</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/binance-coin</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/digibyte</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/ethereum</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/ethereum-classic</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://atomicwallet.io/eth</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
@@ -84,6 +119,11 @@
 </url>
 <url>
   <loc>https://atomicwallet.io/bitcoin-cash</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/bitcoin-diamond</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
