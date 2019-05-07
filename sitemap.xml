@@ -43,6 +43,21 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://atomicwallet.io/ontology-wallet</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/verge-wallet</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/waves-wallet</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://atomicwallet.io/eth</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
@@ -370,6 +385,11 @@
 </url>
 <url>
   <loc>https://atomicwallet.io/binance-dex-awc-token-swap</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/binance-dex-awc-token-swap-guide</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
