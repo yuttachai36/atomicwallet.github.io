@@ -489,9 +489,9 @@ class BuyNEO {
 
               if (!price) return
 
-              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
-              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
-              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(0)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(0)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(0)
           })
           .catch(console.log)
     }

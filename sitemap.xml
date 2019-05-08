@@ -43,6 +43,56 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://atomicwallet.io/ontology-wallet</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/verge-wallet</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/waves-wallet</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/neo</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/bitcoin</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/bitcoin-sv</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/binance-coin</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/digibyte</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/ethereum</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/ethereum-classic</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://atomicwallet.io/eth</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
@@ -69,6 +119,11 @@
 </url>
 <url>
   <loc>https://atomicwallet.io/bitcoin-cash</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/bitcoin-diamond</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
@@ -370,6 +425,11 @@
 </url>
 <url>
   <loc>https://atomicwallet.io/binance-dex-awc-token-swap</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/binance-dex-awc-token-swap-guide</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
