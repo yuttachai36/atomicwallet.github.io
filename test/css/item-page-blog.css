@@ -35,14 +35,12 @@
     color: #182848;
     margin-bottom: 60px;
 }
-.item-page
-p {
-    font-size: 18px;
+.item-page p {
+       font-size: 18px;
     line-height: 30px;
     font-family: "Roboto";
-    max-width: 600px;
+    max-width: 680px;
     margin: 0 auto;
-    padding: 10px;
 }
 .button-suggest {
     margin-top: 20px;
@@ -98,15 +96,32 @@ p {
    .item-page-image-template iframe {
           box-shadow: 0 38px 50px rgba(34, 83, 139, 0.16);
       }
+.item-page ul, ol {
+        width: 680px;
+    margin: 0 auto;
+    padding-left: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 .item-page li {
-  font-size: 18px;
-  line-height: 30px;
-  font-family: "Roboto";
-  font-weight: normal;
-  max-width: 680px;
-  margin-left: 250px;
-  padding-left: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Roboto";
+    font-weight: normal;
+    max-width: 680px;
 
+}
+ .item-page ol li {
+    font-size: 18px;
+    line-height: 28px;
+    width: 100%;
+    padding-right: 20px;
+    margin-top: 10px;
+    /*margin-bottom: 5px;*/
+    }
+.item-page ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .item-page-article {
@@ -124,22 +139,39 @@ p {
 
 }*/
 .item-page-article h4 {
-    font-size: 23px;
+        font-size: 23px;
     line-height: 37px;
     margin-top: 30px;
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: -25px;
 
 }
+
 .item-page-article h3 {
+    text-align: center;
     font-size: 29px;
     line-height: 46px;
     margin-top: 49px;
-    text-align: center;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: -10px;
+    
 }
 .item-page-article h2 {
+    width: 680px;
+    font-family: "Roboto";
+    font-weight: bold;
+    line-height: 47px;
     font-size: 36px;
-    line-height: 72px;
-    margin-bottom: 30px;
+    color: #182848;
+    padding-top: 22px;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: -10px;
 }
 .releases {
     padding-bottom: 50px;
@@ -233,10 +265,8 @@ blockquote {
 
 .item-page-image-template {
     text-align: center;
-    max-width: 1000px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 680px;
+    margin: 20px auto;
 }
 
 .item-page-image-template-container {
@@ -268,11 +298,9 @@ blockquote {
     margin-top: 0px !important;
 }
 .item-page-article p,
-.item-page-article .item-page-image-template,
-.item-page-article h2,
 .item-page-article li{
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 ul .article-li {
     font-size: 16px;
@@ -280,9 +308,7 @@ ul .article-li {
     margin-top: -25px;
 
 }
-.item-page-article h2 {
-    padding-top: 10px;
-}
+
 .item-page-download {
     margin-top: 75px;
     margin-bottom: 100px;
@@ -297,32 +323,7 @@ ul .article-li {
     padding-bottom: 30px;
     margin-top: 100px;
 }
-.toc_list {
-    display: inline-block;
-    margin: 10px;
-    text-align: left;
-    width: 265px;
-    vertical-align: top;
-}
-.toc_list li {
 
-    margin-left: auto !important;
-    margin-right: auto;
-    padding-left: 20px;
-}
-#toc_container {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-#toc_container li, #toc_container ul, #toc_container ul li{
-    list-style: outside none none !important;
-}
-#toc_container ul {
-    margin-left: ;
-}
 .button-wallet {
     display: inline-block;
     text-align: center;
@@ -356,13 +357,8 @@ ul .article-li {
     margin-right: auto;
 }
 
-.item-page-blog-image {
-    object-fit: contain;
-    display: block;
-    margin: 1rem auto;
-}
 .item-page-blog-image img {
-    max-width: 100%;
+    max-width: 680px;
     height: auto;
 }
 .blog-div {
@@ -626,44 +622,13 @@ ul .article-li {
     }
 }
 @media screen and (min-width: 1001px) and (max-width: 1439px) {
-    .item-page p {
-        max-width: 600px;
-    }
-    .item-page li {
-      margin-left: 300px;
-    }
+  
 
     .item-page-image-interface img {
     margin-right: 60px;
-    }
-        .item-page-blog-image img{
-      max-width: 65%
     }
     .item-page h1 {
         font-size: 40px;
     }
 }
-@media  screen and (min-width: 1440px) {
-    .item-page p {
-        max-width: 700px;
-    }
-    .item-page li {
-      margin-left: 250px;s
-    }
-    .item-page-blog-image img{
-      max-width: 75%
-    }
-}
-@media  screen and (min-width: 1600px) {
-    .item-page p {
-        max-width: 800px;
-    }
-    .item-page-image-interface img {
-    width: 500px;
-    margin-right: 50px;
-    }
-    .item-page-blog-image img{
-      max-width: 75%
-    }
 
-}
