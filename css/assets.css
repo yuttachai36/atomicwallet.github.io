@@ -1,9 +1,7 @@
 a.link-coins {
-    color: unset;
+    color: #172A3F;
 }
-a.link-coins:hover {
-    text-decoration: underline;
-}
+
 a.wallet-list-item:hover {
     background: #00ad59;
     transition: all .5s;
@@ -119,20 +117,19 @@ border-radius: 4px;
 }
 .wallet-list {
     display: flex;
-    align-self: center;
-    justify-self: center;
-    width: 100px;
-    color: white;
-    font-size: 16px;
+    color: #172a3f;
+    font-size: 19px;
     justify-content: center;
 }
+a.link-coins:hover, .wallet-list:hover {
+    transition: all .3s;
+    color: #108bce;
+    text-decoration: underline;
+}
 .wallet-list-item {
-    width: 100px;
-    height: 37px;
-    background: #2FA6FA;
-    border-radius: 48px;
     display: flex;
-    align-self: center;
+    justify-content: space-evenly;
+    width: 100%;
 }
 .list-table-caption {
       border-bottom: 1px solid rgba(24, 40, 72, 0.5);
@@ -169,6 +166,7 @@ border-radius: 4px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  color: rgba(34, 83, 139, 0.1);
 }
 
 .list-table-container {
@@ -185,7 +183,7 @@ border-radius: 4px;
 .list-table-item {
   line-height: 101px;
 font-size: 19px;
-color: #172A3F;
+/*color: #172A3F;*/
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
