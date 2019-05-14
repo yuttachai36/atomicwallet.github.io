@@ -4,8 +4,7 @@
         "fullName":"Bitcoin",
         "iconName":"BTC.svg",
         "coinPriceLink":"https://atomicwallet.io/bitcoin-price",
-    "coinLink":"https://atomicwallet.io/bitcoin",
-    "link":"https://atomicwallet.io/bitcoin-wallet",
+        "coinLink":"https://atomicwallet.io/bitcoin", 
     "status":{
             "send":{
                 "text":"btc-cap",
@@ -19,16 +18,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "atomicSwap":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"wallet-list"
             },
-             "link":{
-                "text":"https://atomicwallet.io",
+             "walletlink":{
+                "text":"https://atomicwallet.io/bitcoin-wallet",
                 "class":"wallet-list"
             }
         }
@@ -38,8 +33,7 @@
         "fullName":"Ripple",
         "iconName":"XRP.svg",
         "coinPriceLink":"https://atomicwallet.io/ripple-price",
-    "coinLink":"https://atomicwallet.io/ripple",
-    "link":"https://atomicwallet.io/ripple-wallet",
+        "coinLink":"https://atomicwallet.io/ripple",
     "status":{
             "send":{
                 "text":"xrp-cap",
@@ -53,12 +47,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-ripple",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/ripple-wallet",
                 "class":"wallet-list"
             }
         }
@@ -68,8 +62,7 @@
         "fullName":"Ethereum",
         "iconName":"ETH.svg",
         "coinPriceLink":"https://atomicwallet.io/ethereum-price",
-    "coinLink":"https://atomicwallet.io/ethereum",
-    "link":"https://atomicwallet.io/ethereum-wallet",
+        "coinLink":"https://atomicwallet.io/ethereum",
     "status":{
             "send":{
                 "text":"eth",
@@ -83,12 +76,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-ethereum",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -97,9 +90,8 @@
         "name":"BCH",
         "fullName":"Bitcoin Cash",
         "iconName":"BCH.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinPriceLink":"https://atomicwallet.io/bitcoin-cash-price",
+        "coinLink":"https://atomicwallet.io/bitcoin-cash",
     "status":{
             "send":{
                 "text":"bch",
@@ -113,12 +105,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin-cash",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/bitcoin-cash-wallet",
                 "class":"wallet-list"
             }
         }
@@ -127,9 +119,10 @@
         "name":"XLM",
         "fullName":"Stellar",
         "iconName":"XLM.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinPriceLink":"https://atomicwallet.io/stellar-price",
+        "coinLink":"https://atomicwallet.io/stellar",
+    "walletlink":"https://atomicwallet.io/stellar-wallet",
+    "buylink":"",
     "status":{
             "send":{
                 "text":"xlm",
@@ -143,12 +136,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-stellar",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/stellar-wallet",
                 "class":"wallet-list"
             }
         }
@@ -157,9 +150,9 @@
         "name":"EOS",
         "fullName":"EOS",
         "iconName":"EOS.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinPriceLink":"https://atomicwallet.io/eos-price",
+        "coinLink":"https://atomicwallet.io/eos",
+    "buylink":"",
     "status":{
             "send":{
                 "text":"eos",
@@ -173,12 +166,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/eos-wallet",
                 "class":"wallet-list"
             }
         }
@@ -187,9 +180,8 @@
         "name":"LTC",
         "fullName":"Litecoin",
         "iconName":"LTC.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinPriceLink":"https://atomicwallet.io/litecoin-price",
+        "coinLink":"https://atomicwallet.io/litecoin",
     "status":{
             "send":{
                 "text":"ltc",
@@ -203,12 +195,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-litecoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/litecoin-wallet",
                 "class":"wallet-list"
             }
         }
@@ -218,8 +210,7 @@
         "fullName":"Tether USD (ERC-20)",
         "iconName":"USDT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"usdt",
@@ -230,15 +221,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -248,8 +239,9 @@
         "fullName":"Cardano",
         "iconName":"ADA.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/cardano",
+    "walletlink":"https://atomicwallet.io/cardano-wallet",
+    "buylink":"https://atomicwallet.io/buy-bitcoin",
     "status":{
             "send":{
                 "text":"ada",
@@ -263,12 +255,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/cardano-wallet",
                 "class":"wallet-list"
             }
         }
@@ -278,8 +270,9 @@
         "fullName":"Monero",
         "iconName":"XMR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/monero",
+    "walletlink":"https://atomicwallet.io/monero-wallet",
+    "buylink":"https://atomicwallet.io/buy-bitcoin",
     "status":{
             "send":{
                 "text":"xmr",
@@ -290,15 +283,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/monero-wallet",
                 "class":"wallet-list"
             }
         }
@@ -308,8 +301,9 @@
         "fullName":"Bitcoin SV",
         "iconName":"BCHSV.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/bitcoin-sv",
+    "walletlink":"https://atomicwallet.io/bitcoin-sv-wallet",
+    "buylink":"https://atomicwallet.io/buy-bitcoin",
     "status":{
             "send":{
                 "text":"bsv",
@@ -320,15 +314,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/bitcoin-sv-wallet",
                 "class":"wallet-list"
             }
         }
@@ -336,11 +330,10 @@
 
     {
         "name":"TRX",
-        "fullName":"tron",
+        "fullName":"Tron",
         "iconName":"TRX.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinPriceLink":"https://atomicwallet.io/tron-price",
+        "coinLink":"https://atomicwallet.io/tron",
     "status":{
             "send":{
                 "text":"333.5",
@@ -354,12 +347,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-tron",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/tron-wallet",
                 "class":"wallet-list"
             }
         }
@@ -369,8 +362,7 @@
         "fullName":"IOTA",
         "iconName":"IOTA.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"iota",
@@ -381,15 +373,15 @@
                 "class":"normal"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -398,9 +390,8 @@
         "name":"DASH",
         "fullName":"DASH",
         "iconName":"DASH.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinPriceLink":"https://atomicwallet.io/dash-price",
+        "coinLink":"https://atomicwallet.io/dash",
     "status":{
             "send":{
                 "text":"dash",
@@ -414,12 +405,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/dash-wallet",
                 "class":"wallet-list"
             }
         }
@@ -429,8 +420,7 @@
         "fullName":"Binance Coin",
         "iconName":"BNB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/binance-coin",
     "status":{
             "send":{
                 "text":"bnb",
@@ -444,12 +434,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/binance-coin-wallet",
                 "class":"wallet-list"
             }
         }
@@ -459,8 +449,9 @@
        "fullName":"Etherium Classic",
        "iconName":"ETC.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-classic",
+    "walletlink":"https://atomicwallet.io/ethereum-classic-wallet",
+    "buylink":"https://atomicwallet.io/buy-bitcoin",
     "status":{
            "send":{
                "text":"etc",
@@ -474,12 +465,70 @@
                "text":"333.5",
                "class":"green"
            },
-           "shapeShift":{
-               "text":"333.5",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"green"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/ethereum-classic-wallet",
+               "class":"wallet-list"
+           }
+       }
+   },
+      {
+       "name":"NEO",
+       "fullName":"NEO",
+       "iconName":"NEO.svg",
+       "coinPriceLink":"https://atomicwallet.io/neo-price",
+        "coinLink":"https://atomicwallet.io/neo",
+    "status":{
+           "send":{
+               "text":"neo",
+               "class":"green"
+           },
+           "coinID":{
+               "text":"neo",
+               "class":"green"
+           },
+           "volume":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
+               "class":"normal"
+           },
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-neo",
+               "class":"normal"
+           },
+           "walletlink":{
+               "text":"https://atomicwallet.io/neo-wallet",
+               "class":"wallet-list"
+           }
+       }
+   },
+         {
+       "name":"ONT",
+       "fullName":"Ontology",
+       "iconName":"ONT.svg",
+       "coinPriceLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ontology-wallet",
+    "status":{
+           "send":{
+               "text":"ont",
+               "class":"green"
+           },
+           "coinID":{
+               "text":"ont",
+               "class":"green"
+           },
+           "volume":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
+               "class":"normal"
+           },
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
+               "class":"normal"
+           },
+           "walletlink":{
+               "text":"https://atomicwallet.io/ontology-wallet",
                "class":"wallet-list"
            }
        }
@@ -489,8 +538,7 @@
        "fullName":"Tezos",
        "iconName":"XTZ.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/tezos",
     "status":{
            "send":{
                "text":"xtz",
@@ -501,15 +549,15 @@
                "class":"green"
            },
            "volume":{
-               "text":"Download",
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "shapeShift":{
-               "text":"Download",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/tezos-wallet",
                "class":"wallet-list"
            }
        }
@@ -518,9 +566,8 @@
        "name":"ZEC",
        "fullName":"ZCash",
        "iconName":"ZEC.svg",
-       "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+       "coinPriceLink":"https://atomicwallet.io/zcash-price",
+        "coinLink":"https://atomicwallet.io/zcash",
     "status":{
            "send":{
                "text":"zec",
@@ -534,12 +581,70 @@
                "text":"333.5",
                "class":"green"
            },
-           "shapeShift":{
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-zcash",
+               "class":"green"
+           },
+           "walletlink":{
+               "text":"https://atomicwallet.io/zcash-wallet",
+               "class":"wallet-list"
+           }
+       }
+   },
+      {
+       "name":"XVG",
+       "fullName":"Verge",
+       "iconName":"XVG.svg",
+       "coinPriceLink":"https://atomicwallet.io",
+        "coinLink":"https://atomicwallet.io/verge-wallet",
+    "status":{
+           "send":{
+               "text":"xvg",
+               "class":"green"
+           },
+           "coinID":{
+               "text":"xvg",
+               "class":"green"
+           },
+           "volume":{
                "text":"333.5",
                "class":"green"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
+               "class":"green"
+           },
+           "walletlink":{
+               "text":"https://atomicwallet.io/verge-wallet",
+               "class":"wallet-list"
+           }
+       }
+   },
+     {
+       "name":"WAVES",
+       "fullName":"Waves",
+       "iconName":"WAVES.svg",
+       "coinPriceLink":"https://atomicwallet.io",
+       "coinLink":"https://atomicwallet.io/waves-wallet",
+    "status":{
+           "send":{
+               "text":"waves",
+               "class":"green"
+           },
+           "coinID":{
+               "text":"waves",
+               "class":"green"
+           },
+           "volume":{
+               "text":"333.5",
+               "class":"green"
+           },
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
+               "class":"green"
+           },
+           "walletlink":{
+               "text":"https://atomicwallet.io/waves-wallet",
                "class":"wallet-list"
            }
        }
@@ -548,9 +653,8 @@
        "name":"BTG",
        "fullName":"Bitcoin Gold",
        "iconName":"BTG.svg",
-       "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+       "coinPriceLink":"https://atomicwallet.io/bitcoin-gold-price",
+        "coinLink":"https://atomicwallet.io/bitcoin-gold",
     "status":{
            "send":{
                "text":"btg",
@@ -564,12 +668,12 @@
                "text":"333.5",
                "class":"green"
            },
-           "shapeShift":{
-               "text":"Download",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/bitcoin-gold-wallet",
                "class":"wallet-list"
            }
        }
@@ -579,8 +683,7 @@
        "fullName":"VeChain",
        "iconName":"VET.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/vechain",
     "status":{
            "send":{
                "text":"vet",
@@ -591,15 +694,46 @@
                "class":"green"
            },
            "volume":{
-               "text":"Download",
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "shapeShift":{
-               "text":"Download",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/vechain-wallet",
+               "class":"wallet-list"
+           }
+       }
+   },
+      {
+       "name":"LSK",
+       "fullName":"Lisk",
+       "iconName":"LSK.svg",
+       "coinPriceLink":"https://atomicwallet.io",
+        "coinLink":"https://atomicwallet.io/lisk-wallet",
+    "walletlink":"https://atomicwallet.io/lisk-wallet",
+    "buylink":"https://atomicwallet.io/buy-bitcoin",
+    "status":{
+           "send":{
+               "text":"lsk",
+               "class":"green"
+           },
+           "coinID":{
+               "text":"lsk",
+               "class":"green"
+           },
+           "volume":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
+               "class":"normal"
+           },
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
+               "class":"normal"
+           },
+           "walletlink":{
+               "text":"https://atomicwallet.io/",
                "class":"wallet-list"
            }
        }
@@ -609,8 +743,7 @@
        "fullName":"Maker",
        "iconName":"MKR.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
            "send":{
                "text":"mkr",
@@ -624,12 +757,12 @@
                "text":"333.5",
                "class":"green"
            },
-           "shapeShift":{
-               "text":"333.5",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"green"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/",
                "class":"wallet-list"
            }
        }
@@ -639,8 +772,7 @@
        "fullName":"OmiseGO",
        "iconName":"OMG.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
            "send":{
                "text":"omg",
@@ -654,12 +786,12 @@
                "text":"333.5",
                "class":"green"
            },
-           "shapeShift":{
-               "text":"333.5",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"green"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/",
                "class":"wallet-list"
            }
        }
@@ -669,8 +801,7 @@
         "fullName":"MobileGo",
         "iconName":"MGO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"mgo",
@@ -681,15 +812,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -698,9 +829,8 @@
        "name":"DOGE",
        "fullName":"Dogecoin",
        "iconName":"DOGE.svg",
-       "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+       "coinPriceLink":"https://atomicwallet.io/dogecoin-price",
+        "coinLink":"https://atomicwallet.io/dogecoin",
     "status":{
            "send":{
                "text":"doge",
@@ -714,12 +844,12 @@
                "text":"333.5",
                "class":"green"
            },
-           "shapeShift":{
-               "text":"Download",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-dogecoin",
                "class":"normal"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/dogecoin-wallet",
                "class":"wallet-list"
            }
        }
@@ -729,8 +859,7 @@
        "fullName":"0x",
        "iconName":"ZRX.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
            "send":{
                "text":"zrx",
@@ -744,12 +873,12 @@
                "text":"333.5",
                "class":"green"
            },
-           "shapeShift":{
-               "text":"333.5",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"green"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/",
                "class":"wallet-list"
            }
        }
@@ -759,8 +888,7 @@
        "fullName":"Decred",
        "iconName":"DCR.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/decred",
     "status":{
            "send":{
                "text":"dcr",
@@ -774,12 +902,12 @@
                "text":"333.5",
                "class":"green"
            },
-           "shapeShift":{
-               "text":"333.5",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"green"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/decred-wallet",
                "class":"wallet-list"
            }
        }
@@ -789,8 +917,7 @@
        "fullName":"QTUM",
        "iconName":"QTUM.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/qtum",
     "status":{
            "send":{
                "text":"qtum",
@@ -804,12 +931,12 @@
                "text":"333.5",
                "class":"green"
            },
-           "shapeShift":{
-               "text":"333.5",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"green"
            },
-           "atomicSwap":{
-               "text":"333.5",
+           "walletlink":{
+               "text":"https://atomicwallet.io/qtum-wallet",
                "class":"green"
            }
        }
@@ -819,8 +946,7 @@
        "fullName":"Aeternity",
        "iconName":"AE.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
            "send":{
                "text":"ae",
@@ -834,12 +960,12 @@
                "text":"333.5",
                "class":"green"
            },
-           "shapeShift":{
-               "text":"Download",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/",
                "class":"wallet-list"
            }
        }
@@ -849,8 +975,7 @@
        "fullName":"Zilliqa",
        "iconName":"ZIL.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
            "send":{
                "text":"zil",
@@ -861,15 +986,15 @@
                "class":"green"
            },
            "volume":{
-               "text":"Download",
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "shapeShift":{
-               "text":"Download",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/",
                "class":"wallet-list"
            }
        }
@@ -879,8 +1004,7 @@
        "fullName":"Bitcoin Diamond",
        "iconName":"BCD.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/bitcoin-diamond",
     "status":{
            "send":{
                "text":"bcd",
@@ -894,12 +1018,12 @@
                "text":"333.5",
                "class":"green"
            },
-           "shapeShift":{
-               "text":"333.5",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"green"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/bitcoin-diamond-wallet",
                "class":"wallet-list"
            }
        }
@@ -909,8 +1033,7 @@
         "fullName":"DigiByte",
         "iconName":"DGB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/digibyte",
     "status":{
             "send":{
                 "text":"dgb",
@@ -924,12 +1047,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/digibyte-wallet",
                 "class":"wallet-list"
             }
         }
@@ -939,8 +1062,7 @@
        "fullName":"Pundi X",
        "iconName":"NPXS.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
            "send":{
                "text":"npxs",
@@ -951,15 +1073,15 @@
                "class":"green"
            },
            "volume":{
-               "text":"Download",
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "shapeShift":{
-               "text":"Download",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/",
                "class":"wallet-list"
            }
        }
@@ -969,8 +1091,7 @@
        "fullName":"PumaPay",
        "iconName":"PMA.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
            "send":{
                "text":"pma",
@@ -981,15 +1102,15 @@
                "class":"green"
            },
            "volume":{
-               "text":"Download",
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "shapeShift":{
-               "text":"Download",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/",
                "class":"wallet-list"
            }
        }
@@ -999,8 +1120,7 @@
        "fullName":"Mithril",
        "iconName":"MITH.svg",
        "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
            "send":{
                "text":"mith",
@@ -1011,15 +1131,15 @@
                "class":"green"
            },
            "volume":{
-               "text":"Download",
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "shapeShift":{
-               "text":"Download",
+           "buylink":{
+               "text":"https://atomicwallet.io/buy-bitcoin",
                "class":"normal"
            },
-           "atomicSwap":{
-               "text":"Download",
+           "walletlink":{
+               "text":"https://atomicwallet.io/",
                "class":"wallet-list"
            }
        }
@@ -1029,8 +1149,7 @@
       "fullName":"True USD",
       "iconName":"TUSD.svg",
       "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
           "send":{
               "text":"tusd",
@@ -1044,12 +1163,12 @@
               "text":"333.5",
               "class":"green"
           },
-          "shapeShift":{
+          "buylink":{
               "text":"333.5",
               "class":"green"
           },
-          "atomicSwap":{
-              "text":"Download",
+          "walletlink":{
+              "text":"https://atomicwallet.io/buy-bitcoin",
               "class":"normal"
           }
       }
@@ -1059,8 +1178,7 @@
       "fullName":"Gemini Dollar",
       "iconName":"GUSD.svg",
       "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
           "send":{
               "text":"gusd",
@@ -1074,12 +1192,12 @@
               "text":"333.5",
               "class":"green"
           },
-          "shapeShift":{
+          "buylink":{
               "text":"333.5",
               "class":"green"
           },
-          "atomicSwap":{
-              "text":"Download",
+          "walletlink":{
+              "text":"https://atomicwallet.io/buy-bitcoin",
               "class":"normal"
           }
       }
@@ -1089,8 +1207,7 @@
   "fullName":"Atomic Wallet Coin",
   "iconName":"AWC.svg",
   "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/token",
     "status":{
       "send":{
           "text":"awc",
@@ -1101,15 +1218,15 @@
           "class":"green"
       },
       "volume":{
-          "text":"Download",
+          "text":"https://atomicwallet.io/buy-bitcoin",
           "class":"normal"
       },
-      "shapeShift":{
-          "text":"Download",
+      "buylink":{
+          "text":"https://atomicwallet.io/token",
           "class":"normal"
       },
-      "atomicSwap":{
-          "text":"Download",
+      "walletlink":{
+          "text":"https://atomicwallet.io/",
           "class":"normal"
       }
   }
@@ -1119,8 +1236,7 @@
           "fullName":"USD Coin",
           "iconName":"USDC.svg",
           "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
               "send":{
                   "text":"usdc",
@@ -1131,15 +1247,15 @@
                   "class":"green"
               },
               "volume":{
-                  "text":"Download",
+                  "text":"https://atomicwallet.io/buy-bitcoin",
                   "class":"normal"
               },
-              "shapeShift":{
-                  "text":"Download",
+              "buylink":{
+                  "text":"https://atomicwallet.io/buy-bitcoin",
                   "class":"normal"
               },
-              "atomicSwap":{
-                  "text":"Download",
+              "walletlink":{
+                  "text":"https://atomicwallet.io/",
                   "class":"normal"
         }
     }
@@ -1149,8 +1265,7 @@
           "fullName":"Populous",
           "iconName":"PPT.svg",
           "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
               "send":{
                   "text":"ppt",
@@ -1164,12 +1279,12 @@
                   "text":"333.5",
                   "class":"green"
               },
-              "shapeShift":{
+              "buylink":{
                   "text":"333.5",
                   "class":"green"
               },
-              "atomicSwap":{
-                  "text":"Download",
+              "walletlink":{
+                  "text":"https://atomicwallet.io/",
                   "class":"normal"
         }
     }
@@ -1179,8 +1294,7 @@
           "fullName":"Paxos Standard Token",
           "iconName":"PAX.svg",
           "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
               "send":{
                   "text":"pax",
@@ -1191,15 +1305,15 @@
                   "class":"green"
               },
               "volume":{
-                  "text":"Download",
+                  "text":"https://atomicwallet.io/buy-bitcoin",
                   "class":"normal"
               },
-              "shapeShift":{
-                  "text":"Download",
+              "buylink":{
+                  "text":"https://atomicwallet.io/buy-bitcoin",
                   "class":"normal"
               },
-              "atomicSwap":{
-                  "text":"Download",
+              "walletlink":{
+                  "text":"https://atomicwallet.io/",
                   "class":"normal"
         }
     }
@@ -1209,8 +1323,7 @@
     "fullName":"Augur",
     "iconName":"REP.svg",
     "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
         "send":{
             "text":"rep",
@@ -1224,12 +1337,12 @@
             "text":"333.5",
             "class":"green"
         },
-        "shapeShift":{
-            "text":"333.5",
+        "buylink":{
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"green"
         },
-        "atomicSwap":{
-            "text":"Download",
+        "walletlink":{
+            "text":"https://atomicwallet.io/",
             "class":"normal"
         }
     }
@@ -1239,8 +1352,7 @@
     "fullName":"Golem",
     "iconName":"GNT.svg",
     "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
         "send":{
             "text":"gnt",
@@ -1254,12 +1366,12 @@
             "text":"333.5",
             "class":"green"
         },
-        "shapeShift":{
-            "text":"333.5",
+        "buylink":{
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"green"
         },
-        "atomicSwap":{
-            "text":"Download",
+        "walletlink":{
+            "text":"https://atomicwallet.io/",
             "class":"normal"
         }
     }
@@ -1269,8 +1381,7 @@
     "fullName":"Holo",
     "iconName":"HOT.svg",
     "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
         "send":{
             "text":"hot",
@@ -1281,15 +1392,15 @@
             "class":"green"
         },
         "volume":{
-            "text":"Download",
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "shapeShift":{
-            "text":"Download",
+        "buylink":{
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "atomicSwap":{
-            "text":"Download",
+        "walletlink":{
+            "text":"https://atomicwallet.io/",
             "class":"normal"
         }
     }
@@ -1299,8 +1410,7 @@
     "fullName":"IOSToken",
     "iconName":"IOST.svg",
     "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
         "send":{
             "text":"iost",
@@ -1311,15 +1421,15 @@
             "class":"green"
         },
         "volume":{
-            "text":"Download",
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "shapeShift":{
-            "text":"Download",
+        "buylink":{
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "atomicSwap":{
-            "text":"Download",
+        "walletlink":{
+            "text":"https://atomicwallet.io/",
             "class":"normal"
         }
     }
@@ -1329,8 +1439,7 @@
     "fullName":"WAX Token",
     "iconName":"WAX.svg",
     "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
         "send":{
             "text":"wax",
@@ -1344,12 +1453,12 @@
             "text":"333.5",
             "class":"green"
         },
-        "shapeShift":{
-            "text":"Download",
+        "buylink":{
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "atomicSwap":{
-            "text":"Download",
+        "walletlink":{
+            "text":"https://atomicwallet.io/",
             "class":"normal"
         }
     }
@@ -1359,8 +1468,7 @@
     "fullName":"Bezant",
     "iconName":"BZNT.svg",
     "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
         "send":{
             "text":"bznt",
@@ -1371,15 +1479,15 @@
             "class":"green"
         },
         "volume":{
-            "text":"Download",
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "shapeShift":{
-            "text":"Download",
+        "buylink":{
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "atomicSwap":{
-            "text":"Download",
+        "walletlink":{
+            "text":"https://atomicwallet.io/",
             "class":"normal"
         }
     }
@@ -1389,8 +1497,7 @@
     "fullName":"Digitex Futures",
     "iconName":"DGTX.svg",
     "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
         "send":{
             "text":"dgtx",
@@ -1401,15 +1508,15 @@
             "class":"green"
         },
         "volume":{
-            "text":"Download",
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "shapeShift":{
-            "text":"Download",
+        "buylink":{
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "atomicSwap":{
-            "text":"Download",
+        "walletlink":{
+            "text":"https://atomicwallet.io/",
             "class":"normal"
         }
     }
@@ -1419,8 +1526,7 @@
     "fullName":"Decentraland",
     "iconName":"MANA.svg",
     "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
         "send":{
             "text":"mana",
@@ -1431,15 +1537,15 @@
             "class":"green"
         },
         "volume":{
-            "text":"Download",
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "shapeShift":{
-            "text":"Download",
+        "buylink":{
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "atomicSwap":{
-            "text":"Download",
+        "walletlink":{
+            "text":"https://atomicwallet.io/",
             "class":"normal"
         }
     }
@@ -1449,8 +1555,7 @@
     "fullName":"Waltonchain",
     "iconName":"WTC.svg",
     "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
         "send":{
             "text":"wtc",
@@ -1461,15 +1566,15 @@
             "class":"green"
         },
         "volume":{
-            "text":"Download",
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "shapeShift":{
-            "text":"Download",
+        "buylink":{
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"normal"
         },
-        "atomicSwap":{
-            "text":"Download",
+        "walletlink":{
+            "text":"https://atomicwallet.io/",
             "class":"normal"
         }
     }
@@ -1479,8 +1584,7 @@
     "fullName":"Nexo",
     "iconName":"NEXO.svg",
     "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
         "send":{
             "text":"nexo",
@@ -1494,12 +1598,12 @@
             "text":"333.5",
             "class":"green"
         },
-        "shapeShift":{
-            "text":"333.5",
+        "buylink":{
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"green"
         },
-        "atomicSwap":{
-            "text":"Download",
+        "walletlink":{
+            "text":"https://atomicwallet.io/",
             "class":"normal"
         }
     }
@@ -1509,8 +1613,7 @@
     "fullName":"Bancor",
     "iconName":"BNT.svg",
     "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
         "send":{
             "text":"bnt",
@@ -1524,12 +1627,12 @@
             "text":"333.5",
             "class":"green"
         },
-        "shapeShift":{
-            "text":"333.5",
+        "buylink":{
+            "text":"https://atomicwallet.io/buy-bitcoin",
             "class":"green"
         },
-        "atomicSwap":{
-            "text":"Download",
+        "walletlink":{
+            "text":"https://atomicwallet.io/",
             "class":"normal"
         }
     }
@@ -1539,8 +1642,7 @@
         "fullName":"TokenPay",
         "iconName":"TPAY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"tpay",
@@ -1551,15 +1653,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1569,8 +1671,7 @@
             "fullName":"BitTorrent",
             "iconName":"BTT.svg",
             "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
                 "send":{
                     "text":"btt",
@@ -1581,15 +1682,15 @@
                     "class":"green"
                 },
                 "volume":{
-                     "text":"Download",
+                     "text":"https://atomicwallet.io/buy-bitcoin",
                     "class":"normal"
                 },
-                "shapeShift":{
-                     "text":"Download",
+                "buylink":{
+                     "text":"https://atomicwallet.io/buy-bitcoin",
                     "class":"normal"
                 },
-                "atomicSwap":{
-                    "text":"Download",
+                "walletlink":{
+                    "text":"https://atomicwallet.io/buy-bitcoin",
                     "class":"normal"
                 }
             }
@@ -1599,8 +1700,7 @@
             "fullName":"Dai",
             "iconName":"DAI.svg",
             "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
                 "send":{
                     "text":"dai",
@@ -1614,12 +1714,12 @@
                      "text":"333.5",
                     "class":"green"
                 },
-                "shapeShift":{
+                "buylink":{
                      "text":"333.5",
                     "class":"green"
                 },
-                "atomicSwap":{
-                    "text":"Download",
+                "walletlink":{
+                    "text":"https://atomicwallet.io/buy-bitcoin",
                     "class":"normal"
                 }
             }
@@ -1630,8 +1730,7 @@
         "fullName":"VeThor",
         "iconName":"VETH.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"vtho",
@@ -1642,15 +1741,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1663,8 +1762,7 @@
         "fullName":"SmartCash",
         "iconName":"SMART.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"smart",
@@ -1678,12 +1776,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1693,8 +1791,7 @@
             "fullName":"STASIS EURS",
             "iconName":"EURS.svg",
             "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
                 "send":{
                     "text":"eurs",
@@ -1708,12 +1805,12 @@
                      "text":"333.5",
                     "class":"green"
                 },
-                "shapeShift":{
+                "buylink":{
                      "text":"333.5",
                     "class":"green"
                 },
-                "atomicSwap":{
-                    "text":"Download",
+                "walletlink":{
+                    "text":"https://atomicwallet.io/buy-bitcoin",
                     "class":"normal"
                 }
             }
@@ -1723,8 +1820,7 @@
         "fullName":"The Abyss",
         "iconName":"ABYSS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"abyss",
@@ -1738,12 +1834,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1753,8 +1849,7 @@
         "fullName":"Maximine Coin",
         "iconName":"MXM.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"mxm",
@@ -1765,15 +1860,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1783,8 +1878,7 @@
         "fullName":"XYO",
         "iconName":"XYO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"xyo",
@@ -1795,15 +1889,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1813,8 +1907,7 @@
         "fullName":"ODEM",
         "iconName":"ODE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"ode",
@@ -1825,15 +1918,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1843,8 +1936,7 @@
         "fullName":"First Blood",
         "iconName":"1ST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"1st",
@@ -1858,12 +1950,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1873,8 +1965,7 @@
         "fullName":"300 Token",
         "iconName":"300.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"300",
@@ -1885,15 +1976,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1903,8 +1994,7 @@
         "fullName":"Adshares",
         "iconName":"ADST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"adst",
@@ -1915,15 +2005,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1933,8 +2023,7 @@
         "fullName":" AdToken",
         "iconName":"ADT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"adt",
@@ -1945,15 +2034,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1963,8 +2052,7 @@
         "fullName":"AdEx",
         "iconName":"ADX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"adx",
@@ -1975,15 +2063,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -1993,8 +2081,7 @@
         "fullName":"Air",
         "iconName":"AIR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"air",
@@ -2005,15 +2092,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2023,8 +2110,7 @@
         "fullName":"Alis",
         "iconName":"ALIS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"alis",
@@ -2035,15 +2121,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2053,8 +2139,7 @@
         "fullName":"AMIS",
         "iconName":"AMIS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"amis",
@@ -2065,15 +2150,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2083,8 +2168,7 @@
         "fullName":"Aragon",
         "iconName":"ANT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"ant",
@@ -2098,12 +2182,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2113,8 +2197,7 @@
         "fullName":"Aigang",
         "iconName":"APT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"apt",
@@ -2125,15 +2208,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2143,8 +2226,7 @@
         "fullName":"Arcade",
         "iconName":"ARC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"arc",
@@ -2155,15 +2237,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2173,8 +2255,7 @@
         "fullName":"Aeron",
         "iconName":"ARN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"arn",
@@ -2188,12 +2269,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2203,8 +2284,7 @@
         "fullName":"Maecenas",
         "iconName":"ART.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"art",
@@ -2215,15 +2295,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2233,8 +2313,7 @@
         "fullName":"ATHENIAN WARRIOR",
         "iconName":"ATH.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"ath",
@@ -2245,15 +2324,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2263,8 +2342,7 @@
         "fullName":"IoTeX",
         "iconName":"IOTX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"iotx",
@@ -2275,15 +2353,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2293,8 +2371,7 @@
         "fullName":"ATLANT",
         "iconName":"ATL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"atl",
@@ -2305,15 +2382,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2323,8 +2400,7 @@
         "fullName":"Aventus",
         "iconName":"AVT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"avt",
@@ -2335,15 +2411,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2354,8 +2430,7 @@
         "fullName":"BlockCDN",
         "iconName":"BCDN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"bcdn",
@@ -2366,15 +2441,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2384,8 +2459,7 @@
         "fullName":"Dao.Casino",
         "iconName":"BET.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"bet",
@@ -2396,15 +2470,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2414,8 +2488,7 @@
         "fullName":"BLX",
         "iconName":"BLX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"blx",
@@ -2426,15 +2499,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2444,8 +2517,7 @@
         "fullName":"Blackmoon Crypto Token ",
         "iconName":"BMC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"bmc",
@@ -2456,15 +2528,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2474,8 +2546,7 @@
         "fullName":"BMChain",
         "iconName":"BMT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"bmt",
@@ -2486,15 +2557,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2504,8 +2575,7 @@
         "fullName":"BraveNewCoin",
         "iconName":"BNC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"bnc",
@@ -2516,15 +2586,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2535,8 +2605,7 @@
         "fullName":"BROTHER",
         "iconName":"BRAT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"brat",
@@ -2547,15 +2616,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2565,8 +2634,7 @@
         "fullName":"Ethos",
         "iconName":"BQX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"bqx",
@@ -2577,15 +2645,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2595,8 +2663,7 @@
         "fullName":"Bitcoineum",
         "iconName":"BTE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"bte",
@@ -2607,15 +2674,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2625,8 +2692,7 @@
         "fullName":"ChangeBank",
         "iconName":"CAG.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"caq",
@@ -2637,15 +2703,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2655,8 +2721,7 @@
         "fullName":"BlockCAT",
         "iconName":"CAT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"cat",
@@ -2667,15 +2732,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2685,8 +2750,7 @@
         "fullName":"Crypto Crash Course",
         "iconName":"CCC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"ccc",
@@ -2697,15 +2761,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2715,8 +2779,7 @@
         "fullName":"Blox ",
         "iconName":"CDT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"cdt",
@@ -2727,15 +2790,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2745,8 +2808,7 @@
         "fullName":"Cofoundit",
         "iconName":"CFI.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"cfi",
@@ -2760,12 +2822,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2775,8 +2837,7 @@
         "fullName":"CMC",
         "iconName":"CMC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"cmc",
@@ -2787,15 +2848,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2805,8 +2866,7 @@
         "fullName":"Cobinhood",
         "iconName":"COB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"cob",
@@ -2817,15 +2877,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2835,8 +2895,7 @@
         "fullName":"Creditbit",
         "iconName":"CRB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"crb",
@@ -2847,15 +2906,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2865,8 +2924,7 @@
         "fullName":"Credo",
         "iconName":"CREDO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"credo",
@@ -2877,15 +2935,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2896,8 +2954,7 @@
         "fullName":"Civic",
         "iconName":"CVC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"cvc",
@@ -2911,12 +2968,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2926,8 +2983,7 @@
         "fullName":"Streamr",
         "iconName":"DATA.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"data",
@@ -2938,15 +2994,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2956,8 +3012,7 @@
         "fullName":"Digital Developers Fund",
         "iconName":"DDF.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"ddf",
@@ -2968,15 +3023,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -2986,8 +3041,7 @@
         "fullName":"DENT",
         "iconName":"DENT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"dent",
@@ -2998,15 +3052,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3016,8 +3070,7 @@
         "fullName":"DGX",
         "iconName":"DGX 1.0.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"dgx",
@@ -3028,15 +3081,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3046,8 +3099,7 @@
         "fullName":"DICE",
         "iconName":"DICE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"dice",
@@ -3058,15 +3110,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3076,8 +3128,7 @@
         "fullName":"district0x ",
         "iconName":"DNT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"dnt",
@@ -3091,12 +3142,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3106,8 +3157,7 @@
         "fullName":"DCORP",
         "iconName":"DRP.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"drp",
@@ -3118,15 +3168,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3138,8 +3188,7 @@
         "fullName":"Edgeless",
         "iconName":"EDG.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"edg",
@@ -3153,12 +3202,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3168,8 +3217,7 @@
         "fullName":"elixir",
         "iconName":"ELIX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"elix",
@@ -3180,15 +3228,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3198,8 +3246,7 @@
         "fullName":"Tether EUR",
         "iconName":"EURT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"eurt",
@@ -3210,15 +3257,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3228,8 +3275,7 @@
         "fullName":"FARAD",
         "iconName":"FRD.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"frd",
@@ -3240,15 +3286,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3258,8 +3304,7 @@
         "fullName":"Fuel Token ",
         "iconName":"FUEL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"fuel",
@@ -3270,15 +3315,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3288,8 +3333,7 @@
         "fullName":"FunFair",
         "iconName":"FUN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"fun",
@@ -3300,15 +3344,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3319,8 +3363,7 @@
         "fullName":"HelloGold",
         "iconName":"GBT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"gbt",
@@ -3331,15 +3374,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3349,8 +3392,7 @@
         "fullName":"Gnosis",
         "iconName":"GNO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"gno",
@@ -3364,12 +3406,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3380,8 +3422,7 @@
         "fullName":"Guppy",
         "iconName":"GUP.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"gup",
@@ -3395,12 +3436,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3410,8 +3451,7 @@
         "fullName":"H2O Token",
         "iconName":"H2O.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"h20",
@@ -3422,15 +3462,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3440,8 +3480,7 @@
         "fullName":"HelloGold",
         "iconName":"HGT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"hgt",
@@ -3452,15 +3491,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3470,8 +3509,7 @@
         "fullName":"Humaniq",
         "iconName":"HMQ.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"hmq",
@@ -3485,12 +3523,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3500,8 +3538,7 @@
         "fullName":"Decision Token",
         "iconName":"HST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"hst",
@@ -3512,15 +3549,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3530,8 +3567,7 @@
         "fullName":"IDICE",
         "iconName":"ICE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"ice",
@@ -3542,15 +3578,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3560,8 +3596,7 @@
         "fullName":"ICONOMI",
         "iconName":"ICN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"icn",
@@ -3572,15 +3607,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3590,8 +3625,7 @@
         "fullName":"ICOS",
         "iconName":"ICOS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"icos",
@@ -3602,15 +3636,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3620,8 +3654,7 @@
         "fullName":"Feed",
         "iconName":"IFT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"ift",
@@ -3632,15 +3665,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3650,8 +3683,7 @@
         "fullName":"Indorse",
         "iconName":"IND.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"ind",
@@ -3662,15 +3694,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3680,8 +3712,7 @@
         "fullName":"iXledger",
         "iconName":"IXT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"ixt",
@@ -3692,15 +3723,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3710,8 +3741,7 @@
         "fullName":"Jetcoin",
         "iconName":"JetCoins.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"jet",
@@ -3722,15 +3752,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3740,8 +3770,7 @@
         "fullName":"KickCoin",
         "iconName":"KICK.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"kick",
@@ -3752,15 +3781,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3770,8 +3799,7 @@
         "fullName":"Kin",
         "iconName":"KIN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"kin",
@@ -3785,12 +3813,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3800,8 +3828,7 @@
         "fullName":"KyberNetwork",
         "iconName":"KNC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"knc",
@@ -3812,15 +3839,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3830,8 +3857,7 @@
         "fullName":"Refereum",
         "iconName":"RFR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"rfr",
@@ -3842,15 +3868,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3860,8 +3886,7 @@
         "fullName":"LatiumX",
         "iconName":"LATX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"latx",
@@ -3872,15 +3897,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3890,8 +3915,7 @@
         "fullName":"PureLifeCoin",
         "iconName":"LIFE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"life",
@@ -3902,15 +3926,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3920,8 +3944,7 @@
         "fullName":"ChainLink Token",
         "iconName":"LINK.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"link",
@@ -3932,15 +3955,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3950,8 +3973,7 @@
         "fullName":"Lancer Token",
         "iconName":"LNC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"lnc",
@@ -3965,12 +3987,12 @@
                 "text":"lnc",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"lnc",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -3980,8 +4002,7 @@
         "fullName":"Loopring",
         "iconName":"LRC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"lrc",
@@ -3995,12 +4016,12 @@
                 "text":"lrc",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"lrc",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4010,8 +4031,7 @@
         "fullName":"Lunyr",
         "iconName":"LUN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"lun",
@@ -4025,12 +4045,12 @@
                 "text":"lun",
                 "class":"green"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"lun",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4040,8 +4060,7 @@
         "fullName":"MCAP",
         "iconName":"MCAP.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"mcap",
@@ -4055,12 +4074,12 @@
                 "text":"mcap",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"mcap",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4070,8 +4089,7 @@
         "fullName":"Monaco",
         "iconName":"MCO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"monaco",
@@ -4085,12 +4103,12 @@
                 "text":"monaco",
                 "class":"green"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"monaco",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4100,8 +4118,7 @@
         "fullName":"Moeda Loyalty Points",
         "iconName":"MDA.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"mda",
@@ -4115,12 +4132,12 @@
                 "text":"mda",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"mda",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4130,8 +4147,7 @@
         "fullName":"minereum",
         "iconName":"MNE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"mne",
@@ -4145,12 +4161,12 @@
                 "text":"mne",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"mne",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4160,8 +4176,7 @@
         "fullName":"Mothership",
         "iconName":"MSP.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"msp",
@@ -4175,12 +4190,12 @@
                 "text":"msp",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"msp",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4190,8 +4205,7 @@
         "fullName":"Monetha",
         "iconName":"MTH.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"mth",
@@ -4205,12 +4219,12 @@
                 "text":"mth",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"mth",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4220,8 +4234,7 @@
         "fullName":"Matryx",
         "iconName":"MTX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"mtx",
@@ -4235,12 +4248,12 @@
                 "text":"mtx",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"mtx",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4250,8 +4263,7 @@
         "fullName":"Mysterium",
         "iconName":"MYST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"myst",
@@ -4265,12 +4277,12 @@
                 "text":"myst",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"myst",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4280,8 +4292,7 @@
         "fullName":"NimiqNetwork",
         "iconName":"NET.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"net",
@@ -4295,12 +4306,12 @@
                 "text":"net",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"net",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4310,8 +4321,7 @@
         "fullName":"Numeraire",
         "iconName":"NMR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"nmr",
@@ -4325,12 +4335,12 @@
                 "text":"nmr",
                 "class":"green"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"nmr",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4340,8 +4350,7 @@
         "fullName":"Nexium",
         "iconName":"NXX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"nxx",
@@ -4355,12 +4364,12 @@
                 "text":"nxx",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"nxx",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4370,8 +4379,7 @@
         "fullName":"OpenANX",
         "iconName":"OAX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"oax",
@@ -4385,12 +4393,12 @@
                 "text":"oax",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"oax",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4400,8 +4408,7 @@
         "fullName":"Opus",
         "iconName":"OPT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"opt",
@@ -4415,12 +4422,12 @@
                 "text":"opt",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"opt",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4430,8 +4437,7 @@
         "fullName":"TenXPay",
         "iconName":"PAY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"pay",
@@ -4445,12 +4451,12 @@
                 "text":"pay",
                 "class":"green"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"pay",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4460,8 +4466,7 @@
         "fullName":"Lampix",
         "iconName":"PIX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"pix",
@@ -4475,12 +4480,12 @@
                 "text":"pix",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"pix",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4490,8 +4495,7 @@
         "fullName":"Herocoin",
         "iconName":"PLAY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"play",
@@ -4505,12 +4509,12 @@
                 "text":"play",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"play",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4520,8 +4524,7 @@
         "fullName":"Polybius",
         "iconName":"PLBT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"plbt",
@@ -4535,12 +4538,12 @@
                 "text":"plbt",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"plbt",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4550,8 +4553,7 @@
         "fullName":"PILLAR",
         "iconName":"PLR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"plr",
@@ -4565,12 +4567,12 @@
                 "text":"plr",
                 "class":"normal"
             },
-            "shapeShift":{
+            "buylink":{
                 "text":"plr",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4580,8 +4582,7 @@
         "fullName":"Pluton",
         "iconName":"PLU.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"plu",
@@ -4595,12 +4596,12 @@
                 "text":"plu",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4610,8 +4611,7 @@
         "fullName":"Po.et",
         "iconName":"POE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4622,15 +4622,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4640,8 +4640,7 @@
         "fullName":"PoSToken",
         "iconName":"POS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4652,15 +4651,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4671,8 +4670,7 @@
         "fullName":"Propy",
         "iconName":"PRO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4683,15 +4681,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4701,8 +4699,7 @@
         "fullName":"Patientory",
         "iconName":"PTOY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4716,12 +4713,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4731,8 +4728,7 @@
         "fullName":"Quantum",
         "iconName":"QAU.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4743,15 +4739,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4761,8 +4757,7 @@
         "fullName":"Basic Attention Token",
         "iconName":"BAT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4776,12 +4771,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4791,8 +4786,7 @@
         "fullName":"RouletteToken",
         "iconName":"RLT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4803,15 +4797,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4821,8 +4815,7 @@
         "fullName":"Relex",
         "iconName":"RLX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4833,15 +4826,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4851,8 +4844,7 @@
         "fullName":"RvT",
         "iconName":"RVT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4863,15 +4855,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4881,8 +4873,7 @@
         "fullName":"Salt",
         "iconName":"SALT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4896,12 +4887,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4911,8 +4902,7 @@
         "fullName":"SOCIALL",
         "iconName":"SCL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4923,15 +4913,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4941,8 +4931,7 @@
         "fullName":"Sense",
         "iconName":"SENSE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4953,15 +4942,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -4971,8 +4960,7 @@
         "fullName":"Shitcoin",
         "iconName":"SHIT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4983,15 +4971,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5001,8 +4989,7 @@
         "fullName":"SkinCoin",
         "iconName":"SKIN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5013,15 +5000,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5031,8 +5018,7 @@
         "fullName":"SunContract",
         "iconName":"SNC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5043,15 +5029,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5061,8 +5047,7 @@
         "fullName":"SNGLS",
         "iconName":"SNGLS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5073,15 +5058,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5091,8 +5076,7 @@
         "fullName":"SND Token 1.0",
         "iconName":"SND.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5103,15 +5087,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5121,8 +5105,7 @@
         "fullName":"SONM",
         "iconName":"SNM.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5136,12 +5119,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5151,8 +5134,7 @@
         "fullName":"StatusNetwork",
         "iconName":"SNT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5163,15 +5145,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5181,8 +5163,7 @@
         "fullName":"STORJ",
         "iconName":"STORJ.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5196,12 +5177,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5211,8 +5192,7 @@
         "fullName":"StarCredits",
         "iconName":"STRC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5223,15 +5203,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5241,8 +5221,7 @@
         "fullName":"Stox",
         "iconName":"STX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5256,12 +5235,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5271,8 +5250,7 @@
         "fullName":"Substratum",
         "iconName":"SUB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5283,15 +5261,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5301,8 +5279,7 @@
         "fullName":"SwarmCity",
         "iconName":"SWT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5316,12 +5293,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5331,8 +5308,7 @@
         "fullName":"TAAS",
         "iconName":"TaaS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5343,15 +5319,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5361,8 +5337,7 @@
         "fullName":"TBOT",
         "iconName":"TBT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5373,15 +5348,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5391,8 +5366,7 @@
         "fullName":"TrueFlip",
         "iconName":"TFL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5403,15 +5377,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5421,8 +5395,7 @@
         "fullName":"TheBillionCoin2",
         "iconName":"TBC2.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5433,15 +5406,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5451,8 +5424,7 @@
         "fullName":"TIME",
         "iconName":"TIME.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5463,15 +5435,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5481,8 +5453,7 @@
         "fullName":"Blocktix",
         "iconName":"TIX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5493,15 +5464,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5511,8 +5482,7 @@
         "fullName":"TokenCard",
         "iconName":"TKN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5523,15 +5493,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5541,8 +5511,7 @@
         "fullName":"Tierion Network Token",
         "iconName":"TNT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5553,15 +5522,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5571,8 +5540,7 @@
         "fullName":"Trustcoin",
         "iconName":"TRST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5586,12 +5554,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5601,8 +5569,7 @@
         "fullName":"Veritaseum",
         "iconName":"VERI.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5613,15 +5580,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5632,8 +5599,7 @@
         "fullName":"Vibe Coin",
         "iconName":"VIBE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5644,15 +5610,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5662,8 +5628,7 @@
         "fullName":"Viberate",
         "iconName":"VIB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5677,12 +5642,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5692,8 +5657,7 @@
         "fullName":"Viuly",
         "iconName":"VIU.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5704,15 +5668,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5722,8 +5686,7 @@
         "fullName":"Veros",
         "iconName":"VRS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5734,15 +5697,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5752,8 +5715,7 @@
         "fullName":"vSlice",
         "iconName":"VSL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5764,15 +5726,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5782,8 +5744,7 @@
         "fullName":"Wi Coin",
         "iconName":"WIC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5794,15 +5755,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5812,8 +5773,7 @@
         "fullName":"WINGS",
         "iconName":"WINGS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5824,15 +5784,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5842,8 +5802,7 @@
         "fullName":"Wolk Protocol Token",
         "iconName":"WLK.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5854,15 +5813,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5872,8 +5831,7 @@
         "fullName":"Xaurum",
         "iconName":"XAUR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5884,15 +5842,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5902,8 +5860,7 @@
         "fullName":"Sphere Identity",
         "iconName":"XID.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5914,15 +5871,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5932,8 +5889,7 @@
         "fullName":"XENON",
         "iconName":"XNN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5944,15 +5900,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5962,8 +5918,7 @@
         "fullName":"Rialto",
         "iconName":"XRL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5974,15 +5929,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -5992,8 +5947,7 @@
         "fullName":"BLOCKMASON CREDIT PROTOCOL TOKEN",
         "iconName":"BCPT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6004,15 +5958,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6023,8 +5977,7 @@
         "fullName":"BIX Token",
         "iconName":"BIX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6035,15 +5988,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6053,8 +6006,7 @@
         "fullName":"Revain",
         "iconName":"REVAIN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6065,15 +6017,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6083,8 +6035,7 @@
         "fullName":"Gifto",
         "iconName":"GIFTO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6095,15 +6046,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6113,8 +6064,7 @@
         "fullName":"EDUCare",
         "iconName":"EKT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6125,15 +6075,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6143,8 +6093,7 @@
         "fullName":"SIRIN",
         "iconName":"SRN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6155,15 +6104,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6173,8 +6122,7 @@
         "fullName":"OCoin",
         "iconName":"OCN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6185,15 +6133,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6203,8 +6151,7 @@
         "fullName":"Elf",
         "iconName":"ELF.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6218,12 +6165,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6233,8 +6180,7 @@
         "fullName":"Genesis Vision",
         "iconName":"GVT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6245,15 +6191,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6263,8 +6209,7 @@
         "fullName":"Everex",
         "iconName":"EVX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6275,15 +6220,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6293,8 +6238,7 @@
         "fullName":"Time New Bank",
         "iconName":"TNB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6305,15 +6249,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6323,8 +6267,7 @@
         "fullName":"RUFF",
         "iconName":"RUFF.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6335,15 +6278,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6353,8 +6296,7 @@
         "fullName":"Amber",
         "iconName":"AMB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6365,15 +6307,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6383,8 +6325,7 @@
         "fullName":"Theta Token",
         "iconName":"THETA.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6395,15 +6336,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6413,8 +6354,7 @@
         "fullName":"Polymath",
         "iconName":"POLY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6425,15 +6365,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6443,8 +6383,7 @@
         "fullName":"AppCoins",
         "iconName":"APPC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6455,15 +6394,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6473,8 +6412,7 @@
         "fullName":"Jibrel Network Token",
         "iconName":"JNT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6485,15 +6423,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6503,8 +6441,7 @@
         "fullName":"QunQunCommunities",
         "iconName":"QUN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6515,15 +6452,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6533,8 +6470,7 @@
         "fullName":"Nebulas",
         "iconName":"NAS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6545,15 +6481,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6563,8 +6499,7 @@
         "fullName":"Data",
         "iconName":"DTA.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6575,15 +6510,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6593,8 +6528,7 @@
         "fullName":"Spectre.ai U-Token",
         "iconName":"SXUT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6605,15 +6539,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6623,8 +6557,7 @@
         "fullName":"EthLend",
         "iconName":"LEND.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6635,15 +6568,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6653,8 +6586,7 @@
         "fullName":"PowerLedger",
         "iconName":"POWR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6665,15 +6597,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6683,8 +6615,7 @@
         "fullName":"IOT Chain",
         "iconName":"ITC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6695,15 +6626,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6713,8 +6644,7 @@
         "fullName":"RipioCreditNetwork",
         "iconName":"RCN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6728,12 +6658,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"333.5",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"green"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6743,8 +6673,7 @@
         "fullName":"EnjinCoin",
         "iconName":"ENJ.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6755,15 +6684,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6773,8 +6702,7 @@
         "fullName":"Raiden",
         "iconName":"RDN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6785,15 +6713,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6805,8 +6733,7 @@
         "fullName":"MedToken",
         "iconName":"MTN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6817,15 +6744,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6835,8 +6762,7 @@
         "fullName":"Request",
         "iconName":"REQ.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6847,15 +6773,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6865,8 +6791,7 @@
         "fullName":"WePower",
         "iconName":"WPR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6877,15 +6802,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6895,8 +6820,7 @@
         "fullName":"Delta",
         "iconName":"DLT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6907,15 +6831,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6925,8 +6849,7 @@
         "fullName":"Genaro X",
         "iconName":"GNX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6937,15 +6860,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6956,8 +6879,7 @@
         "fullName":"AirSwap",
         "iconName":"AST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6968,15 +6890,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -6986,8 +6908,7 @@
         "fullName":"CyberMiles",
         "iconName":"CMT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6998,15 +6919,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7016,8 +6937,7 @@
         "fullName":" AI Doctor",
         "iconName":"AIDOC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7028,15 +6948,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7046,8 +6966,7 @@
         "fullName":"YOYOW",
         "iconName":"YOYOW.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7058,15 +6977,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7076,8 +6995,7 @@
         "fullName":"Nuls",
         "iconName":"NULS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7088,15 +7006,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7106,8 +7024,7 @@
         "fullName":"Modum Token",
         "iconName":"MOD.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7118,15 +7035,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7136,8 +7053,7 @@
         "fullName":"UnikoinGold",
         "iconName":"UKG.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7148,15 +7064,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7166,8 +7082,7 @@
         "fullName":"Bread",
         "iconName":"BRD.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7181,12 +7096,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7196,8 +7111,7 @@
         "fullName":"Game.com Token",
         "iconName":"GTC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7208,15 +7122,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7226,8 +7140,7 @@
         "fullName":"BANKEX",
         "iconName":"BKX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7238,15 +7151,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7256,8 +7169,7 @@
         "fullName":"MediShares",
         "iconName":"MDS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7268,15 +7180,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7286,8 +7198,7 @@
         "fullName":"Cindicator",
         "iconName":"CND.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7298,15 +7209,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7316,8 +7227,7 @@
         "fullName":"Enigma",
         "iconName":"ENG.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7328,15 +7238,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7346,8 +7256,7 @@
         "fullName":"Delphy Token",
         "iconName":"DPY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7358,15 +7267,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7376,8 +7285,7 @@
         "fullName":"Crypto20",
         "iconName":"C20.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7388,15 +7296,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7406,8 +7314,7 @@
         "fullName":"Leverj",
         "iconName":"LEV.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7418,15 +7325,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7436,8 +7343,7 @@
         "fullName":"ATMChain",
         "iconName":"ATM.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7448,15 +7354,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7466,8 +7372,7 @@
         "fullName":"Storm",
         "iconName":"STORM.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7478,15 +7383,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7496,8 +7401,7 @@
         "fullName":"Molecular Future",
         "iconName":"MOF.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7508,15 +7412,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7526,8 +7430,7 @@
         "fullName":"Quantstamp",
         "iconName":"QSP.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7538,15 +7441,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7556,8 +7459,7 @@
         "fullName":"QASH",
         "iconName":"QASH.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7568,15 +7470,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7586,8 +7488,7 @@
         "fullName":"Credits",
         "iconName":"CS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7598,15 +7499,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7616,8 +7517,7 @@
         "fullName":"Dragonchain",
         "iconName":"DRGN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7628,15 +7528,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7646,8 +7546,7 @@
         "fullName":"Ethos",
         "iconName":"ETHOS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7658,15 +7557,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7676,8 +7575,7 @@
         "fullName":"Dentacoin",
         "iconName":"DCN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7691,12 +7589,12 @@
                 "text":"333.5",
                 "class":"green"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }
@@ -7706,8 +7604,7 @@
         "fullName":"ChangeNOW",
         "iconName":"NOW.svg",
         "coinPriceLink":"https://atomicwallet.io",
-    "coinLink":"https://atomicwallet.io/",
-    "link":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7718,15 +7615,15 @@
                 "class":"green"
             },
             "volume":{
-                "text":"Download",
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "shapeShift":{
-                "text":"Download",
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
             },
-            "atomicSwap":{
-                "text":"Download",
+            "walletlink":{
+                "text":"https://atomicwallet.io/",
                 "class":"wallet-list"
             }
         }

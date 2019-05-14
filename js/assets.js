@@ -144,7 +144,13 @@ class TableList {
                  <div class="list-table-items-col"><a href="${item.coinPriceLink}" class="link-coins"><span id="${item.status.coinID.text}"></span></a></div>
                 <div class="list-table-items-col"><span id="${item.status.coinID.text}-volume"></span></div>
                 <div class="list-table-items-col"><span id="${item.status.coinID.text}-change"></span><span>&nbsp %</span></div>
-                <div class="list-table-items-col"><a href="${item.link}"<div class="wallet-list-item"><span class="wallet-list">Get Wallet</span></a></div></div>
+                <div class="list-table-items-col">
+                    <div class="wallet-list-item">
+                        <div class="wallet-list-item-button"><a href="${item.status.walletlink.text}"><span class="wallet-list">Get Wallet</span></a></div>
+                            <div class="wallet-list-item-button"><a href="${item.status.buylink.text}"><span class="wallet-list">Buy</span></a></div>
+                    </div>
+                </div>
+
 
             </div>
         `);
@@ -912,7 +918,7 @@ class Assets {
           .catch(console.log)
     }
     getPrice4 () {
-        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LNC,LRC,LBT,LUN,MCAP,MCO,MDA,MNE,MSP,MTH,MTL,MTX,MYST,NET,NMR,NXX,OAX,OPT,PAY,PIX,PLAY,PLBT,PLR,PLU,POE,POS,PRO,PTOY,QAU,BAT,RLT,RLX,RVT,SALT,SCL,SENSE,SHIT,SKIN,SNC,SNGLS,SND,SNM,SNT,STORJ,STRC,STX,SUB,SWT,TAAS,TBT,TFL,TBC2,TIME,TIX,TKN,TNT,TRST,VERI,VIBE,VIB,VIU,VRS,VSL,VSM,WIC,WINGS,WOLK,XAUR,XID&tsyms=USD")
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LNC,LRC,LBT,LUN,MCAP,MCO,MDA,MNE,MSP,MTH,MTL,MTX,MYST,NET,NMR,NXX,OAX,OPT,PAY,PIX,PLAY,PLBT,PLR,PLU,POE,POS,PRO,PTOY,QAU,BAT,RLT,RLX,RVT,SALT,SCL,SENSE,LSK,SKIN,SNC,SNGLS,SND,SNM,SNT,NEO,ONT,STX,SUB,SWT,TAAS,TBT,TFL,XVG,TIME,TIX,TKN,TNT,TRST,VERI,VIBE,VIB,VIU,VRS,VSL,VSM,WIC,WINGS,WAVES,XAUR,XID&tsyms=USD")
           .then(r => r.json())
           .then(r => {
 
@@ -935,7 +941,7 @@ class Assets {
           .catch(console.log)
     }
     getPrice5 () {
-        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XNN,XRL,BCPT,BIX,R,GTO,EKT,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW&tsyms=USD")
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XNN,XRL,BCPT,BIX,R,GTO,XEM,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW&tsyms=USD")
           .then(r => r.json())
           .then(r => {
         
@@ -1005,7 +1011,7 @@ class Assets {
           .catch(console.log)
     }
     getMarketCap3 () {
-        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LNC,LRC,LBT,LUN,MCAP,MCO,MDA,MNE,MSP,MTH,MTL,MTX,MYST,NET,NMR,NXX,OAX,OPT,PAY,PIX,PLAY,PLBT,PLR,PLU,POE,POS,PRO,PTOY,QAU,BAT,RLT,RLX,RVT,SALT,SCL,SENSE,SHIT,SKIN,SNC,SNGLS,SND,SNM,SNT,STORJ,STRC,STX,SUB,SWT,TAAS,TBT,TFL,TBC2,TIME,TIX,TKN,TNT,TRST,VERI,VIBE,VIB,VIU,VRS,VSL,VSM,WIC,WINGS,WOLK,XAUR,XID&tsyms=USD")
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LNC,LRC,LBT,LUN,MCAP,MCO,MDA,MNE,MSP,MTH,MTL,MTX,MYST,NET,NMR,NXX,OAX,OPT,PAY,PIX,PLAY,PLBT,PLR,PLU,POE,POS,PRO,PTOY,QAU,BAT,RLT,RLX,RVT,SALT,SCL,SENSE,LSK,SKIN,SNC,SNGLS,SND,SNM,SNT,NEO,ONT,STX,SUB,SWT,TAAS,TBT,TFL,XVG,TIME,TIX,TKN,TNT,TRST,VERI,VIBE,VIB,VIU,VRS,VSL,VSM,WIC,WINGS,WAVES,XAUR,XID&tsyms=USD")
           .then(r => r.json())
           .then(r => {
         
@@ -1029,7 +1035,7 @@ class Assets {
     }
 
     getMarketCap4 () {
-        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XNN,XRL,BCPT,BIX,R,GTO,EKT,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW&tsyms=USD")
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XNN,XRL,BCPT,BIX,R,GTO,XEM,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW&tsyms=USD")
           .then(r => r.json())
           .then(r => {
         
@@ -1102,7 +1108,7 @@ class Assets {
           .catch(console.log)
     }  
         getVolumeData2 () {
-        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LNC,LRC,LBT,LUN,MCAP,MCO,MDA,MNE,MSP,MTH,MTL,MTX,MYST,NET,NMR,NXX,OAX,OPT,PAY,PIX,PLAY,PLBT,PLR,PLU,POE,POS,PRO,PTOY,QAU,BAT,RLT,RLX,RVT,SALT,SCL,SENSE,SHIT,SKIN,SNC,SNGLS,SND,SNM,SNT,STORJ,STRC,STX,SUB,SWT,TAAS,TBT,TFL,TBC2,TIME,TIX,TKN,TNT,TRST,VERI,VIBE,VIB,VIU,VRS,VSL,VSM,WIC,WINGS,WOLK,XAUR,XID&tsyms=USD")
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LNC,LRC,LBT,LUN,MCAP,MCO,MDA,MNE,MSP,MTH,MTL,MTX,MYST,NET,NMR,NXX,OAX,OPT,PAY,PIX,PLAY,PLBT,PLR,PLU,POE,POS,PRO,PTOY,QAU,BAT,RLT,RLX,RVT,SALT,SCL,SENSE,LSK,SKIN,SNC,SNGLS,SND,SNM,SNT,NEO,ONT,STX,SUB,SWT,TAAS,TBT,TFL,XVG,TIME,TIX,TKN,TNT,TRST,VERI,VIBE,VIB,VIU,VRS,VSL,VSM,WIC,WINGS,WAVES,XAUR,XID&tsyms=USD")
           .then(r => r.json())
           .then(r => {
         
@@ -1127,7 +1133,7 @@ class Assets {
           .catch(console.log)
     }  
     getVolumeData3 () {
-        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XNN,XRL,BCPT,BIX,R,GTO,EKT,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW&tsyms=USD")
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XNN,XRL,BCPT,BIX,R,GTO,XEM,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW&tsyms=USD")
           .then(r => r.json())
           .then(r => {
             const volumeData = Object.keys(r.DISPLAY)
@@ -1197,7 +1203,7 @@ class Assets {
           .catch(console.log)
     }  
     getChangeData2 () {
-        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LNC,LRC,LBT,LUN,MCAP,MCO,MDA,MNE,MSP,MTH,MTL,MTX,MYST,NET,NMR,NXX,OAX,OPT,PAY,PIX,PLAY,PLBT,PLR,PLU,POE,POS,PRO,PTOY,QAU,BAT,RLT,RLX,RVT,SALT,SCL,SENSE,SHIT,SKIN,SNC,SNGLS,SND,SNM,SNT,STORJ,STRC,STX,SUB,SWT,TAAS,TBT,TFL,TBC2,TIME,TIX,TKN,TNT,TRST,VERI,VIBE,VIB,VIU,VRS,VSL,VSM,WIC,WINGS,WOLK,XAUR,XID&tsyms=USD")
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LNC,LRC,LBT,LUN,MCAP,MCO,MDA,MNE,MSP,MTH,MTL,MTX,MYST,NET,NMR,NXX,OAX,OPT,PAY,PIX,PLAY,PLBT,PLR,PLU,POE,POS,PRO,PTOY,QAU,BAT,RLT,RLX,RVT,SALT,SCL,SENSE,LSK,SKIN,SNC,SNGLS,SND,SNM,SNT,NEO,ONT,STX,SUB,SWT,TAAS,TBT,TFL,XVG,TIME,TIX,TKN,TNT,TRST,VERI,VIBE,VIB,VIU,VRS,VSL,VSM,WIC,WINGS,WAVES,XAUR,XID&tsyms=USD")
           .then(r => r.json())
           .then(r => {
             const changeData = Object.keys(r.DISPLAY)
@@ -1220,7 +1226,7 @@ class Assets {
           .catch(console.log)
     }  
     getChangeData3 () {
-        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XNN,XRL,BCPT,BIX,R,GTO,EKT,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW&tsyms=USD")
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XNN,XRL,BCPT,BIX,R,GTO,XEM,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW&tsyms=USD")
           .then(r => r.json())
           .then(r => {
             const changeData = Object.keys(r.DISPLAY)
