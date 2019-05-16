@@ -132,9 +132,9 @@ class TableList {
 
     addItem(item) {
         this.itemsCol1Obj.append(`
-           <a href="${item.coinLink}" class="link-coins"> <div class="list-table-item" title="${item.fullName} (${item.name})">
+           <div class="list-table-item" title="${item.fullName} (${item.name})">
                 <img src="css/images/crypto-icon/${item.iconName}">
-                <span class="list-table-fullname">${item.fullName}</span> <span class="list-table-abbname">${item.name}</span>
+                <a href="${item.coinLink}" class="link-coins"><span class="list-table-fullname">${item.fullName}</span> <span class="list-table-abbname">${item.name}</span>
             </div></a>
         `);
 
@@ -1270,5 +1270,5 @@ new BuyZCash();
 new BuyTRON();
 setTimeout(() => {
   new Assets();
-}, 500)
+}, 300)
 
