@@ -61,6 +61,7 @@ p {
     background-color: #FFFFFF;
     height: auto;
     margin-top: 50px;
+    border-radius: 16px;
     }
 
     .releases h4 {
