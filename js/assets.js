@@ -1270,5 +1270,5 @@ new BuyZCash();
 new BuyTRON();
 setTimeout(() => {
   new Assets();
-}, 200)
+}, 500)
 
