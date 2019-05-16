@@ -128,11 +128,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://atomicwallet.io/ethclassic</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://atomicwallet.io/zcash</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
