@@ -29,11 +29,6 @@ p {
     max-width: 800px;
     margin-left: 200px;
 }
-.item-page h2, h3 {
-    margin-left: 200px;
-    text-align: left !important;
-    padding: 0px !important;
-}
 
 .item-page li {
   font-size: 18px;
@@ -52,24 +47,20 @@ p {
     position: relative;
     z-index: 1;
 }
-.item-page-article h3 {
-    margin-left: 200px;
-    padding-top: 20px;
-    margin-bottom: -15px;
-    padding-left: 0px;
 
-}
 /* Download Templates  */
 .downloads-container {
     margin: 150px;
     }
 .releases {
-    background-color: white;
     margin-bottom: 60px;
     padding: 30px;
     margin-top: 100px;
-    border-radius: 20px;
     box-shadow: 0 38px 50px rgba(34, 83, 139, 0.1);
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: auto;
+    margin-top: 50px;
     }
 
     .releases h4 {
@@ -243,10 +234,6 @@ p {
         margin-left: none;
     }
 
-    .item-page-article {
-        line-height: 1.5;
-        font-size: 16px;
-    }
     .item-page-article p, .item-page-article .item-page-image-template, .item-page-article h2, .item-page-article h3 {
         margin-top: 15px;
         margin-bottom: 15px;
@@ -258,6 +245,7 @@ p {
         padding: 5px;
 
     }
+    .item
 
     .item-page-article p {
         font-size: 15px;
@@ -276,15 +264,21 @@ p {
         width: auto;
     }
     .downloads-container {
-        margin:  10px;
+        margin:  unset;
       }
-    .downloads-container h3 {
-        font-size: 24px;
-      }
+
     .downloads-container p {
         max-width: 327px;
         padding-bottom: 0px;
         font-size: 16px;
+      }
+      .releases {
+            margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
       }
 }
 

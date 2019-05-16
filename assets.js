@@ -3447,35 +3447,6 @@
         }
     },
     {
-        "name":"H2O",
-        "fullName":"H2O Token",
-        "iconName":"H2O.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
-    "status":{
-            "send":{
-                "text":"h20",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"h20",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
         "name":"HGT",
         "fullName":"HelloGold",
         "iconName":"HGT.svg",
@@ -3493,35 +3464,6 @@
             "volume":{
                 "text":"https://atomicwallet.io/buy-bitcoin",
                 "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
-        "name":"HMQ",
-        "fullName":"Humaniq",
-        "iconName":"HMQ.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
-    "status":{
-            "send":{
-                "text":"hmq",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"hmq",
-                "class":"green"
-            },
-            "volume":{
-                "text":"333.5",
-                "class":"green"
             },
             "buylink":{
                 "text":"https://atomicwallet.io/buy-bitcoin",
@@ -4956,35 +4898,6 @@
         }
     },
     {
-        "name":"SHIT",
-        "fullName":"Shitcoin",
-        "iconName":"SHIT.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"shit",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
         "name":"SKIN",
         "fullName":"SkinCoin",
         "iconName":"SKIN.svg",
@@ -5159,64 +5072,6 @@
         }
     },
     {
-        "name":"STORJ",
-        "fullName":"STORJ",
-        "iconName":"STORJ.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"storkj",
-                "class":"green"
-            },
-            "volume":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"green"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
-        "name":"STRC",
-        "fullName":"StarCredits",
-        "iconName":"STRC.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"strc",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
         "name":"STX",
         "fullName":"Stox",
         "iconName":"STX.svg",
@@ -5374,35 +5229,6 @@
             },
             "coinID":{
                 "text":"tfl",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
-        "name":"TBC2",
-        "fullName":"TheBillionCoin2",
-        "iconName":"TBC2.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"tbc2",
                 "class":"green"
             },
             "volume":{
@@ -6043,35 +5869,6 @@
             },
             "coinID":{
                 "text":"gto",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
-        "name":"EKT",
-        "fullName":"EDUCare",
-        "iconName":"EKT.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"ekt",
                 "class":"green"
             },
             "volume":{
