@@ -308,7 +308,9 @@ ul .article-li {
     margin-top: -25px;
 
 }
-
+.item-page img.item-page-image {
+    margin-top: 150px;
+}
 .item-page-download {
     margin-top: 75px;
     margin-bottom: 100px;
@@ -522,6 +524,7 @@ ul .article-li {
         font-weight: bold;
         font-family: "Roboto";
         width: 100%;
+        text-align: center;
       }
       .item-page-article h2 {
         text-align: left;
@@ -534,6 +537,8 @@ ul .article-li {
         margin-top: 35px;
         padding-bottom: 10px;
         margin-bottom: 0px;
+        width: 100%;
+        text-align: center;
      }
      .item-page-article h3 {
         padding-left: 20px;
@@ -543,6 +548,8 @@ ul .article-li {
         padding-top: 0;
         margin-top: 35px;
         padding-bottom: 10px;
+        width: 100%;
+        text-align: center;
     }
       .item-page-article h4 {
         font-size: 22px;
@@ -550,6 +557,8 @@ ul .article-li {
         margin-top: 0px;
         padding: 0px 20px 15px 20px;
         margin-bottom: unset;
+        width: 100%;
+        text-align: center;
       }
       .item-page-article p {
         font-size: 15px;
@@ -564,11 +573,11 @@ ul .article-li {
         margin-right: 0px;
         margin-bottom: 20px;
     }
-    #toc_container {
+        #toc_container {
         width: auto;
         display: flex;
     }
-    .item-page-article li {
+        .item-page-article li {
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -618,7 +627,10 @@ ul .article-li {
     padding-left: 20px;
     margin-top: 0px;
 }
+    .item-page img.item-page-image {
+    margin-top: 40px;
     }
+}
 @media screen and (min-width: 768px) and (max-width: 1000px) {
     .item-page p {
         max-width: 550px;
