@@ -221,6 +221,7 @@ a.link-coins:hover {
 
 .list-table-item {
   line-height: 101px;
+  height: 102px;
 font-size: 19px;
 /*color: #172A3F;*/
 white-space: nowrap;
