@@ -32,11 +32,14 @@
         font-size: 10px;
         padding-left: 20px;
     }
+    .list-table-item:before {
+        content: unset;
+    }
     .list-table-item {
         margin-top: 10px;
         height: 43px;
         display: flex;
-        align-items: baseline;
+        align-items: top;
         line-height: 1.2;
         position: relative;
     }
@@ -49,15 +52,15 @@
         overflow: hidden;
         text-overflow: ellipsis;
         position: absolute;
-        top: 20px;
-        left: 35px;
+        top: 26px;
+        left: 38px;
         font-size: 10px;
     }
     .list-table-abbname {
         position: absolute;
         top: 0;
         left: 35px;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .list-table-caption {
@@ -76,8 +79,27 @@
     }
     .list-table-items-col {
         font-size: 12px;
-        line-height: 35px;
-        margin-bottom: 15px;
+        line-height: 52px;
+        width: 80px;
+    }
+    .list-table-items-col:nth-child(3),
+    .list-table-items-col:nth-child(4) {
+        display: none;
+    }
+     .list-table-th:nth-child(3), .list-table-th:nth-child(4) {
+        display: none;
+    }
+      .wallet-list-item-button:nth-child(2) {
+        display: none;
+    }
+    .wallet-list {
+        font-size: 13px;
+    }
+    .wallet-list-item {
         width: 100px;
     }
+    .wallet-list-item-button a {
+        width: 69px;
+    }
+
 }

@@ -42,6 +42,10 @@ margin-right: 195px;
     margin-top: 10px;
 
 }
+.main-subtitle a {
+    color: rgba(24, 40, 72, 0.5);
+    text-decoration: underline;
+}
 .list-page-button-label {
 
     text-align: center;
@@ -54,12 +58,20 @@ margin-right: 195px;
 
 }
     .list-table-item img {
-
     width: 38px;
     display: inline-block;
     vertical-align: middle;
     margin-right: 12px;
-
+}
+.list-table-item {
+    position: relative;
+    counter-increment: esum;
+}
+.list-table-item:before {
+    content: counter(esum)".";
+    padding-right: 5px;
+    font-size: 18px;
+    color: #172A3F;
 }
 .list-table-row.cfx {
 display: flex;
@@ -120,7 +132,7 @@ border-radius: 4px;
     color: white;
     font-size: 19px;
     width: 100%;
-    font-size: 18px;
+    font-size: 17px;
 } 
 .wallet-list-item-button {
     display: flex;
@@ -186,6 +198,7 @@ a.link-coins:hover {
   float: unset;
   width: unset;
   display: flex;
+  counter-reset: esum;
 }
 .list-table-col:last-child {
   width: unset;
@@ -217,7 +230,7 @@ border-bottom: 1px solid #D1D8E2;
 }
 .list-table-items-col {
     line-height: 101px;
-    font-size: 20px;
+    font-size: 18px;
     color: #172A3F;
     white-space: nowrap;
     overflow: hidden;
@@ -342,7 +355,7 @@ border-bottom: 1px solid #D1D8E2;
     width: 100px;
     height: 117px;
     margin-bottom: unset;
-    margin-right: 2px;
+    /*margin-right: 2px;*/
 
 }
 .list-table-fullname {
@@ -354,9 +367,6 @@ border-bottom: 1px solid #D1D8E2;
 .table-th-caption {
     margin-left: 20px;
     width: 134%;
-}
-.list-table .container {
-    overflow-x: auto;
 }
 
 
