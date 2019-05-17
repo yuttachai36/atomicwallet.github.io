@@ -279,6 +279,9 @@ p {
     border-radius: 0;
     box-shadow: none;
       }
+    .downloads-container h3 {
+        font-size: 33px;
+    }
 }
 
 @media screen and (min-width: 1001px) and (max-width: 1439px) {

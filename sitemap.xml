@@ -414,11 +414,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://atomicwallet.io/awc-token-swap</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://atomicwallet.io/awc-binance-dex-listing</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
