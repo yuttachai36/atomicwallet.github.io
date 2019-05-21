@@ -58,6 +58,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://atomicwallet.io/tether-wallet</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://atomicwallet.io/neo</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
@@ -420,6 +425,12 @@
 </url>
 <url>
   <loc>https://atomicwallet.io/binance-dex-awc-token-swap-guide</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <url>
+  <loc>https://atomicwallet.io/how-to-store-private-keys-and-mnemonic-seed</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
