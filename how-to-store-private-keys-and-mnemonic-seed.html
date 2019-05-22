@@ -1,0 +1,390 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@atomicwallet">
+    <meta name="twitter:creator" content="@atomicwallet">
+    <meta name="twitter:title" content="How to store private keys and mnemonic seed | Atomic Wallet ">
+    <meta name="twitter:description" content="Do you know how to protect you private keys? Check this article and learn how to safely store the seed phrase and private keys.">
+    <meta name="twitter:image" content="https://atomicwallet.io/css/images/articles/how-to-store-seed-phrase.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Do you know how to protect you private keys? Check this article and learn how to safely store the seed phrase and private keys."/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>How to store private keys and mnemonic seed | Atomic Wallet </title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-test-blog.css">
+    <link rel="stylesheet" href="test/css/item-page.css">
+
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KBC3CH8');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114023091-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-114023091-1');
+    </script>-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Start of Async Prefinery Code -->
+    <script type="text/javascript">var _pfy = _pfy || [];(function(){function pfy_load(){var pfys=document.createElement('script');pfys.type='text/javascript';pfys.async=true;pfys.src='https://widget.prefinery.com/widget/v2/1w40x3e4.js';var pfy=document.getElementsByTagName('script')[0];pfy.parentNode.insertBefore(pfys,pfy);}if (window.attachEvent){window.attachEvent('onload',pfy_load);}else{window.addEventListener('load',pfy_load,false);}})();</script>
+    <!-- End of Async Prefinery Code -->
+
+</head>
+<body>
+
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBC3CH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<!-- menu -->
+
+<div class="header-menu-mobile header-menu-close f-light only-mobile" id="menu-mobile">
+    <div class="container relative">
+        <a href="/">Wallet</a>
+        <a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin</a>
+        <a href="/assets">Assets</a>
+        <a href="/downloads" class="hvr-grow">Download</a>
+        <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+        <a href="/token">Token</a>
+        <button class="header-menu-mobile-close" id="menu-button-close"></button>
+    </div>
+</div>
+
+<div class="header-container">
+  <div class="container relative">
+      <img src="css/images/bg-first-screen.svg" alt class="bg bg-main">
+      <header class="header">
+          <a href="https://atomicwallet.io" class="header-logo">
+              <img src="css/images/logo.svg" alt="Atomic">
+          </a>
+          <nav class="header-menu f-light">
+              <a href="/" class="hvr-grow">Wallet</a>
+              <a href="https://atomicwallet.io/buy-bitcoin" class="hvr-grow">Buy Bitcoin</a>
+              <a href="assets" class="hvr-grow">Assets</a>
+              <a href="/downloads" class="hvr-grow">Download</a>
+              <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+              <a href="token" class="hvr-grow">Token</a>
+          </nav>
+          <nav class="header-menu-icons  f-light">
+
+              <a href="https://twitter.com/atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_twitter.svg">
+              </a>
+              <a href="https://t.me/atomicwalletchat" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_telegram.svg">
+              </a>
+              <a href="https://medium.com/atomic-wallet" target="_blank" class="hvr-float" rel="nofollow">
+                      <img src="css/images/top_medium.svg">
+                  </a>
+              <a href="https://www.facebook.com/atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                      <img src="css/images/top_facebook.svg">
+                  </a>
+              <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_reddit.svg">
+              </a>
+             <a href="https://steemit.com/@atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                <img src="css/images/top_steemit.svg">
+            </a>
+
+          </nav>
+          <button class="header-button only-mobile" id="menu-button-open"></button>
+      </header>
+  </div>
+</div>
+
+
+<div class="item-page-container">
+
+    <div class="item-page">
+
+        <div class="item-page-article">
+
+          <h1 style="margin-bottom: 10px;">How to store private keys and mnemonic seed</h1>
+
+            <div class="item-page-image-template">
+
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/how-to-store-seed-phrase.png" alt="How to store seed phrase?">
+                </div>
+              </div>
+                <p>Entering the world of crypto might seem complicated and twisted at first, but as soon as you understand the basics, there is nothing to be afraid of. In this article, we will present you with the most important things you need to know about protecting your wallet through the safe storage of the most private information every crypto enthusiast has: the <a href="https://atomicwallet.io/what-are-private-keys-and-how-they-work">seed phrase and private keys</a>.</p>
+                <h3>What are private keys</h3>
+                <p><b>A private key is a secret number that allows crypto to be spent.</b></p>
+                <p><b>Because the private key is the "ticket" that allows someone to spend coins, it is important that these are kept secure.</b></p>
+                <p>You’ll get to have your own private keys as soon as you create a cryptocurrency wallet. In addition to the wallet address (which is supposed to be disclosed to the public, but we’ll talk about that later), you’ll also get a <b>combination of letters and numbers</b> which is the private key itself. It plays the same role for your crypto wallet as the PIN does for your bank account, when you want to withdraw money from an ATM.</p>
+                 <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/what-is-private-key.png" alt="What is a private key?">
+                </div>
+              </div>
+                <p>However, private keys are much longer and complex than any PIN to a debit/credit card for <b>ensuring security</b>. In a bank, you’ll actually need the card itself to proceed to the cashout, while an electronic <b>wallet can be accessed from any digital device</b>. For this reason, private keys are supposed to be as complex as possible to provide your funds with the highest level of security. </p>
+                <p>Here is an <b>example</b> of BTC private keys : 1EHNa6Q4Jz2uvNExL497mE43ikXhwF6kZm.</p>
+                <p>Anyone who knows this combination will be able to access your wallet and make transactions. Don’t use the above example as private keys to your wallet, since it has already been shared with public.</p>
+                <p>Thus, <b>private keys serve as a signature for the wallet</b>, and to receive and send coins, you’ll also be provided with public address containing the <b>history of transactions</b> and accessible for anyone. As long as you keep your private keys <b>in secret</b>, nobody will be able to take control over your funds.</p>
+                <h3>What is a mnemonic seed phrase, and why it is important</h3>
+                <p>When creating a new wallet in Atomic, you will be given a 12 words <b>mnemonic seed</b>. <br>
+                For example: “round blade service action buzz unlock ladder knee promote proud dutch object”.</p>
+                <p>it contains exactly twelve characters, and the word order is crucial in this case. Every word is tied to a number, so the phrase can be turned into a sequence of numbers which in turn <b>generate private keys</b> for the wallet. </p>
+                 <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/seed-phrase-and-private-keys.png" alt="Seed phrase and private keys">
+                </div>
+              </div>
+                <p>In Atomic wallet, mnemonic seed is generated automatically: all 12 words of the seed are taken out from a <b>2048-word database</b> which provides you with 2048^12=5e39 possible seed phrases and is unimaginable to hack. </p>
+                <h3>Why do you need mnemonic phrase</h3>
+                <p>Mnemonic seed (or seed phrase) is necessary to <b>access your wallet</b> and the data stored from a <b>new device</b> or in case the <b>first</b> gadget you used has been <b>lost, or if you forgot your password to the previous wallet</b>. Basically, you type your mnemonic seed on a new device and are able to <b>recover the old wallet</b>. One seed is able to recover all your addresses which is very convenient. However, it is both a <b>useful backup</b> to your storage and a <b>potential risk</b> of giving a full access to your assets if anybody gets ahold of your seed. For this very reason, it is important to be extra careful of where and how you store the recovery seed, because it is the only back-up for your non-custodial wallet!</p>
+                <h3>Mnemonic seed and private keys</h3>
+                <p>To understand the <b>connection between mnemonic seed and private keys</b>, let’s refer to a metaphor of a tree. In this case, the seed is similar to the <b>tree roots</b>: it shouldn’t be visible to anyone, and it serves as the <b>basis</b> for all further information about your wallet. The seed phrase is able to generate private keys for every address you have, so you’ll be able to <b>back up all your accounts with one seed.</b></p>
+                <h3>How to store mnemonic seed and private keys</h3>
+                 <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/how-to-store-mnemonic-seed-and-private-keys.png" alt="How to store mnemonic seed and private keys">
+                </div>
+              </div>
+                <h3 style="color: green;">Good Practice</h3>
+                <p><b>Store private keys and seed offline</b> to avoid the risk of hacking, information leakage or equipment fault. Stay aware of any devices around you that might be recording your actions, like a microphone or a camera. </p>
+                <p><b>Write down the seed</b> phrase with all the words in the <b>right order and spelled properly</b>. It goes without saying that you shouldn’t rely on your memory as there is only one chance to write it down. </p>
+                <p><b>Use a paper wallet</b>, it is a piece of paper on which you print information on your account such as its public and private keys. Some people prefer to laminate their paper wallet to make it waterproof. However, remember to store your paper wallet in a safe place where other people wouldn’t find it, for example, in a vault. </p>
+                <p><b>Use hardware wallets</b> (similar to a flash drive) designed specifically to keep private keys secure. Such wallets generate for you public and private keys. </p>
+                <p>If you don’t have any hard wallet at the moment of registration of your account, it is also possible to store private keys in a flash drive itself, but this option is safe as long as the drive stays in your hands. Cases are known in which <b>a flash drive</b> was eaten by a dog or hidden somewhere by a child. Also, you can use a specific flash drive encrypting the data to enhance the level of security. </p>
+                <h3>Good practices: how to store your seed phrase</h3>
+                <div class="item-page-image-template">
+                    <div class="item-page-blog-image">
+                        <img src="css/images/articles/how-to-store-seed-phrase-1.png" alt="How to store seed phrase" class="">
+                    </div>
+                </div>
+                <p>After saving the seed offline, you need to think of how to protect it. There might be many potential threats to a piece of paper, like water, fire or even sunlight, let alone the odds of throwing it away by mistake. For this reason, many users prefer to <b>laminate</b> their recovery seed to minimize the environmental influence. However, you have to make the lamination yourself which implies purchasing specific tools, but normally, they are quite cheap, and the process doesn’t take up a lot of time. As to where to keep it, you might like the idea of a vault or a safety deposit box in a bank. </p>
+                <p>When the phrase is physically protected from potential threats, there are still some rules as to how to <b>avoid information leakage</b>. In today’s digitalization and Internet of Everything, you should always stay aware of the risk of being recorded at the moment when you type or write down the phrase, so make sure there are <b>no cameras or keyloggers</b>: don’t expose your seed or key in any public place and enhance the device security by using only reliable browsers, updating the software and changing passwords every now and then.</p>
+                <ul>
+                  <li>It is unlikely that you’ll read your seed phrase out loud, but in case you are going to do that, stay aware of the possible microphone presence in the same room with you. </li>
+                  <li>Besides, you can make a backup to your backup and rewrite the seed a couple of times, so even if you lose one paper, there will still be another. However, it is going without saying that all the seeds must be duly protected and stored in different places. </li>
+                  <li>Finally, you can enhance the security of your wallet by means of a passphrase which is an additional code consisting of 25 words. In this case, even if somebody gets ahold of your recovery seed, they won’t be able to access the wallet without specifying the additional code phrase. This option is now available in many wallets, so make sure you provide the highest level of security for your funds. </li>
+                </ul>
+              
+              <h3 style="color: red;">Not Recommended</h3>
+              <div class="item-page-image-template">
+                    <div class="item-page-blog-image">
+                        <img src="css/images/articles/not-recommended.png" alt="Not Recommended" class="">
+                    </div>
+              </div>
+              <ul>
+              <li><span style="color: red">Store, share photos or screenshot of your keys</span>. Protect yourself against potential hacking in future! </li>
+              <li>It is very important to not store your private keys online, whether in your mailbox, messengers or in a cloud storage to avoid hacking which is widely spread in today’s world of digitalization. </li>
+              </ul>
+              <h3>Wrapping it all up</h3>
+              <p>The security of your private keys and mnemonic seed is crucial for the safety of your funds. While private keys are a signature to your wallet allowing to spend the coins, mnemonic seed helps to recover the old wallet or access it from a new device. To enhance their security, it is recommended to keep the keys and the seed offline, in a hardware or paper wallet, protect the storage device from any environmental influence, and not to take pictures or screenshots of the code to avoid possible hacking. Now that you know how to store your wallet’s keys and seed, isn’t it time to buy some crypto now?</p>
+
+
+
+
+            
+            <div class="item-page-download">
+                  <div class="item-page-download-title" id="download">Download Atomic Wallet</div>
+                <!-- Subscribe Pop-up-->
+                <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+                <script>window.$kol_jquery = window.jQuery</script>
+                <script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
+                <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/220933.js'></script>
+  <!-- Subscribe Pop-up mobile download-->
+    <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+<script>window.$kol_jquery = window.jQuery</script>
+<script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
+<script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/223800.js'></script>
+<!-- End of mobile download Pop-up-->
+
+                <div class="download">
+                    <div class="download-item download-item-windows hvr-grow" data-download="windows">
+                        <a href="https://atomicwallet.io/download/atomicwallet.exe" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-windows.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-windows-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Windows</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-apple hvr-grow" data-download="apple">
+                        <a href="https://atomicwallet.io/download/atomicwallet.dmg" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-apple.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-apple-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">macOS</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-ubuntu hvr-grow" data-download="ubuntu">
+                        <a href="https://atomicwallet.io/download/atomicwallet.AppImage" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-ubuntu.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-ubuntu-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Ubuntu</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-debian hvr-grow" data-download="debian">
+                        <a href="https://atomicwallet.io/download/atomicwallet.deb" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-debian.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-debian-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                     <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Debian</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-fedora hvr-grow" data-download="fedora">
+                        <a href="https://atomicwallet.io/download/atomicwallet.rpm" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-fedora.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-fedora-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                     <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Fedora</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Download</a>
+                </span>
+                    </div>
+                </div>
+        <div class="only-mobile">
+        <span class="download-text f-light only-mobile"> Manage your Bitcoin, Ethereum, XRP, Litecoin, XLM and over 300 other coins and tokens.</span></div>
+       <div class="mobile-download-button">
+            <div class="download-item-app hvr-grow" data-download="android">
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet&referrer=utm_source%3Dwebsite" target="_blank" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'android'="" });=""><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
+            <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img"></a>
+        </div>
+    <div class="download-item-app hvr-grow" data-download="iOS">
+            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
+        </div>
+
+
+        </div>
+ <!--                  <div class="button-suggest">
+                <div class="button-left">
+                <a href="https://atomicwallet.io/tron" class= "suggest-articles-button">
+                  <img src="css/images/articles/icons/arrow-left.svg" alt="">
+                 Read about TRON</a>
+                </div>
+                <div class="button-right">
+                <a href="https://atomicwallet.io/ripple" class= "suggest-articles-button">
+                  Read about Ripple <img src="css/images/articles/icons/arrow-right.svg" alt=""></a>
+                </div>
+                  </div> -->
+            </div>
+
+    </div>
+</div>
+
+<footer class="footer-new">
+    <div class="container relative">
+        <div class="footer-row">
+            <div class="footer-new-left">
+                <a href="/"><img src="css/images/logo.png" alt="" class="footer-new-logo"></a><br>
+                <a href="mailto:support@atomicwallet.io" class="footer-new-email f-light">support@atomicwallet.io</a><br>
+                <div class="footer-new-soc">
+                    <a href="https://twitter.com/atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_twitter.svg">
+                    </a>
+                    <a href="https://t.me/atomicwalletchat" target="_blank" rel="nofollow">
+                        <img src="css/images/top_telegram.svg">
+                    </a>
+                    <a href="https://github.com/Atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_github.svg">
+                    </a>
+                    <a href="https://medium.com/atomic-wallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_medium.svg">
+                    </a>
+                    <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" rel="nofollow">
+                        <img src="css/images/top_reddit.svg">
+                    </a>
+                    <a href="https://www.facebook.com/atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_facebook.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-new-right">
+                <div class="footer-new-cols">
+
+                                                          <div class="footer-new-col">
+                        <div class="footer-new-col-title">Atomic Wallet</div>
+                        <ul class="f-light">
+                          <li><a href="https://support.atomicwallet.io/">Support</a></li>
+                           <li><a href="https://t.me/atomicwalletchat">Telegram chat</a></li>
+                            <li><a href="https://atomicwallet.io/terms-of-service">Terms of service</a></li>
+                            <li><a href="https://atomicwallet.io/privacy">Privacy policy</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1zbu1nKCBq2zNCnEtjWsw3oMJei6aFSuZ">Press Kit</a></li>
+                            <li><a href="https://atomicwallet.io/blog">Blog</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+                                        <div class="footer-new-col">
+                        <div class="footer-new-col-title">Buy Cryptoсurrency</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin (BTC)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-litecoin">Buy Litecoin (LTC)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-ethereum">Buy Ethereum (ETH)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-ripple">Buy Ripple (XRP)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-bitcoin-cash">Buy Bitcoin Cash (BCH)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-dogecoin">Buy Dogecoin (DOGE)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-neo">Buy NEO (NEO)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-tron">Buy Tron (TRX)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-stellar">Buy Stellar (XLM)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-zcash">Buy Zcash (ZEC)</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-new-col">
+                        <div class="footer-new-col-title">Assets</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/bitcoin-wallet">Bitcoin (BTC)</a></li>
+                            <li><a href="https://atomicwallet.io/ethereum-wallet">Ethereum (ETH)</a></li>
+                            <li><a href="https://atomicwallet.io/ripple-wallet">Ripple (XRP)</a></li>
+                            <li><a href="https://atomicwallet.io/litecoin-wallet">Litecoin (LTC)</a></li>
+                            <li><a href="https://atomicwallet.io/eos-wallet">EOS</a></li>
+                            <li><a href="https://atomicwallet.io/neo-wallet">NEO</a></li>
+                            <li><a href="https://atomicwallet.io/tron-wallet">TRON (TRX)</a></li>
+                            <li><a href="https://atomicwallet.io/dogecoin-wallet">Dogecoin (DOGE)</a></li>
+                            <li><a href="https://atomicwallet.io/cardano-wallet">Cardano (ADA)</a></li>
+                            <li><a href="https://atomicwallet.io/dash-wallet">DASH</a></li>
+                            <li><a href="https://atomicwallet.io/stellar-wallet">Stellar (XLM)</a></li>
+                            <li><a href="https://atomicwallet.io/zcash-wallet">Zcash (ZEC)</a></li>
+                        </ul>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.touchSwipe.js"></script>
+<script src="js/app.js"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c8415a69e34d1d4"></script>
+</body>
+</html>
