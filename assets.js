@@ -4,7 +4,7 @@
         "fullName":"Bitcoin",
         "iconName":"BTC.svg",
         "coinPriceLink":"https://atomicwallet.io/bitcoin-price",
-        "coinLink":"https://atomicwallet.io/bitcoin", 
+        "coinLink":"https://atomicwallet.io/bitcoin-wallet", 
     "status":{
             "send":{
                 "text":"btc-cap",
@@ -33,7 +33,7 @@
         "fullName":"Ripple",
         "iconName":"XRP.svg",
         "coinPriceLink":"https://atomicwallet.io/ripple-price",
-        "coinLink":"https://atomicwallet.io/ripple",
+        "coinLink":"https://atomicwallet.io/ripple-wallet",
     "status":{
             "send":{
                 "text":"xrp-cap",
@@ -62,7 +62,7 @@
         "fullName":"Ethereum",
         "iconName":"ETH.svg",
         "coinPriceLink":"https://atomicwallet.io/ethereum-price",
-        "coinLink":"https://atomicwallet.io/ethereum",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"eth",
@@ -91,7 +91,7 @@
         "fullName":"Bitcoin Cash",
         "iconName":"BCH.svg",
         "coinPriceLink":"https://atomicwallet.io/bitcoin-cash-price",
-        "coinLink":"https://atomicwallet.io/bitcoin-cash",
+        "coinLink":"https://atomicwallet.io/bitcoin-cash-wallet",
     "status":{
             "send":{
                 "text":"bch",
@@ -120,7 +120,7 @@
         "fullName":"Stellar",
         "iconName":"XLM.svg",
         "coinPriceLink":"https://atomicwallet.io/stellar-price",
-        "coinLink":"https://atomicwallet.io/stellar",
+        "coinLink":"https://atomicwallet.io/stellar-wallet",
     "walletlink":"https://atomicwallet.io/stellar-wallet",
     "buylink":"",
     "status":{
@@ -151,7 +151,7 @@
         "fullName":"EOS",
         "iconName":"EOS.svg",
         "coinPriceLink":"https://atomicwallet.io/eos-price",
-        "coinLink":"https://atomicwallet.io/eos",
+        "coinLink":"https://atomicwallet.io/eos-wallet",
     "buylink":"",
     "status":{
             "send":{
@@ -181,7 +181,7 @@
         "fullName":"Litecoin",
         "iconName":"LTC.svg",
         "coinPriceLink":"https://atomicwallet.io/litecoin-price",
-        "coinLink":"https://atomicwallet.io/litecoin",
+        "coinLink":"https://atomicwallet.io/litecoin-wallet",
     "status":{
             "send":{
                 "text":"ltc",
@@ -210,7 +210,7 @@
         "fullName":"Tether USD (ERC-20)",
         "iconName":"USDT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"usdt",
@@ -229,7 +229,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -239,7 +239,7 @@
         "fullName":"Cardano",
         "iconName":"ADA.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/cardano",
+        "coinLink":"https://atomicwallet.io/cardano-wallet",
     "walletlink":"https://atomicwallet.io/cardano-wallet",
     "buylink":"https://atomicwallet.io/buy-bitcoin",
     "status":{
@@ -270,7 +270,7 @@
         "fullName":"Monero",
         "iconName":"XMR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/monero",
+        "coinLink":"https://atomicwallet.io/monero-wallet",
     "walletlink":"https://atomicwallet.io/monero-wallet",
     "buylink":"https://atomicwallet.io/buy-bitcoin",
     "status":{
@@ -301,7 +301,7 @@
         "fullName":"Bitcoin SV",
         "iconName":"BCHSV.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/bitcoin-sv",
+        "coinLink":"https://atomicwallet.io/bitcoin-sv-wallet",
     "walletlink":"https://atomicwallet.io/bitcoin-sv-wallet",
     "buylink":"https://atomicwallet.io/buy-bitcoin",
     "status":{
@@ -333,7 +333,7 @@
         "fullName":"Tron",
         "iconName":"TRX.svg",
         "coinPriceLink":"https://atomicwallet.io/tron-price",
-        "coinLink":"https://atomicwallet.io/tron",
+        "coinLink":"https://atomicwallet.io/tron-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -358,40 +358,11 @@
         }
     },
     {
-        "name":"IOTA",
-        "fullName":"IOTA",
-        "iconName":"IOTA.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
-    "status":{
-            "send":{
-                "text":"iota",
-                "class":"normal"
-            },
-            "coinID":{
-                "text":"iota",
-                "class":"normal"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
         "name":"DASH",
         "fullName":"DASH",
         "iconName":"DASH.svg",
         "coinPriceLink":"https://atomicwallet.io/dash-price",
-        "coinLink":"https://atomicwallet.io/dash",
+        "coinLink":"https://atomicwallet.io/dash-wallet",
     "status":{
             "send":{
                 "text":"dash",
@@ -420,7 +391,7 @@
         "fullName":"Binance Coin",
         "iconName":"BNB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/binance-coin",
+        "coinLink":"https://atomicwallet.io/binance-coin-wallet",
     "status":{
             "send":{
                 "text":"bnb",
@@ -449,7 +420,7 @@
        "fullName":"Etherium Classic",
        "iconName":"ETC.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-classic",
+        "coinLink":"https://atomicwallet.io/ethereum-classic-wallet",
     "walletlink":"https://atomicwallet.io/ethereum-classic-wallet",
     "buylink":"https://atomicwallet.io/buy-bitcoin",
     "status":{
@@ -480,7 +451,7 @@
        "fullName":"NEO",
        "iconName":"NEO.svg",
        "coinPriceLink":"https://atomicwallet.io/neo-price",
-        "coinLink":"https://atomicwallet.io/neo",
+        "coinLink":"https://atomicwallet.io/neo-wallet",
     "status":{
            "send":{
                "text":"neo",
@@ -538,7 +509,7 @@
        "fullName":"Tezos",
        "iconName":"XTZ.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/tezos",
+        "coinLink":"https://atomicwallet.io/tezos-wallet",
     "status":{
            "send":{
                "text":"xtz",
@@ -567,7 +538,7 @@
        "fullName":"ZCash",
        "iconName":"ZEC.svg",
        "coinPriceLink":"https://atomicwallet.io/zcash-price",
-        "coinLink":"https://atomicwallet.io/zcash",
+        "coinLink":"https://atomicwallet.io/zcash-wallet",
     "status":{
            "send":{
                "text":"zec",
@@ -654,7 +625,7 @@
        "fullName":"Bitcoin Gold",
        "iconName":"BTG.svg",
        "coinPriceLink":"https://atomicwallet.io/bitcoin-gold-price",
-        "coinLink":"https://atomicwallet.io/bitcoin-gold",
+        "coinLink":"https://atomicwallet.io/bitcoin-gold-wallet",
     "status":{
            "send":{
                "text":"btg",
@@ -683,7 +654,7 @@
        "fullName":"VeChain",
        "iconName":"VET.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/vechain",
+        "coinLink":"https://atomicwallet.io/vechain-wallet",
     "status":{
            "send":{
                "text":"vet",
@@ -733,7 +704,7 @@
                "class":"normal"
            },
            "walletlink":{
-               "text":"https://atomicwallet.io/",
+               "text":"https://atomicwallet.io/lisk-wallet",
                "class":"wallet-list"
            }
        }
@@ -743,7 +714,7 @@
        "fullName":"Maker",
        "iconName":"MKR.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
            "send":{
                "text":"mkr",
@@ -762,7 +733,7 @@
                "class":"green"
            },
            "walletlink":{
-               "text":"https://atomicwallet.io/",
+               "text":"https://atomicwallet.io/ethereum-wallet",
                "class":"wallet-list"
            }
        }
@@ -772,7 +743,7 @@
        "fullName":"OmiseGO",
        "iconName":"OMG.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
            "send":{
                "text":"omg",
@@ -791,7 +762,7 @@
                "class":"green"
            },
            "walletlink":{
-               "text":"https://atomicwallet.io/",
+               "text":"https://atomicwallet.io/ethereum-wallet",
                "class":"wallet-list"
            }
        }
@@ -801,7 +772,7 @@
         "fullName":"MobileGo",
         "iconName":"MGO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"mgo",
@@ -820,7 +791,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -830,7 +801,7 @@
        "fullName":"Dogecoin",
        "iconName":"DOGE.svg",
        "coinPriceLink":"https://atomicwallet.io/dogecoin-price",
-        "coinLink":"https://atomicwallet.io/dogecoin",
+        "coinLink":"https://atomicwallet.io/dogecoin-wallet",
     "status":{
            "send":{
                "text":"doge",
@@ -859,7 +830,7 @@
        "fullName":"0x",
        "iconName":"ZRX.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
            "send":{
                "text":"zrx",
@@ -878,7 +849,7 @@
                "class":"green"
            },
            "walletlink":{
-               "text":"https://atomicwallet.io/",
+               "text":"https://atomicwallet.io/ethereum-wallet",
                "class":"wallet-list"
            }
        }
@@ -888,7 +859,7 @@
        "fullName":"Decred",
        "iconName":"DCR.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/decred",
+        "coinLink":"https://atomicwallet.io/decred-wallet",
     "status":{
            "send":{
                "text":"dcr",
@@ -917,7 +888,7 @@
        "fullName":"QTUM",
        "iconName":"QTUM.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/qtum",
+        "coinLink":"https://atomicwallet.io/qtum-wallet",
     "status":{
            "send":{
                "text":"qtum",
@@ -946,7 +917,7 @@
        "fullName":"Aeternity",
        "iconName":"AE.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
            "send":{
                "text":"ae",
@@ -965,7 +936,7 @@
                "class":"normal"
            },
            "walletlink":{
-               "text":"https://atomicwallet.io/",
+               "text":"https://atomicwallet.io/ethereum-wallet",
                "class":"wallet-list"
            }
        }
@@ -975,7 +946,7 @@
        "fullName":"Zilliqa",
        "iconName":"ZIL.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/zilliqa-wallet",
     "status":{
            "send":{
                "text":"zil",
@@ -994,7 +965,7 @@
                "class":"normal"
            },
            "walletlink":{
-               "text":"https://atomicwallet.io/",
+               "text":"https://atomicwallet.io/zilliqa-wallet",
                "class":"wallet-list"
            }
        }
@@ -1004,7 +975,7 @@
        "fullName":"Bitcoin Diamond",
        "iconName":"BCD.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/bitcoin-diamond",
+        "coinLink":"https://atomicwallet.io/bitcoin-diamond-wallet",
     "status":{
            "send":{
                "text":"bcd",
@@ -1033,7 +1004,7 @@
         "fullName":"DigiByte",
         "iconName":"DGB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/digibyte",
+        "coinLink":"https://atomicwallet.io/digibyte-wallet",
     "status":{
             "send":{
                 "text":"dgb",
@@ -1062,7 +1033,7 @@
        "fullName":"Pundi X",
        "iconName":"NPXS.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
            "send":{
                "text":"npxs",
@@ -1081,7 +1052,7 @@
                "class":"normal"
            },
            "walletlink":{
-               "text":"https://atomicwallet.io/",
+               "text":"https://atomicwallet.io/ethereum-wallet",
                "class":"wallet-list"
            }
        }
@@ -1091,7 +1062,7 @@
        "fullName":"PumaPay",
        "iconName":"PMA.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
            "send":{
                "text":"pma",
@@ -1110,7 +1081,7 @@
                "class":"normal"
            },
            "walletlink":{
-               "text":"https://atomicwallet.io/",
+               "text":"https://atomicwallet.io/ethereum-wallet",
                "class":"wallet-list"
            }
        }
@@ -1120,7 +1091,7 @@
        "fullName":"Mithril",
        "iconName":"MITH.svg",
        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
            "send":{
                "text":"mith",
@@ -1139,7 +1110,7 @@
                "class":"normal"
            },
            "walletlink":{
-               "text":"https://atomicwallet.io/",
+               "text":"https://atomicwallet.io/ethereum-wallet",
                "class":"wallet-list"
            }
        }
@@ -1149,7 +1120,7 @@
       "fullName":"True USD",
       "iconName":"TUSD.svg",
       "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
           "send":{
               "text":"tusd",
@@ -1164,11 +1135,11 @@
               "class":"green"
           },
           "buylink":{
-              "text":"333.5",
+              "text":"https://atomicwallet.io/buy-ethereum",
               "class":"green"
           },
           "walletlink":{
-              "text":"https://atomicwallet.io/buy-bitcoin",
+              "text":"https://atomicwallet.io/ethereum-wallet",
               "class":"normal"
           }
       }
@@ -1178,7 +1149,7 @@
       "fullName":"Gemini Dollar",
       "iconName":"GUSD.svg",
       "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
           "send":{
               "text":"gusd",
@@ -1193,11 +1164,11 @@
               "class":"green"
           },
           "buylink":{
-              "text":"333.5",
+              "text":"https://atomicwallet.io/buy-ethereum",
               "class":"green"
           },
           "walletlink":{
-              "text":"https://atomicwallet.io/buy-bitcoin",
+              "text":"https://atomicwallet.io/ethereum-wallet",
               "class":"normal"
           }
       }
@@ -1226,7 +1197,7 @@
           "class":"normal"
       },
       "walletlink":{
-          "text":"https://atomicwallet.io/",
+          "text":"https://atomicwallet.io/ethereum-wallet",
           "class":"normal"
       }
   }
@@ -1236,7 +1207,7 @@
           "fullName":"USD Coin",
           "iconName":"USDC.svg",
           "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
               "send":{
                   "text":"usdc",
@@ -1255,7 +1226,7 @@
                   "class":"normal"
               },
               "walletlink":{
-                  "text":"https://atomicwallet.io/",
+                  "text":"https://atomicwallet.io/ethereum-wallet",
                   "class":"normal"
         }
     }
@@ -1265,7 +1236,7 @@
           "fullName":"Populous",
           "iconName":"PPT.svg",
           "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
               "send":{
                   "text":"ppt",
@@ -1284,7 +1255,7 @@
                   "class":"green"
               },
               "walletlink":{
-                  "text":"https://atomicwallet.io/",
+                  "text":"https://atomicwallet.io/ethereum-wallet",
                   "class":"normal"
         }
     }
@@ -1294,7 +1265,7 @@
           "fullName":"Paxos Standard Token",
           "iconName":"PAX.svg",
           "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
               "send":{
                   "text":"pax",
@@ -1313,7 +1284,7 @@
                   "class":"normal"
               },
               "walletlink":{
-                  "text":"https://atomicwallet.io/",
+                  "text":"https://atomicwallet.io/ethereum-wallet",
                   "class":"normal"
         }
     }
@@ -1323,7 +1294,7 @@
     "fullName":"Augur",
     "iconName":"REP.svg",
     "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
         "send":{
             "text":"rep",
@@ -1342,7 +1313,7 @@
             "class":"green"
         },
         "walletlink":{
-            "text":"https://atomicwallet.io/",
+            "text":"https://atomicwallet.io/ethereum-wallet",
             "class":"normal"
         }
     }
@@ -1352,7 +1323,7 @@
     "fullName":"Golem",
     "iconName":"GNT.svg",
     "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
         "send":{
             "text":"gnt",
@@ -1371,7 +1342,7 @@
             "class":"green"
         },
         "walletlink":{
-            "text":"https://atomicwallet.io/",
+            "text":"https://atomicwallet.io/ethereum-wallet",
             "class":"normal"
         }
     }
@@ -1381,7 +1352,7 @@
     "fullName":"Holo",
     "iconName":"HOT.svg",
     "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
         "send":{
             "text":"hot",
@@ -1400,7 +1371,7 @@
             "class":"normal"
         },
         "walletlink":{
-            "text":"https://atomicwallet.io/",
+            "text":"https://atomicwallet.io/ethereum-wallet",
             "class":"normal"
         }
     }
@@ -1410,7 +1381,7 @@
     "fullName":"IOSToken",
     "iconName":"IOST.svg",
     "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
         "send":{
             "text":"iost",
@@ -1429,7 +1400,7 @@
             "class":"normal"
         },
         "walletlink":{
-            "text":"https://atomicwallet.io/",
+            "text":"https://atomicwallet.io/ethereum-wallet",
             "class":"normal"
         }
     }
@@ -1439,7 +1410,7 @@
     "fullName":"WAX Token",
     "iconName":"WAX.svg",
     "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
         "send":{
             "text":"wax",
@@ -1458,7 +1429,7 @@
             "class":"normal"
         },
         "walletlink":{
-            "text":"https://atomicwallet.io/",
+            "text":"https://atomicwallet.io/ethereum-wallet",
             "class":"normal"
         }
     }
@@ -1468,7 +1439,7 @@
     "fullName":"Bezant",
     "iconName":"BZNT.svg",
     "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
         "send":{
             "text":"bznt",
@@ -1487,7 +1458,7 @@
             "class":"normal"
         },
         "walletlink":{
-            "text":"https://atomicwallet.io/",
+            "text":"https://atomicwallet.io/ethereum-wallet",
             "class":"normal"
         }
     }
@@ -1497,7 +1468,7 @@
     "fullName":"Digitex Futures",
     "iconName":"DGTX.svg",
     "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
         "send":{
             "text":"dgtx",
@@ -1516,7 +1487,7 @@
             "class":"normal"
         },
         "walletlink":{
-            "text":"https://atomicwallet.io/",
+            "text":"https://atomicwallet.io/ethereum-wallet",
             "class":"normal"
         }
     }
@@ -1526,7 +1497,7 @@
     "fullName":"Decentraland",
     "iconName":"MANA.svg",
     "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
         "send":{
             "text":"mana",
@@ -1545,7 +1516,7 @@
             "class":"normal"
         },
         "walletlink":{
-            "text":"https://atomicwallet.io/",
+            "text":"https://atomicwallet.io/ethereum-wallet",
             "class":"normal"
         }
     }
@@ -1555,7 +1526,7 @@
     "fullName":"Waltonchain",
     "iconName":"WTC.svg",
     "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
         "send":{
             "text":"wtc",
@@ -1574,7 +1545,7 @@
             "class":"normal"
         },
         "walletlink":{
-            "text":"https://atomicwallet.io/",
+            "text":"https://atomicwallet.io/ethereum-wallet",
             "class":"normal"
         }
     }
@@ -1584,7 +1555,7 @@
     "fullName":"Nexo",
     "iconName":"NEXO.svg",
     "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
         "send":{
             "text":"nexo",
@@ -1603,7 +1574,7 @@
             "class":"green"
         },
         "walletlink":{
-            "text":"https://atomicwallet.io/",
+            "text":"https://atomicwallet.io/ethereum-wallet",
             "class":"normal"
         }
     }
@@ -1613,7 +1584,7 @@
     "fullName":"Bancor",
     "iconName":"BNT.svg",
     "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
         "send":{
             "text":"bnt",
@@ -1632,7 +1603,7 @@
             "class":"green"
         },
         "walletlink":{
-            "text":"https://atomicwallet.io/",
+            "text":"https://atomicwallet.io/ethereum-wallet",
             "class":"normal"
         }
     }
@@ -1642,7 +1613,7 @@
         "fullName":"TokenPay",
         "iconName":"TPAY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"tpay",
@@ -1661,7 +1632,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -1671,7 +1642,7 @@
             "fullName":"BitTorrent",
             "iconName":"BTT.svg",
             "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
                 "send":{
                     "text":"btt",
@@ -1700,7 +1671,7 @@
             "fullName":"Dai",
             "iconName":"DAI.svg",
             "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
                 "send":{
                     "text":"dai",
@@ -1730,7 +1701,7 @@
         "fullName":"VeThor",
         "iconName":"VETH.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"vtho",
@@ -1749,7 +1720,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -1762,7 +1733,7 @@
         "fullName":"SmartCash",
         "iconName":"SMART.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"smart",
@@ -1781,7 +1752,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -1791,7 +1762,7 @@
             "fullName":"STASIS EURS",
             "iconName":"EURS.svg",
             "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
                 "send":{
                     "text":"eurs",
@@ -1820,7 +1791,7 @@
         "fullName":"The Abyss",
         "iconName":"ABYSS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"abyss",
@@ -1839,7 +1810,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -1849,7 +1820,7 @@
         "fullName":"Maximine Coin",
         "iconName":"MXM.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"mxm",
@@ -1868,7 +1839,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -1878,7 +1849,7 @@
         "fullName":"XYO",
         "iconName":"XYO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"xyo",
@@ -1897,7 +1868,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -1907,7 +1878,7 @@
         "fullName":"ODEM",
         "iconName":"ODE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"ode",
@@ -1926,7 +1897,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -1936,7 +1907,7 @@
         "fullName":"First Blood",
         "iconName":"1ST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"1st",
@@ -1955,7 +1926,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -1965,7 +1936,7 @@
         "fullName":"300 Token",
         "iconName":"300.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"300",
@@ -1984,7 +1955,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -1994,7 +1965,7 @@
         "fullName":"Adshares",
         "iconName":"ADST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"adst",
@@ -2013,7 +1984,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2023,7 +1994,7 @@
         "fullName":" AdToken",
         "iconName":"ADT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"adt",
@@ -2042,7 +2013,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2052,7 +2023,7 @@
         "fullName":"AdEx",
         "iconName":"ADX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"adx",
@@ -2071,7 +2042,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2081,7 +2052,7 @@
         "fullName":"Air",
         "iconName":"AIR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"air",
@@ -2100,7 +2071,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2110,7 +2081,7 @@
         "fullName":"Alis",
         "iconName":"ALIS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"alis",
@@ -2129,7 +2100,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2139,7 +2110,7 @@
         "fullName":"AMIS",
         "iconName":"AMIS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"amis",
@@ -2158,7 +2129,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2168,7 +2139,7 @@
         "fullName":"Aragon",
         "iconName":"ANT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"ant",
@@ -2187,7 +2158,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2197,7 +2168,7 @@
         "fullName":"Aigang",
         "iconName":"APT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"apt",
@@ -2216,7 +2187,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2226,7 +2197,7 @@
         "fullName":"Arcade",
         "iconName":"ARC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"arc",
@@ -2245,7 +2216,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2255,7 +2226,7 @@
         "fullName":"Aeron",
         "iconName":"ARN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"arn",
@@ -2274,7 +2245,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2284,7 +2255,7 @@
         "fullName":"Maecenas",
         "iconName":"ART.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"art",
@@ -2303,7 +2274,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2313,7 +2284,7 @@
         "fullName":"ATHENIAN WARRIOR",
         "iconName":"ATH.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"ath",
@@ -2332,7 +2303,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2342,7 +2313,7 @@
         "fullName":"IoTeX",
         "iconName":"IOTX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"iotx",
@@ -2361,7 +2332,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2371,7 +2342,7 @@
         "fullName":"ATLANT",
         "iconName":"ATL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"atl",
@@ -2390,7 +2361,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2400,7 +2371,7 @@
         "fullName":"Aventus",
         "iconName":"AVT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"avt",
@@ -2419,7 +2390,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2430,7 +2401,7 @@
         "fullName":"BlockCDN",
         "iconName":"BCDN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"bcdn",
@@ -2449,7 +2420,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2459,7 +2430,7 @@
         "fullName":"Dao.Casino",
         "iconName":"BET.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"bet",
@@ -2478,7 +2449,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2488,7 +2459,7 @@
         "fullName":"BLX",
         "iconName":"BLX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"blx",
@@ -2507,7 +2478,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2517,7 +2488,7 @@
         "fullName":"Blackmoon Crypto Token ",
         "iconName":"BMC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"bmc",
@@ -2536,7 +2507,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2546,7 +2517,7 @@
         "fullName":"BMChain",
         "iconName":"BMT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"bmt",
@@ -2565,7 +2536,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2575,7 +2546,7 @@
         "fullName":"BraveNewCoin",
         "iconName":"BNC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"bnc",
@@ -2594,7 +2565,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2605,7 +2576,7 @@
         "fullName":"BROTHER",
         "iconName":"BRAT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"brat",
@@ -2624,7 +2595,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2634,7 +2605,7 @@
         "fullName":"Ethos",
         "iconName":"BQX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"bqx",
@@ -2653,7 +2624,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2663,7 +2634,7 @@
         "fullName":"Bitcoineum",
         "iconName":"BTE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"bte",
@@ -2682,7 +2653,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2692,7 +2663,7 @@
         "fullName":"ChangeBank",
         "iconName":"CAG.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"caq",
@@ -2711,7 +2682,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2721,7 +2692,7 @@
         "fullName":"BlockCAT",
         "iconName":"CAT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"cat",
@@ -2740,7 +2711,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2750,7 +2721,7 @@
         "fullName":"Crypto Crash Course",
         "iconName":"CCC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"ccc",
@@ -2769,7 +2740,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2779,7 +2750,7 @@
         "fullName":"Blox ",
         "iconName":"CDT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"cdt",
@@ -2798,7 +2769,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2808,7 +2779,7 @@
         "fullName":"Cofoundit",
         "iconName":"CFI.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"cfi",
@@ -2827,7 +2798,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2837,7 +2808,7 @@
         "fullName":"CMC",
         "iconName":"CMC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"cmc",
@@ -2856,7 +2827,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2866,7 +2837,7 @@
         "fullName":"Cobinhood",
         "iconName":"COB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"cob",
@@ -2885,7 +2856,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2895,7 +2866,7 @@
         "fullName":"Creditbit",
         "iconName":"CRB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"crb",
@@ -2914,7 +2885,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2924,7 +2895,7 @@
         "fullName":"Credo",
         "iconName":"CREDO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"credo",
@@ -2943,7 +2914,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2954,7 +2925,7 @@
         "fullName":"Civic",
         "iconName":"CVC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"cvc",
@@ -2973,7 +2944,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -2983,7 +2954,7 @@
         "fullName":"Streamr",
         "iconName":"DATA.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"data",
@@ -3002,7 +2973,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3012,7 +2983,7 @@
         "fullName":"Digital Developers Fund",
         "iconName":"DDF.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"ddf",
@@ -3031,7 +3002,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3041,7 +3012,7 @@
         "fullName":"DENT",
         "iconName":"DENT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"dent",
@@ -3060,7 +3031,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3070,7 +3041,7 @@
         "fullName":"DGX",
         "iconName":"DGX 1.0.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"dgx",
@@ -3089,7 +3060,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3099,7 +3070,7 @@
         "fullName":"DICE",
         "iconName":"DICE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"dice",
@@ -3118,7 +3089,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3128,7 +3099,7 @@
         "fullName":"district0x ",
         "iconName":"DNT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"dnt",
@@ -3147,7 +3118,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3157,7 +3128,7 @@
         "fullName":"DCORP",
         "iconName":"DRP.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"drp",
@@ -3176,7 +3147,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3188,7 +3159,7 @@
         "fullName":"Edgeless",
         "iconName":"EDG.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"edg",
@@ -3207,7 +3178,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3217,7 +3188,7 @@
         "fullName":"elixir",
         "iconName":"ELIX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"elix",
@@ -3236,7 +3207,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3246,7 +3217,7 @@
         "fullName":"Tether EUR",
         "iconName":"EURT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"eurt",
@@ -3265,7 +3236,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3275,7 +3246,7 @@
         "fullName":"FARAD",
         "iconName":"FRD.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"frd",
@@ -3294,7 +3265,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3304,7 +3275,7 @@
         "fullName":"Fuel Token ",
         "iconName":"FUEL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"fuel",
@@ -3323,7 +3294,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3333,7 +3304,7 @@
         "fullName":"FunFair",
         "iconName":"FUN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"fun",
@@ -3352,7 +3323,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3363,7 +3334,7 @@
         "fullName":"HelloGold",
         "iconName":"GBT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"gbt",
@@ -3382,7 +3353,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3392,7 +3363,7 @@
         "fullName":"Gnosis",
         "iconName":"GNO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"gno",
@@ -3411,7 +3382,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3422,7 +3393,7 @@
         "fullName":"Guppy",
         "iconName":"GUP.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"gup",
@@ -3441,7 +3412,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3451,7 +3422,7 @@
         "fullName":"HelloGold",
         "iconName":"HGT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"hgt",
@@ -3470,7 +3441,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3480,7 +3451,7 @@
         "fullName":"Decision Token",
         "iconName":"HST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"hst",
@@ -3499,7 +3470,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3509,7 +3480,7 @@
         "fullName":"IDICE",
         "iconName":"ICE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"ice",
@@ -3528,7 +3499,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3538,7 +3509,7 @@
         "fullName":"ICONOMI",
         "iconName":"ICN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"icn",
@@ -3557,7 +3528,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3567,7 +3538,7 @@
         "fullName":"ICOS",
         "iconName":"ICOS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"icos",
@@ -3586,7 +3557,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3596,7 +3567,7 @@
         "fullName":"Feed",
         "iconName":"IFT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"ift",
@@ -3615,7 +3586,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3625,7 +3596,7 @@
         "fullName":"Indorse",
         "iconName":"IND.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"ind",
@@ -3644,7 +3615,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3654,7 +3625,7 @@
         "fullName":"iXledger",
         "iconName":"IXT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"ixt",
@@ -3673,7 +3644,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3683,7 +3654,7 @@
         "fullName":"Jetcoin",
         "iconName":"JetCoins.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"jet",
@@ -3702,7 +3673,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3712,7 +3683,7 @@
         "fullName":"KickCoin",
         "iconName":"KICK.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"kick",
@@ -3731,7 +3702,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3741,7 +3712,7 @@
         "fullName":"Kin",
         "iconName":"KIN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"kin",
@@ -3760,7 +3731,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3770,7 +3741,7 @@
         "fullName":"KyberNetwork",
         "iconName":"KNC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"knc",
@@ -3789,7 +3760,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3799,7 +3770,7 @@
         "fullName":"Refereum",
         "iconName":"RFR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"rfr",
@@ -3818,7 +3789,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3828,7 +3799,7 @@
         "fullName":"LatiumX",
         "iconName":"LATX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"latx",
@@ -3847,7 +3818,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3857,7 +3828,7 @@
         "fullName":"PureLifeCoin",
         "iconName":"LIFE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"life",
@@ -3876,7 +3847,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3886,7 +3857,7 @@
         "fullName":"ChainLink Token",
         "iconName":"LINK.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"link",
@@ -3905,7 +3876,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3915,7 +3886,7 @@
         "fullName":"Lancer Token",
         "iconName":"LNC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"lnc",
@@ -3934,7 +3905,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3944,7 +3915,7 @@
         "fullName":"Loopring",
         "iconName":"LRC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"lrc",
@@ -3963,7 +3934,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -3973,7 +3944,7 @@
         "fullName":"Lunyr",
         "iconName":"LUN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"lun",
@@ -3992,7 +3963,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4002,7 +3973,7 @@
         "fullName":"MCAP",
         "iconName":"MCAP.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"mcap",
@@ -4021,7 +3992,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4031,7 +4002,7 @@
         "fullName":"Monaco",
         "iconName":"MCO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"monaco",
@@ -4050,7 +4021,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4060,7 +4031,7 @@
         "fullName":"Moeda Loyalty Points",
         "iconName":"MDA.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"mda",
@@ -4079,7 +4050,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4089,7 +4060,7 @@
         "fullName":"minereum",
         "iconName":"MNE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"mne",
@@ -4108,7 +4079,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4118,7 +4089,7 @@
         "fullName":"Mothership",
         "iconName":"MSP.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"msp",
@@ -4137,7 +4108,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4147,7 +4118,7 @@
         "fullName":"Monetha",
         "iconName":"MTH.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"mth",
@@ -4166,7 +4137,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4176,7 +4147,7 @@
         "fullName":"Matryx",
         "iconName":"MTX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"mtx",
@@ -4195,7 +4166,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4205,7 +4176,7 @@
         "fullName":"Mysterium",
         "iconName":"MYST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"myst",
@@ -4224,7 +4195,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4234,7 +4205,7 @@
         "fullName":"NimiqNetwork",
         "iconName":"NET.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"net",
@@ -4253,7 +4224,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4263,7 +4234,7 @@
         "fullName":"Numeraire",
         "iconName":"NMR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"nmr",
@@ -4282,7 +4253,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4292,7 +4263,7 @@
         "fullName":"Nexium",
         "iconName":"NXX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"nxx",
@@ -4311,7 +4282,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4321,7 +4292,7 @@
         "fullName":"OpenANX",
         "iconName":"OAX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"oax",
@@ -4340,7 +4311,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4350,7 +4321,7 @@
         "fullName":"Opus",
         "iconName":"OPT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"opt",
@@ -4369,7 +4340,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4379,7 +4350,7 @@
         "fullName":"TenXPay",
         "iconName":"PAY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"pay",
@@ -4398,7 +4369,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4408,7 +4379,7 @@
         "fullName":"Lampix",
         "iconName":"PIX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"pix",
@@ -4427,7 +4398,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4437,7 +4408,7 @@
         "fullName":"Herocoin",
         "iconName":"PLAY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"play",
@@ -4456,7 +4427,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4466,7 +4437,7 @@
         "fullName":"Polybius",
         "iconName":"PLBT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"plbt",
@@ -4485,7 +4456,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4495,7 +4466,7 @@
         "fullName":"PILLAR",
         "iconName":"PLR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"plr",
@@ -4514,7 +4485,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4524,7 +4495,7 @@
         "fullName":"Pluton",
         "iconName":"PLU.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"plu",
@@ -4543,7 +4514,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4553,7 +4524,7 @@
         "fullName":"Po.et",
         "iconName":"POE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4572,7 +4543,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4582,7 +4553,7 @@
         "fullName":"PoSToken",
         "iconName":"POS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4601,7 +4572,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4612,7 +4583,7 @@
         "fullName":"Propy",
         "iconName":"PRO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4631,7 +4602,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4641,7 +4612,7 @@
         "fullName":"Patientory",
         "iconName":"PTOY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4660,7 +4631,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4670,7 +4641,7 @@
         "fullName":"Quantum",
         "iconName":"QAU.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4689,7 +4660,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4699,7 +4670,7 @@
         "fullName":"Basic Attention Token",
         "iconName":"BAT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4718,7 +4689,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4728,7 +4699,7 @@
         "fullName":"RouletteToken",
         "iconName":"RLT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4747,7 +4718,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4757,7 +4728,7 @@
         "fullName":"Relex",
         "iconName":"RLX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4776,7 +4747,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4786,7 +4757,7 @@
         "fullName":"RvT",
         "iconName":"RVT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4805,7 +4776,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4815,7 +4786,7 @@
         "fullName":"Salt",
         "iconName":"SALT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4834,7 +4805,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4844,7 +4815,7 @@
         "fullName":"SOCIALL",
         "iconName":"SCL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4863,7 +4834,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4873,7 +4844,7 @@
         "fullName":"Sense",
         "iconName":"SENSE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4892,7 +4863,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4902,7 +4873,7 @@
         "fullName":"SkinCoin",
         "iconName":"SKIN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4921,7 +4892,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4931,7 +4902,7 @@
         "fullName":"SunContract",
         "iconName":"SNC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4950,7 +4921,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4960,7 +4931,7 @@
         "fullName":"SNGLS",
         "iconName":"SNGLS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -4979,7 +4950,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -4989,7 +4960,7 @@
         "fullName":"SND Token 1.0",
         "iconName":"SND.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5008,7 +4979,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5018,7 +4989,7 @@
         "fullName":"SONM",
         "iconName":"SNM.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5037,7 +5008,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5047,7 +5018,7 @@
         "fullName":"StatusNetwork",
         "iconName":"SNT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5066,7 +5037,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5076,7 +5047,7 @@
         "fullName":"Stox",
         "iconName":"STX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5095,7 +5066,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5105,7 +5076,7 @@
         "fullName":"Substratum",
         "iconName":"SUB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5124,7 +5095,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5134,7 +5105,7 @@
         "fullName":"SwarmCity",
         "iconName":"SWT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5153,7 +5124,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5163,7 +5134,7 @@
         "fullName":"TAAS",
         "iconName":"TaaS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5182,7 +5153,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5192,7 +5163,7 @@
         "fullName":"TBOT",
         "iconName":"TBT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5211,7 +5182,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5221,7 +5192,7 @@
         "fullName":"TrueFlip",
         "iconName":"TFL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5240,7 +5211,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5250,7 +5221,7 @@
         "fullName":"TIME",
         "iconName":"TIME.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5269,7 +5240,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5279,7 +5250,7 @@
         "fullName":"Blocktix",
         "iconName":"TIX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5298,7 +5269,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5308,7 +5279,7 @@
         "fullName":"TokenCard",
         "iconName":"TKN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5327,7 +5298,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5337,7 +5308,7 @@
         "fullName":"Tierion Network Token",
         "iconName":"TNT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5356,7 +5327,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5366,7 +5337,7 @@
         "fullName":"Trustcoin",
         "iconName":"TRST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5385,7 +5356,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5395,7 +5366,7 @@
         "fullName":"Veritaseum",
         "iconName":"VERI.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5414,7 +5385,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5425,7 +5396,7 @@
         "fullName":"Vibe Coin",
         "iconName":"VIBE.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5444,7 +5415,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5454,7 +5425,7 @@
         "fullName":"Viberate",
         "iconName":"VIB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5473,7 +5444,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5483,7 +5454,7 @@
         "fullName":"Viuly",
         "iconName":"VIU.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5502,7 +5473,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5512,7 +5483,7 @@
         "fullName":"Veros",
         "iconName":"VRS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5531,7 +5502,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5541,7 +5512,7 @@
         "fullName":"vSlice",
         "iconName":"VSL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5560,7 +5531,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5570,7 +5541,7 @@
         "fullName":"Wi Coin",
         "iconName":"WIC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5589,7 +5560,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5599,7 +5570,7 @@
         "fullName":"WINGS",
         "iconName":"WINGS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5618,7 +5589,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5628,7 +5599,7 @@
         "fullName":"Wolk Protocol Token",
         "iconName":"WLK.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5647,7 +5618,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5657,7 +5628,7 @@
         "fullName":"Xaurum",
         "iconName":"XAUR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5676,7 +5647,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5686,7 +5657,7 @@
         "fullName":"Sphere Identity",
         "iconName":"XID.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5705,7 +5676,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5715,7 +5686,7 @@
         "fullName":"XENON",
         "iconName":"XNN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5734,7 +5705,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5744,7 +5715,7 @@
         "fullName":"Rialto",
         "iconName":"XRL.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5763,7 +5734,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5773,7 +5744,7 @@
         "fullName":"BLOCKMASON CREDIT PROTOCOL TOKEN",
         "iconName":"BCPT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5792,7 +5763,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5803,7 +5774,7 @@
         "fullName":"BIX Token",
         "iconName":"BIX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5822,7 +5793,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5832,7 +5803,7 @@
         "fullName":"Revain",
         "iconName":"REVAIN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5851,7 +5822,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5861,7 +5832,7 @@
         "fullName":"Gifto",
         "iconName":"GIFTO.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5880,7 +5851,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5890,7 +5861,7 @@
         "fullName":"SIRIN",
         "iconName":"SRN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5909,7 +5880,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5919,7 +5890,7 @@
         "fullName":"OCoin",
         "iconName":"OCN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5938,7 +5909,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5948,7 +5919,7 @@
         "fullName":"Elf",
         "iconName":"ELF.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5967,7 +5938,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -5977,7 +5948,7 @@
         "fullName":"Genesis Vision",
         "iconName":"GVT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -5996,7 +5967,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6006,7 +5977,7 @@
         "fullName":"Everex",
         "iconName":"EVX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6025,7 +5996,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6035,7 +6006,7 @@
         "fullName":"Time New Bank",
         "iconName":"TNB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6054,7 +6025,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6064,7 +6035,7 @@
         "fullName":"RUFF",
         "iconName":"RUFF.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6083,7 +6054,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6093,7 +6064,7 @@
         "fullName":"Amber",
         "iconName":"AMB.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6112,7 +6083,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6122,7 +6093,7 @@
         "fullName":"Theta Token",
         "iconName":"THETA.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6141,7 +6112,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6151,7 +6122,7 @@
         "fullName":"Polymath",
         "iconName":"POLY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6170,7 +6141,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6180,7 +6151,7 @@
         "fullName":"AppCoins",
         "iconName":"APPC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6199,7 +6170,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6209,7 +6180,7 @@
         "fullName":"Jibrel Network Token",
         "iconName":"JNT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6228,7 +6199,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6238,7 +6209,7 @@
         "fullName":"QunQunCommunities",
         "iconName":"QUN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6257,7 +6228,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6267,7 +6238,7 @@
         "fullName":"Nebulas",
         "iconName":"NAS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6286,7 +6257,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6296,7 +6267,7 @@
         "fullName":"Data",
         "iconName":"DTA.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6315,7 +6286,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6325,7 +6296,7 @@
         "fullName":"Spectre.ai U-Token",
         "iconName":"SXUT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6344,7 +6315,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6354,7 +6325,7 @@
         "fullName":"EthLend",
         "iconName":"LEND.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6373,7 +6344,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6383,7 +6354,7 @@
         "fullName":"PowerLedger",
         "iconName":"POWR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6402,7 +6373,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6412,7 +6383,7 @@
         "fullName":"IOT Chain",
         "iconName":"ITC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6431,7 +6402,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6441,7 +6412,7 @@
         "fullName":"RipioCreditNetwork",
         "iconName":"RCN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6460,7 +6431,7 @@
                 "class":"green"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6470,7 +6441,7 @@
         "fullName":"EnjinCoin",
         "iconName":"ENJ.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6489,7 +6460,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6499,7 +6470,7 @@
         "fullName":"Raiden",
         "iconName":"RDN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6518,7 +6489,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6530,7 +6501,7 @@
         "fullName":"MedToken",
         "iconName":"MTN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6549,7 +6520,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6559,7 +6530,7 @@
         "fullName":"Request",
         "iconName":"REQ.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6578,7 +6549,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6588,7 +6559,7 @@
         "fullName":"WePower",
         "iconName":"WPR.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6607,7 +6578,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6617,7 +6588,7 @@
         "fullName":"Delta",
         "iconName":"DLT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6636,7 +6607,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6646,7 +6617,7 @@
         "fullName":"Genaro X",
         "iconName":"GNX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6665,7 +6636,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6676,7 +6647,7 @@
         "fullName":"AirSwap",
         "iconName":"AST.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6695,7 +6666,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6705,7 +6676,7 @@
         "fullName":"CyberMiles",
         "iconName":"CMT.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6724,7 +6695,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6734,7 +6705,7 @@
         "fullName":" AI Doctor",
         "iconName":"AIDOC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6753,7 +6724,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6763,7 +6734,7 @@
         "fullName":"YOYOW",
         "iconName":"YOYOW.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6782,7 +6753,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6792,7 +6763,7 @@
         "fullName":"Nuls",
         "iconName":"NULS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6811,7 +6782,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6821,7 +6792,7 @@
         "fullName":"Modum Token",
         "iconName":"MOD.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6840,7 +6811,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6850,7 +6821,7 @@
         "fullName":"UnikoinGold",
         "iconName":"UKG.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6869,7 +6840,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6879,7 +6850,7 @@
         "fullName":"Bread",
         "iconName":"BRD.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6898,7 +6869,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6908,7 +6879,7 @@
         "fullName":"Game.com Token",
         "iconName":"GTC.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6927,7 +6898,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6937,7 +6908,7 @@
         "fullName":"BANKEX",
         "iconName":"BKX.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6956,7 +6927,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6966,7 +6937,7 @@
         "fullName":"MediShares",
         "iconName":"MDS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -6985,7 +6956,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -6995,7 +6966,7 @@
         "fullName":"Cindicator",
         "iconName":"CND.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7014,7 +6985,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7024,7 +6995,7 @@
         "fullName":"Enigma",
         "iconName":"ENG.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7043,7 +7014,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7053,7 +7024,7 @@
         "fullName":"Delphy Token",
         "iconName":"DPY.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7072,7 +7043,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7082,7 +7053,7 @@
         "fullName":"Crypto20",
         "iconName":"C20.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7101,7 +7072,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7111,7 +7082,7 @@
         "fullName":"Leverj",
         "iconName":"LEV.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7130,7 +7101,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7140,7 +7111,7 @@
         "fullName":"ATMChain",
         "iconName":"ATM.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7159,7 +7130,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7169,7 +7140,7 @@
         "fullName":"Storm",
         "iconName":"STORM.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7188,7 +7159,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7198,7 +7169,7 @@
         "fullName":"Molecular Future",
         "iconName":"MOF.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7217,7 +7188,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7227,7 +7198,7 @@
         "fullName":"Quantstamp",
         "iconName":"QSP.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7246,7 +7217,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7256,7 +7227,7 @@
         "fullName":"QASH",
         "iconName":"QASH.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7275,7 +7246,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7285,7 +7256,7 @@
         "fullName":"Credits",
         "iconName":"CS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7304,7 +7275,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7314,7 +7285,7 @@
         "fullName":"Dragonchain",
         "iconName":"DRGN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7333,7 +7304,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7343,7 +7314,7 @@
         "fullName":"Ethos",
         "iconName":"ETHOS.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7362,7 +7333,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7372,7 +7343,7 @@
         "fullName":"Dentacoin",
         "iconName":"DCN.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7391,7 +7362,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }
@@ -7401,7 +7372,7 @@
         "fullName":"ChangeNOW",
         "iconName":"NOW.svg",
         "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{
             "send":{
                 "text":"333.5",
@@ -7420,7 +7391,7 @@
                 "class":"normal"
             },
             "walletlink":{
-                "text":"https://atomicwallet.io/",
+                "text":"https://atomicwallet.io/ethereum-wallet",
                 "class":"wallet-list"
             }
         }

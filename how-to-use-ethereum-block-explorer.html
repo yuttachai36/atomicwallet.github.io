@@ -1,0 +1,438 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@atomicwallet">
+    <meta name="twitter:creator" content="@atomicwallet">
+    <meta name="twitter:title" content="How to use Ethereum block explorer? | Atomic Wallet Guide">
+    <meta name="twitter:description" content="Ultimate guide on how to use ETH explorer. You will know how to check transaction status, what is contact address, how to choose the right GAS price.">
+    <meta name="twitter:image" content="https://atomicwallet.io/css/images/articles/ethereum-block-explorer-twitter.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Ultimate guide on how to use ETH explorer. You will know how to check transaction status, what is contact address, how to choose the right GAS price."/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>How to use Ethereum block explorer? | Atomic Wallet Guide</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-test-blog.css">
+    <link rel="stylesheet" href="test/css/item-page.css">
+
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KBC3CH8');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114023091-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-114023091-1');
+    </script>-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Start of Async Prefinery Code -->
+    <script type="text/javascript">var _pfy = _pfy || [];(function(){function pfy_load(){var pfys=document.createElement('script');pfys.type='text/javascript';pfys.async=true;pfys.src='https://widget.prefinery.com/widget/v2/1w40x3e4.js';var pfy=document.getElementsByTagName('script')[0];pfy.parentNode.insertBefore(pfys,pfy);}if (window.attachEvent){window.attachEvent('onload',pfy_load);}else{window.addEventListener('load',pfy_load,false);}})();</script>
+    <!-- End of Async Prefinery Code -->
+
+</head>
+<body>
+
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBC3CH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<!-- menu -->
+
+<div class="header-menu-mobile header-menu-close f-light only-mobile" id="menu-mobile">
+    <div class="container relative">
+        <a href="/">Wallet</a>
+        <a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin</a>
+        <a href="/assets">Assets</a>
+        <a href="/downloads" class="hvr-grow">Download</a>
+        <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+        <a href="/token">Token</a>
+        <button class="header-menu-mobile-close" id="menu-button-close"></button>
+    </div>
+</div>
+
+<div class="header-container">
+  <div class="container relative">
+      <img src="css/images/bg-first-screen.svg" alt class="bg bg-main">
+      <header class="header">
+          <a href="https://atomicwallet.io" class="header-logo">
+              <img src="css/images/logo.svg" alt="Atomic">
+          </a>
+          <nav class="header-menu f-light">
+              <a href="/" class="hvr-grow">Wallet</a>
+              <a href="https://atomicwallet.io/buy-bitcoin" class="hvr-grow">Buy Bitcoin</a>
+              <a href="assets" class="hvr-grow">Assets</a>
+              <a href="/downloads" class="hvr-grow">Download</a>
+              <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+              <a href="token" class="hvr-grow">Token</a>
+          </nav>
+          <nav class="header-menu-icons  f-light">
+
+              <a href="https://twitter.com/atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_twitter.svg">
+              </a>
+              <a href="https://t.me/atomicwalletchat" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_telegram.svg">
+              </a>
+              <a href="https://medium.com/atomic-wallet" target="_blank" class="hvr-float" rel="nofollow">
+                      <img src="css/images/top_medium.svg">
+                  </a>
+              <a href="https://www.facebook.com/atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                      <img src="css/images/top_facebook.svg">
+                  </a>
+              <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_reddit.svg">
+              </a>
+             <a href="https://steemit.com/@atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                <img src="css/images/top_steemit.svg">
+            </a>
+
+          </nav>
+          <button class="header-button only-mobile" id="menu-button-open"></button>
+      </header>
+  </div>
+</div>
+
+
+<div class="item-page-container">
+
+    <div class="item-page">
+
+        <div class="item-page-article">
+
+          <h1 style="margin-bottom: 10px;">How to use Ethereum Block Exlplorer</h1>
+
+            <div class="item-page-image-template">
+
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/ethereum-block-explorer.jpg" alt="Ethereum Block Explorer">
+                </div>
+              </div>
+                <h2>Contents:</h2>
+                <ul >
+                <li><a href="#ethereum-block-explorer">Ethereum Block Explorer</a></li>
+                <li><a href="#track-transaction">How to track transactions</a></li>
+                <li><a href="#contract-address">What is contract address</li></a>
+                <li><a href="#transaction-failed">Tranasction failures</li></a>
+                <li><a href="#fees">Transaction fees</li></a>
+                <li><a href="#vocabulary">Vocabulary</li></a>
+              </ul>
+              <p>Going crypto is not that easy, is it? The plethora of different terms, rules, protocols, alerts and other tech stuff – go figure! In order to understand the crypto world, you need to start with the essentials. This article explains how to use Ethereum block explorers. You will find out the meaning of every term to be able to track your transaction and know every single detail on it.</p>
+              <h3>Ethereum and Smart Contracts</h3>
+              <p>Ethereum is a pioneer decentralized blockchain network with its own ecosystem and programming language (Solidity) that provides developers with tools to create blockchain-based applications (dApps) running on smart contracts. Smart-contracts represent a piece of code that governs the behavior of a certain dApp in the terms of the Ethereum ecosystem. </p>
+              <h3 id="ethereum-block-explorer">Ethereum block explorer</h3>
+              <p>All the transactions related to Ethereum and smart contracts based, you can track on a dedicated block explorer. Here are the most commonly used ones:</p>
+              <ol>
+                <li>Etherscan.io;</li>
+                <li>Ethplorer.io;</li>
+                <li>Blockchair.com</li>
+              </ol>
+              <p>All these websites display data on Ethereum’s blockchain publicly and help you track your transaction. Basically, there is no difference between them. Whatever you choose, the information always remains the same, so log on to the most convenient one for you and go ahead! </p>
+              <h3 id="track-transaction">How do I track my transaction?</h3>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/how-to-track-ethereum-transaction.jpg" alt="How to track etehreum transaction">
+                </div>
+              </div>
+              <p>To track your transaction in the Ethereum block explorer, you need a transaction hash (tx hash) you get when sending money from Atomic Wallet in transaction history. This is a unique code combination starting with ‘0x’ that allows you to find your transaction in billions of others. You need to copy this hash and paste into a block explorer search field.</p>
+                  <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/ethereum-blockexplorer-example.png" alt="Ethereum Blockexplorer Example">
+                </div>
+              </div>
+              <p>Here is a random transaction from the Ethereum blockchain. Let’s take etherscan.io as an example. <br>You can see here ETH sent to an ERC20 address.</p>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/ethereum-transaction-status.png" alt="Ethereum Transaction Status">
+                </div>
+              </div>
+              <p>You can track the status of the transaction, its hash, block, the date and UTC time when it has been completed, the addresses of a sender and recipient, the amount sent, the fee and the private note for the recipient. Nothing special, right?</p>
+              <h3>What if I’m sending tokens?</h3>
+              <p>If you are tracking an ERC20 token transaction, you will see one more field “Tokens Transferred” on the information page.</p>
+                <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/ethereum-tokens-transfer.png" alt="Ethereum Tokens Transfer">
+                </div>
+              </div>
+              <p>This is where you will find a destination address. As we can see, this is an <a href="https://atomicwallet.io/token">AWC token</a> transaction for ~980 AWC from one ERC20 address to another. Pay attention that the value is 0 Ether, because ETH wasn’t used in this transaction.</p>
+              <h3 id="contract-address">What is a contract address?</h3>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/what-is-contract-address.jpg" alt="What is a contract Address">
+                </div>
+              </div>
+              <p>First off, let’s find out what a token represents. In the Ethereum network, a token is a unit of a smart contract that serves for in-contract processes. </p>
+              <p>Ethereum handles millions of smart contracts, each of those has its own address in the network. Whenever you initiate a transaction with a token, you send these tokens to a smart contract address that operates the transactions related. Once the tokens are received to that address, your transaction becomes executed, and your tokens are sent to the destination address.</p>
+              <p>You can see this process in the “State Changes” tab.</p>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/ethereum-transaction-state-changes.png" alt="Ethrereum transaction state changes">
+                </div>
+              </div>
+              <h3 id="transaction-failed">What can go wrong?</h3>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/ethereum-tranasction-error.jpg" alt="EThereum transaction errors">
+                </div>
+              </div>
+              <p>In certain cases, your transaction can fail due to a range of reasons. In this case, when tracking a transaction, you’ll see something like this.</p>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/ethereum-tranasction-error-blockexplorer.png" alt="Etheeum blockexplrer tranasction failed">
+                </div>
+              </div>
+              <p>It means that your transaction was broadcasted to the blockchain but failed, and the money hasn’t gone anywhere. 
+                <br>The errors can be different:</p>
+                <ul>
+                  <li><p>Out of gas. The most common reason for the fail. It happens when the gas limit set for the transaction execution is below the amount of GAS required. The transaction value itself stays on your address but GAS is deducted. To tackle this problem, you need to initiate the transaction again with the proper limit of GAS. Such an issue takes place quite rarely with using Atomic Wallet, since we always take a required amount of GAS. </p></li>
+                  <li><p>Bad instruction. This error occur when something is wrong with the contract being executed. That’s a code issue, so you will need to address it to the contract developer team. In most cases, it happens when a token ICO is not over yet and the tokens are not transferable. </p></li>
+                  <li><p>Bad jump destination. You may see this error if there is a critical error of a contract code. You will need to report it to the contract creators for further assistance.</p></li>
+                  <li><p>ERC-20 Token Transfer might have Failed. When sending tokens, this error takes place if your funds are not enough for sending at the moment of a contract execution or the contract is locked for some reason. In other cases, the token you are sending might be incompatible with the ERC20 standard.</p></li>
+                </ul>
+                <h3 id="fees">Fees</h3>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/ethereum-fees.jpg" alt="Ethereum Fees">
+                </div>
+              </div>
+              <p>Every transaction in the Ethereum network has its cost in GAS, a universal unit of network fees. The amount of GAS varies and depends primarily on a network workload. You can see the detailed information on the network fee taken, when clicking “Click to see more”.</p>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/atomic-wallet-ethereum.jpg" alt="Ethereum Wallet - Atomic Wallet">
+                </div>
+              </div>
+              <ul>
+                <li>Gas Limit. The Gas Limit is the maximum amount of Gas you are willing to pay for your transaction. Atomic Wallet sets this amount automatically.</li>
+                <li>Gas Used by Transaction. The amount of Gas the network took for the transaction.</li>
+                <li>Gas Price. The amount of Gwei you want to pay for Gas. (1 Gwei = 0.000000001 Ether). We set this amount automatically, as well.</li>
+                <li>Input data. Extra data designed for a smart contract to run a certain function.</li>
+              </ul>
+              <h3 id="vocabulary">Vocabulary</h3>
+              <ul>
+                <li>Block height. The number of blocks mined between any other block and the very first block.</li>
+                <li>Difficulty. The measure of how difficult is to find your block in the blockchain.</li>
+                <li>Uncles: the same as orphan blocks in the Bitcoin network. The number of blocks that has not been accepted by the network for some reason.</li>
+                <li>Miner: the name of a mining company or individual who mined your transaction.</li>
+                <li>Reward: the amount the miner is going to receive for mining your transaction. </li>
+                <li>Nonce: the number of transactions your address has made so far.</li>
+                <li>Position: the number of your transaction mined in a block.</li>
+              </ul>
+              <h3>Atomic Wallet and Ethereum</h3>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/atomic-wallet-ethereum.jpg" alt="Bitcoin Network Fees">
+                </div>
+              </div>
+              <p>Consider Atomic Wallet as an ultimate tool allowing you to manage Ether and any <a href="https://atomicwallet.io/how-to-add-erc20-token">ERC20 token</a>, exchange ETH and over 60 <a href="https://atomicwallet.io/coins-and-tokens">coins and tokens</a> and <a href="https://atomicwallet.io/buy-ethereum">buy ETH with a bank card</a>. Everything in one interface. All your private keys are encrypted on your device and provide you with full control over your funds. </p>
+
+
+
+            <div class="item-page-download">
+                  <div class="item-page-download-title" id="download">Download Atomic Wallet</div>
+                <!-- Subscribe Pop-up-->
+                <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+                <script>window.$kol_jquery = window.jQuery</script>
+                <script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
+                <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/220933.js'></script>
+  <!-- Subscribe Pop-up mobile download-->
+    <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+<script>window.$kol_jquery = window.jQuery</script>
+<script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
+<script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/223800.js'></script>
+<!-- End of mobile download Pop-up-->
+
+                <div class="download">
+                    <div class="download-item download-item-windows hvr-grow" data-download="windows">
+                        <a href="https://atomicwallet.io/download/atomicwallet.exe" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-windows.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-windows-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Windows</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-apple hvr-grow" data-download="apple">
+                        <a href="https://atomicwallet.io/download/atomicwallet.dmg" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-apple.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-apple-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">macOS</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-ubuntu hvr-grow" data-download="ubuntu">
+                        <a href="https://atomicwallet.io/download/atomicwallet.AppImage" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-ubuntu.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-ubuntu-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Ubuntu</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-debian hvr-grow" data-download="debian">
+                        <a href="https://atomicwallet.io/download/atomicwallet.deb" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-debian.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-debian-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                     <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Debian</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-fedora hvr-grow" data-download="fedora">
+                        <a href="https://atomicwallet.io/download/atomicwallet.rpm" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-fedora.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-fedora-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                     <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Fedora</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Download</a>
+                </span>
+                    </div>
+                </div>
+        <div class="only-mobile">
+        <span class="download-text f-light only-mobile"> Manage your Bitcoin, Ethereum, XRP, Litecoin, XLM and over 300 other coins and tokens.</span></div>
+       <div class="mobile-download-button">
+            <div class="download-item-app hvr-grow" data-download="android">
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet&referrer=utm_source%3Dwebsite" target="_blank" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'android'="" });=""><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
+            <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img"></a>
+        </div>
+    <div class="download-item-app hvr-grow" data-download="iOS">
+            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
+        </div>
+
+
+        </div>
+ <!--                  <div class="button-suggest">
+                <div class="button-left">
+                <a href="https://atomicwallet.io/tron" class= "suggest-articles-button">
+                  <img src="css/images/articles/icons/arrow-left.svg" alt="">
+                 Read about TRON</a>
+                </div>
+                <div class="button-right">
+                <a href="https://atomicwallet.io/ripple" class= "suggest-articles-button">
+                  Read about Ripple <img src="css/images/articles/icons/arrow-right.svg" alt=""></a>
+                </div>
+                  </div> -->
+            </div>
+
+    </div>
+</div>
+
+<footer class="footer-new">
+    <div class="container relative">
+        <div class="footer-row">
+            <div class="footer-new-left">
+                <a href="/"><img src="css/images/logo.png" alt="" class="footer-new-logo"></a><br>
+                <a href="mailto:support@atomicwallet.io" class="footer-new-email f-light">support@atomicwallet.io</a><br>
+                <div class="footer-new-soc">
+                    <a href="https://twitter.com/atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_twitter.svg">
+                    </a>
+                    <a href="https://t.me/atomicwalletchat" target="_blank" rel="nofollow">
+                        <img src="css/images/top_telegram.svg">
+                    </a>
+                    <a href="https://github.com/Atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_github.svg">
+                    </a>
+                    <a href="https://medium.com/atomic-wallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_medium.svg">
+                    </a>
+                    <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" rel="nofollow">
+                        <img src="css/images/top_reddit.svg">
+                    </a>
+                    <a href="https://www.facebook.com/atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_facebook.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-new-right">
+                <div class="footer-new-cols">
+
+                                                          <div class="footer-new-col">
+                        <div class="footer-new-col-title">Atomic Wallet</div>
+                        <ul class="f-light">
+                          <li><a href="https://support.atomicwallet.io/" rel="nofollow">Support</a></li>
+                           <li><a href="https://t.me/atomicwalletchat" rel="nofollow">Telegram chat</a></li>
+                            <li><a href="https://atomicwallet.io/terms-of-service" rel="nofollow">Terms of service</a></li>
+                            <li><a href="https://atomicwallet.io/privacy" rel="nofollow">Privacy policy</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1zbu1nKCBq2zNCnEtjWsw3oMJei6aFSuZ" rel="nofollow">Press Kit</a></li>
+                            <li><a href="https://atomicwallet.io/blog">Blog</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+                                        <div class="footer-new-col">
+                        <div class="footer-new-col-title">Buy Cryptoсurrency</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin (BTC)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-litecoin">Buy Litecoin (LTC)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-ethereum">Buy Ethereum (ETH)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-ripple">Buy Ripple (XRP)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-bitcoin-cash">Buy Bitcoin Cash (BCH)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-dogecoin">Buy Dogecoin (DOGE)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-neo">Buy NEO (NEO)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-tron">Buy Tron (TRX)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-stellar">Buy Stellar (XLM)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-zcash">Buy Zcash (ZEC)</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-new-col">
+                        <div class="footer-new-col-title">Assets</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/bitcoin-wallet">Bitcoin (BTC)</a></li>
+                            <li><a href="https://atomicwallet.io/ethereum-wallet">Ethereum (ETH)</a></li>
+                            <li><a href="https://atomicwallet.io/ripple-wallet">Ripple (XRP)</a></li>
+                            <li><a href="https://atomicwallet.io/litecoin-wallet">Litecoin (LTC)</a></li>
+                            <li><a href="https://atomicwallet.io/eos-wallet">EOS</a></li>
+                            <li><a href="https://atomicwallet.io/neo-wallet">NEO</a></li>
+                            <li><a href="https://atomicwallet.io/tron-wallet">TRON (TRX)</a></li>
+                            <li><a href="https://atomicwallet.io/dogecoin-wallet">Dogecoin (DOGE)</a></li>
+                            <li><a href="https://atomicwallet.io/cardano-wallet">Cardano (ADA)</a></li>
+                            <li><a href="https://atomicwallet.io/dash-wallet">DASH</a></li>
+                            <li><a href="https://atomicwallet.io/stellar-wallet">Stellar (XLM)</a></li>
+                            <li><a href="https://atomicwallet.io/zcash-wallet">Zcash (ZEC)</a></li>
+                        </ul>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.touchSwipe.js"></script>
+<script src="js/app.js"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c8415a69e34d1d4"></script>
+</body>
+</html>
