@@ -423,7 +423,7 @@ const URL_BUY_LITECOIN_PRICE_PREDICTION_PAGE = 'litecoin-price-prediction'
 const URL_BUY_STELLAR_PRICE_PAGE = 'stellar-price'
 const URL_BUY_TRON_PRICE_PAGE = 'tron-price'
 
-const URL_ASSETS_PAGE = 'new-assets'
+const URL_ASSETS_PAGE = 'cryptocurrency-prices'
 
 
 
