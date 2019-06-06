@@ -73,6 +73,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://atomicwallet.io/zilliqa-wallet</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://atomicwallet.io/neo</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
