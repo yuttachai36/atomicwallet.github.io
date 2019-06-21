@@ -1,0 +1,406 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@atomicwallet">
+    <meta name="twitter:creator" content="@atomicwallet">
+    <meta name="twitter:title" content="What are Mining Pools? | Atomic Wallet Guide">
+    <meta name="twitter:description" content="Check this article to learn why people need mining pools, what are the most common types and what are the most popular Bitcoin and Ethereum mining pools?">
+    <meta name="twitter:image" content="https://atomicwallet.io/css/images/articles/mining-pools-twitter.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Check this article to learn why people need mining pools, what are the most common types and what are the most popular Bitcoin and Ethereum mining pools?"/>
+     <meta name="keywords" content="bitcoin mining pool, mining pool, what are mining pools, ethereum mining pool, mining pools examples">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>What are Mining Pools? | Atomic Wallet Guide</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-test-blog.css">
+    <link rel="stylesheet" href="test/css/item-page.css">
+
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KBC3CH8');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114023091-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-114023091-1');
+    </script>-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Start of Async Prefinery Code -->
+    <script type="text/javascript">var _pfy = _pfy || [];(function(){function pfy_load(){var pfys=document.createElement('script');pfys.type='text/javascript';pfys.async=true;pfys.src='https://widget.prefinery.com/widget/v2/1w40x3e4.js';var pfy=document.getElementsByTagName('script')[0];pfy.parentNode.insertBefore(pfys,pfy);}if (window.attachEvent){window.attachEvent('onload',pfy_load);}else{window.addEventListener('load',pfy_load,false);}})();</script>
+    <!-- End of Async Prefinery Code -->
+
+</head>
+<body>
+
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBC3CH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<!-- menu -->
+
+<div class="header-menu-mobile header-menu-close f-light only-mobile" id="menu-mobile">
+    <div class="container relative">
+        <a href="/">Wallet</a>
+        <a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin</a>
+        <a href="/assets">Assets</a>
+        <a href="/downloads" class="hvr-grow">Download</a>
+        <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+        <a href="/token">Token</a>
+        <button class="header-menu-mobile-close" id="menu-button-close"></button>
+    </div>
+</div>
+
+<div class="header-container">
+  <div class="container relative">
+      <img src="css/images/bg-first-screen.svg" alt class="bg bg-main">
+      <header class="header">
+          <a href="https://atomicwallet.io" class="header-logo">
+              <img src="css/images/logo.svg" alt="Atomic">
+          </a>
+          <nav class="header-menu f-light">
+              <a href="/" class="hvr-grow">Wallet</a>
+              <a href="https://atomicwallet.io/buy-bitcoin" class="hvr-grow">Buy Bitcoin</a>
+              <a href="assets" class="hvr-grow">Assets</a>
+              <a href="/downloads" class="hvr-grow">Download</a>
+              <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+              <a href="token" class="hvr-grow">Token</a>
+          </nav>
+          <nav class="header-menu-icons  f-light">
+
+              <a href="https://twitter.com/atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_twitter.svg">
+              </a>
+              <a href="https://t.me/atomicwalletchat" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_telegram.svg">
+              </a>
+              <a href="https://medium.com/atomic-wallet" target="_blank" class="hvr-float" rel="nofollow">
+                      <img src="css/images/top_medium.svg">
+                  </a>
+              <a href="https://www.facebook.com/atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                      <img src="css/images/top_facebook.svg">
+                  </a>
+              <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_reddit.svg">
+              </a>
+             <a href="https://steemit.com/@atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                <img src="css/images/top_steemit.svg">
+            </a>
+
+          </nav>
+          <button class="header-button only-mobile" id="menu-button-open"></button>
+      </header>
+  </div>
+</div>
+
+
+<div class="item-page-container">
+
+    <div class="item-page">
+
+        <div class="item-page-article">
+
+          <h1 style="margin-bottom: 10px;">What are Mining Pools?</h1>
+
+            <div class="item-page-image-template">
+
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/bitcoin-mining-pool.png" alt="What are Bitcoin mining pools? Bitcoin Mining Pools">
+                </div>
+              </div>
+              <p>A mining pool is a particular server that is used to distribute tasks for Bitcoin mining or other types of digital coins between the participants of the pool.</p>
+              <p>Each member entering the pool sends the power of his equipment to decrypt the block, which he receives a reward. Even if the power of the hardware is small, the participant gets a proportion in the total earnings, commensurate with his costs.</p>
+              <h3>Why do People Need Mining Pools?</h3>
+              <p>If earlier one could mine using one computer of average power; now, taking into account the complexity of mining, it is necessary to have very powerful and expensive equipment or join pools.</p>
+              <h3>Types of mining pools</h3>
+              <p>Analyzing the types of mining pools, miners usually divide them into single and multi coin pools. They differ in coins they mine and the method they collect power. </p>
+              <h4>Single and Multi Coin Pools</h4>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/single-and-multi-coins-pools.png" alt="Single and multi coin pools">
+                </div>
+              </div>
+              <p>A single coin pool offers clients to mine only one type of cryptocurrency - for example, <a href="https://atomicwallet.io/bitcoin">Bitcoin</a> or <a href="https://atomicwallet.io/ethereum">Ethereum</a>.</p>
+              <p>Multi coin pools give miners a possibility to mine a bunch of coins simultaneously preserving efficiency between digital assets. Today, some pools automatically switch to the most profitable cryptocurrency and then convert profits into BTC. </p>
+              <h3>Cloud Mining Pools</h3>
+              <p>In addition to mining using pools, cloud mining is another effective option. This is the same cryptocurrency mining in pools, but using leased equipment. All a user needs to do is to purchase a contract and wait for the income. </p>
+              <h3>Mining Pools Features</h3>
+                            <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/mining-pools-features.png" alt="Features of mining pools">
+                </div>
+              </div>
+              <p>While searching for a profitable mining pool, one should pay attention to the fees and the payments systems the pool uses.</p>
+              <ul>
+                <li>It is worth noting that the owner of the server charges a fee from the remuneration that the miners participating in the mining pool receive for closing the block. As a rule, commission costs range from 0.1 to 5 percent.</li>
+                <li>The size of the possible profit ultimately depends on the correct choice of the mining pool, since different pools determine the mechanism for calculating the income of participants differently. </li>
+              </ul>
+              <ul>There are the following methods of calculating the remuneration of pool members:
+                <li>PPS (Pay Per Share). According to this algorithm, each filed share is paid for by a certain amount of Bitcoin divided by the current network complexity. </li>
+                <li>PROP (Proportional) - obtaining the remuneration by the participant, depending on the percentage of shares that were sent to the pool during the calculation of the block.</li>
+                <li>PPLNS (Pay Per Last N Shares). Similar to the proportional algorithm, but instead of taking into account the number of shares filed in each round, this method rewards new shares, regardless of the boundaries of the round. </li></ul>
+                <h3>Bitcoin Mining Pools</h3>
+                                            <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/bitcoin-mining-pools.png" alt="Bitcoin Mining Pools">
+                </div>
+              </div>
+              <p>There are lots of pools on the market; however, not all of them has a trustworthy reputation. In this regard, we have selected the top 10 most reliable pools for Bitcoin mining.</p>
+              <h3>Top 10 Bitcoin Mining Pools</h3>
+              <ul>
+                <li><b>BTC.com.</b> This is the most powerful Bitcoin pool today; its share now stands at 19.2%, it is organized by the well-known computer equipment manufacturer Bitmain Technologies through its subsidiary.</li>
+                <li><b>Slush pool</b> is the first pool on the market since the existence of Bitcoin. </li>
+                <li><b>ViaBTC</b> is a young mining pool that focuses on miners from China, but one can connect to it from other countries.</li>
+                <li><b>F2pool.</b> The mining pool has been functioning since 2013, also known as Discus Fish. </li>
+                <li><b>AntPool</b> conducts mining under the management of a private company Bitmain Technologies Ltd., which is based in Beijing, China. </li>
+                <li><b>BTC China</b> is another Chinese pool that operates with a large amount of hardware. </li>
+                <li><b>Eligius</b> - an interesting pool, which is named after the Catholic saint Eligiya, who was engaged in coin minting. Perhaps this is the largest pool that does not require registration.</li>
+                <li><b>BitFury</b> differs from other pools in the list in that its hardware is deployed not in China, but in Iceland, where the climate contributes to lowering the cost of heat dissipation.</li>
+                <li><b>Zpool</b> – an American platform for mining. Exchange operations occur in automatic mode, which is very convenient for newcomers.</li>
+                <li><b>Bixin.</b> The company was established in 2014 as an aggregator of Bitcoin cryptocurrency wallets, later a pool appeared.</li>
+              </ul>
+              <h3>Ethereum Mining Pools</h3>
+             <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/ethereum-mining-pools.png" alt="Ethereum Mining Pools">
+                </div>
+              </div>
+              <p>Ethereum mining pools are collective groups of users who decide to collect their resources together for more efficient ETH mining. </p>
+              <h3>Top 10 Ethereum Mining Pools</h3>
+              <ul>
+                <li><b>ETHpool.org.</b> The first and official pool for Ethereum mining. Some time ago, the pool did not accept new users due to a high workload and worked only with old clients.</li>
+                <li><b>F2pool.</b> The pool was launched in 2013 and was initially oriented towards users from China.</li>
+                <li><b>Nanopool.</b> Millions of miners use it, and during its existence, the pool has earned the trust of the community. The minimum withdrawal amount is 0.2 ETH. </li>
+                <li><b>Dwarfpool.</b> Even though there are fewer users involved in mining, the pool can be considered reliable. The minimum withdrawal amount is 1.01 ETH.</li>
+                <li><b>Mining pool hub.</b> The pool allows to mine dozens of different coins, among which is ETH. </li>
+                <li><b>Whalesburg</b> - new switchable mining pool for ETH, ETC, UBQ, ELLA and other coins on the ETHash algorithm. </li>
+                <li><b>BitClub Pool.</b> This is a very simple and fast pool for Ethereum mining with zero commissions, which allows withdrawing money directly to the card.</li>
+                <li><b>Ethfans</b> is another ETH mining pool located in China.</li>
+                <li><b>Coinotron.</b> This is the first pool that supports the mining of several coins, including Ethereum.</li>
+                <li><b>Waterhole Pool.</b> The minimum commission constitutes 1%, and anonymous and secure mining is supported.</li>
+              </ul>
+              <h3>Conclusion</h3>
+               <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/mining-pools.png" alt="Mining Pools">
+                </div>
+              </div>
+              <p>In general, mining pools are an excellent option for passive earnings. Mining using pool allows to significantly increase the chances of success, which is especially crucial at present when competition in the mining industry is incredibly severe, and the complexity of the network is continuously growing.</p>
+
+          
+            <div class="item-page-download">
+                  <div class="item-page-download-title" id="download">Download Atomic Wallet</div>
+                <!-- Subscribe Pop-up-->
+                <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+                <script>window.$kol_jquery = window.jQuery</script>
+                <script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
+                <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/220933.js'></script>
+  <!-- Subscribe Pop-up mobile download-->
+    <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+<script>window.$kol_jquery = window.jQuery</script>
+<script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
+<script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/223800.js'></script>
+<!-- End of mobile download Pop-up-->
+
+                <div class="download">
+                    <div class="download-item download-item-windows hvr-grow" data-download="windows">
+                        <a href="https://atomicwallet.io/download/atomicwallet.exe" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-windows.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-windows-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Windows</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-apple hvr-grow" data-download="apple">
+                        <a href="https://atomicwallet.io/download/atomicwallet.dmg" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-apple.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-apple-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">macOS</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-ubuntu hvr-grow" data-download="ubuntu">
+                        <a href="https://atomicwallet.io/download/atomicwallet.AppImage" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-ubuntu.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-ubuntu-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Ubuntu</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-debian hvr-grow" data-download="debian">
+                        <a href="https://atomicwallet.io/download/atomicwallet.deb" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-debian.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-debian-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                     <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Debian</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-fedora hvr-grow" data-download="fedora">
+                        <a href="https://atomicwallet.io/download/atomicwallet.rpm" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-fedora.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-fedora-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                     <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Fedora</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Download</a>
+                </span>
+                    </div>
+                </div>
+        <div class="only-mobile">
+        <span class="download-text f-light only-mobile"> Manage your Bitcoin, Ethereum, XRP, Litecoin, XLM and over 300 other coins and tokens.</span></div>
+       <div class="mobile-download-button">
+            <div class="download-item-app hvr-grow" data-download="android">
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet&referrer=utm_source%3Dwebsite" target="_blank" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'android'="" });=""><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
+            <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img"></a>
+        </div>
+    <div class="download-item-app hvr-grow" data-download="iOS">
+            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
+        </div>
+
+
+        </div>
+ <!--                  <div class="button-suggest">
+                <div class="button-left">
+                <a href="https://atomicwallet.io/tron" class= "suggest-articles-button">
+                  <img src="css/images/articles/icons/arrow-left.svg" alt="">
+                 Read about TRON</a>
+                </div>
+                <div class="button-right">
+                <a href="https://atomicwallet.io/ripple" class= "suggest-articles-button">
+                  Read about Ripple <img src="css/images/articles/icons/arrow-right.svg" alt=""></a>
+                </div>
+                  </div> -->
+            </div>
+
+    </div>
+</div>
+
+<footer class="footer-new">
+    <div class="container relative">
+        <div class="footer-row">
+            <div class="footer-new-left">
+                <a href="/"><img src="css/images/logo.png" alt="" class="footer-new-logo"></a><br>
+                <a href="mailto:support@atomicwallet.io" class="footer-new-email f-light">support@atomicwallet.io</a><br>
+                <div class="footer-new-soc">
+                    <a href="https://twitter.com/atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_twitter.svg">
+                    </a>
+                    <a href="https://t.me/atomicwalletchat" target="_blank" rel="nofollow">
+                        <img src="css/images/top_telegram.svg">
+                    </a>
+                    <a href="https://github.com/Atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_github.svg">
+                    </a>
+                    <a href="https://medium.com/atomic-wallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_medium.svg">
+                    </a>
+                    <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" rel="nofollow">
+                        <img src="css/images/top_reddit.svg">
+                    </a>
+                    <a href="https://www.facebook.com/atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_facebook.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-new-right">
+                <div class="footer-new-cols">
+
+                                                          <div class="footer-new-col">
+                        <div class="footer-new-col-title">Atomic Wallet</div>
+                        <ul class="f-light">
+                          <li><a href="https://support.atomicwallet.io/" rel="nofollow">Support</a></li>
+                           <li><a href="https://t.me/atomicwalletchat" rel="nofollow">Telegram chat</a></li>
+                            <li><a href="https://atomicwallet.io/terms-of-service" rel="nofollow">Terms of service</a></li>
+                            <li><a href="https://atomicwallet.io/privacy" rel="nofollow">Privacy policy</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1zbu1nKCBq2zNCnEtjWsw3oMJei6aFSuZ" rel="nofollow">Press Kit</a></li>
+                            <li><a href="https://atomicwallet.io/blog">Blog</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+                                        <div class="footer-new-col">
+                        <div class="footer-new-col-title">Buy Cryptoсurrency</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin (BTC)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-litecoin">Buy Litecoin (LTC)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-ethereum">Buy Ethereum (ETH)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-ripple">Buy Ripple (XRP)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-bitcoin-cash">Buy Bitcoin Cash (BCH)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-dogecoin">Buy Dogecoin (DOGE)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-neo">Buy NEO (NEO)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-tron">Buy Tron (TRX)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-stellar">Buy Stellar (XLM)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-zcash">Buy Zcash (ZEC)</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-new-col">
+                        <div class="footer-new-col-title">Assets</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/bitcoin-wallet">Bitcoin (BTC)</a></li>
+                            <li><a href="https://atomicwallet.io/ethereum-wallet">Ethereum (ETH)</a></li>
+                            <li><a href="https://atomicwallet.io/ripple-wallet">Ripple (XRP)</a></li>
+                            <li><a href="https://atomicwallet.io/litecoin-wallet">Litecoin (LTC)</a></li>
+                            <li><a href="https://atomicwallet.io/eos-wallet">EOS</a></li>
+                            <li><a href="https://atomicwallet.io/neo-wallet">NEO</a></li>
+                            <li><a href="https://atomicwallet.io/tron-wallet">TRON (TRX)</a></li>
+                            <li><a href="https://atomicwallet.io/dogecoin-wallet">Dogecoin (DOGE)</a></li>
+                            <li><a href="https://atomicwallet.io/cardano-wallet">Cardano (ADA)</a></li>
+                            <li><a href="https://atomicwallet.io/dash-wallet">DASH</a></li>
+                            <li><a href="https://atomicwallet.io/stellar-wallet">Stellar (XLM)</a></li>
+                            <li><a href="https://atomicwallet.io/zcash-wallet">Zcash (ZEC)</a></li>
+                        </ul>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.touchSwipe.js"></script>
+<script src="js/app.js"></script>
+
+<script> (function() { var v = document.getElementsByClassName("youtube-player"); for (var n = 0; n < v.length; n++) { v[n].onclick = function () { var iframe = document.createElement("iframe"); iframe.setAttribute("src", "//www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel="+ this.dataset.related +"&controls="+this.dataset.control+"&showinfo=" + this.dataset.info); iframe.setAttribute("frameborder", "0"); iframe.setAttribute("id", "youtube-iframe"); iframe.setAttribute("style", "width: 100%; height: 100%; position: absolute; top: 0; left: 0;"); if (this.dataset.fullscreen == 1){ iframe.setAttribute("allowfullscreen", ""); } while (this.firstChild) { this.removeChild(this.firstChild); } this.appendChild(iframe); }; } })(); </script>
+<!-- TrustBox script --> <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> <!-- End TrustBox script -->
+<script src="js/app.js"></script>
+
+    <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
+<script type="text/javascript">window.Beacon('init', 'e947e766-402f-44b0-8f02-3ed79a72263c')</script>
+    
+</body>
+</html>
