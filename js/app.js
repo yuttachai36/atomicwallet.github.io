@@ -910,6 +910,16 @@ class Page {
 
 }
 
+      $(window).scroll(function(){
+    if ($(window).scrollTop() >= 200) {
+        $('div.coin').addClass('fixed-header');
+    }
+    else {
+        $('div.coin').removeClass('fixed-header');
+    }
+});
+
+
 new Page();
 new BuyBitcoin();
 new BuyLitecoin();

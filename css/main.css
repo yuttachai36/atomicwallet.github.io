@@ -308,6 +308,7 @@ width: 110%;
 	margin-left: -12px;
 	/* margin-top: 5px; */
 	display: inline-block;
+	margin-bottom: 20px;
 }
 .header-menu {
 	position: absolute;
@@ -316,6 +317,13 @@ width: 110%;
 	text-align: left;
 }
 
+.fixed-header {
+        z-index: 2000;
+    background-color: #182848;
+    height: inherit;
+    position: fixed;
+    width: 100%;
+}
 
 .header-menu-icons {
 	position: absolute;
