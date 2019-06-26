@@ -586,10 +586,10 @@ blockquote {
 abbr {
     text-decoration-style: double;
 }
-iframe {
+/*iframe {
     width: 680px;
     height: 395px;
-}
+}*/
 #widget {
     height: inherit;
 }
