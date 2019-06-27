@@ -92,7 +92,16 @@
 	}
 	.fixed-header {
 		display: none;
+		position: unset;
 	}
+
+.no-logo {
+	height: inherit !important;
+}
+.header-height {
+	height: inherit !important;
+	padding-top: unset;
+}
 
 	/* icons */
 	.icon {
