@@ -1252,6 +1252,17 @@ li> .item-page-image-template {
       ol> .item-page-image-template {
     margin-left: -20px;
 }
+.fixed-header {
+    position: unset;
+    height: inherit;
+}
+.no-logo {
+    height: inherit !important;
+}
+.header-height {
+    height: inherit !important;
+    padding-top: unset;
+}
 
 
     /*!!! Support !!!*/
