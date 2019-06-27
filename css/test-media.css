@@ -105,6 +105,9 @@
 	.mobile-hide {
 		display: none;
 	}
+	.fixed-header {
+		display: none;
+	}
 
 	/* icons */
 	.icon {

@@ -281,6 +281,13 @@ main.support {
     margin: 0 auto;
     padding: 30px 0;
   }
+    .widget-now {
+    width: 478px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: block;
+  }
   .buy-coin-item {
     /* display: inline-flex; */
     /* vertical-align: top; */
@@ -579,10 +586,10 @@ blockquote {
 abbr {
     text-decoration-style: double;
 }
-iframe {
+/*iframe {
     width: 680px;
     height: 395px;
-}
+}*/
 #widget {
     height: inherit;
 }

@@ -69,7 +69,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin</a>
         <a href="/assets">Assets</a>
         <a href="/downloads" class="hvr-grow">Download</a>
-        <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+        <a href="https://support.atomicwallet.io/" target="_blank" class="hvr-grow">Support</a>
         <a href="/token">Token</a>
         <button class="header-menu-mobile-close" id="menu-button-close"></button>
     </div>
@@ -87,7 +87,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a href="https://atomicwallet.io/buy-bitcoin" class="hvr-grow">Buy Bitcoin</a>
               <a href="assets" class="hvr-grow">Assets</a>
               <a href="/downloads" class="hvr-grow">Download</a>
-              <a href="https://support.atomicwallet.io/support/home" target="_blank" class="hvr-grow">Support</a>
+              <a href="https://support.atomicwallet.io/" target="_blank" class="hvr-grow">Support</a>
               <a href="token" class="hvr-grow">Token</a>
           </nav>
           <nav class="header-menu-icons  f-light">
@@ -357,11 +357,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                           <div class="footer-new-col">
                         <div class="footer-new-col-title">Atomic Wallet</div>
                         <ul class="f-light">
-                          <li><a href="https://support.atomicwallet.io/">Support</a></li>
-                           <li><a href="https://t.me/atomicwalletchat">Telegram chat</a></li>
-                            <li><a href="https://atomicwallet.io/terms-of-service">Terms of service</a></li>
-                            <li><a href="https://atomicwallet.io/privacy">Privacy policy</a></li>
-                            <li><a href="https://drive.google.com/drive/folders/1zbu1nKCBq2zNCnEtjWsw3oMJei6aFSuZ">Press Kit</a></li>
+                          <li><a href="https://support.atomicwallet.io/" rel="nofollow">Support</a></li>
+                           <li><a href="https://t.me/atomicwalletchat" rel="nofollow">Telegram chat</a></li>
+                            <li><a href="https://atomicwallet.io/terms-of-service" rel="nofollow">Terms of service</a></li>
+                            <li><a href="https://atomicwallet.io/privacy" rel="nofollow">Privacy policy</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1zbu1nKCBq2zNCnEtjWsw3oMJei6aFSuZ" rel="nofollow">Press Kit</a></li>
                             <li><a href="https://atomicwallet.io/blog">Blog</a></li>
                         </ul>
                     </div>
@@ -433,5 +433,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script src="js/jquery.touchSwipe.js"></script>
 <script src="js/app.js"></script>
 
+<script> (function() { var v = document.getElementsByClassName("youtube-player"); for (var n = 0; n < v.length; n++) { v[n].onclick = function () { var iframe = document.createElement("iframe"); iframe.setAttribute("src", "//www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel="+ this.dataset.related +"&controls="+this.dataset.control+"&showinfo=" + this.dataset.info); iframe.setAttribute("frameborder", "0"); iframe.setAttribute("id", "youtube-iframe"); iframe.setAttribute("style", "width: 100%; height: 100%; position: absolute; top: 0; left: 0;"); if (this.dataset.fullscreen == 1){ iframe.setAttribute("allowfullscreen", ""); } while (this.firstChild) { this.removeChild(this.firstChild); } this.appendChild(iframe); }; } })(); </script>
+<!-- TrustBox script --> <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> <!-- End TrustBox script -->
+<script src="js/app.js"></script>
+
+    <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
+<script type="text/javascript">window.Beacon('init', 'e947e766-402f-44b0-8f02-3ed79a72263c')</script>
+    
 </body>
 </html>

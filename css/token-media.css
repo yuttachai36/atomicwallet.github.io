@@ -16,6 +16,11 @@
     .token-item {
       width: 100%;
     }
+    .trading-banner {
+      width: 85%;
+      height: 63px;
+
+    }
     .token-list {
       word-wrap: break-word;
     }

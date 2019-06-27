@@ -48,7 +48,17 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://atomicwallet.io/cosmos-wallet</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://atomicwallet.io/verge-wallet</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/theta-wallet</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
@@ -59,6 +69,11 @@
 </url>
 <url>
   <loc>https://atomicwallet.io/tether-wallet</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/zilliqa-wallet</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
@@ -434,10 +449,44 @@
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
+  <url>
+  <loc>https://atomicwallet.io/trade-awc-on-binance-dex</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
 <url>
   <loc>https://atomicwallet.io/airdrop</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://atomicwallet.io/video-contest</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/trading-competition</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/atomic-swap-process-faq</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/atomic-swap-process</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/how-to-make-atomic-swap</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/financial-advantages-of-atomic-swaps</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
 </urlset>
