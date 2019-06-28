@@ -218,8 +218,12 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <url>
    <loc>https://atomicwallet.io/buy-ripple</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-binance-coin</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
@@ -228,7 +232,6 @@
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
-
    <loc>https://atomicwallet.io/buy-neo</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
