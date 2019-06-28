@@ -1228,7 +1228,9 @@ text-align: center;
 
 }
 
-
+.partners_special img {
+	padding-left: 40px;
+}
 .partners-list img,
 .partners-list a
  {
