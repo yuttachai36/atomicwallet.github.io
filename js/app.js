@@ -12,6 +12,7 @@ const URL_BUY_DOGECOIN_PAGE = 'buy-dogecoin'
 const URL_BUY_NEO_PAGE = 'buy-neo'
 const URL_BUY_TRON_PAGE = 'buy-tron'
 const URL_BUY_STELLAR_PAGE = 'buy-stellar'
+const URL_BUY_BNB = 'buy-binance-coin'
 
 const URL_LITECOIN_WALLET_PAGE = 'litecoin-wallet'
 const URL_BITCOINCASH_WALLET_PAGE = 'bitcoin-cash-wallet'
@@ -118,6 +119,51 @@ class BuyBitcoin {
           .then(r => r.json())
           .then(r => {
               const price = r.RAW.BTC.USD.PRICE
+
+              if (!price) return
+              this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.fivehundredRateSpan.innerHTML = Number((500 / price) + (500 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+              this.thousandRateSpan.innerHTML = Number((1000 / price) + (1000 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
+
+          })
+          .catch(console.log)
+    }
+}
+
+
+
+/* buy binance coin */
+
+class BuyBNB {
+    constructor() {
+        if(window.location.href.includes(URL_BUY_BNB)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+        if(window.location.href.includes(URL_BUY_BITCOIN_PRICE_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+        if(window.location.href.includes(URL_BITCOIN_WALLET_PAGE)) {
+            this.hundredRateSpan = qs('#hundred-dollar-rate');
+            this.fivehundredRateSpan = qs('#five-hundred-coin-rate');
+            this.thousandRateSpan = qs('#thousand-coin-rate');
+
+            this.getPrice()
+        }
+    }
+
+    getPrice () {
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?tsyms=USD&fsyms=BNB")
+          .then(r => r.json())
+          .then(r => {
+              const price = r.RAW.BNB.USD.PRICE
 
               if (!price) return
               this.hundredRateSpan.innerHTML = Number((100 / price) + (100 / price * COEFFICIENT_FOR_CUSTOMER_BUY_PURPOSE)).toFixed(4)
@@ -936,3 +982,4 @@ new BuyBitcoinGold();
 new BuyStellar();
 new BuyZCash();
 new BuyTRON();
+new BuyBNB();
