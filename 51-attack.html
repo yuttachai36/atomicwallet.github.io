@@ -1,0 +1,412 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@atomicwallet">
+    <meta name="twitter:creator" content="@atomicwallet">
+    <meta name="twitter:title" content="What is a 51% attack? | Atomic Wallet Guide">
+    <meta name="twitter:description" content="Atack on the blockchain with the result that one organization can control most of the hash rate is called 51% attack. Learn the history of 51% attacks and what it can lead to...">
+    <meta name="twitter:image" content="https://atomicwallet.io/css/images/articles/51-attack-blog-twitter.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Atack on the blockchain with the result that one organization can control most of the hash rate is called 51% attack. Learn the history of 51% attacks and what it can lead to..."/>
+     <meta name="keywords" content="51 attack, bitcoin 51 attack, 51 percent attack, 51% attack, what is 51 attack">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>What is a 51% attack? | Atomic Wallet Guide</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-test-blog.css">
+    <link rel="stylesheet" href="test/css/item-page.css">
+
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KBC3CH8');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114023091-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-114023091-1');
+    </script>-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Start of Async Prefinery Code -->
+    <script type="text/javascript">var _pfy = _pfy || [];(function(){function pfy_load(){var pfys=document.createElement('script');pfys.type='text/javascript';pfys.async=true;pfys.src='https://widget.prefinery.com/widget/v2/1w40x3e4.js';var pfy=document.getElementsByTagName('script')[0];pfy.parentNode.insertBefore(pfys,pfy);}if (window.attachEvent){window.attachEvent('onload',pfy_load);}else{window.addEventListener('load',pfy_load,false);}})();</script>
+    <!-- End of Async Prefinery Code -->
+
+</head>
+<body>
+
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBC3CH8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<!-- menu -->
+
+<div class="header-menu-mobile header-menu-close f-light only-mobile" id="menu-mobile">
+    <div class="container relative">
+        <a href="/">Wallet</a>
+        <a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin</a>
+        <a href="/assets">Assets</a>
+        <a href="/downloads" class="hvr-grow">Download</a>
+        <a href="https://support.atomicwallet.io/" target="_blank" class="hvr-grow">Support</a>
+        <a href="/token">Token</a>
+        <button class="header-menu-mobile-close" id="menu-button-close"></button>
+    </div>
+</div>
+
+<div class="header-container">
+  <div class="container relative">
+      <img src="css/images/bg-first-screen.svg" alt class="bg bg-main">
+      <header class="header">
+          <a href="https://atomicwallet.io" class="header-logo">
+              <img src="css/images/logo.svg" alt="Atomic" class="img-logo">
+          </a>
+          <nav class="header-menu f-light">
+              <a href="/" class="hvr-grow">Wallet</a>
+              <a href="https://atomicwallet.io/buy-bitcoin" class="hvr-grow">Buy Bitcoin</a>
+              <a href="assets" class="hvr-grow">Assets</a>
+              <a href="/downloads" class="hvr-grow">Download</a>
+              <a href="https://support.atomicwallet.io/" target="_blank" class="hvr-grow">Support</a>
+              <a href="token" class="hvr-grow">Token</a>
+          </nav>
+          <nav class="header-menu-icons  f-light">
+
+              <a href="https://twitter.com/atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_twitter.svg">
+              </a>
+              <a href="https://t.me/atomicwalletchat" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_telegram.svg">
+              </a>
+              <a href="https://medium.com/atomic-wallet" target="_blank" class="hvr-float" rel="nofollow">
+                      <img src="css/images/top_medium.svg">
+                  </a>
+              <a href="https://www.facebook.com/atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                      <img src="css/images/top_facebook.svg">
+                  </a>
+              <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" class="hvr-float" rel="nofollow">
+                  <img src="css/images/top_reddit.svg">
+              </a>
+             <a href="https://steemit.com/@atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
+                <img src="css/images/top_steemit.svg">
+            </a>
+
+          </nav>
+          <button class="header-button only-mobile" id="menu-button-open"></button>
+      </header>
+  </div>
+</div>
+
+
+<div class="item-page-container">
+
+    <div class="item-page">
+
+        <div class="item-page-article">
+
+          <h1 style="margin-bottom: 10px;">What is a 51% attack?</h1>
+
+            <div class="item-page-image-template">
+
+                <div class="item-page-blog-image">
+                  <img src="css/images/articles/what-is-51%-attack.png" alt="What is 51% attack?">
+                </div>
+              </div>
+              <h3>Introduction</h3>
+              <p>Blockchain-based cryptocurrencies are a subject to the so-called attack of 51%: when more than half of the computing power of a cryptocurrency network is controlled by some organization or group of individuals, it becomes possible to conduct conflicting transactions or malicious harm.</p>
+              <p>A 51% attack is a potential <a href="https://atomicwallet.io/bitcoin-wallet">Bitcoin</a> attack (or attack on another blockchain network), with the result that one organization can control most of the hash rate. Such a situation can lead to network failure. In other words, an attacker with a 51% hash rate has enough power to deliberately exclude or reorder transactions.</p>
+              <h3>What are the risks of 51% attack?</h3>
+              <p>A 51% attack allow an attacker to reverse transactions that were carried out at the time of control, which is likely to lead to the problem of double spending. A successful majority attack will also allow an attacker to prevent some or all transactions from being confirmed (also known as a denial of service), or to prevent the mining of some or all other miners, leading to the so-called mining monopoly.</p>
+              <p>On the other hand, the majority attack won't allow an attacker to reverse transactions of other people or prevent the distribution of transactions in the network. Changing a block's reward, creating coins from the air, or stealing coins that an attacker never had, is also an incredible scenario. A 51% attack can be carried out only in blockchains with a <a href="https://atomicwallet.io/proof-of-stake-vs-proof-of-work">Proof-of-Work</a> algorithm consensus.</p>
+              <h3>What is Proof-of-work?</h3>
+              <p>Proof-of-Work (PoW) is the first successful decentralized consensus algorithm in the blockchain. PoW is used in <a href="https://atomicwallet.io/bitcoin-wallet">Bitcoin</a>, <a href="https://atomicwallet.io/ethereum-wallet">Ethereum</a> (Ethereum plans to upgrade to Proof-of-Stake), <a href="https://atomicwallet.io/litecoin-wallet">Litecoin</a>, <a href="https://atomicwallet/io/zcash-wallet">ZCash</a>, <a href="https://atomicwallet.io/monero-wallet">Monero</a>, and many other platforms.</p>
+              <h3>Proof-of-Work in details</h3>
+                           <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/proof-of-work-details.png" alt="Proof of work in details.">
+                </div>
+              </div>
+              <p>First, users send each other coins. Then all the transactions form blocks and are recorded in a blockchain or in a so-called decentralized registry.</p>
+              <p>All transactions are confirmed using complex mathematical calculations, the accuracy of which can be verified by any user of the network. Miners deal with the formation of a new block and transactions confirmation. If a miner has managed to solve the problem, a new block is formed: the next set of transactions is placed in it, and they are considered confirmed. <a href="https://atomicwallet.io/what-is-blockchain">Tasks become more difficult with time, due to the growing number of network users.</a></p>
+              <ul>The main disadvantages of PoW are:
+                <li>consumption of huge amounts of energy;</li>
+                <li>miners who have a large amount of computing power, get more than others; as a result, Bitcoin is not as decentralized as originally intended;</li>
+                <li>as a consequence of the previous paragraph, there is a probability of a “51% attack”.</li></ul>
+              <h3>Why someone would attack the network?</h3>
+                    <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/how-51-percent-attack-affects-users.png" alt="Why someone will attack the network?">
+                </div>
+              </div>
+              <h4>Owning 51% of the network power, an attacker can:</h4><ul>
+                <li>freeze the system;</li>
+                <li>stop transaction confirmation;</li>
+                <li>pause mining;</li>
+                <li>prevent other miners from confirming transactions;</li>
+                <li>withdraw funds repeatedly.</li></ul>
+                <p>The greatest danger for the system is double spending. So,  an attacker who owns 51% of power can create a hidden alternative blockchain and use it to confirm his own transactions. For example, the confirmation of a transaction in the Bitcoin network requires six opened transaction blocks. Accordingly, an attacker must create six blocks. Then he withdraws his funds on the main blockchain. For example, transfers to another account or pays for the purchase, and opens his own chain of blocks, causing a conflict in the system. If both miners have found the right solution for one block, then a network is ramified, where both solutions have the right to exist and are included in the next block of transactions.</p>
+                <p>The remaining 49% of the network capacity confirms the debit of funds from the account. However, since the attacker has control power, the system recognizes his network to be faithful, in which he has not yet debited the funds, and it will discard the transaction confirmed by other miners since the attacker's block is more complex. Accordingly, the system will show the balance before the transaction and the attacker will be able to spend money several more times, but with each subsequent time, the cost of coins will decrease.</p>
+                <p>Double withdrawal of funds is possible with less control of capacity, but a concentration of 51% provides a 100% guarantee that the attacker’s block will be recognized as the right block.</p>
+                <p>Having in hands 51% of system capacity, the attacker practically becomes the owner of the blockchain, can independently generate blocks, confirm and reject transactions. Having seized the system, he can also stop its work by refusing to confirm all transactions.</p>
+                <h3>How 51% attack affects cryptocurrency users</h3>
+                <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/how-51-percent-attack-affects-users.png" alt="How 51% attack affects users">
+                </div>
+              </div>
+              <p>A 51% attack has four types of consequences, which can sometimes be very dangerous for network victims:</p>
+              <p>One of them is selfish mining when attackers take advantage of their majority in terms of receiving rewards. If a block is mined simultaneously, miners must vote on whose block they choose. The winner has more chances for the next block. Since most of the network must make a decision about this, an attacker can use his ability to mine his own blocks and continue mining being on the top, without waiting for network approval.</p>
+              <p>Secondly, an attacker who has a 51% majority in the network may decide to cancel transactions. He can destroy the entire network without accepting any transactions to any of the blocks that the attacker selfishly extracts.</p>
+              <p>The third consequence is a problem that every blockchain is most concerned about and seeks to avoid at all costs. You already know this because this is double spending, which means spending the same coin on several transactions at the same time. Since the decentralized nature of the blockchain prevents double costs, an attacker with 51% has the central authority for this, since other miners are compromised. Continuous double costs will bring the value of a cryptocurrency to zero. The latter occurs when the attacker creates a hard fork on the blockchain. The reason for this may be the use of double costs arising during the separation of chains.</p>
+              <p>Alternatively, another reason could be the struggle with other miners who may have managed to create a block. In this case, the attacker can break the chain to this new block.</p>
+              <h3>History of 51% attacks</h3>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/history-of-51-percent-attacks.png" alt="History of 51% attacks">
+                </div>
+              </div>
+              <p>In 2014, the Ghash.io pool took control of 55% of the Bitcoin network. Despite the fact that this wasn't a planned attack, and the pool voluntarily agreed to reduce the power indicators and promised not to exceed 40% of the threshold, the Bitcoin rate dropped by a quarter of the cost.</p>
+              <p>In 2016, Krypton and Shift - two cryptocurrencies operating on the Ethereum base, were attacked by a group of hackers calling themselves "Team 51". As a result, fraudsters managed to double-debit and steal 22,000 coins through Bittrex.</p>
+              <p>The most precedent case occurred with the Verge cryptocurrency, but this attack was possible due to an error in the code. Anonymous cryptocurrency has functioned at once on several algorithms that had to change with the creation of each new block. However, the code has a bug due to which the attackers sent blocks with a false time stamp to the network.</p>
+              <p>Blocks were generated and sent every second, instead of every 30 seconds. The attack lasted three hours. Hackers managed to capture 99% of the blocks. According to official data provided by developers, it was possible to withdraw 250,000 tokens from the system fraudulently. However, according to users, the real figure reaches almost 4 million.</p>
+              <h3>How much it will cost?</h3>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/how-much-51-percent-will-cost.png" alt="Protection from 51% attack">
+                </div>
+              </div>
+              <p>A 51% attack on blockchains of popular cryptocurrencies requires large investments. According to the Crypto51 website, 1 hour of 51% attack on the Bitcoin network will cost $ 355,883, on the Ethereum network - $ 98,572, and on the Ethereum Classic blockchain - $ 4,534. The cost of the attack depends on the computing power of the network.</p>
+              <p>Scientists of the Indian Institute of Technology conducted a study of blockchains of different cryptocurrencies and concluded that the bitcoin blockchain is the most secure decentralized network. According to the researchers, a 51% attack on the BTC blockchain won't bring profit, since the network is protected from the double spending. An attacker will only be able to add or remove transaction information from the blocks, while the coins will remain in the users' wallets.</p>
+              <h3>Protection from a 51% attack</h3>
+              <p>At the moment, to protect a cryptocurrency from the attack one should increase the popularity and power of the network, respectively, to offer new ideas and attract new audiences.</p>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/protection-from-51-percent-atack.png" alt="Protection from 51% attack">
+                </div>
+              </div>
+              <p>As long as mining remains profitable and there are a huge number of users in the network, it is extremely difficult to attack the system. As soon as the profit from mining becomes less than the cost of purchasing and maintaining the equipment, miners will withdraw their power from the system and the network will become vulnerable.</p>
+              <p>Another solution is the PoS algorithm. Despite the fact that the theoretical possibility of attack exists, it is absolutely not profitable. In order to take over 51% of the network, you should acquire 51% of all system tokens, which is even times higher than the cost of computing equipment. In addition, it is not a fact that developers won't notice this in time and won't take quick measures to neutralize the attack.</p>
+              <h3>How to refuse the attack?</h3>
+              <p>If a 51% attack is detected in time, then developers can use hardforks.</p>
+              <p>Hard fork is a fundamental change in the cryptocurrency code, after which the connection with the old software will be completely broken. During hard fork happens the creation of a new cryptocurrency and the network split.</p>
+              <p>For coin holders, hard fork isn’t essential, since in future they will have the opportunity to transfer savings to a new system. However, for the attacker, such a solution means losing the value of the loot.</p>
+              <div class="item-page-image-template">
+                <div class="item-page-blog-image">
+                    <img src="css/images/articles/how-to-refuse-51-percent-attack.png" alt="How to refuse 51% attack">
+                </div>
+              </div>
+
+
+          
+            <div class="item-page-download">
+                  <div class="item-page-download-title" id="download">Download Atomic Wallet</div>
+                <!-- Subscribe Pop-up-->
+                <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+                <script>window.$kol_jquery = window.jQuery</script>
+                <script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
+                <script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/220933.js'></script>
+  <!-- Subscribe Pop-up mobile download-->
+    <script>window.jQuery || document.write('<scr' + 'ipt src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"><\/sc' + 'ript>')</script>
+<script>window.$kol_jquery = window.jQuery</script>
+<script src="https://kickoffpages-kickofflabs.netdna-ssl.com/widgets/1.9.6/kol_bounce.js"></script>
+<script src='https://kickoffpages-kickofflabs.netdna-ssl.com/w/113350/223800.js'></script>
+<!-- End of mobile download Pop-up-->
+
+                <div class="download">
+                    <div class="download-item download-item-windows hvr-grow" data-download="windows">
+                        <a href="https://atomicwallet.io/download/atomicwallet.exe" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-windows.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-windows-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Windows</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.exe" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'windows'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-apple hvr-grow" data-download="apple">
+                        <a href="https://atomicwallet.io/download/atomicwallet.dmg" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-apple.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-apple-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">macOS</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.dmg" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'macos'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-ubuntu hvr-grow" data-download="ubuntu">
+                        <a href="https://atomicwallet.io/download/atomicwallet.AppImage" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-ubuntu.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-ubuntu-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Ubuntu</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.AppImage" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'ubuntu'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-debian hvr-grow" data-download="debian">
+                        <a href="https://atomicwallet.io/download/atomicwallet.deb" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-debian.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-debian-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                     <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Debian</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.deb" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'debian'="" });="">Download</a>
+                </span>
+                    </div>
+                    <div class="download-item download-item-fedora hvr-grow" data-download="fedora">
+                        <a href="https://atomicwallet.io/download/atomicwallet.rpm" onclick="window.kol_modal_220933.show()"><img src="css/images/logo-fedora.svg" alt="" class="download-item-img-color"></a>
+                        <img src="css/images/logo-fedora-color.svg" alt="" class="download-item-img">
+                        <span class="download-name">
+                     <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Fedora</a>
+                </span>
+                        <span class="download-button-label">
+                    <a href="https://atomicwallet.io/download/atomicwallet.rpm" class="button download-button" onclick="window.kol_modal_220933.show()" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'fedora'="" });="">Download</a>
+                </span>
+                    </div>
+                </div>
+        <div class="only-mobile">
+        <span class="download-text f-light only-mobile"> Manage your Bitcoin, Ethereum, XRP, Litecoin, XLM and over 300 other coins and tokens.</span></div>
+       <div class="mobile-download-button">
+            <div class="download-item-app hvr-grow" data-download="android">
+            <a href="https://play.google.com/store/apps/details?id=io.atomicwallet&referrer=utm_source%3Dwebsite" target="_blank" ga('send',="" {="" hittype:="" 'event',="" eventcategory:="" 'download',="" eventaction:="" eventlabel:="" 'android'="" });=""><!-- <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img-color"> -->
+            <img src="css/images/OS/googleplay.svg" width="80%" alt class="download-item-img"></a>
+        </div>
+    <div class="download-item-app hvr-grow" data-download="iOS">
+            <img src="css/images/OS/appstore.svg" width="80%" onclick="window.kol_modal_223800.show()" alt class="download-item-img">
+        </div>
+
+
+        </div>
+ <!--                  <div class="button-suggest">
+                <div class="button-left">
+                <a href="https://atomicwallet.io/tron" class= "suggest-articles-button">
+                  <img src="css/images/articles/icons/arrow-left.svg" alt="">
+                 Read about TRON</a>
+                </div>
+                <div class="button-right">
+                <a href="https://atomicwallet.io/ripple" class= "suggest-articles-button">
+                  Read about Ripple <img src="css/images/articles/icons/arrow-right.svg" alt=""></a>
+                </div>
+                  </div> -->
+            </div>
+
+    </div>
+</div>
+
+<footer class="footer-new">
+    <div class="container relative">
+        <div class="footer-row">
+            <div class="footer-new-left">
+                <a href="/"><img src="css/images/logo.png" alt="" class="footer-new-logo"></a><br>
+                <a href="mailto:support@atomicwallet.io" class="footer-new-email f-light">support@atomicwallet.io</a><br>
+                <div class="footer-new-soc">
+                    <a href="https://twitter.com/atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_twitter.svg">
+                    </a>
+                    <a href="https://t.me/atomicwalletchat" target="_blank" rel="nofollow">
+                        <img src="css/images/top_telegram.svg">
+                    </a>
+                    <a href="https://github.com/Atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_github.svg">
+                    </a>
+                    <a href="https://medium.com/atomic-wallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_medium.svg">
+                    </a>
+                    <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" rel="nofollow">
+                        <img src="css/images/top_reddit.svg">
+                    </a>
+                    <a href="https://www.facebook.com/atomicwallet" target="_blank" rel="nofollow">
+                        <img src="css/images/top_facebook.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-new-right">
+                <div class="footer-new-cols">
+
+                                                          <div class="footer-new-col">
+                        <div class="footer-new-col-title">Atomic Wallet</div>
+                        <ul class="f-light">
+                          <li><a href="https://support.atomicwallet.io/" rel="nofollow">Support</a></li>
+                           <li><a href="https://t.me/atomicwalletchat" rel="nofollow">Telegram chat</a></li>
+                            <li><a href="https://atomicwallet.io/terms-of-service" rel="nofollow">Terms of service</a></li>
+                            <li><a href="https://atomicwallet.io/privacy" rel="nofollow">Privacy policy</a></li>
+                            <li><a href="https://drive.google.com/drive/folders/1zbu1nKCBq2zNCnEtjWsw3oMJei6aFSuZ" rel="nofollow">Press Kit</a></li>
+                            <li><a href="https://atomicwallet.io/blog">Blog</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+                                        <div class="footer-new-col">
+                        <div class="footer-new-col-title">Buy Cryptoсurrency</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin (BTC)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-litecoin">Buy Litecoin (LTC)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-ethereum">Buy Ethereum (ETH)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-ripple">Buy Ripple (XRP)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-bitcoin-cash">Buy Bitcoin Cash (BCH)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-dogecoin">Buy Dogecoin (DOGE)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-neo">Buy NEO (NEO)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-tron">Buy Tron (TRX)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-stellar">Buy Stellar (XLM)</a></li>
+                            <li><a href="https://atomicwallet.io/buy-zcash">Buy Zcash (ZEC)</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-new-col">
+                        <div class="footer-new-col-title">Assets</div>
+                        <ul class="f-light">
+                            <li><a href="https://atomicwallet.io/bitcoin-wallet">Bitcoin (BTC)</a></li>
+                            <li><a href="https://atomicwallet.io/ethereum-wallet">Ethereum (ETH)</a></li>
+                            <li><a href="https://atomicwallet.io/ripple-wallet">Ripple (XRP)</a></li>
+                            <li><a href="https://atomicwallet.io/litecoin-wallet">Litecoin (LTC)</a></li>
+                            <li><a href="https://atomicwallet.io/eos-wallet">EOS</a></li>
+                            <li><a href="https://atomicwallet.io/neo-wallet">NEO</a></li>
+                            <li><a href="https://atomicwallet.io/tron-wallet">TRON (TRX)</a></li>
+                            <li><a href="https://atomicwallet.io/dogecoin-wallet">Dogecoin (DOGE)</a></li>
+                            <li><a href="https://atomicwallet.io/cardano-wallet">Cardano (ADA)</a></li>
+                            <li><a href="https://atomicwallet.io/dash-wallet">DASH</a></li>
+                            <li><a href="https://atomicwallet.io/stellar-wallet">Stellar (XLM)</a></li>
+                            <li><a href="https://atomicwallet.io/zcash-wallet">Zcash (ZEC)</a></li>
+                        </ul>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.touchSwipe.js"></script>
+<script src="js/app.js"></script>
+
+<script> (function() { var v = document.getElementsByClassName("youtube-player"); for (var n = 0; n < v.length; n++) { v[n].onclick = function () { var iframe = document.createElement("iframe"); iframe.setAttribute("src", "//www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel="+ this.dataset.related +"&controls="+this.dataset.control+"&showinfo=" + this.dataset.info); iframe.setAttribute("frameborder", "0"); iframe.setAttribute("id", "youtube-iframe"); iframe.setAttribute("style", "width: 100%; height: 100%; position: absolute; top: 0; left: 0;"); if (this.dataset.fullscreen == 1){ iframe.setAttribute("allowfullscreen", ""); } while (this.firstChild) { this.removeChild(this.firstChild); } this.appendChild(iframe); }; } })(); </script>
+<!-- TrustBox script --> <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> <!-- End TrustBox script -->
+<script src="js/app.js"></script>
+
+    <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
+<script type="text/javascript">window.Beacon('init', 'e947e766-402f-44b0-8f02-3ed79a72263c')</script>
+    
+</body>
+</html>
