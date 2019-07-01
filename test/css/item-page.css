@@ -471,8 +471,8 @@ abbr {
     text-decoration-style: double;
 }
 iframe {
-    width: 680px;
-    height: 395px;
+    /*width: 680px;*/
+    /*height: 100%;*/
 }
 #widget {
     height: inherit;
