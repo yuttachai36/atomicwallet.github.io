@@ -153,7 +153,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            <input type="checkbox" id="zoomCheck1">
   <label for="zoomCheck1">
     <img class="listing-qr-code" src="css/images/articles/listing-campaign/usdt.jpeg" id="bnbawc">
-  </label> <p class="flex-item-p"><i data-tooltip="Click to Copy">bnb1efgp3rfqv36jm4q0ndxzgq42eskryde5jc9lk8</i></button>      
+  </label> <p class="flex-item-p"><i  id="copy" data-tooltip="Click to Copy" data-tooltip-copied="Copied!">bnb1efgp3rfqv36jm4q0ndxzgq42eskryde5jc9lk8</i></button>      
   </p>
   <div id=countdown-wrap>
   <div id="glass">
@@ -190,7 +190,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <label for="zoomCheck2">
     <img class="listing-qr-code" src="css/images/articles/listing-campaign/zil.jpeg" id="bnbawc">
   </label>
-           <p class="flex-item-p"><i data-tooltip="Click to Copy">bnb1x3a4fnlnrt98smaagk4ywy7dune8frfp65jd5z</i></button>
+           <p class="flex-item-p"><i id="copy" data-tooltip="Click to Copy" data-tooltip-copied="Copied!">bnb1x3a4fnlnrt98smaagk4ywy7dune8frfp65jd5z</i></button>
   </p>
   <div id=countdown-wrap>
   <div id="glass">
@@ -228,7 +228,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <label for="zoomCheck3">
     <img class="listing-qr-code" src="css/images/articles/listing-campaign/theta.jpeg" id="bnbawc">
   </label>
-           <p class="flex-item-p"><i data-tooltip="Click to Copy">bnb1w9yuatmnjud9er5rkerd66xqzmpjgevnydgwmx</i></button>   
+           <p class="flex-item-p"><i  id="copy" data-tooltip="Click to Copy" data-tooltip-copied="Copied!">bnb1w9yuatmnjud9er5rkerd66xqzmpjgevnydgwmx</i></button>   
  </p>
   <div id=countdown-wrap>
   <div id="glass">
@@ -265,7 +265,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <label for="zoomCheck4">
     <img class="listing-qr-code" src="css/images/articles/listing-campaign/xvg.jpeg" id="bnbawc">
   </label>
-           <p class="flex-item-p"><i data-tooltip="Click to Copy">bnb1u6un3tfllkl3qvzys0fldcjzayll90h7qzgygl</i></button>       
+           <p class="flex-item-p"><i  id="copy" data-tooltip="Click to Copy" data-tooltip-copied="Copied!">bnb1u6un3tfllkl3qvzys0fldcjzayll90h7qzgygl</i></button>       
   </p>
   <div id=countdown-wrap>
   <div id="glass">
@@ -473,6 +473,15 @@ img.listing-qr-code {
     font-size: 20px;
   }
 </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+  $('i#copy').click(function() {
+    $('#copy').css({
+        'content': 'attr(data-tooltip-copied);'
+    });
+});
+</script>
 <script type="text/javascript">
   function drawszlider(ossz, meik){
     var szazalek=Math.round((meik*100)/ossz);
